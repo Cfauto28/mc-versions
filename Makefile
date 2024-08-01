@@ -1,5 +1,5 @@
 MC_VERSIONS_DOWNLOADS = /mnt/data/minecraft/mc-versions/downloads/
-URL_BASE = https://skyrising.github.io/mc-versions/
+URL_BASE = https://ornithemc.net/mc-versions/
 
 .PHONY: update
 update:
