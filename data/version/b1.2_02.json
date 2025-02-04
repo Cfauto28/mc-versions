@@ -39,7 +39,7 @@
   ],
   "normalizedVersion": "1.0.0-beta.1.2.2",
   "previous": [
-    "b1.2_02-launcher"
+    "b1.2_01"
   ],
   "protocol": {
     "type": "modern",
