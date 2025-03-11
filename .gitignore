@@ -4,4 +4,5 @@ dist/
 google-service-account.json
 .idea/
 storage/
+external_manifests/
 temp.ts

@@ -5,6 +5,12 @@ interface MainManifest {
     versions: ShortVersion[]
 }
 
+type OmniarchiveMainManifest = {
+    latest: {[branch: string]: string}
+    versions: OmniarchiveShortVersion[]
+    omnifestVersion: number
+}
+
 interface ShortVersion {
     id: VersionId
     type: string
@@ -12,6 +18,16 @@ interface ShortVersion {
     time: string
     releaseTime: string
     details?: string
+}
+
+type OmniPhase = 'pre-classic' | 'classic' | 'indev' | 'infdev' | 'alpha' | 'beta' | 'post-1.0' | 'oddballs'
+
+type OmniarchiveShortVersion = Omit<ShortVersion, 'details'> & {
+    sha1: string
+    complianceLevel: number
+    mojangVersion: string
+    equivalentTo: string
+    phase: OmniPhase
 }
 
 type ProtocolType = 'classic' | 'alpha' | 'modern' | 'netty' | 'netty-snapshot'
@@ -87,6 +103,11 @@ type VersionManifest = BaseVersionManifest & {
     minimumLauncherVersion?: number
 }
 
+type OmniVersionManifest = Omit<VersionManifest, "releaseTarget" | "minimumLauncherVersion"> & {
+    complianceLevel: number
+    clientJsonVersion: number
+}
+
 type ShortManifest = Omit<BaseVersionManifest, 'id' | 'releaseTime'> & {
     downloadsId?: number
     assetIndex: string
@@ -115,20 +136,20 @@ type TempVersionManifest = {
 }
 
 type VersionData = BaseVersionManifest & {
-    omniId: VersionId
+    //omniId: VersionId
     displayVersion?: string|null,
     client: boolean
     server: boolean
     downloads: {[id: string]: DownloadInfo}
-    launcher: boolean
+    //launcher: boolean
     sharedMappings: boolean
     normalizedVersion?: VersionId
-    manifests: ShortManifest[]
+    //manifests: ShortManifest[]
     libraries: string[]
     protocol?: ProtocolVersion
     world?: WorldVersion
-    previous: VersionId[]
-    next: VersionId[]
+    previous?: VersionId[]
+    next?: VersionId[]
 }
 
 type HashMap<T> = Record<string, T>
