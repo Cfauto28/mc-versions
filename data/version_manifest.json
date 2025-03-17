@@ -3203,12 +3203,12 @@
       "details": "version/13w17a.json"
     },
     {
-      "id": "1.5.2-pre-250903",
+      "id": "1.5.2-pre",
       "type": "release",
-      "url": "version/manifest/1.5.2-pre-250903.json",
+      "url": "version/manifest/1.5.2-pre.json",
       "time": "2013-04-25T15:45:00+00:00",
       "releaseTime": "2013-04-25T15:45:00+00:00",
-      "details": "version/1.5.2-pre-250903.json"
+      "details": "version/1.5.2-pre.json"
     },
     {
       "id": "13w16b-04232151",
