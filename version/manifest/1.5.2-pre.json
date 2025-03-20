@@ -25,7 +25,7 @@
       "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.exe"
     }
   },
-  "id": "1.5.2-pre-250903",
+  "id": "1.5.2-pre",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
