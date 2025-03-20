@@ -1,5 +1,5 @@
 {
-  "$schema": "https://skyrising.github.io/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
   "displayVersion": "22w24a",
   "downloads": {

@@ -18,7 +18,7 @@ const META_URLS = [
     'https://meta.skyrising.xyz/mc/game/version_manifest.json'
 ]
 
-const SCHEMA_BASE = 'https://skyrising.github.io/mc-versions/schemas/'
+const SCHEMA_BASE = 'https://ornithemc.net/mc-versions/schemas/'
 
 const VALID_PREVIOUS: Record<string, string[]> = {
     'release': ['snapshot'],
