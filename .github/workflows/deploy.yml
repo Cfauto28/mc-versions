@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - gen1
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -22,5 +22,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: gh-pages
+          branch: gen1-gh-pages
           folder: dist
