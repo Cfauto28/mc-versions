@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://ornithemc.net/mc-versions/schemas/version_manifest.json",
+    "$id": "https://skyrising.github.io/mc-versions/schemas/version_manifest.json",
     "$defs": {
         "version": {
             "description": "A version in the Omniarchive format",

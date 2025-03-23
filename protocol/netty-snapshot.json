@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/protocol.json",
+  "$schema": "https://skyrising.github.io/mc-versions/schemas/protocol.json",
   "type": "netty-snapshot",
   "versions": [
     {
