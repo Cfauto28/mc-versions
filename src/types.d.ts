@@ -15,15 +15,16 @@ interface ShortVersion {
     id: VersionId
     type: string
     url: string
+    sha1: string
     time: string
     releaseTime: string
-    details?: string
+    details: string
+    detailsSha1: string
 }
 
 type OmniPhase = 'pre-classic' | 'classic' | 'indev' | 'infdev' | 'alpha' | 'beta' | 'post-1.0' | 'oddballs'
 
-type OmniarchiveShortVersion = Omit<ShortVersion, 'details'> & {
-    sha1: string
+type OmniarchiveShortVersion = Omit<ShortVersion, 'details' | 'detailsSha1'> & {
     complianceLevel: number
     mojangVersion: string
     equivalentTo: string

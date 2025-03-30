@@ -1,6 +1,8 @@
 #!/usr/bin/env -S deno run -A
+import { encodeHex } from "jsr:@std/encoding/hex";
+import { crypto } from "jsr:@std/crypto";
 
-import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
+//import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -32,7 +34,7 @@ async function readAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveM
         await Deno.writeTextFile(`external_manifests/${versionJson.id}.json`, JSON.stringify(versionJson, null, 2));
         await sleep(1000);
 
-        versionsMap.set(version.id, version);
+        versionsMap.set(version.id, versionJson);
     }
     console.log('\nUpdate complete!');
     return versionsMap;
@@ -89,6 +91,20 @@ function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManife
     console.log(`\nOmniarchive manifest is missing ${missing.length} versions`);
 }
 
+async function updateLocalManifestHashes(manifest: MainManifest) {
+    for (let i = 0; i < manifest.versions.length; i++) {
+        const version = manifest.versions[i];
+        const manifestFileStream = (await Deno.open(`data/${version.url}`, { read: true })).readable;
+        const detailsFileStream = (await Deno.open(`data/${version.details}`, { read: true })).readable;
+        const manifestHashBuffer = await crypto.subtle.digest('SHA-1', manifestFileStream);
+        const detailsHashBuffer = await crypto.subtle.digest('SHA-1', detailsFileStream);
+        manifest.versions[i].sha1 = encodeHex(manifestHashBuffer);
+        manifest.versions[i].detailsSha1 = encodeHex(detailsHashBuffer);
+    }
+    await Deno.writeTextFile('data/version_manifest.json', JSON.stringify(manifest, null, 2));
+    console.log('Hashes updated');
+}
+
 (async () => {
     const localManifestJson: MainManifest = JSON.parse(await Deno.readTextFile('data/version_manifest.json'));
     const localVersionJsonsMap = await readLocalVersionJsons();
@@ -106,23 +122,28 @@ function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManife
 
     while (true) {
         console.log('\nWelcome to the new version manifest update and compare tool!');
-        console.log('1: Compare local manifests with external (Omniarchive) manifests');
-        console.log('2: Update and cache external (Omniarchive) manifests');
-        console.log('3: Exit');
+        console.log('1: Update sha1 hashes in the main versions manifest');
+        console.log('2: Compare local manifests with external (Omniarchive) manifests');
+        console.log('3: Update and cache external (Omniarchive) manifests');
+        console.log('E: Exit');
         const option = prompt('Choose an option: ');
         console.log();
 
         switch (option) {
             case '1':
+                await updateLocalManifestHashes(localManifestJson);
+                break;
+            case '2':
                 compareLocalWithOmniarchive(localVersionJsonsMap, remoteVersionJsonsMap);
                 break;
-            case '2': {
+            case '3': {
                 const confirmation = confirm('Are you sure? This will take a while');
                 console.log();
-                confirmation ? remoteVersionJsonsMap = await readAndCacheExternalVersionJsons(remoteManifestJson) : {};
+                if (confirmation) remoteVersionJsonsMap = await readAndCacheExternalVersionJsons(remoteManifestJson);
                 break;
             }
-            case '3':
+            case 'e':
+            case 'E':
                 console.log('Goodbye!');
                 return;
             case null:
