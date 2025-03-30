@@ -12,6 +12,11 @@
             "type": "string",
             "pattern": "^[a-z_]+$",
             "examples": ["release", "snapshot", "old_alpha", "old_beta"]
+        },
+        "sha1": {
+            "description": "An SHA-1 hash",
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
         }
     },
     "type": "object",
@@ -31,26 +36,28 @@
                 "properties": {
                     "id": {"$ref": "#/$defs/version"},
                     "type": {"$ref": "#/$defs/releaseType"},
-                    "releaseTime": {
+                    "url": {
                         "type": "string",
-                        "format": "date-time",
-                        "description": "The time this version was released"
+                        "format": "uri-reference"
                     },
+                    "sha1": {"$ref": "#/$defs/sha1"},
                     "time": {
                         "type": "string",
                         "format": "date-time",
                         "description": "The time at which the manifest referenced in `url` was generated"
                     },
-                    "url": {
+                    "releaseTime": {
                         "type": "string",
-                        "format": "uri-reference"
+                        "format": "date-time",
+                        "description": "The time this version was released"
                     },
                     "details": {
                         "type": "string",
                         "format": "uri-reference"
-                    }
+                    },
+                    "detailsSha1": {"$ref": "#/$defs/sha1"}
                 },
-                "required": ["id", "omniId", "type", "releaseTime", "details"]
+                "required": ["id", "type", "url", "sha1", "time", "releaseTime", "details", "detailsSha1"]
             }
         },
         "additionalProperties": false
