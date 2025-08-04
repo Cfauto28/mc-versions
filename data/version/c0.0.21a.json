@@ -24,9 +24,9 @@
   "next": [
     "c0.0.22a_05"
   ],
-  "normalizedVersion": "0.21.0+a",
+  "normalizedVersion": "0.21.0",
   "previous": [
-    "c0.0.20a_02"
+    "c0.0.21a-2008"
   ],
   "protocol": {
     "type": "classic",

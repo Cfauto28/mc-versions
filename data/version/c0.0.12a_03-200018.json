@@ -1,15 +1,15 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "0.0.22a_05",
+  "displayVersion": "0.0.12a_03",
   "downloads": {
     "client": {
-      "sha1": "85159cea8663ed720be88ca0ee008a5830b0829a",
-      "size": 178817,
-      "url": "https://vault.omniarchive.uk/archive/java/client-classic/c0.0.22a_05.jar"
+      "sha1": "501ea8a6274faffe0144d3b24ed56797ce0765ff",
+      "size": 46554,
+      "url": "https://vault.omniarchive.uk/archive/java/client-classic/c0.0.12a_03-200018.jar"
     }
   },
-  "id": "c0.0.22a_05",
+  "id": "c0.0.12a_03-200018",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -22,18 +22,15 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.0.23a_01"
+    "c0.0.12a_03",
+    "c0.0.13a-launcher"
   ],
-  "normalizedVersion": "0.22.5",
+  "normalizedVersion": "0.12.3+200018",
   "previous": [
-    "c0.0.21a-2008",
-    "c0.0.21a"
+    "c0.0.11a-launcher"
   ],
-  "protocol": {
-    "type": "classic",
-    "version": 6
-  },
-  "releaseTime": "2009-06-30T00:00:00+00:00",
+  "protocol": null,
+  "releaseTime": "2009-05-20T00:00:00+00:00",
   "server": false,
   "sharedMappings": false
 }

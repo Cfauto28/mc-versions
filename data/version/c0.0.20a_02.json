@@ -22,9 +22,9 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.0.21a"
+    "c0.0.21a-2008"
   ],
-  "normalizedVersion": "0.20.2+a",
+  "normalizedVersion": "0.20.2",
   "previous": [
     "c0.0.20a_01"
   ],

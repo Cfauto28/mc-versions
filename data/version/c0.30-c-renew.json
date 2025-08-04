@@ -24,9 +24,9 @@
   "next": [
     "in-20091223-1459"
   ],
-  "normalizedVersion": "0.30.0+c.renew",
+  "normalizedVersion": "0.30.0-c.renew",
   "previous": [
-    "c0.30-c"
+    "c0.30-c-1900-renew"
   ],
   "protocol": {
     "type": "classic",

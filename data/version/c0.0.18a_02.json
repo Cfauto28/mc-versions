@@ -24,8 +24,9 @@
   "next": [
     "c0.0.19a_04"
   ],
-  "normalizedVersion": "0.18.2+a",
+  "normalizedVersion": "0.18.2",
   "previous": [
+    "c0.0.17a-2014",
     "c0.0.17a"
   ],
   "protocol": {

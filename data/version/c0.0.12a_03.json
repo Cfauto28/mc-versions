@@ -24,9 +24,9 @@
   "next": [
     "c0.0.13a-launcher"
   ],
-  "normalizedVersion": "0.12.3+a",
+  "normalizedVersion": "0.12.3",
   "previous": [
-    "c0.0.11a-launcher"
+    "c0.0.12a_03-200018"
   ],
   "protocol": null,
   "releaseTime": "2009-05-20T00:00:00+00:00",
