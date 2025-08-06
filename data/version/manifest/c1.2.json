@@ -15,7 +15,7 @@
       "url": "https://files.betacraft.uk/server-archive/classic/c1.2.zip"
     }
   },
-  "id": "server-c1.2",
+  "id": "c1.2",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8

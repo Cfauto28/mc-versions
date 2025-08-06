@@ -132,7 +132,12 @@ export function normalizeVersion(omniId: VersionId, releaseTarget: VersionId | u
 
 export function getType(normalizedVersion: string): VersionType {
     const version = semver.parse(normalizedVersion)
-    if (!version) throw Error(`Invalid SemVer: ${normalizedVersion}`)
+    // HACKFIX!!!! to make the publish task happy. TODO fix this later (implement floader style semver parsing?)
+    if (!version) {
+        if (normalizedVersion === '0.31.20100201-0025' || normalizedVersion === '0.31.20100218-0016') return 'indev'
+        if (normalizedVersion === '0.31.20100625-0922') return 'infdev'
+        throw Error(`Invalid SemVer: ${normalizedVersion}`)
+    }
     if (version.major === 0) {
         if (version.minor === 0) return 'pre-classic'
         if (version.minor <= 30) return 'classic'

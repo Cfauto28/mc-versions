@@ -2,7 +2,7 @@
   "$schema": "https://ornithemc.net/mc-versions/schemas/version_manifest.json",
   "latest": {
     "old_alpha": "a1.2.6",
-    "classic_server": "server-c1.10.1",
+    "classic_server": "c1.10.1",
     "alpha_server": "server-a0.2.8",
     "old_beta": "b1.9-pre6",
     "snapshot": "19w36a",
@@ -5959,7 +5959,7 @@
       "sha1": "eec838153bebf525b2e80264f821fd1e3dd01db4",
       "releaseTime": "2010-08-04T08:31:00+00:00",
       "details": "version/server-a0.1.0.json",
-      "detailsSha1": "87bc6f112927a400dc9267a2f48a92cec208d899"
+      "detailsSha1": "45c2663db916172fc767f200729c88341d6eb3fc"
     },
     {
       "id": "a1.0.15",
@@ -6722,22 +6722,22 @@
       "detailsSha1": "3bfc9dbcf0db500884c607d7d828669955d59b2a"
     },
     {
-      "id": "server-c1.10.1",
+      "id": "c1.10.1",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.10.1.json",
-      "sha1": "ddc7e3a55fd97119dae380d83dbdd56e14b43994",
+      "url": "version/manifest/c1.10.1.json",
+      "sha1": "f08eff768b47e72d2b5b2a5d509f2f8d9fb7fc44",
       "releaseTime": "2009-12-11T14:19:00+00:00",
-      "details": "version/server-c1.10.1.json",
-      "detailsSha1": "c70fa898bde953858bde35087708c5ed77bc963d"
+      "details": "version/c1.10.1.json",
+      "detailsSha1": "e566c24d77ce064d490271ec02b77dd1b8a4ac2d"
     },
     {
-      "id": "server-c1.10",
+      "id": "c1.10",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.10.json",
-      "sha1": "25ca514f670f1551f6944f0b5ada8851649c00a1",
+      "url": "version/manifest/c1.10.json",
+      "sha1": "591c5b4a5a3c023f90c47fbfc848699d3edbc45d",
       "releaseTime": "2009-12-11T11:15:00+00:00",
-      "details": "version/server-c1.10.json",
-      "detailsSha1": "16fbe3892b73c620135f90bb7c4953235eab669a"
+      "details": "version/c1.10.json",
+      "detailsSha1": "1fa751aa0829473260497e31a2ecbac90dbcea3a"
     },
     {
       "id": "c0.30-c",
@@ -6800,13 +6800,13 @@
       "detailsSha1": "49aed7da8f70942c13ef36a3ff0f5256f2f7f741"
     },
     {
-      "id": "server-c1.9.1",
+      "id": "c1.9.1",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.9.1.json",
-      "sha1": "4f81cfdf8862fe4cdc6fdc7537206f80920fdc37",
+      "url": "version/manifest/c1.9.1.json",
+      "sha1": "89e4d16d097bbee510d43de938f31d80069e077f",
       "releaseTime": "2009-10-29T11:01:00+00:00",
-      "details": "version/server-c1.9.1.json",
-      "detailsSha1": "cea6d9ab35bd27fc72199116a484939dfe80aaf5"
+      "details": "version/c1.9.1.json",
+      "detailsSha1": "4ba479dc2febe7286e9a4a9c23c8d2ece568c0ec"
     },
     {
       "id": "c0.29",
@@ -6819,13 +6819,13 @@
       "detailsSha1": "f28051cddd2245f7df9535f63657483d689bfa3a"
     },
     {
-      "id": "server-c1.8.3",
+      "id": "c1.8.3",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.8.3.json",
-      "sha1": "daa3726589be6e8de61e13832aad02084782a6bd",
+      "url": "version/manifest/c1.8.3.json",
+      "sha1": "0b80aa147b7debcc92f53fb31b730cc15fc263f4",
       "releaseTime": "2009-10-27T13:57:00+00:00",
-      "details": "version/server-c1.8.3.json",
-      "detailsSha1": "e136fe1a12a8141044bf4bcbd8318a5acbe71cce"
+      "details": "version/c1.8.3.json",
+      "detailsSha1": "dc576646c05a1fcedbe93f160e093c3df0f85135"
     },
     {
       "id": "c0.28_01",
@@ -6928,13 +6928,13 @@
       "detailsSha1": "ebc9d32eee50a6c5db7002b8393a8ae65402ff56"
     },
     {
-      "id": "server-c1.8.2",
+      "id": "c1.8.2",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.8.2.json",
-      "sha1": "7ea30699ca1a09974451cd6b2c98ac6f84a6b51f",
+      "url": "version/manifest/c1.8.2.json",
+      "sha1": "a5c8757ec54f150b5d61fac45fae58f7b674a7a6",
       "releaseTime": "2009-06-20T21:09:00+00:00",
-      "details": "version/server-c1.8.2.json",
-      "detailsSha1": "aa635c4620b39dbb48c963fefb8dde180845ae43"
+      "details": "version/c1.8.2.json",
+      "detailsSha1": "4b48eabb93d062ac6f3dda5a47367ee05e39d230"
     },
     {
       "id": "c0.0.19a_06",
@@ -6967,22 +6967,22 @@
       "detailsSha1": "f90d79e3da01dc3c6bdb0072e5db3ed5a440e435"
     },
     {
-      "id": "server-c1.6",
+      "id": "c1.6",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.6.json",
-      "sha1": "c0fcd6a0232155df340a4d04354e5ab751662857",
+      "url": "version/manifest/c1.6.json",
+      "sha1": "5304cdce3379b2bfc7ed68e65e5963e6d9f396ab",
       "releaseTime": "2009-06-19T23:46:00+00:00",
-      "details": "version/server-c1.6.json",
-      "detailsSha1": "4c2cefd990ed53088492363a43109e3b3b55db2d"
+      "details": "version/c1.6.json",
+      "detailsSha1": "fab675710e0449aece79724b1a999d363b52a73d"
     },
     {
-      "id": "server-c1.4.1",
+      "id": "c1.4.1",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.4.1.json",
-      "sha1": "be6b5749de462a4e50b399911ba9662cf525044a",
+      "url": "version/manifest/c1.4.1.json",
+      "sha1": "d9e1a4427a9aa275844240fa739a6576ad4212b7",
       "releaseTime": "2009-06-14T12:15:00+00:00",
-      "details": "version/server-c1.4.1.json",
-      "detailsSha1": "97f9f7e16f59562a00ee155148c98f27d528259a"
+      "details": "version/c1.4.1.json",
+      "detailsSha1": "d04675b9dbccbd2b453571ccc8dcd65d255017cd"
     },
     {
       "id": "c0.0.18a_02",
@@ -6995,22 +6995,31 @@
       "detailsSha1": "6b0a5b7c041ba0d91f13da8e2deb509095ed4f41"
     },
     {
-      "id": "server-c1.4-1422",
+      "id": "c1.4",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.4-1422.json",
-      "sha1": "3d9731c004978e7d6c9f7ea2dae3c1ee059433d1",
+      "url": "version/manifest/c1.4.json",
+      "sha1": "f0927dcf4dd591eeba8b4ca08db905864a0cc345",
       "releaseTime": "2009-06-13T16:22:00+00:00",
-      "details": "version/server-c1.4-1422.json",
-      "detailsSha1": "73fd27ba274325fd9b3765ae4b0153c39358ae42"
+      "details": "version/c1.4.json",
+      "detailsSha1": "d06fabc78a63c5a9eab4803999baa2df839fc011"
     },
     {
-      "id": "server-c1.4-1327",
+      "id": "c1.4-1422",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.4-1327.json",
-      "sha1": "ecaef38af5452764781399e12018400212b494c4",
+      "url": "version/manifest/c1.4-1422.json",
+      "sha1": "0db1521abb13791aa2b64ebaea6c5b6ae2d6491b",
+      "releaseTime": "2009-06-13T16:22:00+00:00",
+      "details": "version/c1.4-1422.json",
+      "detailsSha1": "680e3b9a46acecfe8d976cfa7cbde2596340f8c0"
+    },
+    {
+      "id": "c1.4-1327",
+      "type": "classic_server",
+      "url": "version/manifest/c1.4-1327.json",
+      "sha1": "91d1b0f5d2ecb81ef9a76a73211e17ef3eddf7fa",
       "releaseTime": "2009-06-13T13:28:00+00:00",
-      "details": "version/server-c1.4-1327.json",
-      "detailsSha1": "dce982b17bebf7be9f9c321b724ceca653bd3c0a"
+      "details": "version/c1.4-1327.json",
+      "detailsSha1": "584efa7ea68223f0dcf8404601403833e26ce124"
     },
     {
       "id": "c0.0.17a",
@@ -7033,22 +7042,22 @@
       "detailsSha1": "50632b3e0d78060184649204da8b09cc536696f6"
     },
     {
-      "id": "server-c1.3",
+      "id": "c1.3",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.3.json",
-      "sha1": "e3e822057dd1401f4943000bc073869167fef53b",
+      "url": "version/manifest/c1.3.json",
+      "sha1": "b77e03bb8e5566b0a2295d7ef8abcb32c508c11b",
       "releaseTime": "2009-06-10T19:47:00+00:00",
-      "details": "version/server-c1.3.json",
-      "detailsSha1": "b6c3cefbe4e81afd0ada75b2a627bbf98e66e569"
+      "details": "version/c1.3.json",
+      "detailsSha1": "fc2c9d7b717fc9b7a4a236badd371d72a4e33705"
     },
     {
-      "id": "server-c1.2",
+      "id": "c1.2",
       "type": "classic_server",
-      "url": "version/manifest/server-c1.2.json",
-      "sha1": "827ee4dbf7ab05702cd54a508bc383017c78be3c",
+      "url": "version/manifest/c1.2.json",
+      "sha1": "d5ad07ada3fafa8b95e30b6134bcdc170ca564ad",
       "releaseTime": "2009-06-08T20:48:00+00:00",
-      "details": "version/server-c1.2.json",
-      "detailsSha1": "1b08e981534ab325f5254915f72beaf19dfea269"
+      "details": "version/c1.2.json",
+      "detailsSha1": "446574566739a3af5940ce65d73231e132c81b50"
     },
     {
       "id": "c0.0.16a_02",

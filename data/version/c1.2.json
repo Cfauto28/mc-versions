@@ -9,10 +9,10 @@
       "url": "https://files.betacraft.uk/server-archive/classic/c1.2.zip"
     }
   },
-  "id": "server-c1.2",
+  "id": "c1.2",
   "libraries": [],
   "next": [
-    "server-c1.3"
+    "c1.3"
   ],
   "normalizedVersion": "0.30.0-classic.server.1.2.0",
   "previous": [],

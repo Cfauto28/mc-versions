@@ -9,14 +9,14 @@
       "url": "https://files.betacraft.uk/server-archive/classic/c1.9.1.zip"
     }
   },
-  "id": "server-c1.9.1",
+  "id": "c1.9.1",
   "libraries": [],
   "next": [
-    "server-c1.10"
+    "c1.10"
   ],
   "normalizedVersion": "0.30.0-classic.server.1.9.1",
   "previous": [
-    "server-c1.8.3"
+    "c1.8.3"
   ],
   "protocol": {
     "type": "classic",

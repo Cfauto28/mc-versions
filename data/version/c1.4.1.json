@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": null,
+  "downloads": {
+    "server_zip": {
+      "sha1": "a3a6b07bcdedce3e6c8668a18ffe8dd70d4f57fc",
+      "size": 40356,
+      "url": "https://files.betacraft.uk/server-archive/classic/c1.4.1.zip"
+    }
+  },
+  "id": "c1.4.1",
+  "libraries": [],
+  "next": [
+    "c1.6"
+  ],
+  "normalizedVersion": "0.30.0-classic.server.1.4.1",
+  "previous": [
+    "c1.4",
+    "c1.4-1422"
+  ],
+  "protocol": {
+    "type": "classic",
+    "version": 4
+  },
+  "releaseTime": "2009-06-14T12:15:00+00:00",
+  "server": true,
+  "sharedMappings": false
+}

@@ -9,14 +9,15 @@
       "url": "https://vault.omniarchive.uk/archive/java/server-classic/c1.4-1422.jar"
     }
   },
-  "id": "server-c1.4-1422",
+  "id": "c1.4-1422",
   "libraries": [],
   "next": [
-    "server-c1.4.1"
+    "c1.4",
+    "c1.4.1"
   ],
   "normalizedVersion": "0.30.0-classic.server.1.4.0+1422",
   "previous": [
-    "server-c1.4-1327"
+    "c1.4-1327"
   ],
   "protocol": {
     "type": "classic",
