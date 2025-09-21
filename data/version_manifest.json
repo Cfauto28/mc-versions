@@ -5049,7 +5049,7 @@
       "sha1": "553f8d8ed9fb2d38189451eacd6f56f354819b33",
       "releaseTime": "2011-10-13T14:40:58+00:00",
       "details": "version/b1.9-pre4.json",
-      "detailsSha1": "185849c1e3705e6f5694023519f642b39a0e3fc7"
+      "detailsSha1": "9af480d5db4ffeef66b3a3f1b0cd0f5d3e046b73"
     },
     {
       "id": "b1.9-pre4-1441",
@@ -5191,7 +5191,7 @@
       "sha1": "cd930207dc9ff3dbf7f22b0e248c29a41fec7911",
       "releaseTime": "2011-09-09T13:57:00+00:00",
       "details": "version/b1.8-pre1.json",
-      "detailsSha1": "f6b7b0b711b5d6ddface8cd6383fc391ff9500cb"
+      "detailsSha1": "0aa0e2ef70d064a9cb761d45cfb82bea152ac12f"
     },
     {
       "id": "b1.8-pre1-091358",
@@ -5384,7 +5384,7 @@
       "sha1": "e888b09cf41cf4f52ce1a0ff4870dc19b2bb57c1",
       "releaseTime": "2011-03-31T16:34:00+00:00",
       "details": "version/b1.4.json",
-      "detailsSha1": "761cef26cf1d13b173015bc166be01fd6318ac45"
+      "detailsSha1": "1bb36348bddede86291a3db49e854f48dd8809e4"
     },
     {
       "id": "b1.4-1634",
