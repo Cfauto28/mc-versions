@@ -10,17 +10,17 @@
   "assets": "legacy",
   "downloads": {
     "client": {
-      "sha1": "6789c69ede3aedf83b800c76bea56855d38a0afc",
-      "size": 1893151,
-      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre1-091357.jar"
+      "sha1": "e6499cd774ebc3f0b633d6fdd8c5a84149ad0aad",
+      "size": 1129359,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.1/b1.1-1255.jar"
     },
     "server": {
-      "sha1": "f77a3b3f48defde499d16d0aa7aaf65986c83f40",
-      "size": 617692,
-      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.8-pre1-091358.jar"
+      "sha1": "1d8d308e9a668f9f37e1b887e263fc1ed4953499",
+      "size": 351526,
+      "url": "https://files.betacraft.uk/server-archive/beta/b1.1.jar"
     }
   },
-  "id": "b1.8-pre1-201109091357",
+  "id": "b1.1",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -319,8 +319,8 @@
   ],
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
-  "minimumLauncherVersion": 4,
-  "releaseTime": "2011-09-09T13:57:00+00:00",
-  "time": "2011-09-09T04:00:00-07:00",
+  "minimumLauncherVersion": 7,
+  "releaseTime": "2010-12-22T12:55:00+00:00",
+  "time": "2016-02-02T15:37:47+00:00",
   "type": "old_beta"
 }

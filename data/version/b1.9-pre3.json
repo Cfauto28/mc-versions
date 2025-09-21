@@ -1,20 +1,20 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft Beta 1.8 Pre-release 2 ;)",
+  "displayVersion": "Minecraft Beta 1.9 Prerelease 3",
   "downloads": {
     "client": {
-      "sha1": "44191f2895bf1e064269c9279778f2e3e9c3c9c7",
-      "size": 1897780,
-      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre2-131225.jar"
+      "sha1": "5b7fe76a602b7511c97740e36dc25040ccb6e76b",
+      "size": 2087104,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre3-1402.jar"
     },
     "server": {
-      "sha1": "4cdbe68bef279d4624e78541965f09d42362f377",
-      "size": 620660,
-      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.8-pre2.jar"
+      "sha1": "14e820fd32bea109ead9ef26345a5dfadd8ae3d4",
+      "size": 695939,
+      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre3.jar"
     }
   },
-  "id": "b1.8-pre2",
+  "id": "b1.9-pre3",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -27,17 +27,19 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.8"
+    "b1.9-pre4-1415",
+    "b1.9-pre4-1425"
   ],
-  "normalizedVersion": "1.0.0-beta.1.8.0.pre.2",
+  "normalizedVersion": "1.0.0-pre.3",
   "previous": [
-    "b1.8-pre2-131225"
+    "b1.9-pre3-1402"
   ],
   "protocol": {
     "type": "modern",
-    "version": 16
+    "version": 19
   },
-  "releaseTime": "2011-09-13T12:25:00+00:00",
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-10-06T13:50:00+00:00",
   "server": true,
   "sharedMappings": false,
   "world": {

@@ -6,7 +6,7 @@
     "client": {
       "sha1": "5c4831d9705f2e00e3cd993e89b822636492932a",
       "size": 2147107,
-      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre4-1434.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre4-1435.jar"
     },
     "server": {
       "sha1": "5452653944a5c8c05767dcc5f6ee0427ee736faf",
@@ -14,16 +14,17 @@
       "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre4-1435.jar"
     }
   },
-  "id": "b1.9-pre4-201110131434",
+  "id": "b1.9-pre4-1435",
   "libraries": [],
   "next": [
-    "b1.9-pre4-201110131440",
+    "b1.9-pre4-1441",
+    "b1.9-pre4",
     "b1.9-pre5"
   ],
-  "normalizedVersion": "1.0.0-pre.4+201110131434",
+  "normalizedVersion": "1.0.0-pre.4+1435",
   "previous": [
-    "b1.9-pre3-201110061402",
-    "b1.9-pre4-201110131425"
+    "b1.9-pre4-1415",
+    "b1.9-pre4-1425"
   ],
   "protocol": {
     "type": "modern",

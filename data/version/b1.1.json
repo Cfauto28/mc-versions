@@ -1,15 +1,20 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft Beta 1.4",
+  "displayVersion": "Minecraft Beta 1.1",
   "downloads": {
     "client": {
-      "sha1": "f6dbca5223ea2a7e89806e93d0b18162b2d58c20",
-      "size": 1309277,
-      "url": "https://launcher.mojang.com/v1/objects/f6dbca5223ea2a7e89806e93d0b18162b2d58c20/client.jar"
+      "sha1": "e6499cd774ebc3f0b633d6fdd8c5a84149ad0aad",
+      "size": 1129359,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.1/b1.1-1255.jar"
+    },
+    "server": {
+      "sha1": "1d8d308e9a668f9f37e1b887e263fc1ed4953499",
+      "size": 351526,
+      "url": "https://files.betacraft.uk/server-archive/beta/b1.1.jar"
     }
   },
-  "id": "b1.4-1634",
+  "id": "b1.1",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -22,21 +27,20 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.4",
-    "b1.4_01"
+    "b1.1_01"
   ],
-  "normalizedVersion": "1.0.0-beta.1.4.0+1634",
+  "normalizedVersion": "1.0.0-beta.1.1.0",
   "previous": [
-    "b1.4-1507"
+    "b1.1-1255"
   ],
   "protocol": {
     "type": "modern",
-    "version": 10
+    "version": 7
   },
-  "releaseTime": "2011-03-31T16:34:00+00:00",
-  "server": false,
+  "releaseTime": "2010-12-22T12:55:00+00:00",
+  "server": true,
   "sharedMappings": false,
   "world": {
-    "format": "region"
+    "format": "alpha"
   }
 }

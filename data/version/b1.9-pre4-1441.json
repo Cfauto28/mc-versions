@@ -9,14 +9,15 @@
       "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre4-1441.jar"
     }
   },
-  "id": "b1.9-pre4-201110131440",
+  "id": "b1.9-pre4-1441",
   "libraries": [],
   "next": [
+    "b1.9-pre4",
     "b1.9-pre5"
   ],
-  "normalizedVersion": "1.0.0-pre.4+201110131440",
+  "normalizedVersion": "1.0.0-pre.4+1441",
   "previous": [
-    "b1.9-pre4-201110131434"
+    "b1.9-pre4-1435"
   ],
   "protocol": {
     "type": "modern",

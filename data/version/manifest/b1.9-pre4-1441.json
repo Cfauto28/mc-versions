@@ -10,12 +10,12 @@
   "assets": "pre-1.6",
   "downloads": {
     "server": {
-      "sha1": "9ad4c05197af0426d41ad1f237ecc21ee57ee216",
-      "size": 731317,
-      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre4-1425.jar"
+      "sha1": "c7132e3f46e77221dca855ef065a7eb34102185e",
+      "size": 731348,
+      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre4-1441.jar"
     }
   },
-  "id": "b1.9-pre4-201110131425",
+  "id": "b1.9-pre4-1441",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -24,6 +24,6 @@
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 0,
-  "releaseTime": "2011-10-13T14:25:26+00:00",
+  "releaseTime": "2011-10-13T14:40:58+00:00",
   "type": "old_beta"
 }

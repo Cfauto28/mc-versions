@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.9 Prerelease 4",
+  "downloads": {
+    "client": {
+      "sha1": "17a51d97f30dbe83d182a294aee4702ff7796c68",
+      "size": 2147107,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre4-1415.jar"
+    }
+  },
+  "id": "b1.9-pre4-1415",
+  "libraries": [],
+  "next": [
+    "b1.9-pre4-1435"
+  ],
+  "normalizedVersion": "1.0.0-pre.4+1415",
+  "previous": [
+    "b1.9-pre3-1402",
+    "b1.9-pre3"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 20
+  },
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-10-13T14:34:00+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

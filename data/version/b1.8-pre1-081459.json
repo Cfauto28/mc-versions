@@ -1,15 +1,15 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft Beta 1.4",
+  "displayVersion": "Minecraft Beta 1.8 Pre-release",
   "downloads": {
     "client": {
-      "sha1": "f6dbca5223ea2a7e89806e93d0b18162b2d58c20",
-      "size": 1309277,
-      "url": "https://launcher.mojang.com/v1/objects/f6dbca5223ea2a7e89806e93d0b18162b2d58c20/client.jar"
+      "sha1": "81fe0f9ec4b1d9f861482e4bad2a076dd4ed3e44",
+      "size": 1890166,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre1-081459.jar"
     }
   },
-  "id": "b1.4-1634",
+  "id": "b1.8-pre1-081459",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -22,18 +22,17 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.4",
-    "b1.4_01"
+    "b1.8-pre1-091358"
   ],
-  "normalizedVersion": "1.0.0-beta.1.4.0+1634",
+  "normalizedVersion": "1.0.0-beta.1.8.0.pre.1+081459",
   "previous": [
-    "b1.4-1507"
+    "b1.7.3"
   ],
   "protocol": {
     "type": "modern",
-    "version": 10
+    "version": 15
   },
-  "releaseTime": "2011-03-31T16:34:00+00:00",
+  "releaseTime": "2011-09-08T14:59:00+00:00",
   "server": false,
   "sharedMappings": false,
   "world": {
