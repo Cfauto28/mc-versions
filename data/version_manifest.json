@@ -5049,7 +5049,7 @@
       "sha1": "553f8d8ed9fb2d38189451eacd6f56f354819b33",
       "releaseTime": "2011-10-13T14:40:58+00:00",
       "details": "version/b1.9-pre4.json",
-      "detailsSha1": "8a859c88e0f4d340f4e06963fdf2124e9f1e7323"
+      "detailsSha1": "185849c1e3705e6f5694023519f642b39a0e3fc7"
     },
     {
       "id": "b1.9-pre4-1441",
@@ -5085,7 +5085,7 @@
       "sha1": "6236bf2bf9b7fcd5e4cf6f433f1837659a633a7e",
       "releaseTime": "2011-10-13T14:25:26+00:00",
       "details": "version/b1.9-pre4-1415.json",
-      "detailsSha1": "e8bfdacb184510a0498ba5ff12936f0f4f56a6c7"
+      "detailsSha1": "1c7207f4b60edba70d9bb1ef935c9b47357270ca"
     },
     {
       "id": "b1.9-pre3",
@@ -6849,7 +6849,7 @@
       "time": "2013-08-06T17:33:30+03:00",
       "releaseTime": "2009-11-10T00:00:01+00:00",
       "details": "version/c0.30-c-1900.json",
-      "detailsSha1": "c7b9e7fad808e3bec5b2ca6488f8830442bda54d"
+      "detailsSha1": "c61774dfef6baabe4ef165cd03f5bc5b551ef83e"
     },
     {
       "id": "c0.30-s",
@@ -7259,7 +7259,7 @@
       "time": "2009-05-16T22:00:00+00:00",
       "releaseTime": "2009-05-17T00:00:00+00:00",
       "details": "version/c0.0.11a-launcher.json",
-      "detailsSha1": "f95a6acb3d1e302ccada34c2bfe293625910b50b"
+      "detailsSha1": "5e142d5f0a31cd158e16aeaed146f759c5e2c8b1"
     },
     {
       "id": "rd-161348-launcher",
