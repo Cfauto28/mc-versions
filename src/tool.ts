@@ -91,6 +91,56 @@ function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManife
     console.log(`\nOmniarchive manifest is missing ${missing.length} versions`);
 }
 
+function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>) {
+    // log manifest entries with inconsistent references to version jsons and/or details jsons
+    for (let i = 0; i < manifest.versions.length; i++) {
+        const version = manifest.versions[i];
+        if (version.url !== `version/manifest/${version.id}.json`) {
+            console.log(`manifest entry for ${version.id} has inconsistent reference to version json ${version.url}`)
+        }
+        if (version.details !== `version/${version.id}.json`) {
+            console.log(`manifest entry for ${version.id} has inconsistent reference to details json ${version.details}`)
+        }
+    }
+
+    // log any references to unknown versions in the next and previous fields of details jsons
+    detailsJsons.forEach((details, id) => {
+        if (details.previous != null) {
+            for (let i = 0; i < details.previous.length; i++) {
+                const prevId = details.previous[i];
+    
+                if (!detailsJsons.has(prevId)) {
+                    console.log(`details json for ${details.id} references unknown previous version ${prevId}`);
+                }
+            }
+        }
+        if (details.next != null) {
+            for (let i = 0; i < details.next.length; i++) {
+                const prevId = details.next[i];
+    
+                if (!detailsJsons.has(prevId)) {
+                    console.log(`details json for ${details.id} references unknown next version ${prevId}`);
+                }
+            }
+        }
+    });
+
+    // log any manifest entries that do not have corresponding version jsons and/or details jsons
+    for (let i = 0; i < manifest.versions.length; i++) {
+        const version = manifest.versions[i];
+        if (!versionJsons.delete(version.id)) {
+            console.log(`manifest has version ${version.id} but there is no info json for that version!`)
+        }
+        if (!detailsJsons.delete(version.id)) {
+            console.log(`manifest has version ${version.id} but there is no details json for that version!`)
+        }
+    }
+
+    // log any version jsons and details jsons that do not have corresponding manifest entries
+    versionJsons.forEach((_, id) => console.log(`local info json exists for ${id} but that version is not in the manifest!`))
+    detailsJsons.forEach((_, id) => console.log(`local details json exists for ${id} but that version is not in the manifest!`))
+}
+
 async function updateLocalManifestHashes(manifest: MainManifest) {
     for (let i = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
@@ -122,21 +172,25 @@ async function updateLocalManifestHashes(manifest: MainManifest) {
 
     while (true) {
         console.log('\nWelcome to the new version manifest update and compare tool!');
-        console.log('1: Update sha1 hashes in the main versions manifest');
-        console.log('2: Compare local manifests with external (Omniarchive) manifests');
-        console.log('3: Update and cache external (Omniarchive) manifests');
+        console.log('1: Validate the main manifest and the local version jsons and details json')
+        console.log('2: Update sha1 hashes in the main versions manifest');
+        console.log('3: Compare local manifests with external (Omniarchive) manifests');
+        console.log('4: Update and cache external (Omniarchive) manifests');
         console.log('E: Exit');
         const option = prompt('Choose an option: ');
         console.log();
 
         switch (option) {
             case '1':
-                await updateLocalManifestHashes(localManifestJson);
+                checkLocalManifestEntries(localManifestJson, localVersionJsonsMap, localDetailsJsonsMap);
                 break;
             case '2':
+                await updateLocalManifestHashes(localManifestJson);
+                break;
+            case '3':
                 compareLocalWithOmniarchive(localVersionJsonsMap, remoteVersionJsonsMap);
                 break;
-            case '3': {
+            case '4': {
                 const confirmation = confirm('Are you sure? This will take a while');
                 console.log();
                 if (confirmation) remoteVersionJsonsMap = await readAndCacheExternalVersionJsons(remoteManifestJson);
