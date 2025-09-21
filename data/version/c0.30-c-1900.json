@@ -9,7 +9,7 @@
       "url": "https://vault.omniarchive.uk/archive/java/client-classic/c0.30-c-1900.jar"
     }
   },
-  "id": "c0.30-c",
+  "id": "c0.30-c-1900",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
