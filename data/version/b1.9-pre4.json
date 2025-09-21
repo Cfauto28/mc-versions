@@ -17,14 +17,12 @@
   "id": "b1.9-pre4",
   "libraries": [],
   "next": [
-    "b1.9-pre4-1441",
-    "b1.9-pre4",
     "b1.9-pre5"
   ],
-  "normalizedVersion": "1.0.0-pre.4+1434",
+  "normalizedVersion": "1.0.0-pre.4",
   "previous": [
-    "b1.9-pre4-1415",
-    "b1.9-pre4-1425"
+    "b1.9-pre4-1435",
+    "b1.9-pre4-1441"
   ],
   "protocol": {
     "type": "modern",
