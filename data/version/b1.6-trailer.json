@@ -9,12 +9,12 @@
       "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.6-pre-trailer.jar"
     }
   },
-  "id": "b1.6-pre-trailer",
+  "id": "b1.6-trailer",
   "libraries": [],
   "next": [
     "b1.6-tb3"
   ],
-  "normalizedVersion": "1.0.0-beta.1.6.0.pre+trailer",
+  "normalizedVersion": "1.0.0-beta.1.6.0.trailer",
   "previous": [
     "b1.5_02"
   ],

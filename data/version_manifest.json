@@ -5503,13 +5503,13 @@
       "detailsSha1": "7da2224686d32fddddaecf894ccfefaed5af622f"
     },
     {
-      "id": "b1.6-pre-trailer",
+      "id": "b1.6-trailer",
       "type": "old_beta",
-      "url": "version/manifest/b1.6-pre-trailer.json",
-      "sha1": "9e564e6c83a78ea752694a944e981f7fbf221aa5",
+      "url": "version/manifest/b1.6-trailer.json",
+      "sha1": "28fd3f372508440868f037e9525c873221d69b20",
       "releaseTime": "2011-05-23T14:00:38+00:00",
-      "details": "version/b1.6-pre-trailer.json",
-      "detailsSha1": "77fdd08075d244102ddfd987d7165f3702a799f5"
+      "details": "version/b1.6-trailer.json",
+      "detailsSha1": "8e9e900e041e5cecad05c78150ccc56295852721"
     },
     {
       "id": "b1.2_02-dev",
@@ -5528,7 +5528,7 @@
       "sha1": "f9f538d4b08ad1186db5eec0a0015d733aedfa70",
       "releaseTime": "2011-04-20T13:16:30+00:00",
       "details": "version/b1.5_02.json",
-      "detailsSha1": "06bbd26d2c00050e3c1b4aaec209f7ac8d2e9527"
+      "detailsSha1": "81ac257b3c93c84e1a247a15e09fb30c9eededd2"
     },
     {
       "id": "b1.5_01",

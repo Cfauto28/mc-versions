@@ -15,7 +15,7 @@
       "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.6-pre-trailer.jar"
     }
   },
-  "id": "b1.6-pre-trailer",
+  "id": "b1.6-trailer",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
