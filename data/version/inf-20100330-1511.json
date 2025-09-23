@@ -9,7 +9,7 @@
       "url": "https://vault.omniarchive.uk/archive/java/client-infdev/inf-20100330-1611_modified.jar"
     }
   },
-  "id": "inf-20100330-1611",
+  "id": "inf-20100330-1511",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -24,7 +24,7 @@
   "next": [
     "inf-20100413-1953"
   ],
-  "normalizedVersion": "0.31.20100330-1611",
+  "normalizedVersion": "0.31.20100330-1511",
   "previous": [
     "inf-20100327"
   ],

@@ -6661,17 +6661,17 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-04-13T19:53:00+00:00",
       "details": "version/inf-20100413-1953.json",
-      "detailsSha1": "fda3e6bb311409997ec47f117f6c5f9a67989ccf"
+      "detailsSha1": "dc36414cf6e1263296ab4bf0bf9447370703f5f5"
     },
     {
-      "id": "inf-20100330-1611",
+      "id": "inf-20100330-1511",
       "type": "old_alpha",
-      "url": "version/manifest/inf-20100330-1611.json",
-      "sha1": "70784ea7225670eb030ece3d1d898f6e8fb1a943",
+      "url": "version/manifest/inf-20100330-1511.json",
+      "sha1": "4859f463c95d5f98f299b076fa52c7a2f08fe786",
       "time": "2010-03-30T00:00:00-00:00",
       "releaseTime": "2010-03-30T16:11:00+00:00",
-      "details": "version/inf-20100330-1611.json",
-      "detailsSha1": "cad277f2652befcf99021561d1b7a6e61b3cbe79"
+      "details": "version/inf-20100330-1511.json",
+      "detailsSha1": "95f27649ea62fdb21353fe3d8a6b5a1cbb086244"
     },
     {
       "id": "inf-20100327",
@@ -6681,7 +6681,7 @@
       "time": "2010-03-27T00:00:00-00:00",
       "releaseTime": "2010-03-27T20:06:00+00:00",
       "details": "version/inf-20100327.json",
-      "detailsSha1": "b50075a263c21dda5be55fce1d30a9b54cec8c5c"
+      "detailsSha1": "07493b59f27b72263c2f62f85f810ddd000dad3b"
     },
     {
       "id": "inf-20100325-1640",
