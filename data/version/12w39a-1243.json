@@ -1,25 +1,25 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "12w41a",
+  "displayVersion": "12w39a",
   "downloads": {
     "client": {
-      "sha1": "7327bcd4da0d194565d6ee732b1fa48e8b14b347",
-      "size": 4900512,
-      "url": "https://files.betacraft.uk/launcher/assets/versions/1.4/12w41a.jar"
+      "sha1": "65247c02036156b9f34c17f7d8bb053641afd0e7",
+      "size": 4768937,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.4/12w39a-1243.jar"
     },
     "server": {
-      "sha1": "cabc19b9ca10c0f89843f41d83548de46eebb481",
-      "size": 1995399,
-      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w41a.jar"
+      "sha1": "0672d70a899d9a05e09c5e6727630f66dabae8f1",
+      "size": 1873860,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w39a-1243.jar"
     },
     "windows_server": {
-      "sha1": "1c4a6857d185cc91c5af7909bda384ed61b6279f",
-      "size": 2176647,
-      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w41a.exe"
+      "sha1": "5ffad58ff80f4f84622595e38e5d825429c51aa7",
+      "size": 2055108,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w39a-1243.exe"
     }
   },
-  "id": "12w41a",
+  "id": "12w39a-1243",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -32,18 +32,18 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "12w41b"
+    "12w39b"
   ],
-  "normalizedVersion": "1.4.0-alpha.12.41.a",
+  "normalizedVersion": "1.4.0-alpha.12.39.a+1243",
   "previous": [
-    "12w40b"
+    "12w38b"
   ],
   "protocol": {
     "type": "modern",
-    "version": 46
+    "version": 43
   },
   "releaseTarget": "1.4",
-  "releaseTime": "2012-10-11T14:06:41+00:00",
+  "releaseTime": "2012-09-27T12:48:28+00:00",
   "server": true,
   "sharedMappings": true,
   "world": {

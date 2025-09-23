@@ -1,31 +1,31 @@
 {
   "arguments": {},
   "assetIndex": {
-    "id": "pre-1.6",
-    "sha1": "3d8e55480977e32acd9844e545177e69a52f594b",
-    "size": 74091,
-    "totalSize": 49505710,
-    "url": "https://launchermeta.mojang.com/v1/packages/3d8e55480977e32acd9844e545177e69a52f594b/pre-1.6.json"
+    "id": "legacy",
+    "sha1": "770572e819335b6c0a053f8378ad88eda189fc14",
+    "size": 109634,
+    "totalSize": 153475165,
+    "url": "https://launchermeta.mojang.com/v1/packages/770572e819335b6c0a053f8378ad88eda189fc14/legacy.json"
   },
-  "assets": "pre-1.6",
+  "assets": "legacy",
   "downloads": {
     "client": {
-      "sha1": "67604a9c206697032165fc067b6255e333e06275",
-      "size": 4928277,
-      "url": "https://launcher.mojang.com/v1/objects/67604a9c206697032165fc067b6255e333e06275/client.jar"
+      "sha1": "ca3b2e326f463a55895e5bbe993c64d6d4149dd2",
+      "size": 5564656,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.5.2-pre-1.jar"
     },
     "server": {
-      "sha1": "baa4e4a7adc3dc9fbfc5ea36f0777b68c9eb7f4a",
-      "size": 2018433,
-      "url": "https://launcher.mojang.com/v1/objects/baa4e4a7adc3dc9fbfc5ea36f0777b68c9eb7f4a/server.jar"
+      "sha1": "6ab4925e411b94db0dbc5dc7e11cb941254c8104",
+      "size": 2360917,
+      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.jar"
     },
     "windows_server": {
-      "sha1": "024759aa551129d71b202c0b5a65d56d5a6c093f",
-      "size": 2199681,
-      "url": "https://launcher.mojang.com/v1/objects/024759aa551129d71b202c0b5a65d56d5a6c093f/windows_server.exe"
+      "sha1": "68b1a48ec2dd5fc780005135d46321c7b4d593ba",
+      "size": 2542165,
+      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.exe"
     }
   },
-  "id": "1.4.1-pre-10231538",
+  "id": "1.5.2-pre-250703",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -325,7 +325,7 @@
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 4,
-  "releaseTime": "2012-10-23T15:38:00+00:00",
-  "time": "2012-11-22T22:00:00+00:00",
-  "type": "snapshot"
+  "releaseTime": "2013-04-25T15:45:00+00:00",
+  "time": "2013-04-25T15:45:00+00:00",
+  "type": "release"
 }

@@ -1,20 +1,20 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft RC1",
+  "displayVersion": "13w03a",
   "downloads": {
     "client": {
-      "sha1": "4df7880d26414b400640f0b8e54344df2b66c51a",
-      "size": 2242107,
-      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc1.jar"
+      "sha1": "1be6ccb2cb2078a9593be2b7027db00ad6f58ee6",
+      "size": 6401652,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w03a-1613.jar"
     }
   },
-  "id": "1.0.0-rc1",
+  "id": "13w03a-1613",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
     "net.java.jutils:jutils:1.0.0",
-    "net.minecraft:launchwrapper:1.6",
+    "net.minecraft:launchwrapper:1.5",
     "net.sf.jopt-simple:jopt-simple:4.5",
     "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
@@ -22,21 +22,21 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "1.0.0-rc2-1633"
+    "13w04a"
   ],
-  "normalizedVersion": "1.0.0-rc.1",
+  "normalizedVersion": "1.5.0-alpha.13.3.a+1613",
   "previous": [
-    "b1.9-pre6"
+    "13w03a-1538"
   ],
   "protocol": {
     "type": "modern",
-    "version": 22
+    "version": 54
   },
-  "releaseTarget": "1.0.0",
-  "releaseTime": "2011-11-13T15:02:00+00:00",
-  "server": false,
-  "sharedMappings": false,
+  "releaseTarget": "1.5",
+  "releaseTime": "2013-01-17T16:49:18+00:00",
+  "server": true,
+  "sharedMappings": true,
   "world": {
-    "format": "region"
+    "format": "anvil"
   }
 }

@@ -1,31 +1,31 @@
 {
   "arguments": {},
   "assetIndex": {
-    "id": "legacy",
-    "sha1": "770572e819335b6c0a053f8378ad88eda189fc14",
-    "size": 109634,
-    "totalSize": 153475165,
-    "url": "https://launchermeta.mojang.com/v1/packages/770572e819335b6c0a053f8378ad88eda189fc14/legacy.json"
+    "id": "pre-1.6",
+    "sha1": "3d8e55480977e32acd9844e545177e69a52f594b",
+    "size": 74091,
+    "totalSize": 49505710,
+    "url": "https://launchermeta.mojang.com/v1/packages/3d8e55480977e32acd9844e545177e69a52f594b/pre-1.6.json"
   },
-  "assets": "legacy",
+  "assets": "pre-1.6",
   "downloads": {
     "client": {
-      "sha1": "ca3b2e326f463a55895e5bbe993c64d6d4149dd2",
-      "size": 5564656,
-      "url": "https://files.betacraft.uk/launcher/assets/versions/1.5.2-pre-1.jar"
+      "sha1": "e4d783004a34d970bb8ffcf18ae696b5ce6da1d4",
+      "size": 4968042,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/1.4.5-pre-160924.jar"
     },
     "server": {
-      "sha1": "6ab4925e411b94db0dbc5dc7e11cb941254c8104",
-      "size": 2360917,
-      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.jar"
+      "sha1": "e3627dfe25321b286dfbb25919c5e04cf697c66d",
+      "size": 2047971,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/1.4.5-pre-160924.jar"
     },
     "windows_server": {
-      "sha1": "68b1a48ec2dd5fc780005135d46321c7b4d593ba",
-      "size": 2542165,
-      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.exe"
+      "sha1": "7bfd06d2fb8b481bf83f1de122b3b1051a738210",
+      "size": 2229219,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/1.4.5-pre-160924.exe"
     }
   },
-  "id": "1.5.2-pre",
+  "id": "1.4.5-pre-160924",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -325,7 +325,7 @@
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 4,
-  "releaseTime": "2013-04-25T15:45:00+00:00",
-  "time": "2013-04-25T15:45:00+00:00",
+  "releaseTime": "2012-11-20T00:00:00+00:00",
+  "time": "2012-12-19T22:00:00+00:00",
   "type": "release"
 }

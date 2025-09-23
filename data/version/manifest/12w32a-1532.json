@@ -1,21 +1,31 @@
 {
   "arguments": {},
   "assetIndex": {
-    "id": "legacy",
-    "sha1": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-    "size": 134284,
-    "totalSize": 111220701,
-    "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
+    "id": "pre-1.6",
+    "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
+    "size": 73813,
+    "totalSize": 49381897,
+    "url": "https://launchermeta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
   },
-  "assets": "legacy",
+  "assets": "pre-1.6",
   "downloads": {
     "client": {
-      "sha1": "6a6b67d34149afc47cf9608b3967582639097df9",
-      "size": 2242209,
-      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1649.jar"
+      "sha1": "13183e023c8918ed08c302c2fe1438f61b53d094",
+      "size": 4628354,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.4/12w32a.jar"
+    },
+    "server": {
+      "sha1": "5fcb4ed085db3321c20c078b8987273fdd0b9f32",
+      "size": 1824426,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w32a-1532.jar"
+    },
+    "windows_server": {
+      "sha1": "358e1ddbb3f1f832d131c8bcd762b43d279dce5b",
+      "size": 2005674,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w32a-1532.exe"
     }
   },
-  "id": "1.0.0-rc2-2",
+  "id": "12w32a-1532",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -24,13 +34,13 @@
     {
       "downloads": {
         "artifact": {
-          "path": "net/minecraft/launchwrapper/1.6/launchwrapper-1.6.jar",
-          "sha1": "4ea0aca9c022a234ebaf14b51fb119055955fc9d",
-          "size": 27583,
-          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.6/launchwrapper-1.6.jar"
+          "path": "net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar",
+          "sha1": "5150b9c2951f0fde987ce9c33496e26add1de224",
+          "size": 27787,
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar"
         }
       },
-      "name": "net.minecraft:launchwrapper:1.6"
+      "name": "net.minecraft:launchwrapper:1.5"
     },
     {
       "downloads": {
@@ -314,8 +324,8 @@
   ],
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
-  "minimumLauncherVersion": 7,
-  "releaseTime": "2011-11-13T16:49:00+00:00",
-  "time": "2019-04-21T21:04:24+00:00",
+  "minimumLauncherVersion": 4,
+  "releaseTime": "2012-08-09T15:35:04+00:00",
+  "time": "2012-08-09T15:35:04+00:00",
   "type": "snapshot"
 }

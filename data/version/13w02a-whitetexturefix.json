@@ -1,20 +1,20 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft RC1",
+  "displayVersion": "13w02a",
   "downloads": {
     "client": {
-      "sha1": "6a6b67d34149afc47cf9608b3967582639097df9",
-      "size": 2242209,
-      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1649.jar"
+      "sha1": "994077736f02133d3bdd96c974924890aedf79d5",
+      "size": 5906160,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w02a-whitetexturefix.jar"
     }
   },
-  "id": "1.0.0-rc2-2",
+  "id": "13w02a-whitetexturefix",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
     "net.java.jutils:jutils:1.0.0",
-    "net.minecraft:launchwrapper:1.6",
+    "net.minecraft:launchwrapper:1.5",
     "net.sf.jopt-simple:jopt-simple:4.5",
     "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
@@ -22,21 +22,21 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "1.0.0-rc2-3"
+    "13w02b"
   ],
-  "normalizedVersion": "1.0.0-rc.2+2",
+  "normalizedVersion": "1.5.0-alpha.13.2.a.whitetexturefix",
   "previous": [
-    "1.0.0-rc2-1"
+    "13w01b"
   ],
   "protocol": {
     "type": "modern",
-    "version": 22
+    "version": 53
   },
-  "releaseTarget": "1.0.0",
-  "releaseTime": "2011-11-13T16:49:00+00:00",
+  "releaseTarget": "1.5",
+  "releaseTime": "2013-01-10T15:09:08+00:00",
   "server": false,
-  "sharedMappings": false,
+  "sharedMappings": true,
   "world": {
-    "format": "region"
+    "format": "anvil"
   }
 }

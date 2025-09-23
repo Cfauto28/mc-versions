@@ -19,7 +19,7 @@
       "url": "https://launcher.mojang.com/v1/objects/024759aa551129d71b202c0b5a65d56d5a6c093f/windows_server.exe"
     }
   },
-  "id": "1.4.1-pre-10231538",
+  "id": "1.4.1",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -34,9 +34,9 @@
   "next": [
     "1.4.2"
   ],
-  "normalizedVersion": "1.4.1-pre+10231538",
+  "normalizedVersion": "1.4.1",
   "previous": [
-    "1.4-pre"
+    "1.4"
   ],
   "protocol": {
     "type": "modern",

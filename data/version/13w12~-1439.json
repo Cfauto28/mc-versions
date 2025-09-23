@@ -1,20 +1,20 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft Infdev",
+  "displayVersion": "13w12~",
   "downloads": {
     "client": {
-      "sha1": "7b39167f14d9f0ce7af6819433856be7b82d2412",
-      "size": 548670,
-      "url": "https://vault.omniarchive.uk/archive/java/client-infdev/inf-20100413-1953.jar"
+      "sha1": "66d6c6b5205ae1e8f0ad3eb78ccf66500f39c0c7",
+      "size": 5561634,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.5/13w12~-1439.jar"
     }
   },
-  "id": "inf-20100413-1953",
+  "id": "13w12~-1439",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
     "net.java.jutils:jutils:1.0.0",
-    "net.minecraft:launchwrapper:1.6",
+    "net.minecraft:launchwrapper:1.5",
     "net.sf.jopt-simple:jopt-simple:4.5",
     "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
@@ -22,17 +22,21 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "inf-20100414"
+    "13w12~"
   ],
-  "normalizedVersion": "0.31.20100413-1953",
+  "normalizedVersion": "1.5.1-alpha.13.12.a+1439",
   "previous": [
-    "inf-20100330-1511"
+    "13w11a"
   ],
-  "protocol": null,
-  "releaseTime": "2010-04-13T19:53:00+00:00",
+  "protocol": {
+    "type": "modern",
+    "version": 60
+  },
+  "releaseTarget": "1.5.1",
+  "releaseTime": "2013-03-19T14:50:49+00:00",
   "server": false,
-  "sharedMappings": false,
+  "sharedMappings": true,
   "world": {
-    "format": "alpha"
+    "format": "anvil"
   }
 }

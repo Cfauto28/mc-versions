@@ -4,22 +4,22 @@
   "displayVersion": "1.4.6",
   "downloads": {
     "client": {
-      "sha1": "116758f41b32e8d1a71a4ad6236579acd724bca7",
-      "size": 5005686,
-      "url": "https://launcher.mojang.com/v1/objects/116758f41b32e8d1a71a4ad6236579acd724bca7/client.jar"
+      "sha1": "aca9cd5ec064066e843dc17b7b75d721ad10a482",
+      "size": 5005689,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/1.4.6-pre-1521.jar"
     },
     "server": {
-      "sha1": "a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c",
-      "size": 2061647,
-      "url": "https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar"
+      "sha1": "8f979f7065b85518510521be24e626cc884beeb9",
+      "size": 2061646,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/1.4.6-pre-1521.jar"
     },
     "windows_server": {
-      "sha1": "739da655218583520e129c5af0580b8d5dfb1b31",
-      "size": 2242895,
-      "url": "https://launcher.mojang.com/v1/objects/739da655218583520e129c5af0580b8d5dfb1b31/windows_server.exe"
+      "sha1": "c3bc6c538765e2f23c27322adbc6ff163ce00e2c",
+      "size": 2242894,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/1.4.6-pre-1521.exe"
     }
   },
-  "id": "1.4.6",
+  "id": "1.4.6-pre-1521",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -32,11 +32,11 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "1.4.7"
+    "1.4.6"
   ],
-  "normalizedVersion": "1.4.6",
+  "normalizedVersion": "1.4.6-pre+1521",
   "previous": [
-    "1.4.6-pre-1521"
+    "12w50b"
   ],
   "protocol": {
     "type": "modern",

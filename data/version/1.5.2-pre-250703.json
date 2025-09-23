@@ -19,7 +19,7 @@
       "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/1.5.2-pre-250903.exe"
     }
   },
-  "id": "1.5.2-pre",
+  "id": "1.5.2-pre-250703",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
