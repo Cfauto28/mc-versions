@@ -5596,6 +5596,15 @@
       "detailsSha1": "98da92a02364d7a1d7795d63186933a1019b42ff"
     },
     {
+      "id": "b1.3-demo",
+      "type": "old_beta",
+      "url": "version/manifest/b1.3-demo.json",
+      "sha1": "4a4fc70734f8eda0b19c147f56d7645256866c60",
+      "releaseTime": "2011-02-22T17:31:32+00:00",
+      "details": "version/b1.3-demo.json",
+      "detailsSha1": "9753bee5b45189cf3b91416cea8cd494a0160f11"
+    },
+    {
       "id": "b1.3",
       "type": "old_beta",
       "url": "version/manifest/b1.3.json",
