@@ -22,12 +22,12 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "a1.0.15",
-    "a1.0.14-launcher"
+    "a1.0.15"
   ],
   "normalizedVersion": "1.0.0-alpha.1.0.14",
   "previous": [
-    "a1.0.14-1603"
+    "a1.0.14-1659",
+    "a1.0.14-1659-launcher"
   ],
   "protocol": {
     "type": "classic",

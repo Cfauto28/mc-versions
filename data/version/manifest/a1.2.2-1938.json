@@ -10,12 +10,12 @@
   "assets": "pre-1.6",
   "downloads": {
     "client": {
-      "sha1": "9b4b90d8def2a680b7c9eca40dd03e2266c8977a",
-      "size": 852870,
-      "url": "https://launcher.mojang.com/v1/objects/9b4b90d8def2a680b7c9eca40dd03e2266c8977a/client.jar"
+      "sha1": "1c28c8431392641045b59e98a81877d7c94ff0ca",
+      "size": 1098113,
+      "url": "https://launcher.mojang.com/v1/objects/1c28c8431392641045b59e98a81877d7c94ff0ca/client.jar"
     }
   },
-  "id": "a1.0.14-launcher",
+  "id": "a1.2.2-1938",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -315,7 +315,7 @@
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 7,
-  "releaseTime": "2010-07-30T00:00:00+00:00",
-  "time": "2010-07-29T22:00:00+00:00",
+  "releaseTime": "2010-11-10T19:38:00+00:00",
+  "time": "2010-11-09T22:00:01+00:00",
   "type": "old_alpha"
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "Minecraft Alpha v1.2.3_01",
+  "displayVersion": "Minecraft Alpha v1.0.5",
   "downloads": {
     "client": {
-      "sha1": "1d46e65022f3a7cf4b8ad30ee5a8d52b3b2b9486",
-      "size": 1101132,
-      "url": "https://launcher.mojang.com/v1/objects/1d46e65022f3a7cf4b8ad30ee5a8d52b3b2b9486/client.jar"
+      "sha1": "fe189e91a3e7166d46fad8ce53ba0ce34b4c5f97",
+      "size": 780225,
+      "url": "https://vault.omniarchive.uk/archive/java/client-alpha/a1.0.5-2149.jar"
     }
   },
-  "id": "a1.2.3_01",
+  "id": "a1.0.5-2149",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -22,17 +22,18 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "a1.2.3_02"
+    "a1.0.5"
   ],
-  "normalizedVersion": "1.0.0-alpha.1.2.3.1",
+  "normalizedVersion": "1.0.0-alpha.1.0.5+2149",
   "previous": [
-    "a1.2.3_01-0958"
+    "a1.0.4",
+    "a1.0.4-launcher"
   ],
   "protocol": {
-    "type": "modern",
-    "version": 5
+    "type": "classic",
+    "version": 10
   },
-  "releaseTime": "2010-11-24T09:58:00+00:00",
+  "releaseTime": "2010-07-13T00:00:00+00:00",
   "server": false,
   "sharedMappings": false,
   "world": {
