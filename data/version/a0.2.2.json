@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "0.2.2",
+  "downloads": {
+    "server": {
+      "sha1": "ca5010656c57b43e13e0dda7226540201be77773",
+      "size": 305463,
+      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.2.jar"
+    },
+    "windows_server": {
+      "sha1": "d8414ebe7213457b76882659d970c06545419068",
+      "size": 486199,
+      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.2.exe"
+    }
+  },
+  "id": "a0.2.2",
+  "libraries": [],
+  "next": [
+    "a0.2.2_01"
+  ],
+  "normalizedVersion": "1.0.0-alpha.0.2.2",
+  "previous": [
+    "a0.2.1"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 3
+  },
+  "releaseTime": "2010-10-30T20:51:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}
