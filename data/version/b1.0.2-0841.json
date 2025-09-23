@@ -9,7 +9,7 @@
       "url": "https://launcher.mojang.com/v1/objects/76d35cb452e739bd4780e835d17faf0785d755f9/client.jar"
     }
   },
-  "id": "b1.0.2",
+  "id": "b1.0.2-0841",
   "libraries": [
     "net.java.jinput:jinput-platform:2.0.5",
     "net.java.jinput:jinput:2.0.5",
@@ -22,11 +22,11 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.1-1245"
+    "b1.0.2"
   ],
-  "normalizedVersion": "1.0.0-beta.1.0.2",
+  "normalizedVersion": "1.0.0-beta.1.0.2+0841",
   "previous": [
-    "b1.0.2-0841"
+    "b1.0_01"
   ],
   "protocol": {
     "type": "modern",

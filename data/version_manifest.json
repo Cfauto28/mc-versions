@@ -5743,7 +5743,17 @@
       "time": "2010-12-20T22:00:00+00:00",
       "releaseTime": "2010-12-21T08:41:00+00:00",
       "details": "version/b1.0.2.json",
-      "detailsSha1": "e28875fad03d814d1a771593074bb29fce4ebe7e"
+      "detailsSha1": "04e89b19af61ea66dc6e55b5b8628bf1b5831022"
+    },
+    {
+      "id": "b1.0.2-0841",
+      "type": "old_beta",
+      "url": "version/manifest/b1.0.2-0841.json",
+      "sha1": "40f9e856ffba8e244a0e789bee2685a94e624327",
+      "time": "2010-12-20T22:00:00+00:00",
+      "releaseTime": "2010-12-21T08:41:00+00:00",
+      "details": "version/b1.0.2-0841.json",
+      "detailsSha1": "3ce4da795543439f5a25f0206f9f1b28dd5c9495"
     },
     {
       "id": "b1.0_01",
