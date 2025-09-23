@@ -33,8 +33,8 @@
     "type": "modern",
     "version": 16
   },
-  "releaseTime": "2011-09-12T12:25:00+00:00",
-  "server": true,
+  "releaseTime": "2011-09-12T15:59:00+00:00",
+  "server": false,
   "sharedMappings": false,
   "world": {
     "format": "region"

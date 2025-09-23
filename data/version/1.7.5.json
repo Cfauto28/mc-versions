@@ -53,7 +53,7 @@
   ],
   "normalizedVersion": "1.7.5",
   "previous": [
-    "1.7.4"
+    "1.7.5-04010700"
   ],
   "protocol": {
     "type": "netty",

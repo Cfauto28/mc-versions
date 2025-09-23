@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "1.6",
+  "downloads": {
+    "server": {
+      "sha1": "3289ae74d9e56610330b0412be454c6a2855ffa5",
+      "size": 6129988,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/1.6-pre-1304.jar"
+    },
+    "windows_server": {
+      "sha1": "6a98885486986e64aee9cd7b0e081e61ffccd638",
+      "size": 6525764,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/1.6-pre-1304.exe"
+    }
+  },
+  "id": "1.6-1304",
+  "libraries": [
+    "argo:argo:2.25_fixed",
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "1.6.1"
+  ],
+  "normalizedVersion": "1.6.0+1304",
+  "previous": [
+    "13w26a"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 72
+  },
+  "releaseTarget": "1.6",
+  "releaseTime": "2013-06-25T15:16:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

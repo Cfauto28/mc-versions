@@ -27,6 +27,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
+    "1.0.0-tominecon",
     "1.0.0"
   ],
   "normalizedVersion": "1.0.0-rc.2",

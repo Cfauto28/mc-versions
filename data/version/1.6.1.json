@@ -41,11 +41,11 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "1.6.2-091847"
+    "1.6.2-pre-1426"
   ],
   "normalizedVersion": "1.6.1",
   "previous": [
-    "1.6-pre-06251516"
+    "1.6"
   ],
   "protocol": {
     "type": "modern",

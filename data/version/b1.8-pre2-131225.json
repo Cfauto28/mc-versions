@@ -7,11 +7,6 @@
       "sha1": "44191f2895bf1e064269c9279778f2e3e9c3c9c7",
       "size": 1897780,
       "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre2-131225.jar"
-    },
-    "server": {
-      "sha1": "4cdbe68bef279d4624e78541965f09d42362f377",
-      "size": 620660,
-      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.8-pre2.jar"
     }
   },
   "id": "b1.8-pre2-131225",
@@ -27,8 +22,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.8-pre2",
-    "b1.8"
+    "b1.8-pre2"
   ],
   "normalizedVersion": "1.0.0-beta.1.8.0.pre.2+131225",
   "previous": [
@@ -39,7 +33,7 @@
     "version": 16
   },
   "releaseTime": "2011-09-13T12:25:00+00:00",
-  "server": true,
+  "server": false,
   "sharedMappings": false,
   "world": {
     "format": "region"

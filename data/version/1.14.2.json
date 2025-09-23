@@ -55,7 +55,7 @@
   ],
   "normalizedVersion": "1.14.2",
   "previous": [
-    "1.14.2-pre4-270720"
+    "1.14.2-pre4"
   ],
   "protocol": {
     "type": "netty",

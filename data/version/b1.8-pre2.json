@@ -11,7 +11,7 @@
     "server": {
       "sha1": "4cdbe68bef279d4624e78541965f09d42362f377",
       "size": 620660,
-      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.8-pre2.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.8/pre/b1.8-pre2-131240.jar"
     }
   },
   "id": "b1.8-pre2",
@@ -31,7 +31,8 @@
   ],
   "normalizedVersion": "1.0.0-beta.1.8.0.pre.2",
   "previous": [
-    "b1.8-pre2-131225"
+    "b1.8-pre2-131225",
+    "b1.8-pre2-131240"
   ],
   "protocol": {
     "type": "modern",

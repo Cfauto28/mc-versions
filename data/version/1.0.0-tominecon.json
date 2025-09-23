@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft 1.0.0",
+  "downloads": {
+    "client": {
+      "sha1": "9ae183bbdf659ac7186fcb25510e1eb9be70e8d8",
+      "size": 2362834,
+      "url": "https://vault.omniarchive.uk/archive/java/misc/1.0.0-tominecon.jar"
+    },
+    "server": {
+      "sha1": "060ba89b2278444028ed1e637619f7050d84f519",
+      "size": 745974,
+      "url": "https://vault.omniarchive.uk/archive/java/misc/1.0.0-tominecon-server.jar"
+    },
+    "windows_server": {
+      "sha1": "c9acf208ab01740f5e336e75e2402568964fe956",
+      "size": 926710,
+      "url": "https://vault.omniarchive.uk/archive/java/misc/1.0.0-tominecon-server.exe"
+    }
+  },
+  "id": "1.0.0-tominecon",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "1.0.0"
+  ],
+  "normalizedVersion": "1.0.0-tominecon",
+  "previous": [
+    "1.0.0-rc2-1656",
+    "1.0.0-rc2"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 22
+  },
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-11-15T10:23:06+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

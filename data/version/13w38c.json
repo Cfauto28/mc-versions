@@ -43,11 +43,11 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "13w39a"
+    "13w39a-1511"
   ],
   "normalizedVersion": "1.7.0-alpha.13.38.c",
   "previous": [
-    "13w38b"
+    "13w38c-1516"
   ],
   "protocol": {
     "type": "modern",
