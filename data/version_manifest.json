@@ -5512,14 +5512,14 @@
       "detailsSha1": "77fdd08075d244102ddfd987d7165f3702a799f5"
     },
     {
-      "id": "b1.2_02-20110517",
+      "id": "b1.2_02-dev",
       "type": "old_beta",
-      "url": "version/manifest/b1.2_02-20110517.json",
-      "sha1": "5e9ec7351f6f3f5b566badacce068e6ebad225d2",
+      "url": "version/manifest/b1.2_02-dev.json",
+      "sha1": "4b400d004b89caf09c010250ed1797f75a94672f",
       "time": "2024-06-27T17:46:00+00:00",
       "releaseTime": "2011-05-17T16:27:00+00:00",
-      "details": "version/b1.2_02-20110517.json",
-      "detailsSha1": "fe6c887d2d0d1894aa0482ff18f3bd05e8ea52ac"
+      "details": "version/b1.2_02-dev.json",
+      "detailsSha1": "87bf5c822894cd2bd86a772d768f192d5b342c47"
     },
     {
       "id": "b1.5_02",
@@ -5669,7 +5669,7 @@
       "time": "2011-01-20T22:00:00+00:00",
       "releaseTime": "2011-01-21T13:57:00+00:00",
       "details": "version/b1.2_02.json",
-      "detailsSha1": "d32d4d6216caf1bd7e64a7d41c40810382206094"
+      "detailsSha1": "5e4964a08c98447a609e0500f08a7ce4eb227242"
     },
     {
       "id": "b1.2_01",
