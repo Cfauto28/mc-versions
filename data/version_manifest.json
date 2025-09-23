@@ -7039,7 +7039,17 @@
       "time": "2013-08-06T17:33:30+03:00",
       "releaseTime": "2009-11-10T00:00:00+00:00",
       "details": "version/c0.30-s.json",
-      "detailsSha1": "9a02467612a3c0e210dab99e99ce21c422a92817"
+      "detailsSha1": "f211f7a5779d54ca9a48f18438ef7a7c8a304757"
+    },
+    {
+      "id": "c0.30-s-1858",
+      "type": "old_alpha",
+      "url": "version/manifest/c0.30-s-1858.json",
+      "sha1": "925d088b3683048c8588719cc2690178add21653",
+      "time": "2013-08-06T17:33:30+03:00",
+      "releaseTime": "2009-11-10T00:00:00+00:00",
+      "details": "version/c0.30-s-1858.json",
+      "detailsSha1": "b45513aba520215df1e1c4410a41dbf500ee58b0"
     },
     {
       "id": "c0.30-s-1849",
