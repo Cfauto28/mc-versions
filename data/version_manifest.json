@@ -7678,7 +7678,7 @@
       "sha1": "f08eff768b47e72d2b5b2a5d509f2f8d9fb7fc44",
       "releaseTime": "2009-12-11T14:19:00+00:00",
       "details": "version/c1.10.1.json",
-      "detailsSha1": "00a85ef850a5cf29806263ad00353220c7a9f886"
+      "detailsSha1": "543cf81c7610e001904a94f08a236439c77e2b36"
     },
     {
       "id": "c1.10",
@@ -7687,7 +7687,7 @@
       "sha1": "591c5b4a5a3c023f90c47fbfc848699d3edbc45d",
       "releaseTime": "2009-12-11T11:15:00+00:00",
       "details": "version/c1.10.json",
-      "detailsSha1": "1fa751aa0829473260497e31a2ecbac90dbcea3a"
+      "detailsSha1": "0161f96d66557075fbe9d3ea847ade809c3e602b"
     },
     {
       "id": "c0.30-c",
@@ -7766,7 +7766,7 @@
       "sha1": "89e4d16d097bbee510d43de938f31d80069e077f",
       "releaseTime": "2009-10-29T11:01:00+00:00",
       "details": "version/c1.9.1.json",
-      "detailsSha1": "4ba479dc2febe7286e9a4a9c23c8d2ece568c0ec"
+      "detailsSha1": "9774f770f0c26cf46ad543c199c00cb446bfe615"
     },
     {
       "id": "c0.29",
@@ -7785,7 +7785,7 @@
       "sha1": "0b80aa147b7debcc92f53fb31b730cc15fc263f4",
       "releaseTime": "2009-10-27T13:57:00+00:00",
       "details": "version/c1.8.3.json",
-      "detailsSha1": "dc576646c05a1fcedbe93f160e093c3df0f85135"
+      "detailsSha1": "2e9e197cc9386fbcf9624a9fe14b408c5bae5ffc"
     },
     {
       "id": "c0.28_01",
@@ -7894,7 +7894,7 @@
       "sha1": "a5c8757ec54f150b5d61fac45fae58f7b674a7a6",
       "releaseTime": "2009-06-20T21:09:00+00:00",
       "details": "version/c1.8.2.json",
-      "detailsSha1": "4b48eabb93d062ac6f3dda5a47367ee05e39d230"
+      "detailsSha1": "a383218d79e8d363ac7ec04ef25a360b0c50f128"
     },
     {
       "id": "c0.0.19a_06",
@@ -7933,7 +7933,7 @@
       "sha1": "5304cdce3379b2bfc7ed68e65e5963e6d9f396ab",
       "releaseTime": "2009-06-19T23:46:00+00:00",
       "details": "version/c1.6.json",
-      "detailsSha1": "fab675710e0449aece79724b1a999d363b52a73d"
+      "detailsSha1": "678b4b9bdc57a3f1905fdbfc3c2a9f835b46fbb5"
     },
     {
       "id": "c1.4.1",
@@ -7942,7 +7942,7 @@
       "sha1": "d9e1a4427a9aa275844240fa739a6576ad4212b7",
       "releaseTime": "2009-06-14T12:15:00+00:00",
       "details": "version/c1.4.1.json",
-      "detailsSha1": "d04675b9dbccbd2b453571ccc8dcd65d255017cd"
+      "detailsSha1": "3af6ff84bd1b44f3f0134960217e5344f8282113"
     },
     {
       "id": "c0.0.18a_02",
@@ -7961,7 +7961,7 @@
       "sha1": "f0927dcf4dd591eeba8b4ca08db905864a0cc345",
       "releaseTime": "2009-06-13T16:22:00+00:00",
       "details": "version/c1.4.json",
-      "detailsSha1": "d06fabc78a63c5a9eab4803999baa2df839fc011"
+      "detailsSha1": "fd8b734af7e11bcb7c04d7b00881cf26d5e74520"
     },
     {
       "id": "c1.4-1422",
@@ -7970,7 +7970,7 @@
       "sha1": "0db1521abb13791aa2b64ebaea6c5b6ae2d6491b",
       "releaseTime": "2009-06-13T16:22:00+00:00",
       "details": "version/c1.4-1422.json",
-      "detailsSha1": "680e3b9a46acecfe8d976cfa7cbde2596340f8c0"
+      "detailsSha1": "42b68801ee90a20937d11dc6808948d9c53f685e"
     },
     {
       "id": "c1.4-1327",
@@ -7979,7 +7979,7 @@
       "sha1": "91d1b0f5d2ecb81ef9a76a73211e17ef3eddf7fa",
       "releaseTime": "2009-06-13T13:28:00+00:00",
       "details": "version/c1.4-1327.json",
-      "detailsSha1": "584efa7ea68223f0dcf8404601403833e26ce124"
+      "detailsSha1": "5525bc025f1ad02bfb7da62afd25f917659bdf0b"
     },
     {
       "id": "c0.0.17a",
@@ -8008,7 +8008,7 @@
       "sha1": "b77e03bb8e5566b0a2295d7ef8abcb32c508c11b",
       "releaseTime": "2009-06-10T19:47:00+00:00",
       "details": "version/c1.3.json",
-      "detailsSha1": "fc2c9d7b717fc9b7a4a236badd371d72a4e33705"
+      "detailsSha1": "f409852bf81c2188c88286b6fa8ccd6271391b02"
     },
     {
       "id": "c1.2",
@@ -8017,7 +8017,7 @@
       "sha1": "d5ad07ada3fafa8b95e30b6134bcdc170ca564ad",
       "releaseTime": "2009-06-08T20:48:00+00:00",
       "details": "version/c1.2.json",
-      "detailsSha1": "446574566739a3af5940ce65d73231e132c81b50"
+      "detailsSha1": "bf45b5e2d508d1ac30913e5a1759169cb39ce938"
     },
     {
       "id": "c0.0.16a_02",
