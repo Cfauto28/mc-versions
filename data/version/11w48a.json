@@ -6,12 +6,12 @@
     "client": {
       "sha1": "fede770abe88a19e844d99dda611a7d18184155a",
       "size": 2242604,
-      "url": "https://files.betacraft.uk/launcher/assets/versions/1.1/11w48a.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w48a.jar"
     },
     "server": {
       "sha1": "75a7953e3dea006503a5ac6d51823a6dc687f6b5",
       "size": 747587,
-      "url": "https://files.betacraft.uk/server-archive/release/1.1/prerelease/11w48a.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.1/pre/11w48a.jar"
     }
   },
   "id": "11w48a",

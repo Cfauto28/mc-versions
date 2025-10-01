@@ -6,12 +6,12 @@
     "server": {
       "sha1": "ca5010656c57b43e13e0dda7226540201be77773",
       "size": 305463,
-      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.2.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-alpha/a0.2.2.jar"
     },
     "windows_server": {
       "sha1": "d8414ebe7213457b76882659d970c06545419068",
       "size": 486199,
-      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.2.exe"
+      "url": "https://vault.omniarchive.uk/archive/java/server-alpha/a0.2.2.exe"
     }
   },
   "id": "a0.2.2",

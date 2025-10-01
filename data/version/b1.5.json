@@ -11,12 +11,12 @@
     "server": {
       "sha1": "5bef896515c1d6fbbdef9976b95c6a23534e4eb1",
       "size": 458418,
-      "url": "https://files.betacraft.uk/server-archive/beta/b1.5.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.5/b1.5.jar"
     },
     "windows_server": {
       "sha1": "81c107d538df6a182e4c92ad47f023c5e111988a",
       "size": 639154,
-      "url": "https://files.betacraft.uk/server-archive/beta/b1.5.exe"
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.5/b1.5.exe"
     }
   },
   "id": "b1.5",

@@ -12,17 +12,17 @@
     "client": {
       "sha1": "434652551e93fdfb4de30cbe64310037777f7eff",
       "size": 4884173,
-      "url": "https://files.betacraft.uk/launcher/assets/versions/1.4/12w40a.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w40a.jar"
     },
     "server": {
       "sha1": "b7558cf73f9719bbcdff3f519a8a1df853534c13",
       "size": 1985775,
-      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w40a.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/12w40a.jar"
     },
     "windows_server": {
       "sha1": "0a15041d0aa4860f89538a8e16fd06916117c77f",
       "size": 2167023,
-      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w40a.exe"
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/12w40a.exe"
     }
   },
   "id": "12w40a",

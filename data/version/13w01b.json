@@ -6,17 +6,17 @@
     "client": {
       "sha1": "87f9f88eb3dcc80dcf818e44af774ab7ff63eb66",
       "size": 5035543,
-      "url": "https://files.betacraft.uk/launcher/assets/versions/1.5/13w01b.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w01b.jar"
     },
     "server": {
       "sha1": "9fc44091193076f17db7a0bfeb0a77d2758f2fde",
       "size": 2078957,
-      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/13w01b.jar"
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.5/pre/13w01b.jar"
     },
     "windows_server": {
       "sha1": "5ac2eaad8e84a9381337cd295ee611ec99d90dc4",
       "size": 2260205,
-      "url": "https://files.betacraft.uk/server-archive/release/1.5/prerelease/13w01b.exe"
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.5/pre/13w01b.exe"
     }
   },
   "id": "13w01b",
