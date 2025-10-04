@@ -32,6 +32,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
+    "12w39a-1243",
     "12w39a"
   ],
   "normalizedVersion": "1.4.0-alpha.12.38.b",

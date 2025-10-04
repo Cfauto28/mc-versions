@@ -22,8 +22,8 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.0.14a_08",
-    "c0.0.13a_03-launcher"
+    "c0.0.13a_03-launcher",
+    "c0.0.14a_08"
   ],
   "normalizedVersion": "0.13.3",
   "previous": [

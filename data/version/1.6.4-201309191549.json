@@ -41,7 +41,8 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "1.6.4-201404010657"
+    "1.6.4-201404010657",
+    "1.6.4"
   ],
   "normalizedVersion": "1.6.4+201309191549",
   "previous": [

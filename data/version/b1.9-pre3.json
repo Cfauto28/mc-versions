@@ -32,6 +32,8 @@
   ],
   "normalizedVersion": "1.0.0-pre.3",
   "previous": [
+    "b1.9-pre2",
+    "b1.9-pre3-1350",
     "b1.9-pre3-1402"
   ],
   "protocol": {

@@ -40,10 +40,14 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "13w16b-2118"
+    "13w16b-2118",
+    "13w16b-2151",
+    "13w16b"
   ],
   "normalizedVersion": "1.6.0-alpha.13.16.a",
   "previous": [
+    "1.5.1",
+    "13w16a-191517",
     "13w16a-192037"
   ],
   "protocol": {

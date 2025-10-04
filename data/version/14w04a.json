@@ -50,10 +50,13 @@
     "tv.twitch:twitch:5.16"
   ],
   "next": [
-    "14w04b-1554"
+    "14w04b-1554",
+    "14w04b"
   ],
   "normalizedVersion": "1.8.0-alpha.14.4.a",
   "previous": [
+    "14w03b",
+    "14w04a-1526",
     "14w04a-1740"
   ],
   "protocol": {

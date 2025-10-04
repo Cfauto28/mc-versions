@@ -22,10 +22,13 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.30-c-1900"
+    "c0.30-c-1900",
+    "c0.30-c",
+    "in-20091223-1459"
   ],
   "normalizedVersion": "0.30.0-s",
   "previous": [
+    "c0.29_02",
     "c0.30-s-1858"
   ],
   "protocol": {

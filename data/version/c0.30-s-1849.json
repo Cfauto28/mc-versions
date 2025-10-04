@@ -22,8 +22,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.30-s",
-    "c0.30-c-1900"
+    "c0.30-s-1858"
   ],
   "normalizedVersion": "0.30.0-s+1849",
   "previous": [

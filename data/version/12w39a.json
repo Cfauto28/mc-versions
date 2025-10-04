@@ -36,7 +36,8 @@
   ],
   "normalizedVersion": "1.4.0-alpha.12.39.a",
   "previous": [
-    "12w38b"
+    "12w38b",
+    "12w39a-1243"
   ],
   "protocol": {
     "type": "modern",

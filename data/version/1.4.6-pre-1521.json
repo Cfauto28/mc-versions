@@ -36,7 +36,8 @@
   ],
   "normalizedVersion": "1.4.6-pre+1521",
   "previous": [
-    "12w50b"
+    "12w50b",
+    "1.4.6-pre-1428"
   ],
   "protocol": {
     "type": "modern",

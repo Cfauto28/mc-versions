@@ -22,10 +22,12 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "a1.0.14-1603"
+    "a1.0.14-1603",
+    "a1.0.14"
   ],
   "normalizedVersion": "1.0.0-alpha.1.0.13.1",
   "previous": [
+    "a1.0.13",
     "a1.0.13_01-1444"
   ],
   "protocol": {

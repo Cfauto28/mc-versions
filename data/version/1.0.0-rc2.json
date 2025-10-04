@@ -32,6 +32,7 @@
   ],
   "normalizedVersion": "1.0.0-rc.2",
   "previous": [
+    "1.0.0-rc1",
     "1.0.0-rc2-1656"
   ],
   "protocol": {

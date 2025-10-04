@@ -37,8 +37,8 @@
   ],
   "normalizedVersion": "1.0.0",
   "previous": [
-    "1.0.0-rc2-1656",
-    "1.0.0-rc2"
+    "1.0.0-rc2",
+    "1.0.0-tominecon"
   ],
   "protocol": {
     "type": "modern",

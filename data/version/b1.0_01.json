@@ -22,7 +22,10 @@
   "id": "b1.0_01",
   "libraries": [],
   "next": [
-    "b1.0.2"
+    "b1.0.2-0841",
+    "b1.0.2",
+    "b1.1-1245",
+    "b1.1"
   ],
   "normalizedVersion": "1.0.0-beta.1.0.1",
   "previous": [

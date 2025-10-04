@@ -49,8 +49,9 @@
     "tv.twitch:twitch:5.16"
   ],
   "next": [
-    "14w02a",
-    "1.7.5-02260922"
+    "1.7.5-02260922",
+    "1.7.5",
+    "14w02a"
   ],
   "normalizedVersion": "1.7.4",
   "previous": [

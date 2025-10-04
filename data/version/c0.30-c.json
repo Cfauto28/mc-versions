@@ -22,10 +22,13 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "c0.30-c-1900-renew"
+    "c0.30-c-1900-renew",
+    "c0.30-c-renew",
+    "in-20091223-1459"
   ],
   "normalizedVersion": "0.30.0-c",
   "previous": [
+    "c0.30-s",
     "c0.30-c-1900"
   ],
   "protocol": {

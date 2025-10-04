@@ -55,7 +55,8 @@
     "tv.twitch:twitch:6.5"
   ],
   "next": [
-    "14w34c-1549"
+    "14w34c-1549",
+    "14w34c"
   ],
   "normalizedVersion": "1.8.0-alpha.14.34.b",
   "previous": [

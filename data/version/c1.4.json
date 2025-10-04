@@ -16,6 +16,7 @@
   ],
   "normalizedVersion": "0.30.0-classic.1.4.0",
   "previous": [
+    "c1.3",
     "c1.4-1422"
   ],
   "protocol": {

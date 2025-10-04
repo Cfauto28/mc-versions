@@ -32,7 +32,8 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "1.4.1-1338"
+    "1.4.1-1338",
+    "1.4.1"
   ],
   "normalizedVersion": "1.4.0",
   "previous": [

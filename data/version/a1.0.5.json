@@ -26,6 +26,8 @@
   ],
   "normalizedVersion": "1.0.0-alpha.1.0.5",
   "previous": [
+    "a1.0.4",
+    "a1.0.4-launcher",
     "a1.0.5-2149"
   ],
   "protocol": {

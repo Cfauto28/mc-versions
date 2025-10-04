@@ -32,6 +32,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
+    "13w12~-1439",
     "13w12~"
   ],
   "normalizedVersion": "1.5.1-alpha.13.11.a",

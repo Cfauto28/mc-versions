@@ -51,6 +51,8 @@
   ],
   "normalizedVersion": "1.7.0-alpha.13.41.b",
   "previous": [
+    "13w41a",
+    "13w41b-1507",
     "13w41b-1523"
   ],
   "protocol": {

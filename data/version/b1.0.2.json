@@ -22,10 +22,12 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.1-1245"
+    "b1.1-1245",
+    "b1.1"
   ],
   "normalizedVersion": "1.0.0-beta.1.0.2",
   "previous": [
+    "b1.0_01",
     "b1.0.2-0841"
   ],
   "protocol": {

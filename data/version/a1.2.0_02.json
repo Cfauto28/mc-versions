@@ -22,8 +22,8 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "a1.2.1_01",
-    "a1.2.0_02-launcher"
+    "a1.2.0_02-launcher",
+    "a1.2.1_01"
   ],
   "normalizedVersion": "1.0.0-alpha.1.2.0.2",
   "previous": [

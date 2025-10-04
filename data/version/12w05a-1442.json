@@ -27,8 +27,7 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "12w05a",
-    "12w05b"
+    "12w05a"
   ],
   "normalizedVersion": "1.2.0-alpha.12.5.a+1442",
   "previous": [

@@ -40,11 +40,11 @@
     "tv.twitch:twitch:6.5"
   ],
   "next": [
-    "14w17a"
+    "14w11b"
   ],
   "normalizedVersion": "1.8.0-alpha.14.11.b+1650",
   "previous": [
-    "14w11b-1640"
+    "14w11a"
   ],
   "protocol": {
     "type": "netty",

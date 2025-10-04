@@ -41,7 +41,8 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "1.6.2-080933"
+    "1.6.2-080933",
+    "1.6.2"
   ],
   "normalizedVersion": "1.6.2-pre+1426",
   "previous": [

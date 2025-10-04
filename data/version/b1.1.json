@@ -31,6 +31,8 @@
   ],
   "normalizedVersion": "1.0.0-beta.1.1.0",
   "previous": [
+    "b1.0_01",
+    "b1.0.2",
     "b1.1-1255"
   ],
   "protocol": {

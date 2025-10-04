@@ -40,7 +40,8 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
   ],
   "next": [
-    "13w16a-192037"
+    "13w16a-192037",
+    "13w16a"
   ],
   "normalizedVersion": "1.6.0-alpha.13.16.a+191517",
   "previous": [

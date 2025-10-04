@@ -27,7 +27,8 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "b1.9-pre3-1402"
+    "b1.9-pre3-1402",
+    "b1.9-pre3"
   ],
   "normalizedVersion": "1.0.0-pre.3+1350",
   "previous": [

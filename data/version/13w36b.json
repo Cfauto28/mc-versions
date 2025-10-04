@@ -46,6 +46,8 @@
   ],
   "normalizedVersion": "1.7.0-alpha.13.36.b",
   "previous": [
+    "13w36a",
+    "13w36b-1233",
     "13w36b-1307"
   ],
   "protocol": {

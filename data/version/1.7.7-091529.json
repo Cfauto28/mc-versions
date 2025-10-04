@@ -50,7 +50,8 @@
     "tv.twitch:twitch:5.16"
   ],
   "next": [
-    "1.7.7-101331"
+    "1.7.7-101331",
+    "1.7.7"
   ],
   "normalizedVersion": "1.7.7+091529",
   "previous": [

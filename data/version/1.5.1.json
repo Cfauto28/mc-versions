@@ -32,15 +32,16 @@
     "org.ow2.asm:asm-all:4.1"
   ],
   "next": [
-    "af-2013-red",
-    "af-2013-blue",
+    "1.5.2-pre-250703",
     "13w16a-181800",
     "13w16a-181812",
-    "1.5.2-pre-250703"
+    "13w16a",
+    "af-2013-red",
+    "af-2013-blue"
   ],
   "normalizedVersion": "1.5.1",
   "previous": [
-    "13w12~"
+    "1.5.1-pre-191519"
   ],
   "protocol": {
     "type": "modern",

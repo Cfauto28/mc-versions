@@ -51,7 +51,7 @@
   ],
   "normalizedVersion": "1.7.0-alpha.13.42.a",
   "previous": [
-    "13w41b-1523"
+    "13w41b"
   ],
   "protocol": {
     "type": "netty",

@@ -39,8 +39,7 @@
     "tv.twitch:twitch-platform:6.5",
     "tv.twitch:twitch:6.5"
   ],
-  "next": [
-  ],
+  "next": [],
   "normalizedVersion": "1.8.0-alpha.14.10.c+1518",
   "previous": [
     "14w10c"

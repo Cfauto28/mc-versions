@@ -16,8 +16,7 @@
   ],
   "normalizedVersion": "1.0.0-beta.1.3.0+1647",
   "previous": [
-    "b1.2_02",
-    "b1.2_02-launcher"
+    "b1.2_01"
   ],
   "protocol": {
     "type": "modern",
