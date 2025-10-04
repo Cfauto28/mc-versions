@@ -3968,7 +3968,7 @@
       "time": "2013-09-26T15:11:19+00:00",
       "releaseTime": "2013-09-26T16:27:00+00:00",
       "details": "version/13w39a-1627.json",
-      "detailsSha1": "22b0883d5e5cdacd52d8ec33202683b0d1982400"
+      "detailsSha1": "37b0a87716343f5daf4d64459f35d24f440baabc"
     },
     {
       "id": "13w39a-1511",
@@ -3978,7 +3978,7 @@
       "time": "2013-09-26T15:11:19+00:00",
       "releaseTime": "2013-09-26T15:11:19+00:00",
       "details": "version/13w39a-1511.json",
-      "detailsSha1": "d98f25144ac4f095b1a68bd7dc6d2cd20bce9490"
+      "detailsSha1": "e8827cea6da4f1802d458f638e8956a7680b09e4"
     },
     {
       "id": "13w38c",
@@ -4078,7 +4078,7 @@
       "time": "2013-09-13T10:54:41+00:00",
       "releaseTime": "2013-09-17T12:31:00+00:00",
       "details": "version/1.6.3-171231.json",
-      "detailsSha1": "9f6b50cd00ec35d144f3641be56d7e828b316c5d"
+      "detailsSha1": "4b5d87316b9d7d8c6f7c09ca59c9421ee698a202"
     },
     {
       "id": "1.6.3-171031",
@@ -4488,7 +4488,7 @@
       "time": "2013-04-25T15:45:00+00:00",
       "releaseTime": "2013-04-25T09:03:38+00:00",
       "details": "version/1.5.2-pre-250703.json",
-      "detailsSha1": "55930757bf8939dedd86da552eafa839a44a015c"
+      "detailsSha1": "d9c83683045976a875a3a95ad85c93f2e871ffdf"
     },
     {
       "id": "13w16b",
