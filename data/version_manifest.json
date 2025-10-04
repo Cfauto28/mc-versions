@@ -414,11 +414,11 @@
       "id": "19w13b-1316",
       "type": "snapshot",
       "url": "version/manifest/19w13b-1316.json",
-      "sha1": "8dc1dc141f83f81111db330a324fed38aba83f3a",
+      "sha1": "76ae56dfb9744914a6e85f0c948ed3529a0e4898",
       "time": "2019-03-29T16:53:22+00:00",
-      "releaseTime": "2019-03-29T13:16:00+00:00",
+      "releaseTime": "2019-03-29T13:17:14+00:00",
       "details": "version/19w13b-1316.json",
-      "detailsSha1": "8331043935e250ceaddad6bfd621346c1c2c6e2b"
+      "detailsSha1": "03052d2b68acd2d4e4fbdf9d67e86188bda44ea0"
     },
     {
       "id": "19w13a",
@@ -1484,11 +1484,11 @@
       "id": "1.12-pre3-1316",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre3-1316.json",
-      "sha1": "4258fd8062258ad286376b06cbd3ac7bf121c43b",
+      "sha1": "1cad6b8cd80299dd71ab8056a0fdc0c413fe5264",
       "time": "2017-05-17T13:16:00+00:00",
-      "releaseTime": "2017-05-17T13:16:00+00:00",
+      "releaseTime": "2017-05-17T13:33:31+00:00",
       "details": "version/1.12-pre3-1316.json",
-      "detailsSha1": "7bb93298d337af3a453e43e1a25961c78c37b91e"
+      "detailsSha1": "eff1f31dcffa89e6b3b14e28607a35e20c5046d2"
     },
     {
       "id": "1.12-pre2",
@@ -1544,11 +1544,11 @@
       "id": "17w18a-1331",
       "type": "snapshot",
       "url": "version/manifest/17w18a-1331.json",
-      "sha1": "6ef652f1972ba159e97adcbc1277ac15414bf223",
+      "sha1": "fea9fcf315557b66bb873997e170c7c1034e3964",
       "time": "2017-05-03T14:50:23+00:00",
       "releaseTime": "2017-05-03T13:31:00+00:00",
       "details": "version/17w18a-1331.json",
-      "detailsSha1": "6880b7e9fbd490e3bc39c13d36839b2d0fc17961"
+      "detailsSha1": "7874bc74045d84a91097c29a79bfddb4e7003071"
     },
     {
       "id": "17w17b",
@@ -1644,11 +1644,11 @@
       "id": "17w13a-0805",
       "type": "snapshot",
       "url": "version/manifest/17w13a-0805.json",
-      "sha1": "592834e5968adc3289579da5cd1d4cdbbf4338db",
+      "sha1": "d3e38458606630947fa3ba231fe6c6b2bde99827",
       "time": "2017-03-30T09:32:19+00:00",
-      "releaseTime": "2017-03-30T08:05:00+00:00",
+      "releaseTime": "2017-03-30T08:39:42+00:00",
       "details": "version/17w13a-0805.json",
-      "detailsSha1": "c418239accfa11de97c2e7b7472658b49cc4d59d"
+      "detailsSha1": "99bd69cb30bc5ec7cd6b0cac0f4475fc3549d4f1"
     },
     {
       "id": "17w06a",
@@ -2234,11 +2234,11 @@
       "id": "1.8.9",
       "type": "release",
       "url": "version/manifest/1.8.9.json",
-      "sha1": "04e510140fd6325d21e0d748a5f28aaef56bc2ea",
+      "sha1": "2ce9efd13cf13433089894b4338fc8be8ab42b2e",
       "time": "2015-12-03T09:24:39+00:00",
-      "releaseTime": "2015-12-09T00:00:00+00:00",
+      "releaseTime": "2015-12-03T09:24:39+00:00",
       "details": "version/1.8.9.json",
-      "detailsSha1": "94a206741ad944aeeb4792702b190e374d6518c3"
+      "detailsSha1": "085eeff0adc0405644957633a8ebe9b1cbfe28ab"
     },
     {
       "id": "15w49b",
@@ -2694,11 +2694,11 @@
       "id": "1.8.8",
       "type": "release",
       "url": "version/manifest/1.8.8.json",
-      "sha1": "e35fdce77aa4f10c0fe11dd7f9944574f3fb5832",
+      "sha1": "c2ad2ef37f6ba7638c9efff37ee1f661fce60b85",
       "time": "2015-07-27T10:31:28+00:00",
-      "releaseTime": "2015-07-27T10:31:28+00:00",
+      "releaseTime": "2015-07-28T16:42:47+00:00",
       "details": "version/1.8.8.json",
-      "detailsSha1": "bc20d38872af02e87641c23c4f57a7a7ac4f1ceb"
+      "detailsSha1": "a929c3ea0d9afd43089bb87eb1c54b3bc087ee9f"
     },
     {
       "id": "1.8.7",
@@ -2934,11 +2934,11 @@
       "id": "1.8-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.8-pre1.json",
-      "sha1": "970bb5bd9a9b30f07c8827b81f7cab0499e68e2b",
+      "sha1": "f47803ed3059e937a5825befe5de8da42077eeb7",
       "time": "2014-08-21T13:56:26+00:00",
-      "releaseTime": "2014-08-22T00:00:00+00:00",
+      "releaseTime": "2014-08-21T13:56:26+00:00",
       "details": "version/1.8-pre1.json",
-      "detailsSha1": "9b8a0f642f7c5be656bf603a929cd21c36f61f9d"
+      "detailsSha1": "618da098e695ad296f1ecce693dcb2d453ef158c"
     },
     {
       "id": "14w34d",
@@ -2954,21 +2954,21 @@
       "id": "14w34c",
       "type": "snapshot",
       "url": "version/manifest/14w34c.json",
-      "sha1": "3795bd70a94f29ce029cd99e6fac81b419c4d432",
+      "sha1": "81a9352228ca48ada877494892e8a215e244feae",
       "time": "2014-08-19T15:31:24+00:00",
-      "releaseTime": "2014-08-19T15:31:24+00:00",
+      "releaseTime": "2014-08-19T15:49:00+00:00",
       "details": "version/14w34c.json",
-      "detailsSha1": "e2dc661bc77c93ae5eeb795724f8fbf287a8b0a4"
+      "detailsSha1": "bc4088d553244dd01667a6bbb0276befb3b7f8a5"
     },
     {
       "id": "14w34c-1549",
       "type": "snapshot",
       "url": "version/manifest/14w34c-1549.json",
-      "sha1": "6e6c78599db95c6cb5dd3694c7bb8e7fa7262c33",
+      "sha1": "5589153922b975ad82180d7174187cdddb9cf585",
       "time": "2014-08-19T15:31:24+00:00",
-      "releaseTime": "2014-08-19T15:31:24+00:00",
+      "releaseTime": "2014-08-19T15:49:00+00:00",
       "details": "version/14w34c-1549.json",
-      "detailsSha1": "9ac73ff2ebc08ed27f625314fb56656e664ffa3f"
+      "detailsSha1": "c24b808033ff8c1d98fdf192f1167357e6a51738"
     },
     {
       "id": "14w34b",
@@ -3254,21 +3254,21 @@
       "id": "1.7.10-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre2.json",
-      "sha1": "6e3326d88e4631bebd8136806c50165ea1ff4237",
+      "sha1": "9fc96085ef79e22008fcd71be11997c3dfb283a6",
       "time": "2014-05-14T14:29:23+00:00",
-      "releaseTime": "2014-06-04T00:00:00+00:00",
+      "releaseTime": "2014-06-04T10:45:00+00:00",
       "details": "version/1.7.10-pre2.json",
-      "detailsSha1": "f775ffa08be6d65f249a7773f1009ba65517930e"
+      "detailsSha1": "055f8d6c2126f8ab112d3ca4473c42cfc6f0b2c8"
     },
     {
       "id": "1.7.10-pre2-1045",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre2-1045.json",
-      "sha1": "e62656e166b2c917ca39fad1e194b5c0372e9757",
+      "sha1": "d957e87ae4050c2ae7ef3e39b3783cb8aefdb06d",
       "time": "2014-05-14T14:29:23+00:00",
-      "releaseTime": "2014-06-04T00:00:00+00:00",
+      "releaseTime": "2014-06-04T10:45:00+00:00",
       "details": "version/1.7.10-pre2-1045.json",
-      "detailsSha1": "38ddf237a02ffe032b137616538d1881d6a6fcd6"
+      "detailsSha1": "da607c04afc728579b84c0597eaa11ee34960ff7"
     },
     {
       "id": "1.7.10-pre1",
@@ -3364,31 +3364,31 @@
       "id": "14w11b",
       "type": "snapshot",
       "url": "version/manifest/14w11b.json",
-      "sha1": "58c704d0f9465f31b310182052d11e0e9769e054",
+      "sha1": "d1d029f161b5b3fb87ac787065386bead1bfc61e",
       "time": "2014-04-14T14:36:19+00:00",
-      "releaseTime": "2014-04-14T14:36:19+00:00",
+      "releaseTime": "2014-04-14T16:50:00+00:00",
       "details": "version/14w11b.json",
-      "detailsSha1": "35991a78f7565c2f79f5ba1772f157bab4f443cf"
+      "detailsSha1": "0f2b5a8f6a840993049ecb5325d054b418ca5001"
     },
     {
       "id": "14w11b-1650",
       "type": "snapshot",
       "url": "version/manifest/14w11b-1650.json",
-      "sha1": "3407c26984b29920ca654d7306b75d466227bad0",
+      "sha1": "5c18d8c17675eba2beed135fbf7420b4b36be80e",
       "time": "2014-04-14T14:36:19+00:00",
-      "releaseTime": "2014-04-14T14:36:19+00:00",
+      "releaseTime": "2014-04-14T16:50:00+00:00",
       "details": "version/14w11b-1650.json",
-      "detailsSha1": "0e54560bca456b0d346485c9280f79c8b926761e"
+      "detailsSha1": "09eb93d042b0525db1d9f2d960f5164f2cf43478"
     },
     {
       "id": "14w11b-1640",
       "type": "snapshot",
       "url": "version/manifest/14w11b-1640.json",
-      "sha1": "4be121807e68009951bfdc776be313283c827dd0",
+      "sha1": "fdb157bb24ecb3a6d5a31f34778258d3264a7973",
       "time": "2014-04-14T14:36:19+00:00",
-      "releaseTime": "2014-04-14T14:36:19+00:00",
+      "releaseTime": "2014-04-14T16:40:00+00:00",
       "details": "version/14w11b-1640.json",
-      "detailsSha1": "2b97fd669333143d816f6b9ae274e34485276505"
+      "detailsSha1": "f4327099641c71f582375c60e21da887c60bcb50"
     },
     {
       "id": "1.7.9",
@@ -3434,11 +3434,11 @@
       "id": "1.7.7-091529",
       "type": "release",
       "url": "version/manifest/1.7.7-091529.json",
-      "sha1": "3493b0ab2d3358a050c81f349d438c990d6fb061",
+      "sha1": "3b7940071e1808920b6ba3c74d9fcb78f09c60cd",
       "time": "2014-04-09T07:52:16+00:00",
-      "releaseTime": "2014-04-10T13:31:00+00:00",
+      "releaseTime": "2014-04-09T15:46:39+00:00",
       "details": "version/1.7.7-091529.json",
-      "detailsSha1": "e23010ab1c0b5f11bacda599a594f8dce19a9dd1"
+      "detailsSha1": "e0ddedddf20bd29b81067ff9328b5ee647e6720e"
     },
     {
       "id": "1.7.6",
@@ -3454,21 +3454,21 @@
       "id": "1.7.6-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.7.6-pre2.json",
-      "sha1": "fae15f633965ee868399c238808fe335f0fe717e",
+      "sha1": "479b121985eac2cddd2a9a1d66dac67f6f6ba668",
       "time": "2014-03-08T11:00:01+00:00",
-      "releaseTime": "2014-04-04T00:00:00+00:00",
+      "releaseTime": "2014-03-08T11:00:01+00:00",
       "details": "version/1.7.6-pre2.json",
-      "detailsSha1": "08dcbf45655f46efe74560775cd67e52cb4246ff"
+      "detailsSha1": "2055df17d730c5bac1beca463ce4e2181573d313"
     },
     {
       "id": "1.7.6-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.7.6-pre1.json",
-      "sha1": "7ad372ac6a2ec8536d42113bdb98cae6e460e7c3",
+      "sha1": "e3c6b0a70a1b8d9673d9c20f30737475628242bb",
       "time": "2014-03-08T11:00:00+00:00",
-      "releaseTime": "2014-04-03T00:00:00+00:00",
+      "releaseTime": "2014-03-08T11:00:00+00:00",
       "details": "version/1.7.6-pre1.json",
-      "detailsSha1": "bdfc8938c29acde171a6453303a7ec10afaf64a2"
+      "detailsSha1": "ebb9ed9e9794746d5d589114e92a79445311357e"
     },
     {
       "id": "14w11a",
@@ -3484,11 +3484,11 @@
       "id": "14w10c-1518",
       "type": "snapshot",
       "url": "version/manifest/14w10c-1518.json",
-      "sha1": "c010f0f4f6c5c703cbd80a37959ebc819fa87123",
+      "sha1": "136af8025eb3d654c0dbf50e52828ea83f1a7a03",
       "time": "2014-03-07T13:49:55+00:00",
       "releaseTime": "2014-03-07T15:18:00+00:00",
       "details": "version/14w10c-1518.json",
-      "detailsSha1": "443f15f650f68d0d3a6bd898386bea6e204060f7"
+      "detailsSha1": "f9de1b0b70c5f4cf9c576533da380c1de54eb810"
     },
     {
       "id": "14w10c",
@@ -3534,21 +3534,21 @@
       "id": "1.7.5",
       "type": "release",
       "url": "version/manifest/1.7.5.json",
-      "sha1": "b4a52a1a423010304f54ada508075303f620850a",
+      "sha1": "eb8b72016aa51729cb2b478d107540de6ddadbf6",
       "time": "2014-02-26T09:22:17+00:00",
       "releaseTime": "2014-04-01T07:00:00+00:00",
       "details": "version/1.7.5.json",
-      "detailsSha1": "30f7998a58c534e28fc408b4f577ff0bb2e6330f"
+      "detailsSha1": "cf772d873f6af3194227628409f9c8715f4eea79"
     },
     {
       "id": "1.7.5-04010700",
       "type": "release",
       "url": "version/manifest/1.7.5-04010700.json",
-      "sha1": "75591b88212851a7e6954737b43fcc49e1cd6c37",
+      "sha1": "2667287bf2b339224d6667942affe12e71d7ba61",
       "time": "2014-02-26T09:22:17+00:00",
       "releaseTime": "2014-04-01T07:00:00+00:00",
       "details": "version/1.7.5-04010700.json",
-      "detailsSha1": "aabf79a95cf8162abc1990f12659f79e12520299"
+      "detailsSha1": "408a5b030b33392268ca829b0ef2eb2c686e44e7"
     },
     {
       "id": "1.7.5-02260922",
@@ -3614,11 +3614,11 @@
       "id": "14w04b",
       "type": "snapshot",
       "url": "version/manifest/14w04b.json",
-      "sha1": "4d5f0ff059f371f25728ef49d4961ae11bbbc78e",
+      "sha1": "c5637d4d17dea08f258677a6dd3d3ae0c90103e4",
       "time": "2014-01-24T15:48:46+00:00",
-      "releaseTime": "2014-01-24T15:48:46+00:00",
+      "releaseTime": "2014-01-24T15:54:00+00:00",
       "details": "version/14w04b.json",
-      "detailsSha1": "5899f4210f96b590f8f40966b8621bb33b6a7dc1"
+      "detailsSha1": "180257d4a0792ee8a29581ecefeaf972e9307ebb"
     },
     {
       "id": "14w04b-1554",
@@ -3634,11 +3634,11 @@
       "id": "14w04a",
       "type": "snapshot",
       "url": "version/manifest/14w04a.json",
-      "sha1": "43f71a8fa0106e601bba7cc0c106f3c977491866",
+      "sha1": "687d82c022f12c3065cce50df6baa3f5ea08190f",
       "time": "2014-01-23T15:26:13+00:00",
       "releaseTime": "2014-01-23T17:40:00+00:00",
       "details": "version/14w04a.json",
-      "detailsSha1": "0d562ad4f736af099a105cf8e88b3f19f6c213ae"
+      "detailsSha1": "d93b5c7e6036ec30a1a5b31c782dcc9724b792be"
     },
     {
       "id": "14w04a-1740",
@@ -3656,7 +3656,7 @@
       "url": "version/manifest/14w04a-1526.json",
       "sha1": "8a361916fdbbd0a5e07458d0f97cdb7aad9f305b",
       "time": "2014-01-23T17:40:00+00:00",
-      "releaseTime": "2014-01-23T17:40:00+00:00",
+      "releaseTime": "2014-01-23T15:26:13+00:00",
       "details": "version/14w04a-1526.json",
       "detailsSha1": "61d26ddc669ee86f8a801ba51f9996b1d97c7b92"
     },
@@ -3724,11 +3724,11 @@
       "id": "1.7.4-pre",
       "type": "release",
       "url": "version/manifest/1.7.4-pre.json",
-      "sha1": "e1adc78db59e5b204afb0796d0fcb3344767f628",
+      "sha1": "368f226190b8d408b8babd3eba90fa537dea2eea",
       "time": "2013-12-09T12:28:10+00:00",
-      "releaseTime": "2013-12-10T00:00:00+00:00",
+      "releaseTime": "2013-12-09T12:27:05+00:00",
       "details": "version/1.7.4-pre.json",
-      "detailsSha1": "e206b4fefedb0c64a2d96b0310c0d925aa1849d7"
+      "detailsSha1": "baf1d6cf843995afb04ac743b4d9e919ac126b54"
     },
     {
       "id": "1.7.3",
@@ -3844,21 +3844,21 @@
       "id": "1.7",
       "type": "snapshot",
       "url": "version/manifest/1.7.json",
-      "sha1": "cdbef5252837697f02f061a80485eebc4d743f72",
+      "sha1": "4081d8422859f310f3b9a7b87c1a917d5b46b828",
       "time": "2013-10-22T15:04:05+00:00",
       "releaseTime": "2013-10-22T16:02:00+00:00",
       "details": "version/1.7.json",
-      "detailsSha1": "e22b49ef8c56f4e69814cd8934ac33952903d0d3"
+      "detailsSha1": "f0267afc03a1bb2ffc752d3e0fb5130a85764178"
     },
     {
       "id": "1.7-1602",
       "type": "snapshot",
       "url": "version/manifest/1.7-1602.json",
-      "sha1": "b91a74491a06a9c76c5cf6b118ef886c0a419385",
+      "sha1": "88275ab38259eb632b8d02ceea0a5d304f2fc45c",
       "time": "2013-10-22T15:04:05+00:00",
       "releaseTime": "2013-10-22T16:02:00+00:00",
       "details": "version/1.7-1602.json",
-      "detailsSha1": "995e1e40ee8f27af5cd49626e1e3fa217c094191"
+      "detailsSha1": "7a180fe2747a523ebbd0bf4fa497c91b8665b87c"
     },
     {
       "id": "1.7-1500",
@@ -3904,21 +3904,21 @@
       "id": "13w41b",
       "type": "snapshot",
       "url": "version/manifest/13w41b.json",
-      "sha1": "c8c4ba23477d503f8e2e90ca24ad00e5c80365a3",
+      "sha1": "b6f9fbfaf73d85e1ac715fc5c4934b58229a5a76",
       "time": "2013-10-11T15:09:17+00:00",
-      "releaseTime": "2013-10-11T15:09:17+00:00",
+      "releaseTime": "2013-10-11T15:23:00+00:00",
       "details": "version/13w41b.json",
-      "detailsSha1": "cb0ec2ad39d666d58eecd9caa52a63c7a2748a49"
+      "detailsSha1": "291bd62993787e47b201b8dc44db48a73d350dd3"
     },
     {
       "id": "13w41b-1523",
       "type": "snapshot",
       "url": "version/manifest/13w41b-1523.json",
-      "sha1": "de0176eba43af690705e1ee094e626a02499985e",
+      "sha1": "c943c789d2183bf8317c88b26235d49620b44538",
       "time": "2013-10-11T15:09:17+00:00",
-      "releaseTime": "2013-10-11T15:09:17+00:00",
+      "releaseTime": "2013-10-11T15:23:00+00:00",
       "details": "version/13w41b-1523.json",
-      "detailsSha1": "e42160c5bde790b9f7ad2984fd731cabb77dfbcf"
+      "detailsSha1": "f42d6ab29e205a484c479b8f331e671c705b0ba3"
     },
     {
       "id": "13w41b-1507",
@@ -3954,21 +3954,21 @@
       "id": "13w39a",
       "type": "snapshot",
       "url": "version/manifest/13w39a.json",
-      "sha1": "c979dd877bdfe0edb7847838498b1add71029d76",
+      "sha1": "691f2ed88bf3eb52ecbb8026d1cc94e87f672a29",
       "time": "2013-09-26T15:11:19+00:00",
       "releaseTime": "2013-09-26T16:27:00+00:00",
       "details": "version/13w39a.json",
-      "detailsSha1": "83bde9b2bee91c82ad5c05345d2246249e633d53"
+      "detailsSha1": "1efbe285bf1c9d9f6acffb1b13039966947aed58"
     },
     {
       "id": "13w39a-1627",
       "type": "snapshot",
       "url": "version/manifest/13w39a-1627.json",
-      "sha1": "d66e98112c3d3e4f451a2ff4c189ec2805e33cee",
+      "sha1": "d8cd0010f6a470cefde44965a3c5ad0b7395454c",
       "time": "2013-09-26T15:11:19+00:00",
       "releaseTime": "2013-09-26T16:27:00+00:00",
       "details": "version/13w39a-1627.json",
-      "detailsSha1": "6c831cb90005e3b5c2fa5a49b17e9f7102166b8a"
+      "detailsSha1": "22b0883d5e5cdacd52d8ec33202683b0d1982400"
     },
     {
       "id": "13w39a-1511",
@@ -3984,21 +3984,21 @@
       "id": "13w38c",
       "type": "snapshot",
       "url": "version/manifest/13w38c.json",
-      "sha1": "bd90c88cf5ad379bf9082a3d02588cf731547a3e",
+      "sha1": "19f3716e88da881e75516e5b785bee1f88a06814",
       "time": "2013-09-20T15:11:34+00:00",
-      "releaseTime": "2013-09-20T15:11:34+00:00",
+      "releaseTime": "2013-09-20T15:16:00+00:00",
       "details": "version/13w38c.json",
-      "detailsSha1": "670c7d9129ed183365902f942adbc78c43e8e9cb"
+      "detailsSha1": "e5babb4b9378d2cdc549521ea34514ea645b5e6b"
     },
     {
       "id": "13w38c-1516",
       "type": "snapshot",
       "url": "version/manifest/13w38c-1516.json",
-      "sha1": "4b2b56b6d6faa97ee3164a7e3739348d584232bc",
+      "sha1": "1d31944538237bb635792f67555afc109dd9f525",
       "time": "2013-09-20T15:11:34+00:00",
-      "releaseTime": "2013-09-20T15:11:34+00:00",
+      "releaseTime": "2013-09-20T15:16:00+00:00",
       "details": "version/13w38c-1516.json",
-      "detailsSha1": "3bfaa0e8184aadf6683c6b89c0f3b6c65b9f53b6"
+      "detailsSha1": "e6975ada2ea3243b59b7bb8282b91c243fe6d3a3"
     },
     {
       "id": "13w38c-1511",
@@ -4034,21 +4034,21 @@
       "id": "1.6.4",
       "type": "release",
       "url": "version/manifest/1.6.4.json",
-      "sha1": "0a5e5a2566ff552589afa0fa84c2dd508be502a6",
+      "sha1": "c33de7449e9941353f119d850a69cd9cdcb08dab",
       "time": "2013-09-19T15:52:37+00:00",
       "releaseTime": "2014-04-01T06:57:00+00:00",
       "details": "version/1.6.4.json",
-      "detailsSha1": "87012509fb4b1c39ee60703e3824333b76f3fe53"
+      "detailsSha1": "a0a051350427b7194c83497e3b8aaa356fc0932b"
     },
     {
       "id": "1.6.4-201404010657",
       "type": "release",
       "url": "version/manifest/1.6.4-201404010657.json",
-      "sha1": "a4089ef7b787d98bcb3369468dba77df4e445a48",
+      "sha1": "ef806d02409b4f187a638bb64f9c4999263c879b",
       "time": "2013-09-19T15:52:37+00:00",
       "releaseTime": "2014-04-01T06:57:00+00:00",
       "details": "version/1.6.4-201404010657.json",
-      "detailsSha1": "ae01b106b443ecd20b8a3e1fa8ea50d1dae342d9"
+      "detailsSha1": "8f62065aac3941367c56d08e6eb45d346910a380"
     },
     {
       "id": "1.6.4-201309191549",
@@ -4064,41 +4064,41 @@
       "id": "1.6.3",
       "type": "snapshot",
       "url": "version/manifest/1.6.3.json",
-      "sha1": "4bb93dad10ef04bc1b8d71a73757daefc8ef6b36",
+      "sha1": "a141c806383eeb0685ccb1bb3eecb2f0dde5e612",
       "time": "2013-09-13T10:54:41+00:00",
       "releaseTime": "2013-09-17T12:31:00+00:00",
       "details": "version/1.6.3.json",
-      "detailsSha1": "3063f33ad57286af4668ebe053219117916083f5"
+      "detailsSha1": "d761093dbe644fb83f2d92d3243f17b4655af507"
     },
     {
       "id": "1.6.3-171231",
       "type": "snapshot",
       "url": "version/manifest/1.6.3-171231.json",
-      "sha1": "e4e18d2913fe5db8f1bfa19ceab4d4f5e215f7e2",
+      "sha1": "9eaf0063549af9776d51dcb4510992606805b39e",
       "time": "2013-09-13T10:54:41+00:00",
       "releaseTime": "2013-09-17T12:31:00+00:00",
       "details": "version/1.6.3-171231.json",
-      "detailsSha1": "6af1e5bea208e79c13cb57b0ddc32dd9452cc75d"
+      "detailsSha1": "f705b03f1b1a60f34b4f8c2c168c1591623f028d"
     },
     {
       "id": "1.6.3-171031",
       "type": "snapshot",
       "url": "version/manifest/1.6.3-171031.json",
-      "sha1": "e09aa5780413292372be6d3bc18d661f5682bea5",
+      "sha1": "9d8a70303ed18ff27611565ff67f53ac047d5084",
       "time": "2013-09-13T10:54:41+00:00",
-      "releaseTime": "2013-09-17T10:31:00+00:00",
+      "releaseTime": "2013-09-17T10:54:41+00:00",
       "details": "version/1.6.3-171031.json",
-      "detailsSha1": "9ae20b5d2c256116a4a255f34849140fa321d813"
+      "detailsSha1": "19de98b73cad521f80f22ca839ffabd5df07b59f"
     },
     {
       "id": "1.6.3-131100",
       "type": "snapshot",
       "url": "version/manifest/1.6.3-131100.json",
-      "sha1": "fda37dbeee07e9c7779ab34b5489864afac576f1",
+      "sha1": "ad208e9dcafe20436e0f70a4c96dded7654053d9",
       "time": "2013-09-13T10:54:41+00:00",
-      "releaseTime": "2013-09-13T11:00:00+00:00",
+      "releaseTime": "2013-09-13T11:09:00+00:00",
       "details": "version/1.6.3-131100.json",
-      "detailsSha1": "d65050d68d9af00a920c8ff6dba111564d32a68e"
+      "detailsSha1": "eb74b94cca356e1a095ceda10b4192c3624c298a"
     },
     {
       "id": "13w37b",
@@ -4124,21 +4124,21 @@
       "id": "13w36b",
       "type": "snapshot",
       "url": "version/manifest/13w36b.json",
-      "sha1": "1bedffe3080cc2dbad07ea67a57212fa1c4db8b7",
+      "sha1": "dbf803f803cd7420c3d8054e34f3d9781bcbe631",
       "time": "2013-09-06T12:31:58+00:00",
       "releaseTime": "2013-09-06T13:07:00+00:00",
       "details": "version/13w36b.json",
-      "detailsSha1": "192637b17441bf8e49f51d5fa79442a9c11c4dbd"
+      "detailsSha1": "285601efd2e13bbe1a583e7a4f79af466cd63a62"
     },
     {
       "id": "13w36b-1307",
       "type": "snapshot",
       "url": "version/manifest/13w36b-1307.json",
-      "sha1": "0b7c3c9e0f569f3a6f9aa3dcb860a2ae25b9e465",
+      "sha1": "561aff2cacde38e2eaf8562a6ae309e7ded20064",
       "time": "2013-09-06T12:31:58+00:00",
       "releaseTime": "2013-09-06T13:07:00+00:00",
       "details": "version/13w36b-1307.json",
-      "detailsSha1": "369fff62647304373c11015e8b2aa24ee1f88d39"
+      "detailsSha1": "1172f997290628fb57677b6cde3913bc5ad8d7f1"
     },
     {
       "id": "13w36b-1233",
@@ -4154,81 +4154,81 @@
       "id": "13w36a",
       "type": "snapshot",
       "url": "version/manifest/13w36a.json",
-      "sha1": "0b21a7dfb0d305076da7e41322ca16731fb36d74",
+      "sha1": "8911cfa7de1258fd306389d63a4263477003af54",
       "time": "2013-09-05T13:05:40+00:00",
-      "releaseTime": "2013-09-05T13:05:40+00:00",
+      "releaseTime": "2013-09-05T14:46:00+00:00",
       "details": "version/13w36a.json",
-      "detailsSha1": "3cf40c649d2e4d55dc7709ebb721c738175fceb3"
+      "detailsSha1": "026fa8e6d91c12c56cc89fef3c4b6cfdbef4ee5c"
     },
     {
       "id": "13w36a-1446",
       "type": "snapshot",
       "url": "version/manifest/13w36a-1446.json",
-      "sha1": "44aa6ae5e5c885ffa60aff780d315afaa29e3a64",
+      "sha1": "02c593f050dcc01b62d84a16d66f4e1c03a39705",
       "time": "2013-09-05T13:05:40+00:00",
-      "releaseTime": "2013-09-05T13:05:40+00:00",
+      "releaseTime": "2013-09-05T14:46:00+00:00",
       "details": "version/13w36a-1446.json",
-      "detailsSha1": "ad5bae5e50c57d792ff589872b79d46c90993da7"
+      "detailsSha1": "fe6b80118b5f7190796729d643b339addda2608a"
     },
     {
       "id": "13w36a-1330",
       "type": "snapshot",
       "url": "version/manifest/13w36a-1330.json",
-      "sha1": "0ddea310334156f61844273d507af8932930b77c",
+      "sha1": "2ce5fdf0fdf5792a5441ce0eac14abb211bc8e7f",
       "time": "2013-09-05T13:05:40+00:00",
-      "releaseTime": "2013-09-05T13:05:40+00:00",
+      "releaseTime": "2013-09-05T13:30:00+00:00",
       "details": "version/13w36a-1330.json",
-      "detailsSha1": "90289a50a233ddb80ee46d30fc86704e40559be8"
+      "detailsSha1": "e23d54bfde2677fafbd1a05ec0d07f39d0ac3e31"
     },
     {
       "id": "13w36a-1234",
       "type": "snapshot",
       "url": "version/manifest/13w36a-1234.json",
-      "sha1": "97c03eb974d2bab0ff7634a7b13234f9b6702325",
+      "sha1": "5f4d25aaea5d67aa2aed0cb843c87aca42954815",
       "time": "2013-09-05T13:05:40+00:00",
-      "releaseTime": "2013-09-05T13:05:40+00:00",
+      "releaseTime": "2013-09-05T12:34:00+00:00",
       "details": "version/13w36a-1234.json",
-      "detailsSha1": "c967c1c94b5ebdba1fa33dc913696816c736a288"
+      "detailsSha1": "34a01fbb182b293c3b552ee7da032336a6d6dfa9"
     },
     {
       "id": "1.6.2",
       "type": "release",
       "url": "version/manifest/1.6.2.json",
-      "sha1": "d7edaee40ebce3487359e4e37036b15022547bca",
+      "sha1": "dd68334181196dd25840338e2f0b016eabf0e85e",
       "time": "2013-07-05T13:09:02+00:00",
       "releaseTime": "2013-07-09T18:47:00+00:00",
       "details": "version/1.6.2.json",
-      "detailsSha1": "3560e262c94456bb858ca72b833c22d4a4672053"
+      "detailsSha1": "d0ca004e60a06494cd99d86184c26e6009954dbf"
     },
     {
       "id": "1.6.2-091847",
       "type": "release",
       "url": "version/manifest/1.6.2-091847.json",
-      "sha1": "7c54870aceb9c33ed6ceaee705045c15db7cbf31",
+      "sha1": "45b1afe5762146b65dafe59ce8aca57d42b7eaf5",
       "time": "2013-07-05T13:09:02+00:00",
       "releaseTime": "2013-07-09T18:47:00+00:00",
       "details": "version/1.6.2-091847.json",
-      "detailsSha1": "458cdd6612be17fa0a22ca01642a77cc641e20c3"
+      "detailsSha1": "2c0b4a759a1ecc1e765357c77d0226c83f787072"
     },
     {
       "id": "1.6.2-080933",
       "type": "release",
       "url": "version/manifest/1.6.2-080933.json",
-      "sha1": "2873ea0c9f95daca3ffce80a27e5d744fc5b844e",
+      "sha1": "d564db8da1c1d66ee74747473bb4a1180ae1ab5a",
       "time": "2013-07-05T13:09:02+00:00",
-      "releaseTime": "2013-07-08T09:33:00+00:00",
+      "releaseTime": "2013-07-08T10:10:20+00:00",
       "details": "version/1.6.2-080933.json",
-      "detailsSha1": "54ed5824a80ff7aa0bd158a419adc0356e178162"
+      "detailsSha1": "afcb582e874aae1f26788cff0ec451eb0e3b2054"
     },
     {
       "id": "1.6.2-pre-1426",
       "type": "release",
       "url": "version/manifest/1.6.2-pre-1426.json",
-      "sha1": "579edfc22e5b009ae899021886949b564e567753",
+      "sha1": "0aad99d826ce0c196e44718d46ace655d891450a",
       "time": "2013-07-05T13:09:02+00:00",
-      "releaseTime": "2013-07-05T14:26:00+00:00",
+      "releaseTime": "2013-07-05T14:29:11+00:00",
       "details": "version/1.6.2-pre-1426.json",
-      "detailsSha1": "4526d831d2020f68c906daaca7919f10a2d3981b"
+      "detailsSha1": "5bb1e21880dd5c61a4d8d4e832c02a6c01677af5"
     },
     {
       "id": "1.6.1",
@@ -4264,11 +4264,11 @@
       "id": "1.6-1304",
       "type": "snapshot",
       "url": "version/manifest/1.6-1304.json",
-      "sha1": "2a25691162029f11faf774f37c16024737b81638",
+      "sha1": "8583237bcc24aee8923efbc904341a7728c4c77e",
       "time": "2013-06-25T13:08:56+00:00",
-      "releaseTime": "2013-06-25T15:16:00+00:00",
+      "releaseTime": "2013-06-25T13:08:56+00:00",
       "details": "version/1.6-1304.json",
-      "detailsSha1": "07d4b46851a40a36fa3f9ee057e09633306f27a9"
+      "detailsSha1": "0c15c80c2d78add838dcc977399a262e055f7be3"
     },
     {
       "id": "13w26a",
@@ -4334,21 +4334,21 @@
       "id": "13w23b",
       "type": "snapshot",
       "url": "version/manifest/13w23b.json",
-      "sha1": "c6c03a722d94588a6083dc743cb0330c5dec0529",
+      "sha1": "4c50647fea116c154abfe709d2eb54e9509bd3a1",
       "time": "2013-06-08T00:32:01+00:00",
-      "releaseTime": "2013-06-08T00:32:01+00:00",
+      "releaseTime": "2013-06-08T01:01:00+00:00",
       "details": "version/13w23b.json",
-      "detailsSha1": "a6fe41798b2673f6d02c916f8845e832f6a72df7"
+      "detailsSha1": "38efa5ed38043d8f7772349cc59a4b760d4c0c9f"
     },
     {
       "id": "13w23b-0101",
       "type": "snapshot",
       "url": "version/manifest/13w23b-0101.json",
-      "sha1": "00b41255486295b0adaa5961e01aa6e9a4c0bfa7",
+      "sha1": "48c643fc7aea21cf9dd574fcd89e3e7919c3167f",
       "time": "2013-06-08T00:32:01+00:00",
-      "releaseTime": "2013-06-08T00:32:01+00:00",
+      "releaseTime": "2013-06-08T01:01:00+00:00",
       "details": "version/13w23b-0101.json",
-      "detailsSha1": "a5ae7ad7514eefef78577577a0faac92e7c0916f"
+      "detailsSha1": "ed1cb00d63562907a708059e94d444cf22a60e16"
     },
     {
       "id": "13w23b-0033",
@@ -4374,21 +4374,21 @@
       "id": "13w22a",
       "type": "snapshot",
       "url": "version/manifest/13w22a.json",
-      "sha1": "efeb94363d349db3578d8b4bed5cbcaba98fabfc",
+      "sha1": "262b0f37d9f45f09d035b4dccb2413469e05e9b9",
       "time": "2013-05-30T14:38:40+00:00",
-      "releaseTime": "2013-05-30T14:38:40+00:00",
+      "releaseTime": "2013-05-30T16:08:00+00:00",
       "details": "version/13w22a.json",
-      "detailsSha1": "69765e3e4fb1762caa9e0457a1e31422fe70a648"
+      "detailsSha1": "c53717e198476b11942ece615ed2e34232ab8d7a"
     },
     {
       "id": "13w22a-1608",
       "type": "snapshot",
       "url": "version/manifest/13w22a-1608.json",
-      "sha1": "4023b96a5bbb3a75cece2f73a59a6f2d9347caef",
+      "sha1": "f39010ad604bd58a11f60389d4bf5688de9671b3",
       "time": "2013-05-30T14:38:40+00:00",
-      "releaseTime": "2013-05-30T14:38:40+00:00",
+      "releaseTime": "2013-05-30T16:08:00+00:00",
       "details": "version/13w22a-1608.json",
-      "detailsSha1": "5248ea2811752cfa6ed3f195bc494a9de296cb8c"
+      "detailsSha1": "2540ece60ce4d49c04eeef275f67a82320705274"
     },
     {
       "id": "13w22a-1434",
@@ -4464,11 +4464,11 @@
       "id": "1.5.2",
       "type": "release",
       "url": "version/manifest/1.5.2.json",
-      "sha1": "15a1850d9f9d481ab6c2edc50fe50ecfce5a97c5",
+      "sha1": "19c74013900ab94b67ff3e8013bf10aa0d3f4851",
       "time": "2013-04-25T15:45:00+00:00",
-      "releaseTime": "2013-05-02T15:45:00+00:00",
+      "releaseTime": "2013-05-02T13:56:05+00:00",
       "details": "version/1.5.2.json",
-      "detailsSha1": "5c119c33e70c62e908f4d0cd97652d4e01e804ed"
+      "detailsSha1": "f5e1d06618da1841a2694f61d6eeed382acc238d"
     },
     {
       "id": "13w17a",
@@ -4484,11 +4484,11 @@
       "id": "1.5.2-pre-250703",
       "type": "release",
       "url": "version/manifest/1.5.2-pre-250703.json",
-      "sha1": "1a2792d2b2740df9670d5a3dc3ee1f72b9281176",
+      "sha1": "6bb72c484063a791d7010f88d50172e3fc2a304c",
       "time": "2013-04-25T15:45:00+00:00",
-      "releaseTime": "2013-04-25T15:45:00+00:00",
+      "releaseTime": "2013-04-25T09:03:38+00:00",
       "details": "version/1.5.2-pre-250703.json",
-      "detailsSha1": "c2e01a12d93161b3ce197a376e49810926d0ddfc"
+      "detailsSha1": "55930757bf8939dedd86da552eafa839a44a015c"
     },
     {
       "id": "13w16b",
@@ -4514,61 +4514,61 @@
       "id": "13w16b-2118",
       "type": "snapshot",
       "url": "version/manifest/13w16b-2118.json",
-      "sha1": "637b6300038e8650672ef798be31e043b221d73c",
+      "sha1": "14de9c4009fb1524462aab2bd10d313a7413742d",
       "time": "2013-04-23T21:51:22+00:00",
-      "releaseTime": "2013-04-23T21:18:22+00:00",
+      "releaseTime": "2013-04-23T21:18:00+00:00",
       "details": "version/13w16b-2118.json",
-      "detailsSha1": "c9843a6d5d3b99357f2fb15bae0c011a5b313d5d"
+      "detailsSha1": "029dced4f9e3c8ff233369386923078ea42ce6f2"
     },
     {
       "id": "13w16a",
       "type": "snapshot",
       "url": "version/manifest/13w16a.json",
-      "sha1": "203502d03fd0634473f092d1d0a61c0758cdfc4f",
+      "sha1": "f42c59b3d498f9cbe892fa1a121befb1c9eb873f",
       "time": "2013-04-21T12:49:30+00:00",
-      "releaseTime": "2013-04-21T12:49:30+00:00",
+      "releaseTime": "2013-04-19T20:37:00+00:00",
       "details": "version/13w16a.json",
-      "detailsSha1": "0b76afb8e2e9b4485ff93a242dd4e8b155899324"
+      "detailsSha1": "8175fbfbfc0c2e793662bebc56e922a0d4e1e732"
     },
     {
       "id": "13w16a-192037",
       "type": "snapshot",
       "url": "version/manifest/13w16a-192037.json",
-      "sha1": "77fe93fda3d3d8d672adace9ad61e9f4d3dc6f7d",
+      "sha1": "798f25f55b8c7b282028a2e3e0c90a3635c4cdc3",
       "time": "2013-04-21T12:49:30+00:00",
       "releaseTime": "2013-04-19T20:37:00+00:00",
       "details": "version/13w16a-192037.json",
-      "detailsSha1": "fc68acc5e53e913fc4a0c6db9ebc654fc2fcc583"
+      "detailsSha1": "3f264214433bc92ef9966710c3e92d6a9652389a"
     },
     {
       "id": "13w16a-191517",
       "type": "snapshot",
       "url": "version/manifest/13w16a-191517.json",
-      "sha1": "532cb678a217e25f40bc4dcf07f6327fde46bdf6",
+      "sha1": "9fd47d8fb292ebdb0734c6ce1e9b48c1fe6582ce",
       "time": "2013-04-21T12:49:30+00:00",
       "releaseTime": "2013-04-19T15:17:00+00:00",
       "details": "version/13w16a-191517.json",
-      "detailsSha1": "d14e9bcd06ffecfbab8049b717ffae113eaa8830"
+      "detailsSha1": "a72ee5254d4515ab18c5fa9ad8d99b7b0d77bae7"
     },
     {
       "id": "13w16a-181812",
       "type": "snapshot",
       "url": "version/manifest/13w16a-181812.json",
-      "sha1": "dd140bd206e8a204b0c766f74e0ca0c0fdd2241a",
+      "sha1": "3338f59cd1c4913a9ab6834b3c2e4bc207914fb1",
       "time": "2013-04-21T12:49:30+00:00",
-      "releaseTime": "2013-04-18T18:12:00+00:00",
+      "releaseTime": "2013-04-18T18:13:50+00:00",
       "details": "version/13w16a-181812.json",
-      "detailsSha1": "3e10852861c0defaf88ddde38c00de1671c12f7d"
+      "detailsSha1": "9a6b0a03f2303ed9cedba6d57a78e4116d52894f"
     },
     {
       "id": "13w16a-181800",
       "type": "snapshot",
       "url": "version/manifest/13w16a-181800.json",
-      "sha1": "d63608b1be430aa683b5e640e84cccb7c060e88b",
+      "sha1": "ef897c1c60f5a1b6f8af4c0416881dd196d43430",
       "time": "2013-04-21T12:49:30+00:00",
       "releaseTime": "2013-04-18T18:00:00+00:00",
       "details": "version/13w16a-181800.json",
-      "detailsSha1": "ddbfccc3d4bc2f10225f46f9d72f38df10030259"
+      "detailsSha1": "884abeefd2d22693895f82b0343ef87b578e5438"
     },
     {
       "id": "af-2013-purple",
@@ -4604,21 +4604,21 @@
       "id": "1.5.1",
       "type": "release",
       "url": "version/manifest/1.5.1.json",
-      "sha1": "a7ea7596b35219260077758e186eb155624db4e2",
+      "sha1": "804167243887981e9574e1ffa93a4ef2fc9012e7",
       "time": "2013-03-20T10:00:00+00:00",
-      "releaseTime": "2013-03-21T00:00:00+00:00",
+      "releaseTime": "2013-03-21T10:42:14+00:00",
       "details": "version/1.5.1.json",
-      "detailsSha1": "b16d3c9f6573200fca7c8ea4e75bb751af622c17"
+      "detailsSha1": "091bc771134343b5905bf20eb0c6db2ad5c252c1"
     },
     {
       "id": "1.5.1-pre-191519",
       "type": "release",
       "url": "version/manifest/1.5.1-pre-191519.json",
-      "sha1": "5d74023eed4c82d70d611425d7c37d04b2cf1bf1",
+      "sha1": "df0b221f9db0f6d1324d9b701ba8248e23bf08ae",
       "time": "2013-03-20T10:00:00+00:00",
-      "releaseTime": "2013-03-21T00:00:00+00:00",
+      "releaseTime": "2013-03-19T15:35:44+00:00",
       "details": "version/1.5.1-pre-191519.json",
-      "detailsSha1": "99d343dd23276bacb19699571fe160e596942c27"
+      "detailsSha1": "52c9f3a372357bb5fc13b35e10de9f43f288e7e9"
     },
     {
       "id": "13w12~",
@@ -4654,31 +4654,31 @@
       "id": "1.5",
       "type": "snapshot",
       "url": "version/manifest/1.5.json",
-      "sha1": "9b1d1d9dab6e39957e37311cee4acd509c507e89",
+      "sha1": "3e8adf22ee7d5b622eefba0e9132a34dffd58b2c",
       "time": "2013-03-06T22:00:00+00:00",
-      "releaseTime": "2013-03-13T00:00:00+00:00",
+      "releaseTime": "2013-03-13T14:24:31+00:00",
       "details": "version/1.5.json",
-      "detailsSha1": "c7325a183a18be62df05e2fe3993cb6864110ddb"
+      "detailsSha1": "f91dfa5b27c94bb94a57a550283b5673d50c8027"
     },
     {
       "id": "1.5-pre-whitelinefix",
       "type": "snapshot",
       "url": "version/manifest/1.5-pre-whitelinefix.json",
-      "sha1": "ca9971e50a5959d04f9f4cb83e5a155e83ec3743",
+      "sha1": "748a9bb06c3d613a69a87827eefd50336580220b",
       "time": "2013-03-06T22:00:00+00:00",
-      "releaseTime": "2013-03-13T00:00:00+00:00",
+      "releaseTime": "2013-03-12T10:34:14+00:00",
       "details": "version/1.5-pre-whitelinefix.json",
-      "detailsSha1": "1b4f1a526f91d5f54f6ccbbeda866a5015bb9293"
+      "detailsSha1": "57e73beb3bb9f2d739374cd5ff56137364c5c713"
     },
     {
       "id": "1.5-pre-071309",
       "type": "snapshot",
       "url": "version/manifest/1.5-pre-071309.json",
-      "sha1": "c77040127260fcd2ca35e847b9db43a781cf3db6",
+      "sha1": "da5ad5e9eff4d067930b873a7763ab34b75a2f67",
       "time": "2013-03-06T22:00:00+00:00",
-      "releaseTime": "2013-03-13T00:00:00+00:00",
+      "releaseTime": "2013-03-07T13:31:53+00:00",
       "details": "version/1.5-pre-071309.json",
-      "detailsSha1": "32751074e9e6cf7381159c567fc39460f1296a7c"
+      "detailsSha1": "2a4978164c89385b251199a8b2200d4873f38d40"
     },
     {
       "id": "13w10b",
@@ -4694,11 +4694,11 @@
       "id": "13w10a",
       "type": "snapshot",
       "url": "version/manifest/13w10a.json",
-      "sha1": "009b5aa4f6efc658cb53b0e6e6d017bb33e351e1",
+      "sha1": "82316b14504ace7a5c90102b1277a394568609bf",
       "time": "2013-03-04T15:35:54+00:00",
-      "releaseTime": "2013-03-04T15:35:54+00:00",
+      "releaseTime": "2013-03-04T15:35:53+00:00",
       "details": "version/13w10a.json",
-      "detailsSha1": "f561ef63447bf207523521b700f00d1e0784d56f"
+      "detailsSha1": "5a496eaf85d3c9def4fe72c2ce71c3d4f6fd1778"
     },
     {
       "id": "13w09c",
@@ -4734,11 +4734,11 @@
       "id": "13w07a",
       "type": "snapshot",
       "url": "version/manifest/13w07a.json",
-      "sha1": "d6b05d4174f4f29a32e20ad4b12ed679bc97ffbb",
+      "sha1": "fd76b1b59528395e17946a5fe54dcc2e5314d273",
       "time": "2013-02-14T14:00:10+00:00",
-      "releaseTime": "2013-02-14T14:00:10+00:00",
+      "releaseTime": "2013-02-14T14:00:12+00:00",
       "details": "version/13w07a.json",
-      "detailsSha1": "79c5212f8dba57a24e1d01bc55d2085dc39b1bbc"
+      "detailsSha1": "2f177cd3601c75e3261dc55f8a50a4dcd8483bf4"
     },
     {
       "id": "13w06a",
@@ -4754,111 +4754,111 @@
       "id": "13w06a-1636",
       "type": "snapshot",
       "url": "version/manifest/13w06a-1636.json",
-      "sha1": "0915222ba9f51ea5f080b36353e8d09d709798ac",
+      "sha1": "b82da4d838709779ae6c795100f41f412ad426d3",
       "time": "2013-02-07T16:39:29+00:00",
-      "releaseTime": "2013-02-07T16:39:29+00:00",
+      "releaseTime": "2013-02-07T16:39:31+00:00",
       "details": "version/13w06a-1636.json",
-      "detailsSha1": "bdf1c35a01aa8c84ac840bed511336fe68d19cf2"
+      "detailsSha1": "13a5548206ea5564aa7ae8c25bc581c813e2835f"
     },
     {
       "id": "13w06a-1559",
       "type": "snapshot",
       "url": "version/manifest/13w06a-1559.json",
-      "sha1": "bffea667ccb1230b3ffa9772ec13c0ce21cb751d",
+      "sha1": "eea382969fcb7188a39591d7f0fb94f2dcc69f40",
       "time": "2013-02-07T15:59:00+00:00",
-      "releaseTime": "2013-02-07T15:59:00+00:00",
+      "releaseTime": "2013-02-07T16:08:04+00:00",
       "details": "version/13w06a-1559.json",
-      "detailsSha1": "172092e8b66ab164ebe0682e9998f5ec9c8c8a2e"
+      "detailsSha1": "68bac46951bf60e51bbe3ae6ebe34bcba150680d"
     },
     {
       "id": "13w05b",
       "type": "snapshot",
       "url": "version/manifest/13w05b.json",
-      "sha1": "9803d1e1fa45246c0b5844f1cc627cdf89edb40d",
+      "sha1": "ec6e7b00bd3f791604731bde4ab283a93b8eb160",
       "time": "2013-02-01T13:36:18+00:00",
-      "releaseTime": "2013-02-01T13:36:18+00:00",
+      "releaseTime": "2013-02-01T13:36:21+00:00",
       "details": "version/13w05b.json",
-      "detailsSha1": "f105bfade1e0d3849490537b8956cab65661c3d3"
+      "detailsSha1": "4fcea4b237efbae6c58e862c7f2f9c5602ea634a"
     },
     {
       "id": "13w05a",
       "type": "snapshot",
       "url": "version/manifest/13w05a.json",
-      "sha1": "f348e8a0173beebb5af5edd9da53ce586f837444",
+      "sha1": "2a6bacdcb8ab0284e5619568bbbce61b72e050f9",
       "time": "2013-01-31T15:43:34+00:00",
-      "releaseTime": "2013-01-31T15:43:34+00:00",
+      "releaseTime": "2013-01-31T15:43:42+00:00",
       "details": "version/13w05a.json",
-      "detailsSha1": "b78f5243df7f0001fa9301010f8b609a1802cec8"
+      "detailsSha1": "efa83492d04ccd0c58cfde153c15d67651666b98"
     },
     {
       "id": "13w05a-1538",
       "type": "snapshot",
       "url": "version/manifest/13w05a-1538.json",
-      "sha1": "34fc0f5398842c95401013e9dc53bfd7eb217a78",
+      "sha1": "b797e2ce41bd9bd435cf85bddfe4cffc72a8686d",
       "time": "2013-01-31T15:43:34+00:00",
-      "releaseTime": "2013-01-31T15:43:34+00:00",
+      "releaseTime": "2013-01-31T15:43:42+00:00",
       "details": "version/13w05a-1538.json",
-      "detailsSha1": "dc2a546059c073de6480a6effdde0c06004c7966"
+      "detailsSha1": "3308a78fdaca7995902fa62d1cab2e173706ed1d"
     },
     {
       "id": "13w05a-1504",
       "type": "snapshot",
       "url": "version/manifest/13w05a-1504.json",
-      "sha1": "d3a1afefd5053215e905e22722e474dc5219bb4e",
+      "sha1": "ba14537a8a9ab85d738c9340b09c89dcc4195ece",
       "time": "2013-01-31T15:04:00+00:00",
-      "releaseTime": "2013-01-31T15:04:00+00:00",
+      "releaseTime": "2013-01-31T15:19:37+00:00",
       "details": "version/13w05a-1504.json",
-      "detailsSha1": "9b8131d4fe92aca3210f23497eed690286e680f6"
+      "detailsSha1": "f7bc89d6a9f4f3dd98f1d27e4afd609403861bb5"
     },
     {
       "id": "13w04a-whitelinefix",
       "type": "snapshot",
       "url": "version/manifest/13w04a-whitelinefix.json",
-      "sha1": "5b030dff6324415126503e0c7933feba5de97bbe",
+      "sha1": "769378da5330b10f6cb23381b1c619a772f04036",
       "time": "2013-01-24T14:17:50+00:00",
-      "releaseTime": "2013-01-24T14:17:50+00:00",
+      "releaseTime": "2013-01-28T10:33:00+00:00",
       "details": "version/13w04a-whitelinefix.json",
-      "detailsSha1": "fdc0bc98e4be6e1a8b72931c1615bc3829c15361"
+      "detailsSha1": "9a538b3493c6fe29099cb3e872649987277091d5"
     },
     {
       "id": "13w04a",
       "type": "snapshot",
       "url": "version/manifest/13w04a.json",
-      "sha1": "870357ebfe87ffb2bcbf28c60fc8784c509e810e",
+      "sha1": "02d1a65e0ab7bf5ab282785a8e420f231219b5a6",
       "time": "2013-01-24T14:17:50+00:00",
-      "releaseTime": "2013-01-24T14:17:50+00:00",
+      "releaseTime": "2013-01-24T14:17:52+00:00",
       "details": "version/13w04a.json",
-      "detailsSha1": "209f5369478f30cb4617cdfc6d17831d3d039d8e"
+      "detailsSha1": "da1af6dcf9aec09c769191d5fb2c36e0de29fdaa"
     },
     {
       "id": "13w03a",
       "type": "snapshot",
       "url": "version/manifest/13w03a.json",
-      "sha1": "f9f081a869b5990a8318abf01039b464f9f738bb",
+      "sha1": "b5c746ebb4656228b5065462472d296979b521bb",
       "time": "2013-01-17T16:49:18+00:00",
-      "releaseTime": "2013-01-17T16:49:18+00:00",
+      "releaseTime": "2013-01-17T16:49:22+00:00",
       "details": "version/13w03a.json",
-      "detailsSha1": "f882cc5d056dfdd7928c249731111e0972109327"
+      "detailsSha1": "be588bc85385efcd7fa6356329ab88f3871ccd36"
     },
     {
       "id": "13w03a-1647",
       "type": "snapshot",
       "url": "version/manifest/13w03a-1647.json",
-      "sha1": "9b12606b531ef89a50368fd9450451453512c973",
+      "sha1": "d0882be760050898512d05e60823fd087f68cd97",
       "time": "2013-01-17T16:49:18+00:00",
-      "releaseTime": "2013-01-17T16:49:18+00:00",
+      "releaseTime": "2013-01-17T16:49:22+00:00",
       "details": "version/13w03a-1647.json",
-      "detailsSha1": "1efc13c3d9618c512136c3902965e5f872bf62df"
+      "detailsSha1": "cb53b849d46946edf80487ec54f3a110f4d8d510"
     },
     {
       "id": "13w03a-1613",
       "type": "snapshot",
       "url": "version/manifest/13w03a-1613.json",
-      "sha1": "20376d1e180079f6821077a1af3544bbda4fb508",
+      "sha1": "757100069ed1a512dd5a9ff76300b1a2085372fc",
       "time": "2013-01-17T16:49:18+00:00",
-      "releaseTime": "2013-01-17T16:49:18+00:00",
+      "releaseTime": "2013-01-17T16:13:56+00:00",
       "details": "version/13w03a-1613.json",
-      "detailsSha1": "3b461cffa18bdf807d08a72ae2ac1f6610cbbae9"
+      "detailsSha1": "69793b114770c68a4a2c7d7ba1554e02c40a4978"
     },
     {
       "id": "13w03a-1538",
@@ -4868,7 +4868,7 @@
       "time": "2013-01-17T15:38:00+00:00",
       "releaseTime": "2013-01-17T15:38:00+00:00",
       "details": "version/13w03a-1538.json",
-      "detailsSha1": "90938995f6a47a527bbf0a0d1cc1e4307849a486"
+      "detailsSha1": "568d2ac28dee41e9e8bbda3576be95e35e01354f"
     },
     {
       "id": "13w02b",
@@ -4884,11 +4884,11 @@
       "id": "13w02a-whitetexturefix",
       "type": "snapshot",
       "url": "version/manifest/13w02a-whitetexturefix.json",
-      "sha1": "40f368577a89f01ef621ba58f0af9b80d5f89e2f",
+      "sha1": "dd6490b9d0e162ae996369077fcca11a9c5b6976",
       "time": "2013-01-10T15:09:08+00:00",
-      "releaseTime": "2013-01-10T15:09:08+00:00",
+      "releaseTime": "2013-01-11T00:47:16+00:00",
       "details": "version/13w02a-whitetexturefix.json",
-      "detailsSha1": "b3dab99e9cc020cd2e8a2eb524ed9b8bf95f0831"
+      "detailsSha1": "a105252e274c781dd7ec4080d0f1d106df16b1b2"
     },
     {
       "id": "13w02a",
@@ -4904,11 +4904,11 @@
       "id": "1.4.7",
       "type": "release",
       "url": "version/manifest/1.4.7.json",
-      "sha1": "cbd6d6061a2da54d189fe66ebda9a7c3f00b153e",
+      "sha1": "04bec1cffee6d83f7270fc0cdf51f1d0179047f5",
       "time": "2012-12-27T22:00:00+00:00",
-      "releaseTime": "2013-01-09T00:00:00+00:00",
+      "releaseTime": "2013-01-09T13:10:36+00:00",
       "details": "version/1.4.7.json",
-      "detailsSha1": "0086ceebe8ae85f0bceef450be9347e2d84588e8"
+      "detailsSha1": "96aa95f278df1cfb9aed9729b6a934b70b5d60b4"
     },
     {
       "id": "13w01b",
@@ -4934,31 +4934,31 @@
       "id": "1.4.6",
       "type": "release",
       "url": "version/manifest/1.4.6.json",
-      "sha1": "32a7ca947734e650239f7342a70d0726bee9e55a",
+      "sha1": "a37d5a158bb52a49eaeafe528665a5b85ea7da0c",
       "time": "2012-12-19T22:00:00+00:00",
-      "releaseTime": "2012-12-20T00:00:00+00:00",
+      "releaseTime": "2012-12-20T10:27:23+00:00",
       "details": "version/1.4.6.json",
-      "detailsSha1": "675cd4bbdfbc6a2abef7648123a058c32c2a713d"
+      "detailsSha1": "397eb472cf61a5f7389f9eb88a8f4fcb58e06968"
     },
     {
       "id": "1.4.6-pre-1521",
       "type": "release",
       "url": "version/manifest/1.4.6-pre-1521.json",
-      "sha1": "ddb5d7006f9ae2eed5213915d9588625900d9b76",
+      "sha1": "e6cc49d7ec9c74ba926732db1ac85292d67a1a0b",
       "time": "2012-12-19T22:00:00+00:00",
-      "releaseTime": "2012-12-20T00:00:00+00:00",
+      "releaseTime": "2012-12-17T15:21:32+00:00",
       "details": "version/1.4.6-pre-1521.json",
-      "detailsSha1": "440574bb05caba3aa2ae7f867285598342f5142c"
+      "detailsSha1": "c119b5b709151b40538b0bdb9bc814defe3eb75d"
     },
     {
       "id": "1.4.6-pre-1428",
       "type": "release",
       "url": "version/manifest/1.4.6-pre-1428.json",
-      "sha1": "abf457dddc7ae87dd0cf981e60156042aac9396c",
+      "sha1": "156f22d9d4fd509e60a15629e88c6239db036efc",
       "time": "2012-12-19T22:00:00+00:00",
-      "releaseTime": "2012-12-20T00:00:00+00:00",
+      "releaseTime": "2012-12-17T14:48:19+00:00",
       "details": "version/1.4.6-pre-1428.json",
-      "detailsSha1": "4943ac0bf3fd36f6ef9299f3d313d1f495ed45d9"
+      "detailsSha1": "90bc11ba3d6fc7fe0518e627053b78ad214361f4"
     },
     {
       "id": "12w50b",
@@ -4994,31 +4994,31 @@
       "id": "1.4.5",
       "type": "release",
       "url": "version/manifest/1.4.5.json",
-      "sha1": "b360419d3d5a1489378fd83a5c332c85cac22540",
+      "sha1": "e6b9f98666286d10cf0f1c953fd1cbb1edc56852",
       "time": "2012-12-19T22:00:00+00:00",
-      "releaseTime": "2012-11-20T00:00:00+00:00",
+      "releaseTime": "2012-11-20T12:32:13+00:00",
       "details": "version/1.4.5.json",
-      "detailsSha1": "638709b6294f67006bf892d6418238e9bcf68b14"
+      "detailsSha1": "f297600eba931d289143bb1e013583ee2aae554b"
     },
     {
       "id": "1.4.5-pre-160924",
       "type": "release",
       "url": "version/manifest/1.4.5-pre-160924.json",
-      "sha1": "3bb134cbcc5ba390536016fb196880dcf96f6134",
+      "sha1": "002a7fe5132f8bc2dd0ea1405a63dd22d7f207bb",
       "time": "2012-12-19T22:00:00+00:00",
-      "releaseTime": "2012-11-20T00:00:00+00:00",
+      "releaseTime": "2012-11-16T09:34:05+00:00",
       "details": "version/1.4.5-pre-160924.json",
-      "detailsSha1": "6da4724919c4093db5c6399922a0f561aa5e47db"
+      "detailsSha1": "4d80115f1d676a31140fca681b6b75b9b6d819a8"
     },
     {
       "id": "1.4.4",
       "type": "release",
       "url": "version/manifest/1.4.4.json",
-      "sha1": "f4b8725e06546718a244edd869571e29c95d8cc0",
+      "sha1": "b91f96fbde29d240c927ee518d450591db6a48d4",
       "time": "2012-12-13T22:00:00+00:00",
-      "releaseTime": "2012-12-14T00:00:00+00:00",
+      "releaseTime": "2012-11-14T14:06:51+00:00",
       "details": "version/1.4.4.json",
-      "detailsSha1": "8db3a08b0bf705437094cec90597450e74635d94"
+      "detailsSha1": "009311b8f296fa613e1beafc5e62e75d8f0378c0"
     },
     {
       "id": "1.4.3",
@@ -5034,11 +5034,11 @@
       "id": "1.4.2",
       "type": "release",
       "url": "version/manifest/1.4.2.json",
-      "sha1": "26a9b13a9e9c283a184afc22f1c6fb6b26fbf315",
+      "sha1": "21d5b91008a6b905ea76eec1bf48557c9683bfaf",
       "time": "2012-11-24T22:00:00+00:00",
-      "releaseTime": "2012-10-25T00:00:00+00:00",
+      "releaseTime": "2012-10-25T09:33:27+00:00",
       "details": "version/1.4.2.json",
-      "detailsSha1": "30c9636c49971dc55d05a15b590727b79d837999"
+      "detailsSha1": "d127c95589185be541ffc22a909168a044a84d60"
     },
     {
       "id": "1.4.1",
@@ -5224,11 +5224,11 @@
       "id": "1.3.2",
       "type": "release",
       "url": "version/manifest/1.3.2.json",
-      "sha1": "677730304013ca5b8ff23947abb59b714288a14a",
+      "sha1": "354a844d2a789c12e607063c85adeff5e1ee20f7",
       "time": "2012-08-15T22:00:00+00:00",
-      "releaseTime": "2012-08-16T00:00:00+00:00",
+      "releaseTime": "2012-08-16T13:34:37+00:00",
       "details": "version/1.3.2.json",
-      "detailsSha1": "0eae25122b0bae34fa083748bf34688d86a8d6c6"
+      "detailsSha1": "c5c1635f8ac48968af3b2df43be22afdf2677886"
     },
     {
       "id": "12w32a",
@@ -5254,21 +5254,21 @@
       "id": "1.3.1",
       "type": "release",
       "url": "version/manifest/1.3.1.json",
-      "sha1": "07047c801eb128558a565bac1add373fb1ca70ca",
+      "sha1": "9520b666656ddd24e18b31d070377cc0c2cba77c",
       "time": "2012-07-31T22:00:00+00:00",
-      "releaseTime": "2012-08-01T00:00:00+00:00",
+      "releaseTime": "2012-08-01T12:59:32+00:00",
       "details": "version/1.3.1.json",
-      "detailsSha1": "1c903ab707c8e35770c10f4d9f23c5a15837cb6d"
+      "detailsSha1": "0b1fb9e216402f5197387722ccb87082e5361dff"
     },
     {
       "id": "1.3",
       "type": "snapshot",
       "url": "version/manifest/1.3.json",
-      "sha1": "7f41cd70172a3663c64880d7e1a5a626a12f0a92",
+      "sha1": "db970e0eb93d57cdf779cb7617e2d55b1a96cd76",
       "time": "2012-07-25T22:00:00+00:00",
-      "releaseTime": "2012-07-26T12:49:00+00:00",
+      "releaseTime": "2012-07-26T13:00:52+00:00",
       "details": "version/1.3.json",
-      "detailsSha1": "ffa33d640d20341cdb5f93ce4c438a44a6022e5a"
+      "detailsSha1": "aa37403aa82885fc444d6c86e0a12a02c89a20b3"
     },
     {
       "id": "12w30e",
@@ -5344,11 +5344,11 @@
       "id": "12w25a",
       "type": "snapshot",
       "url": "version/manifest/12w25a.json",
-      "sha1": "700158dd3fd617af395f910f1a3325e8e854edc6",
+      "sha1": "6e02d5a2ff68bc4efc3a3b50f95ebeab992111cc",
       "time": "2012-06-21T12:24:07+00:00",
-      "releaseTime": "2012-06-21T12:24:07+00:00",
+      "releaseTime": "2012-06-21T12:23:50+00:00",
       "details": "version/12w25a.json",
-      "detailsSha1": "9ea027a337505733453b2456a0a4bf9f67f3f12a"
+      "detailsSha1": "41aa2260f310dc90f4835d0c28e4739812f4015c"
     },
     {
       "id": "12w24a",
@@ -5414,21 +5414,21 @@
       "id": "12w19a",
       "type": "snapshot",
       "url": "version/manifest/12w19a.json",
-      "sha1": "30ec717df9c50dbbdc60de04d5ae10304e9e34e7",
+      "sha1": "e567643f7e88d84bb3b37fb1016240153a844715",
       "time": "2012-05-10T00:00:00+00:00",
-      "releaseTime": "2012-05-10T00:00:00+00:00",
+      "releaseTime": "2012-05-10T11:03:12+00:00",
       "details": "version/12w19a.json",
-      "detailsSha1": "d80652df243d96a9ff6999aa9ced5c7b088c08ce"
+      "detailsSha1": "510f653ced21a0ddbe2a0d57db67562a61a56c47"
     },
     {
       "id": "12w18a",
       "type": "snapshot",
       "url": "version/manifest/12w18a.json",
-      "sha1": "53a8531da064ce94457bec7a68b50586a9d4431b",
+      "sha1": "d865a2e7060285b6ec5911cea7835cdfd6cadbbe",
       "time": "2012-05-03T13:26:23+00:00",
-      "releaseTime": "2012-05-03T00:00:00+00:00",
+      "releaseTime": "2012-05-03T13:26:24+00:00",
       "details": "version/12w18a.json",
-      "detailsSha1": "9df875e024f2d6f5991940224baf0140a377aeca"
+      "detailsSha1": "b1d0b0cc7e9c6b70df1377cc9293aa8aa2dad2f8"
     },
     {
       "id": "12w17a",
@@ -5474,47 +5474,47 @@
       "id": "1.2.5",
       "type": "release",
       "url": "version/manifest/1.2.5.json",
-      "sha1": "270de83fbb768c2d29ed8bac6cc0bf37fd2b0e84",
+      "sha1": "93df053d5f332b59e5d3e295872ce005327ec7c3",
       "time": "2012-03-29T22:00:00+00:00",
-      "releaseTime": "2012-04-04T00:00:00+00:00",
+      "releaseTime": "2012-04-04T13:01:48+00:00",
       "details": "version/1.2.5.json",
-      "detailsSha1": "62581d52e1599b706f2ffeac1d3448e5935e6fbf"
+      "detailsSha1": "6dacbebb2da0b5382a8610e0840b0e9c65c2630e"
     },
     {
       "id": "1.2.4",
       "type": "release",
       "url": "version/manifest/1.2.4.json",
-      "sha1": "450922bb9aaa69b14e13371c130b8f768a616f0f",
-      "releaseTime": "2012-03-22T15:55:00+00:00",
+      "sha1": "06c003041e1cac4af971489b7197bfa05b2cf6d1",
+      "releaseTime": "2012-03-22T16:00:53+00:00",
       "details": "version/1.2.4.json",
-      "detailsSha1": "a2dc6d1d499c6fd198b6a964f443ba0db76705dd"
+      "detailsSha1": "42c3d3c4cd989be13e2e4095e4ef7d541bd2fd6a"
     },
     {
       "id": "1.2.3",
       "type": "release",
       "url": "version/manifest/1.2.3.json",
-      "sha1": "5de701eeec9b02f0e558bccea30b164fb22babe7",
-      "releaseTime": "2012-03-02T08:36:00+00:00",
+      "sha1": "022a53f590ef788d233704dbed277b56722c9803",
+      "releaseTime": "2012-03-02T08:41:17+00:00",
       "details": "version/1.2.3.json",
-      "detailsSha1": "e8e6809ba15da33ce487ad7d92a568dcbbe7a3f5"
+      "detailsSha1": "08ffc7538736ae1bae340b25b7b4bc1418e92799"
     },
     {
       "id": "1.2.2",
       "type": "release",
       "url": "version/manifest/1.2.2.json",
-      "sha1": "3a84f835a90257d2eb8b93d8934c37ddf4a4cf05",
-      "releaseTime": "2012-03-01T14:19:00+00:00",
+      "sha1": "9c5c31f6770b89dafdff9d4dfb9b22c04d446f26",
+      "releaseTime": "2012-03-01T14:20:17+00:00",
       "details": "version/1.2.2.json",
-      "detailsSha1": "62045ad404c2cfa17541c580ed934ed122715840"
+      "detailsSha1": "d226e93089f3fa7cf9dc359d47874dcad3875917"
     },
     {
       "id": "1.2.1",
       "type": "release",
       "url": "version/manifest/1.2.1.json",
-      "sha1": "ba466774446d9efc862fb5d24343b3a13817bbe8",
-      "releaseTime": "2012-03-01T12:52:00+00:00",
+      "sha1": "8fa2bff50b0aa41ca279260223b084f92c5de583",
+      "releaseTime": "2012-03-01T13:41:13+00:00",
       "details": "version/1.2.1.json",
-      "detailsSha1": "563ab62f4c3a9161dc871b69e980bf0d59627007"
+      "detailsSha1": "64e86268c25e70b7587354a65be5eebc659d972f"
     },
     {
       "id": "1.2",
@@ -5600,11 +5600,11 @@
       "id": "12w05a-1354",
       "type": "snapshot",
       "url": "version/manifest/12w05a-1354.json",
-      "sha1": "4ad27bfbcc06d6a9e7ea9df7b8c5a15d25391670",
+      "sha1": "bb0bc4207a92d30ad07232045f50e0f8a5322e7e",
       "time": "2012-02-02T13:54:00+00:00",
-      "releaseTime": "2012-02-02T13:54:00+00:00",
+      "releaseTime": "2012-02-02T13:54:26+00:00",
       "details": "version/12w05a-1354.json",
-      "detailsSha1": "0f0c01ebd8ab1d43201524d50cdd8da231141fc9"
+      "detailsSha1": "458837b2d5c43abd8b2ddd6c5d635e17880bff10"
     },
     {
       "id": "12w04a",
@@ -5630,10 +5630,10 @@
       "id": "1.1",
       "type": "release",
       "url": "version/manifest/1.1.json",
-      "sha1": "f213c79b51be2a6fcf182ef6b028da7d127f4e72",
-      "releaseTime": "2012-01-12T14:20:00+00:00",
+      "sha1": "b9e9027e68aa160e0b8c201a9b09bd9d528d61e3",
+      "releaseTime": "2012-01-12T15:34:02+00:00",
       "details": "version/1.1.json",
-      "detailsSha1": "bd5c9e31fe4a605195628efaacf94809bd6dce52"
+      "detailsSha1": "c2149d21603aa088493353bb63007ae81b24b8c3"
     },
     {
       "id": "12w01a",
@@ -5669,21 +5669,21 @@
       "id": "11w48a",
       "type": "snapshot",
       "url": "version/manifest/11w48a.json",
-      "sha1": "619188d735c4e1f3338368a6f084e1d3e4af1c84",
+      "sha1": "5f29af8c9b7b631465718c015699604ab97219b9",
       "time": "2011-12-01T14:32:24+00:00",
-      "releaseTime": "2011-12-01T14:32:24+00:00",
+      "releaseTime": "2011-12-01T14:32:16+00:00",
       "details": "version/11w48a.json",
-      "detailsSha1": "607ffcb8f67ffd7b37ca9f83d96fa5528df1895d"
+      "detailsSha1": "b2998779e3be277663fff3b09c2479c9110a915d"
     },
     {
       "id": "11w47a",
       "type": "snapshot",
       "url": "version/manifest/11w47a.json",
-      "sha1": "215d67e3f7e96dc22749b27d9a12dfc4075af871",
+      "sha1": "447b39ab9563353024d45adcaca7f092a15e68c9",
       "time": "2011-11-24T13:18:00+00:00",
-      "releaseTime": "2011-11-24T13:18:00+00:00",
+      "releaseTime": "2011-11-24T13:20:06+00:00",
       "details": "version/11w47a.json",
-      "detailsSha1": "3a00e921857404b4f7ff613ae2e60161b576b74f"
+      "detailsSha1": "0fdefea68e906ecd3821dfdb1b6612ad5df1c49d"
     },
     {
       "id": "1.0.1",
@@ -5718,78 +5718,78 @@
       "id": "1.0.0-rc2",
       "type": "snapshot",
       "url": "version/manifest/1.0.0-rc2.json",
-      "sha1": "c076c72e2f0d6ecb469f0b78cfe572ccc9c27e89",
+      "sha1": "2f434b404f91266701313c7ef6d0bcc6967b2e42",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2011-11-13T17:56:00+00:00",
+      "releaseTime": "2011-11-13T16:57:39+00:00",
       "details": "version/1.0.0-rc2.json",
-      "detailsSha1": "632c8d910b0d8f713cd88bf0ad75e8897f050827"
+      "detailsSha1": "7ccb6e3fd42261c7288a754f8bc54373d9306f98"
     },
     {
       "id": "1.0.0-rc2-1656",
       "type": "snapshot",
       "url": "version/manifest/1.0.0-rc2-1656.json",
-      "sha1": "3af04667bac8965be02597ef28092e8ac8636d86",
+      "sha1": "4309fa79108cc401edf02de4524f74f0777287db",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2011-11-13T17:56:00+00:00",
+      "releaseTime": "2011-11-13T16:57:39+00:00",
       "details": "version/1.0.0-rc2-1656.json",
-      "detailsSha1": "58ba81b7a094e4143a9b92c720cc76fe21d9c0b7"
+      "detailsSha1": "602a6f6cd799a950e3138f4a403fdc7993fa51c3"
     },
     {
       "id": "1.0.0-rc2-1649",
       "type": "snapshot",
       "url": "version/manifest/1.0.0-rc2-1649.json",
-      "sha1": "44a28f12ef39de0cce9b63feb8ccf139350e53d0",
+      "sha1": "f051dd92839e6ba231cc31634280a64f37342224",
       "time": "2019-04-21T21:04:24+00:00",
-      "releaseTime": "2011-11-13T16:49:00+00:00",
+      "releaseTime": "2011-11-13T16:49:32+00:00",
       "details": "version/1.0.0-rc2-1649.json",
-      "detailsSha1": "9142aadfc329e9e55acf244759cd14b31e79b7b8"
+      "detailsSha1": "2497ffba6bf445dde6bf8dab9f99132ecd25b95b"
     },
     {
       "id": "1.0.0-rc2-1633",
       "type": "snapshot",
       "url": "version/manifest/1.0.0-rc2-1633.json",
-      "sha1": "0501484f07d7eacb2c633c8d85bc23e3a8173624",
+      "sha1": "46c0ba472cb79ec1ffd29102a46c4ba00f7399bc",
       "time": "2019-11-21T22:37:45+00:00",
-      "releaseTime": "2011-11-13T16:33:00+00:00",
+      "releaseTime": "2011-11-13T16:36:01+00:00",
       "details": "version/1.0.0-rc2-1633.json",
-      "detailsSha1": "ee3427d8517e9e9e46dee61088246b9ef42a46c7"
+      "detailsSha1": "308cd35da7a8d5694ffeb1095864a0831c5ac17e"
     },
     {
       "id": "1.0.0-rc1",
       "type": "snapshot",
       "url": "version/manifest/1.0.0-rc1.json",
-      "sha1": "159cd39310fd7518941e1b97d6b3efc5a6ef0ec4",
+      "sha1": "307845c03ded2e331b6796df5e96b886d2b04e47",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2011-11-13T15:02:00+00:00",
+      "releaseTime": "2011-11-13T16:14:04+00:00",
       "details": "version/1.0.0-rc1.json",
-      "detailsSha1": "a530a1c675588ae0bda376e9599304972360c734"
+      "detailsSha1": "d7b30ed253d3126d7ad487cf85d1298d12ab3db9"
     },
     {
       "id": "b1.9-pre6",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre6.json",
-      "sha1": "bc64e093ae613c771379dcdb1aa7a5257b1ad239",
-      "releaseTime": "2011-11-11T15:33:00+00:00",
+      "sha1": "9d05a00d1af67611fc1ffdc7162f68015ce1800c",
+      "releaseTime": "2011-11-11T15:35:40+00:00",
       "details": "version/b1.9-pre6.json",
-      "detailsSha1": "4a9753b31c8fe55df648ac0937dbc1e943e1ad23"
+      "detailsSha1": "5888414b009d0d3e030133190ca73c7e40f6ea74"
     },
     {
       "id": "b1.9-pre5",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre5.json",
-      "sha1": "3213f9caa3d7917c646f4d55fcecfda7cd93f4e0",
-      "releaseTime": "2011-10-27T14:36:00+00:00",
+      "sha1": "1faf672317ed676efe2451ddd9b9f08b45e298e1",
+      "releaseTime": "2011-10-27T14:36:48+00:00",
       "details": "version/b1.9-pre5.json",
-      "detailsSha1": "ec5f06e888e9ceaeda39e60bfba16d86d9932548"
+      "detailsSha1": "fb9a536990f2a97509db337b0165350449da735d"
     },
     {
       "id": "b1.9-pre4",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre4.json",
-      "sha1": "0f958ae9a5423c5adadec5284acb8e94d47b549c",
+      "sha1": "315021fca46c61bcf1d26f6f3fb2425bf158a25d",
       "releaseTime": "2011-10-13T14:40:58+00:00",
       "details": "version/b1.9-pre4.json",
-      "detailsSha1": "15a1045478b0852fae02393c338177f88ea25d91"
+      "detailsSha1": "0b74763a5042ff77d83bc662c65b394dc2807ba1"
     },
     {
       "id": "b1.9-pre4-1441",
@@ -5804,10 +5804,10 @@
       "id": "b1.9-pre4-1435",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre4-1435.json",
-      "sha1": "bb156fc154fb2120b7044abbf37f42fd552bff9e",
-      "releaseTime": "2011-10-13T14:34:00+00:00",
+      "sha1": "48c720bfeaecc6f8698d67b6376d6f42dc2eda7d",
+      "releaseTime": "2011-10-13T14:36:11+00:00",
       "details": "version/b1.9-pre4-1435.json",
-      "detailsSha1": "b49ccc9d798d8fb317e48cc8ee812c10ee61ae77"
+      "detailsSha1": "cb5099212899542c4b5d3fcd1dd474c5d901d3ab"
     },
     {
       "id": "b1.9-pre4-1425",
@@ -5822,97 +5822,97 @@
       "id": "b1.9-pre4-1415",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre4-1415.json",
-      "sha1": "6236bf2bf9b7fcd5e4cf6f433f1837659a633a7e",
-      "releaseTime": "2011-10-13T14:25:26+00:00",
+      "sha1": "7d1e1a14ec34ef58f725f419974681c6a24aa3f2",
+      "releaseTime": "2011-10-13T14:15:45+00:00",
       "details": "version/b1.9-pre4-1415.json",
-      "detailsSha1": "1c7207f4b60edba70d9bb1ef935c9b47357270ca"
+      "detailsSha1": "93c64e3950f75f14c1c51c91b0b683f4bfd5fc3a"
     },
     {
       "id": "b1.9-pre3",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre3.json",
-      "sha1": "207e73e18026f0580e8e49b4c4026ce3b7e5a803",
-      "releaseTime": "2011-10-06T14:02:00+00:00",
+      "sha1": "fa3bad3116c87ca11abd048db90c8f2b0f5f493f",
+      "releaseTime": "2011-10-06T14:03:51+00:00",
       "details": "version/b1.9-pre3.json",
-      "detailsSha1": "19087c35816f4da47d89edddaafbed0c4417f346"
+      "detailsSha1": "b034d0565e0128cd049db1fcf4503b5a89ce2ce5"
     },
     {
       "id": "b1.9-pre3-1402",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre3-1402.json",
-      "sha1": "9f751644100a7f8365637b6441e5524242c56920",
+      "sha1": "f969568a86d31eee0e64cf7d034faa8d81377710",
       "time": "2013-08-06T14:00:00+03:00",
-      "releaseTime": "2011-10-06T14:02:00+00:00",
+      "releaseTime": "2011-10-06T14:03:51+00:00",
       "details": "version/b1.9-pre3-1402.json",
-      "detailsSha1": "6c76c8c95c5d42ebbfbc5aa486bc21f2b9a6ef04"
+      "detailsSha1": "4e633403eda296af4884b182c3362addb0d58fd0"
     },
     {
       "id": "b1.9-pre3-1350",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre3-1350.json",
-      "sha1": "ac14b3e6cd2eda3258bdd5752b68bb6ad3010b39",
-      "releaseTime": "2011-10-06T13:50:00+00:00",
+      "sha1": "978ea2fc6090d432d137b4c5a6f6a42dae0b3e0b",
+      "releaseTime": "2011-10-06T13:52:09+00:00",
       "details": "version/b1.9-pre3-1350.json",
-      "detailsSha1": "912d193a9a4376f3cc9c2776ee4aa4eec911e8f5"
+      "detailsSha1": "7f6e472fd1f4391675fd87039f739ccaea048c94"
     },
     {
       "id": "b1.9-pre2",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre2.json",
-      "sha1": "8758636cc628fe208243e25e0ca403842cfec157",
-      "releaseTime": "2011-09-29T12:49:00+00:00",
+      "sha1": "e90fc156fb52fbc7e1cef972a11dca293cba5113",
+      "releaseTime": "2011-09-29T12:54:55+00:00",
       "details": "version/b1.9-pre2.json",
-      "detailsSha1": "fcfe99cc64d62d4012800e21abf0e5e3718e9911"
+      "detailsSha1": "76a35ae0fced74925e8a8287b39f818a5b14a401"
     },
     {
       "id": "b1.9-pre1",
       "type": "old_beta",
       "url": "version/manifest/b1.9-pre1.json",
-      "sha1": "b6b899f308d48f6148206ae822f0e4bd84869192",
+      "sha1": "8a70aaff50077b1c0bec4fb59cc697cfc856a711",
       "time": "2013-08-06T14:00:00+03:00",
-      "releaseTime": "2011-09-22T14:20:00+00:00",
+      "releaseTime": "2011-09-22T14:21:29+00:00",
       "details": "version/b1.9-pre1.json",
-      "detailsSha1": "135402d5d08b3245fc2121f2a1a7a77fc4a2a1b3"
+      "detailsSha1": "f296f64646a5b4af249eeeb290cbeb84d8195a31"
     },
     {
       "id": "b1.8.1",
       "type": "old_beta",
       "url": "version/manifest/b1.8.1.json",
-      "sha1": "0a355d7102af0c1946f7f34a64723830974445b6",
+      "sha1": "4b79d0922697eb99d6db99e25359b8684c834999",
       "time": "2011-09-18T22:00:00+00:00",
-      "releaseTime": "2011-09-15T08:18:00+00:00",
+      "releaseTime": "2011-09-15T08:28:32+00:00",
       "details": "version/b1.8.1.json",
-      "detailsSha1": "c5a97deda8aab56b755267632b09641b8c908458"
+      "detailsSha1": "f3d7586733b95fda6d0c26833f2d628ece1d64da"
     },
     {
       "id": "b1.8",
       "type": "old_beta",
       "url": "version/manifest/b1.8.json",
-      "sha1": "a705698fabb41c40eabea0755c824f2328bb9e36",
+      "sha1": "e9f9594c8e600cac065d0a2c4d52895f07456044",
       "time": "2011-09-14T22:00:00+00:00",
-      "releaseTime": "2011-09-14T09:42:00+00:00",
+      "releaseTime": "2011-09-14T09:47:39+00:00",
       "details": "version/b1.8.json",
-      "detailsSha1": "261b371f4a7c8495faf80ee3216c3bd28fab0117"
+      "detailsSha1": "002fdcd474ae49d245dad7a6b70b2c2bc00959a7"
     },
     {
       "id": "b1.8-pre2",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre2.json",
-      "sha1": "e9b420afd724ba008a511cf535aa6a7c2e62b215",
+      "sha1": "98a2dc252f16b76da08107a95b14424cb645c78d",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2011-09-13T12:40:00+00:00",
+      "releaseTime": "2011-09-13T12:41:06+00:00",
       "details": "version/b1.8-pre2.json",
-      "detailsSha1": "1de8d8aa69a1a445f2c31c926f4071002974949b"
+      "detailsSha1": "24348bb0b0783cbe09410bbd5fb6dbc66483009c"
     },
     {
       "id": "b1.8-pre2-131240",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre2-131240.json",
-      "sha1": "5a76298b1c6dad0a963dd13487ab743dbd27a859",
+      "sha1": "49881d1dce7f49ab585840cbcfc406aeff5b721b",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2011-09-13T12:40:00+00:00",
+      "releaseTime": "2011-09-13T12:41:06+00:00",
       "details": "version/b1.8-pre2-131240.json",
-      "detailsSha1": "97a53c80196f05f38c897b3027e3d7ec9bfd2810"
+      "detailsSha1": "14e4d4cf96d0e7d0f2736bd1aeeada6795fa6b6d"
     },
     {
       "id": "b1.8-pre2-131225",
@@ -5928,149 +5928,149 @@
       "id": "b1.8-pre2-121559",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre2-121559.json",
-      "sha1": "09daa83f2e9c2491991f30be28f58a26d2b98811",
+      "sha1": "e4f49f6f38b1e67a36a9616ce778bf32926d07e3",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2011-09-13T12:25:00+00:00",
+      "releaseTime": "2011-09-12T15:59:32+00:00",
       "details": "version/b1.8-pre2-121559.json",
-      "detailsSha1": "4607aa4890b1ad41b12df048f84dbe7352f804a1"
+      "detailsSha1": "f51d1c9d381743b6e18d6c19e36155cd166e6177"
     },
     {
       "id": "b1.8-pre1",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre1.json",
-      "sha1": "15958070ed8e057abf5e8fe54ee33c87832288e3",
-      "releaseTime": "2011-09-09T13:57:00+00:00",
+      "sha1": "e4f8c1b0d12db143c688a2f873d7188a505c18a6",
+      "releaseTime": "2011-09-09T14:01:33+00:00",
       "details": "version/b1.8-pre1.json",
-      "detailsSha1": "8976218f4683a273afad3dcd28d2bae1e35c7cbb"
+      "detailsSha1": "0dba4ec93bd9ea526906a60fee8f1c309306597d"
     },
     {
       "id": "b1.8-pre1-091358",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre1-091358.json",
-      "sha1": "a61c88ddc5aec80a4bcb53c8163e7cbbdd318ee9",
+      "sha1": "680dbb7d3accb2542a9c8f051f17d0aafd438e30",
       "time": "2011-09-09T04:00:00-07:00",
-      "releaseTime": "2011-09-09T13:57:00+00:00",
+      "releaseTime": "2011-09-09T14:01:33+00:00",
       "details": "version/b1.8-pre1-091358.json",
-      "detailsSha1": "e96a1f7bef5871ca3ddfe2c5a2e9b6b4e8550aec"
+      "detailsSha1": "ae0990a4d22a9f124e54fd08766d4b50559ad6eb"
     },
     {
       "id": "b1.8-pre1-081459",
       "type": "old_beta",
       "url": "version/manifest/b1.8-pre1-081459.json",
-      "sha1": "a2c1e80fab307a15a87ee6be96fa3bf1a4d440fa",
+      "sha1": "8339f4781c0db92fd7eb93b34e1fc29946c25a6c",
       "time": "2011-09-09T04:00:00-07:00",
-      "releaseTime": "2011-09-08T14:59:00+00:00",
+      "releaseTime": "2011-09-08T15:04:06+00:00",
       "details": "version/b1.8-pre1-081459.json",
-      "detailsSha1": "a8fafd3f29215b117ae5ce0d66d600b541200862"
+      "detailsSha1": "e22f66d13b914be014a76b4a776f9aac4aaf7f7a"
     },
     {
       "id": "b1.7.3",
       "type": "old_beta",
       "url": "version/manifest/b1.7.3.json",
-      "sha1": "52d4467cd347e77d1afd63ac93e18a7d63ef52a9",
-      "releaseTime": "2011-07-08T07:32:00+00:00",
+      "sha1": "02e4bff3711a51b95e4d010a7719060291ced806",
+      "releaseTime": "2011-07-08T07:43:51+00:00",
       "details": "version/b1.7.3.json",
-      "detailsSha1": "f23020031b7249a050326cfd1359af4f6b306bd4"
+      "detailsSha1": "b81d78c9cd0cb20775bd57f97fbaa300ebcf7d0b"
     },
     {
       "id": "b1.7.2",
       "type": "old_beta",
       "url": "version/manifest/b1.7.2.json",
-      "sha1": "5e4099b6336ab813f4081a6b4a24dfe818191c3c",
-      "releaseTime": "2011-07-01T11:44:00+00:00",
+      "sha1": "89b6de4a6d8b46ccf02ced200fe41847260811a0",
+      "releaseTime": "2011-07-01T11:48:20+00:00",
       "details": "version/b1.7.2.json",
-      "detailsSha1": "4353cd17b5439c59d5610d428e4015d8be2598c8"
+      "detailsSha1": "75ff9834bde6a2e5974c611622e6c1ed7f08700d"
     },
     {
       "id": "b1.7_01",
       "type": "old_beta",
       "url": "version/manifest/b1.7_01.json",
-      "sha1": "25fc98417ab7cc027717e96379b7153b98852a9a",
+      "sha1": "acd481ba1016b4b3ef23a6276f3072623321378c",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2011-06-30T14:34:00+00:00",
+      "releaseTime": "2011-06-30T14:35:01+00:00",
       "details": "version/b1.7_01.json",
-      "detailsSha1": "3500c45ae6599cc15fbdd6ecc12dfeccb8f834ed"
+      "detailsSha1": "21d1ff3e4a7e989cb2fef056a71067b5e7198e08"
     },
     {
       "id": "b1.7",
       "type": "old_beta",
       "url": "version/manifest/b1.7.json",
-      "sha1": "7c2e77d61451365be11990062e08af3d6249b5a1",
-      "releaseTime": "2011-06-30T13:34:00+00:00",
+      "sha1": "33346cd4d5b524445b98c9401030de9fe388314c",
+      "releaseTime": "2011-06-30T13:37:35+00:00",
       "details": "version/b1.7.json",
-      "detailsSha1": "c42e70158b70d381b19bc3c29f8256332a36daec"
+      "detailsSha1": "c8fbf94614061c0c9a9d9f445c02eb2411858485"
     },
     {
       "id": "b1.6.6",
       "type": "old_beta",
       "url": "version/manifest/b1.6.6.json",
-      "sha1": "99efb8bc644e0afe1d7a38f1e3f1cfcee6f25b98",
-      "releaseTime": "2011-05-31T12:36:00+00:00",
+      "sha1": "e88c37bb03ec676cb733feab9a147080176e535a",
+      "releaseTime": "2011-05-31T12:41:09+00:00",
       "details": "version/b1.6.6.json",
-      "detailsSha1": "14a3fb0641d8e1ac4fd29453fb50fe2965adb2e5"
+      "detailsSha1": "df77fb21d6631c0c2ec83088176e11b90695376b"
     },
     {
       "id": "b1.6.5",
       "type": "old_beta",
       "url": "version/manifest/b1.6.5.json",
-      "sha1": "89ef95d392a1f43a4ee94e0e201a6c03bbed1a9d",
-      "releaseTime": "2011-05-28T15:12:00+00:00",
+      "sha1": "296f2b4bc0b9526331c6ef33d3fba77abb36b85a",
+      "releaseTime": "2011-05-28T15:13:32+00:00",
       "details": "version/b1.6.5.json",
-      "detailsSha1": "cca9156280578ffef2d2f284cdaa58b1089cf7c4"
+      "detailsSha1": "15d13efdd9fd3b8cb75738cef6a469a2cbda8ff0"
     },
     {
       "id": "b1.6.4",
       "type": "old_beta",
       "url": "version/manifest/b1.6.4.json",
-      "sha1": "1a2377af444acece8bc7435cd1bdb22c64110a68",
-      "releaseTime": "2011-05-26T14:09:00+00:00",
+      "sha1": "32909063ba082caf58d0e992796726bbe82b305e",
+      "releaseTime": "2011-05-26T14:09:41+00:00",
       "details": "version/b1.6.4.json",
-      "detailsSha1": "368a278791f0e87682679976f633156163da8445"
+      "detailsSha1": "829eff75cb190a7ecf45a45dcf74b55042817b79"
     },
     {
       "id": "b1.6.3",
       "type": "old_beta",
       "url": "version/manifest/b1.6.3.json",
-      "sha1": "c071fc0e96cd1f492f2a589f2b631de380acaac7",
-      "releaseTime": "2011-05-26T13:20:00+00:00",
+      "sha1": "ec6568ee15d40b1d58027e576e709a14f4508995",
+      "releaseTime": "2011-05-26T13:20:12+00:00",
       "details": "version/b1.6.3.json",
-      "detailsSha1": "3c2dd0ca09e433b1464182c8dbb796d6f5d1f06f"
+      "detailsSha1": "806a8c5899abfedbbb9cc47477388aafc5afc319"
     },
     {
       "id": "b1.6.2",
       "type": "old_beta",
       "url": "version/manifest/b1.6.2.json",
-      "sha1": "6555a823693af815627bc050b27ff67118e67de4",
-      "releaseTime": "2011-05-26T09:31:00+00:00",
+      "sha1": "3bfcff11592bd5d3552683cda428b231117fa01b",
+      "releaseTime": "2011-05-26T09:32:25+00:00",
       "details": "version/b1.6.2.json",
-      "detailsSha1": "415d7519f8cdb23068dd2a9a82c4ba21f50364ba"
+      "detailsSha1": "c328ecad8e05826d98be1e1356f6851c51c88763"
     },
     {
       "id": "b1.6.1",
       "type": "old_beta",
       "url": "version/manifest/b1.6.1.json",
-      "sha1": "dedde86f5da101cea7422599a66887473b193eb0",
-      "releaseTime": "2011-05-26T09:19:00+00:00",
+      "sha1": "6cf177da0f98203565473db2fe5f4018d62efbfa",
+      "releaseTime": "2011-05-26T09:19:08+00:00",
       "details": "version/b1.6.1.json",
-      "detailsSha1": "9afd262e90d0158eaceaa4e2fd9e0ac9559cccdc"
+      "detailsSha1": "66585ec76fe3a8ed2135f51dc25525b251bb1732"
     },
     {
       "id": "b1.6",
       "type": "old_beta",
       "url": "version/manifest/b1.6.json",
-      "sha1": "ff717bd9c96e644ec39e42f32ed110ec36bd2d39",
-      "releaseTime": "2011-05-26T08:57:00+00:00",
+      "sha1": "87ec704b17155b7c1178da108564552621f62ad4",
+      "releaseTime": "2011-05-26T08:57:38+00:00",
       "details": "version/b1.6.json",
-      "detailsSha1": "91b6cfa21d5fe339a55031e320894a6ae0a15d34"
+      "detailsSha1": "ff48530d606e69c9f577347157c5a62fefbc697c"
     },
     {
       "id": "b1.6-tb3",
       "type": "old_beta",
       "url": "version/manifest/b1.6-tb3.json",
-      "sha1": "0152d1301393b8919d880aaf205ec4a5eb096707",
-      "releaseTime": "2011-05-25T08:35:00+00:00",
+      "sha1": "b0247f44ae58f24b2353c6ff5101ce8ff370c380",
+      "releaseTime": "2011-05-25T08:36:23+00:00",
       "details": "version/b1.6-tb3.json",
-      "detailsSha1": "74d7e320684a34769504b96851457e8d29c4955c"
+      "detailsSha1": "1acb90e056c5f8ae0ccac86419feca7decd7f22a"
     },
     {
       "id": "b1.6-trailer",
@@ -6085,11 +6085,11 @@
       "id": "b1.2_02-dev",
       "type": "old_beta",
       "url": "version/manifest/b1.2_02-dev.json",
-      "sha1": "4b400d004b89caf09c010250ed1797f75a94672f",
+      "sha1": "8a8328b8b5382367d1127df3fb1cbb2d0ea5378a",
       "time": "2024-06-27T17:46:00+00:00",
-      "releaseTime": "2011-05-17T16:27:00+00:00",
+      "releaseTime": "2011-05-17T16:27:34+00:00",
       "details": "version/b1.2_02-dev.json",
-      "detailsSha1": "87bf5c822894cd2bd86a772d768f192d5b342c47"
+      "detailsSha1": "5a6aa65a959c59169278480106df91359416bfdf"
     },
     {
       "id": "b1.5_02",
@@ -6104,103 +6104,103 @@
       "id": "b1.5_01",
       "type": "old_beta",
       "url": "version/manifest/b1.5_01.json",
-      "sha1": "fc227151efe00965585a57eabf72b66821feb106",
-      "releaseTime": "2011-04-20T12:30:00+00:00",
+      "sha1": "fdcf3e4125b678af4b687ea535c9ba63c7758577",
+      "releaseTime": "2011-04-20T12:31:34+00:00",
       "details": "version/b1.5_01.json",
-      "detailsSha1": "04fdc3d38724a68db036c9f4a9b992902912a18f"
+      "detailsSha1": "9b14e423d559271c011a9a1b11127fa26620871d"
     },
     {
       "id": "b1.5",
       "type": "old_beta",
       "url": "version/manifest/b1.5.json",
-      "sha1": "521c3d8e21d57a60dfb7783c908e90b8c2e2baaa",
-      "releaseTime": "2011-04-19T13:32:00+00:00",
+      "sha1": "c05716be2937e0e951d04194eed72859f213ce3e",
+      "releaseTime": "2011-04-19T13:37:33+00:00",
       "details": "version/b1.5.json",
-      "detailsSha1": "59ef4edce903990bd3606469a1401b3afb08e0b2"
+      "detailsSha1": "2d8b60e87c02017533aa48fdb44ecc400955bd29"
     },
     {
       "id": "b1.4_01",
       "type": "old_beta",
       "url": "version/manifest/b1.4_01.json",
-      "sha1": "9cd37ca3cee362661972770d70008199cac084d5",
-      "releaseTime": "2011-04-05T08:22:00+00:00",
+      "sha1": "7841e6e70fa3df413d86b1f4a7e15e4f7491f40d",
+      "releaseTime": "2011-04-05T08:26:39+00:00",
       "details": "version/b1.4_01.json",
-      "detailsSha1": "725f1aa56a17c2148081537c379979d0a834189e"
+      "detailsSha1": "bd1d7826085adb0c7b6dd90c5e17eace7eff5614"
     },
     {
       "id": "b1.4",
       "type": "old_beta",
       "url": "version/manifest/b1.4.json",
-      "sha1": "6693ba2a1f8fde8bcee1fb740fef4f0b8de3d527",
-      "releaseTime": "2011-03-31T16:34:00+00:00",
+      "sha1": "71f5bc635aa3376d9acd57c463fb1d76ec604188",
+      "releaseTime": "2011-03-31T16:35:16+00:00",
       "details": "version/b1.4.json",
-      "detailsSha1": "e9135570dd1d518f4c8316ffe74b8f60d492afc8"
+      "detailsSha1": "e6fb39fda02a66e91dd2017396d969719cb5e818"
     },
     {
       "id": "b1.4-1634",
       "type": "old_beta",
       "url": "version/manifest/b1.4-1634.json",
-      "sha1": "999deb0787f3a90b6676b915adaf97c9902dd268",
+      "sha1": "67542ae64f78271ed6a0e8a577a98e09ebf83145",
       "time": "2011-03-30T22:00:00+00:00",
-      "releaseTime": "2011-03-31T16:34:00+00:00",
+      "releaseTime": "2011-03-31T16:35:16+00:00",
       "details": "version/b1.4-1634.json",
-      "detailsSha1": "20d1f32fb135d3dd38e74cf49f6b52cc129c787c"
+      "detailsSha1": "9b019a7b66026a552bbea2cfba1ca8009562c1a5"
     },
     {
       "id": "b1.4-1507",
       "type": "old_beta",
       "url": "version/manifest/b1.4-1507.json",
-      "sha1": "9170fc6ec1de346ab78e0b1054cf7cd6cc19c9c3",
-      "releaseTime": "2011-03-31T15:07:00+00:00",
+      "sha1": "1aefed31fb6873c3718e1add6fe590ef87e6d789",
+      "releaseTime": "2011-03-31T15:07:24+00:00",
       "details": "version/b1.4-1507.json",
-      "detailsSha1": "bcde5f8b22c7fdec863d58d87449a6230f56f087"
+      "detailsSha1": "5d8a2dae1965936bf918a45b782c122c863af1d4"
     },
     {
       "id": "b1.3_01",
       "type": "old_beta",
       "url": "version/manifest/b1.3_01.json",
-      "sha1": "f2db8615248382b5677be753d8e3cafa7a734f9a",
+      "sha1": "d5f9255f852b0a0649ffec1a4bad455681c5cef2",
       "time": "2011-02-22T22:00:00+00:00",
-      "releaseTime": "2011-02-23T14:09:00+00:00",
+      "releaseTime": "2011-02-23T14:11:03+00:00",
       "details": "version/b1.3_01.json",
-      "detailsSha1": "98da92a02364d7a1d7795d63186933a1019b42ff"
+      "detailsSha1": "faa9791cd80ea9389d26ca44ed7d92f6fec55e47"
     },
     {
       "id": "b1.3-demo",
       "type": "old_beta",
       "url": "version/manifest/b1.3-demo.json",
-      "sha1": "4a4fc70734f8eda0b19c147f56d7645256866c60",
-      "releaseTime": "2011-02-22T17:31:32+00:00",
+      "sha1": "6920027225a1712f6105cc7e8c26bc6a1c45aa4b",
+      "releaseTime": "2011-04-19T19:12:20+00:00",
       "details": "version/b1.3-demo.json",
-      "detailsSha1": "673e9d6cd47e47edbae797f84ad26d14472ca079"
+      "detailsSha1": "1b8d0126aed3139ffc8641438caa687364bc06ae"
     },
     {
       "id": "b1.3",
       "type": "old_beta",
       "url": "version/manifest/b1.3.json",
-      "sha1": "0c73ea0ae5adfff66bd1d991b8e0fbc2b39d7dc4",
-      "releaseTime": "2011-02-22T17:31:32+00:00",
+      "sha1": "5171843f7c7ea8b42b6818102345dbe1e535801c",
+      "releaseTime": "2011-02-22T17:51:14+00:00",
       "details": "version/b1.3.json",
-      "detailsSha1": "d6d4b9147e402844cac4b39e5b175579ffb751ef"
+      "detailsSha1": "ec651e383f21e051c78281ba305180a23a3f496b"
     },
     {
       "id": "b1.3-1750",
       "type": "old_beta",
       "url": "version/manifest/b1.3-1750.json",
-      "sha1": "725a5865aa3d1784e306ea262bd57ba5480f2b2f",
+      "sha1": "8699aca1f35eeea622fdf42f4ad7a5a306bbbc8d",
       "time": "2011-02-21T22:00:00+00:00",
-      "releaseTime": "2011-02-22T17:50:00+00:00",
+      "releaseTime": "2011-02-22T17:51:14+00:00",
       "details": "version/b1.3-1750.json",
-      "detailsSha1": "9abd377b78c1149f655d64aee576bc8819c5509c"
+      "detailsSha1": "19d248a3e3b89b8fe9c2c99c18f0ef8116da997b"
     },
     {
       "id": "b1.3-1733",
       "type": "old_beta",
       "url": "version/manifest/b1.3-1733.json",
-      "sha1": "a5bad196cc95173706e8e70baed9ab4a5d9f2ccf",
-      "releaseTime": "2011-02-22T17:31:32+00:00",
+      "sha1": "20599a49ce122188c46643b299b67bc068b15585",
+      "releaseTime": "2011-02-22T17:33:26+00:00",
       "details": "version/b1.3-1733.json",
-      "detailsSha1": "1721f4dfde626255a64cf827b2e68c11050c9f8e"
+      "detailsSha1": "ab2a1940e0a71e321eda0094e0f89f33a9caaa88"
     },
     {
       "id": "b1.3-1731",
@@ -6215,11 +6215,11 @@
       "id": "b1.3-1713",
       "type": "old_beta",
       "url": "version/manifest/b1.3-1713.json",
-      "sha1": "4b135ccc5de493f72ec364f570e5ea1aef90030c",
+      "sha1": "d15e7d2dcbb7ad573fa92e139bebed284743257f",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2011-02-22T17:13:00+00:00",
+      "releaseTime": "2011-02-22T17:13:04+00:00",
       "details": "version/b1.3-1713.json",
-      "detailsSha1": "95cc64dc56a93c93d9b065a17e9c9b6e77df69e9"
+      "detailsSha1": "2e5b1356a031b12d25b73c374ac3addb9b780b2c"
     },
     {
       "id": "b1.3-1647",
@@ -6234,48 +6234,48 @@
       "id": "b1.2_02-launcher",
       "type": "old_beta",
       "url": "version/manifest/b1.2_02-launcher.json",
-      "sha1": "696d70728ba0781ea7c10bf28f3036775ad4c4ea",
+      "sha1": "611de7a4c6685b06753645e30bcb2d931b565a4f",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2011-01-21T13:57:00+00:00",
+      "releaseTime": "2011-01-21T13:57:57+00:00",
       "details": "version/b1.2_02-launcher.json",
-      "detailsSha1": "fffc767f697844353ccab1ef52b21d4ac00a568d"
+      "detailsSha1": "715554f034d14872fa282765a5ace2fcc7ad2c1a"
     },
     {
       "id": "b1.2_02",
       "type": "old_beta",
       "url": "version/manifest/b1.2_02.json",
-      "sha1": "ac307ccfce2f73f1cba289c288c9a906d363de5a",
+      "sha1": "c26bcc03df1e31b9ba333e0d057f2617239fc4a8",
       "time": "2011-01-20T22:00:00+00:00",
-      "releaseTime": "2011-01-21T13:57:00+00:00",
+      "releaseTime": "2011-01-21T13:57:57+00:00",
       "details": "version/b1.2_02.json",
-      "detailsSha1": "5e4964a08c98447a609e0500f08a7ce4eb227242"
+      "detailsSha1": "ada7c85d8c94608165d079e6e3af002ece5e55c2"
     },
     {
       "id": "b1.2_01",
       "type": "old_beta",
       "url": "version/manifest/b1.2_01.json",
-      "sha1": "b98df652cf3e3a994d7a1c6d7008cd3eef39ce73",
-      "releaseTime": "2011-01-14T13:26:00+00:00",
+      "sha1": "abfc589154331f4e8e4799c2749cdad47ac78dfd",
+      "releaseTime": "2011-01-14T13:26:40+00:00",
       "details": "version/b1.2_01.json",
-      "detailsSha1": "6174d6f3c4cbc93c0a0a3aadf7e192eaa950cb81"
+      "detailsSha1": "734e2910d89700f3cd599b83c01e2db8146f7e87"
     },
     {
       "id": "b1.2",
       "type": "old_beta",
       "url": "version/manifest/b1.2.json",
-      "sha1": "c72da4226e3b789b3b906dd4e4ad279e6166b269",
-      "releaseTime": "2011-01-13T16:14:00+00:00",
+      "sha1": "2d9bbaa7b2ff2eae1d63e165d4bc8423fc9ec9cc",
+      "releaseTime": "2011-01-13T16:14:28+00:00",
       "details": "version/b1.2.json",
-      "detailsSha1": "b0a61d262c160832afc38c389db1e40f2b9c8a34"
+      "detailsSha1": "0db52d852ee08777172ca180ad492cbb8d805342"
     },
     {
       "id": "b1.1_02",
       "type": "old_beta",
       "url": "version/manifest/b1.1_02.json",
-      "sha1": "2374ba055e8073cad99ecbd0e691814f372fe651",
-      "releaseTime": "2010-12-22T13:14:00+00:00",
+      "sha1": "0857a1d4dd2aa114f8d4a8cbc4f07bd68a36b341",
+      "releaseTime": "2010-12-22T13:14:56+00:00",
       "details": "version/b1.1_02.json",
-      "detailsSha1": "e2d28063a0a60db29394cf02af4b921065509f8f"
+      "detailsSha1": "541edce1ba59faaaf251be12bb433bc260f11bf9"
     },
     {
       "id": "b1.1_01",
@@ -6290,67 +6290,67 @@
       "id": "b1.1",
       "type": "old_beta",
       "url": "version/manifest/b1.1.json",
-      "sha1": "0c0f2a7b9eac730c31cd16aefd51f9c346f6995c",
-      "releaseTime": "2010-12-22T12:55:00+00:00",
+      "sha1": "c901b2edd4808041b8ad01ff22739369f1e79aad",
+      "releaseTime": "2010-12-22T12:55:30+00:00",
       "details": "version/b1.1.json",
-      "detailsSha1": "8e18aed87f57d1cd7ae2b57859c3f42697359276"
+      "detailsSha1": "6a680cce276d62409a454c367343657791636581"
     },
     {
       "id": "b1.1-1255",
       "type": "old_beta",
       "url": "version/manifest/b1.1-1255.json",
-      "sha1": "e3c0e4c79cc3410c644cf2ad41edad32981b707a",
+      "sha1": "bca7934a5318b6f0c6342f7315a6e9208cef33f7",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2010-12-22T12:55:00+00:00",
+      "releaseTime": "2010-12-22T12:55:30+00:00",
       "details": "version/b1.1-1255.json",
-      "detailsSha1": "a60f34e8b965278a3f6f50b8adedb60bdfa61e03"
+      "detailsSha1": "84c68a28ed867d72ca0fbe4e4c53ee94876582d2"
     },
     {
       "id": "b1.1-1245",
       "type": "old_beta",
       "url": "version/manifest/b1.1-1245.json",
-      "sha1": "02b3001eaf794216a01b5b590555fa83211cf989",
-      "releaseTime": "2010-12-22T12:45:00+00:00",
+      "sha1": "c4e9a66c784ffc09019c031ad03c5ae2a9857cf7",
+      "releaseTime": "2010-12-22T12:45:10+00:00",
       "details": "version/b1.1-1245.json",
-      "detailsSha1": "93bedb08cf9bfdbdb6074420b2e95c81b3f13daf"
+      "detailsSha1": "79db48d19221708dce16526a1875ffd7ee1c977a"
     },
     {
       "id": "b1.0.2",
       "type": "old_beta",
       "url": "version/manifest/b1.0.2.json",
-      "sha1": "3c513e39201d71e0a35aead6f96dc64583de2d86",
+      "sha1": "6d474c0bed07beef5d607400eda8584f9f5095dc",
       "time": "2010-12-20T22:00:00+00:00",
-      "releaseTime": "2010-12-21T08:41:00+00:00",
+      "releaseTime": "2010-12-21T08:41:44+00:00",
       "details": "version/b1.0.2.json",
-      "detailsSha1": "04e89b19af61ea66dc6e55b5b8628bf1b5831022"
+      "detailsSha1": "2c8a9aeee28f25167cdd9a0b29ed52a075b6d6d4"
     },
     {
       "id": "b1.0.2-0841",
       "type": "old_beta",
       "url": "version/manifest/b1.0.2-0841.json",
-      "sha1": "40f9e856ffba8e244a0e789bee2685a94e624327",
+      "sha1": "3f5d673e2469bd79a4107306b337d1171bc9df4b",
       "time": "2010-12-20T22:00:00+00:00",
-      "releaseTime": "2010-12-21T08:41:00+00:00",
+      "releaseTime": "2010-12-21T08:41:44+00:00",
       "details": "version/b1.0.2-0841.json",
-      "detailsSha1": "3ce4da795543439f5a25f0206f9f1b28dd5c9495"
+      "detailsSha1": "a0e9fe60658cbb80142a6be91ead3443e1902885"
     },
     {
       "id": "b1.0_01",
       "type": "old_beta",
       "url": "version/manifest/b1.0_01.json",
-      "sha1": "0d66d854ced71a822fe4b9847a31aff74bfa7a84",
-      "releaseTime": "2010-12-20T18:29:00+00:00",
+      "sha1": "4ea54ce7144a94037fa09dfa7fe5f565018176a8",
+      "releaseTime": "2010-12-20T18:29:28+00:00",
       "details": "version/b1.0_01.json",
-      "detailsSha1": "fc83f11cc2b334a2fc94a2993a4e47c111d5a97a"
+      "detailsSha1": "081850901be90f459c5b6b1064392ae5cb95a761"
     },
     {
       "id": "b1.0",
       "type": "old_beta",
       "url": "version/manifest/b1.0.json",
-      "sha1": "3e9c6d7de914a8802b4fa1208ced794d66dea339",
-      "releaseTime": "2010-12-20T17:28:00+00:00",
+      "sha1": "6e89a6e34a5753e2dae337c7c04b448d1e537f21",
+      "releaseTime": "2010-12-20T17:28:57+00:00",
       "details": "version/b1.0.json",
-      "detailsSha1": "0db1479bca145350810ee870b4eca162adc1550f"
+      "detailsSha1": "8259a630675130a07ca969194c15d8346a727714"
     },
     {
       "id": "a0.2.8",
@@ -6365,11 +6365,11 @@
       "id": "a1.2.6",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.6.json",
-      "sha1": "ba7b9d66b1b5d73f6e9780b106fda0bbe75d1f8d",
+      "sha1": "83bc32e8333528e4196627001202365954b66020",
       "time": "2010-12-02T22:00:00+00:00",
-      "releaseTime": "2010-12-03T14:18:00+00:00",
+      "releaseTime": "2010-12-03T14:18:18+00:00",
       "details": "version/a1.2.6.json",
-      "detailsSha1": "830beb6a8f414cedda20669908adf0299bfbb777"
+      "detailsSha1": "5a2fea1dde1e3b71769b9f88280a8e0ad7a85304"
     },
     {
       "id": "a0.2.7",
@@ -6384,11 +6384,11 @@
       "id": "a1.2.5",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.5.json",
-      "sha1": "60f6daaf4fb5c9889d9936af99c08b4d86ee4ce7",
+      "sha1": "42dbbf60f5f23cb266dd6247dd5538103450ffff",
       "time": "2010-11-30T22:00:00+00:00",
-      "releaseTime": "2010-12-01T15:08:00+00:00",
+      "releaseTime": "2010-12-01T15:08:47+00:00",
       "details": "version/a1.2.5.json",
-      "detailsSha1": "df597cdc7252c3c967f65eda14995d0ec68ace83"
+      "detailsSha1": "6de8a508a0a5211b3c55feed27d2081b7eff18d3"
     },
     {
       "id": "a0.2.6_02",
@@ -6403,11 +6403,11 @@
       "id": "a1.2.4_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.4_01.json",
-      "sha1": "b789c4eef0d22b8a043ac9d39b11cf6db874ba7f",
+      "sha1": "b997d812b558ee5526b76ecff6ec620a543fdf92",
       "time": "2010-11-29T22:00:00+00:00",
-      "releaseTime": "2010-11-30T18:42:00+00:00",
+      "releaseTime": "2010-11-30T18:42:22+00:00",
       "details": "version/a1.2.4_01.json",
-      "detailsSha1": "5b2a443c782004eedef8f5875e861eb08daac106"
+      "detailsSha1": "c80a1890a2767b000f849aa31280f9a5875ead60"
     },
     {
       "id": "a0.2.6_01",
@@ -6431,11 +6431,11 @@
       "id": "a1.2.3_05",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_05.json",
-      "sha1": "2ad23ceb76c36795a1366feefd68fb844815a6b9",
+      "sha1": "dffa3c231e53047d8b9a2c7f46117d12ff34aa24",
       "time": "2019-03-18T00:00:00-00:00",
-      "releaseTime": "2010-11-30T18:06:00+00:00",
+      "releaseTime": "2010-11-30T18:06:52+00:00",
       "details": "version/a1.2.3_05.json",
-      "detailsSha1": "c392c5df25ebee7472fc07a20d64eb16b5aee159"
+      "detailsSha1": "52833d339c3577e08ab861f529ae9f65594f1cd7"
     },
     {
       "id": "a0.2.5_02",
@@ -6450,11 +6450,11 @@
       "id": "a1.2.3_04",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_04.json",
-      "sha1": "622e47bd705959bc37b5e46baa6fdf3f41076223",
+      "sha1": "8e9b8ed92df36a36e14c3aab8a0025613a62852c",
       "time": "2010-11-25T22:00:00+00:00",
-      "releaseTime": "2010-11-26T12:59:00+00:00",
+      "releaseTime": "2010-11-26T12:59:44+00:00",
       "details": "version/a1.2.3_04.json",
-      "detailsSha1": "b336c2e927d5711cadf803810847e799f16051e6"
+      "detailsSha1": "c9f8264005557fde5a5f12276526b782c827faf0"
     },
     {
       "id": "a0.2.5_01",
@@ -6469,11 +6469,11 @@
       "id": "a1.2.3_02",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_02.json",
-      "sha1": "d3845d63cdc60451d569a8466bf88861c19578ac",
+      "sha1": "acf9b81d8befa461107bb43935e5334d20ae38e7",
       "time": "2010-11-24T22:00:00+00:00",
-      "releaseTime": "2010-11-25T16:12:00+00:00",
+      "releaseTime": "2010-11-25T16:12:25+00:00",
       "details": "version/a1.2.3_02.json",
-      "detailsSha1": "957a5b3c01f3ca49e05d408455e4e4c4360a334e"
+      "detailsSha1": "970ec75eae951f56da85fd08632e7cbd55c5087f"
     },
     {
       "id": "a0.2.5",
@@ -6497,41 +6497,41 @@
       "id": "a1.2.3_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_01.json",
-      "sha1": "1a08fc7a095b515159a2d37db70bf00163f5d5e7",
+      "sha1": "aa7d4af1e2b9c148dda5f1aaf24237c5c0c3c3a9",
       "time": "2010-11-23T22:00:01+00:00",
-      "releaseTime": "2010-11-24T09:58:00+00:00",
+      "releaseTime": "2010-11-24T09:58:29+00:00",
       "details": "version/a1.2.3_01.json",
-      "detailsSha1": "49ea0f6abd3a73ea22f0a2771d950fe206afe262"
+      "detailsSha1": "01b13e76b066b563128cba9226bb85eba10c19f1"
     },
     {
       "id": "a1.2.3_01-0958",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_01-0958.json",
-      "sha1": "d0c1fdb833c684243733fdd16bea4b2abff6bc88",
+      "sha1": "9a317c570b3e903968f11e612f73e5756f4db33a",
       "time": "2010-11-23T22:00:01+00:00",
-      "releaseTime": "2010-11-24T09:58:00+00:00",
+      "releaseTime": "2010-11-24T09:58:29+00:00",
       "details": "version/a1.2.3_01-0958.json",
-      "detailsSha1": "86b0aed17262fc657b7483a29bf43c5232f9f443"
+      "detailsSha1": "568a7d1d08e8b2f7b10ceec15239feb69281a8c9"
     },
     {
       "id": "a1.2.3_01-0956",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3_01-0956.json",
-      "sha1": "46739929da44bbaef0288575937eca414ce39de8",
+      "sha1": "057754281799e1354558eafdae1a5fc9a41c27ed",
       "time": "2010-11-23T22:00:01+00:00",
-      "releaseTime": "2010-11-24T09:56:00+00:00",
+      "releaseTime": "2010-11-24T09:56:02+00:00",
       "details": "version/a1.2.3_01-0956.json",
-      "detailsSha1": "c164a1f81e50c6cc832e8f1cc9514d01ad0a5e12"
+      "detailsSha1": "f84b2ff57225aa43668947f8f3d65074a4f91e8e"
     },
     {
       "id": "a1.2.3",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.3.json",
-      "sha1": "3a008fbf2873f3a5d1f8972e39c0c1b80b50582d",
+      "sha1": "e8d6f641eedbee05c355df7ef4acd067602eeddd",
       "time": "2010-11-23T22:00:00+00:00",
-      "releaseTime": "2010-11-24T09:23:00+00:00",
+      "releaseTime": "2010-11-24T09:23:02+00:00",
       "details": "version/a1.2.3.json",
-      "detailsSha1": "d3a3f1ac4755f87d6f2ee5cec75fe57b88181855"
+      "detailsSha1": "e8754c6cba251d2cfe621c0a0020f5dde3b99005"
     },
     {
       "id": "a0.2.5-0923",
@@ -6546,31 +6546,31 @@
       "id": "a1.2.2",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.2.json",
-      "sha1": "5c73f3d65c65fde66e5b9b4e09f88f0f7c36942d",
+      "sha1": "556ddd135b2a8692cc14e0907bbf3fbcb2120545",
       "time": "2010-11-09T22:00:01+00:00",
-      "releaseTime": "2010-11-10T19:38:00+00:00",
+      "releaseTime": "2010-11-10T19:38:30+00:00",
       "details": "version/a1.2.2.json",
-      "detailsSha1": "528aa412b12ff0a6b8299b7df03853448928f112"
+      "detailsSha1": "9cdef38907561ec9e3c8bcf19ab4086b1b7f1147"
     },
     {
       "id": "a1.2.2-1938",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.2-1938.json",
-      "sha1": "c3e8a7ba247d912b804c1708ba17e8bdbe68146f",
+      "sha1": "3d1415c17b88a3ff1f6f3ed23a0739edf42e6687",
       "time": "2010-11-09T22:00:01+00:00",
-      "releaseTime": "2010-11-10T19:38:00+00:00",
+      "releaseTime": "2010-11-10T19:38:30+00:00",
       "details": "version/a1.2.2-1938.json",
-      "detailsSha1": "2e260c5e8ff0dfaf9d0a416a869e3f6eb0e6f2df"
+      "detailsSha1": "c363a0cfeaff8391b8e4ba8a6efe114cf01edd67"
     },
     {
       "id": "a1.2.2-1624",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.2-1624.json",
-      "sha1": "b9ec1b023107c1d16d81cdf03335c66467d04701",
+      "sha1": "88c3e1358ae39c87c445bd0ff394b03c21cacab1",
       "time": "2010-11-09T22:00:00+00:00",
-      "releaseTime": "2010-11-10T16:24:00+00:00",
+      "releaseTime": "2010-11-10T16:24:12+00:00",
       "details": "version/a1.2.2-1624.json",
-      "detailsSha1": "4f6a42664429da46fb995bb0c30c5444d92ade6a"
+      "detailsSha1": "754b233445fe18581999174d76731dea8404d151"
     },
     {
       "id": "a0.2.4",
@@ -6594,41 +6594,41 @@
       "id": "a1.2.1_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.1_01.json",
-      "sha1": "35f70613061ed5746970e69834abe68f911e54b7",
+      "sha1": "c14d1d4356c8d27544a130ad5645ab143f051355",
       "time": "2010-11-04T22:00:01+00:00",
-      "releaseTime": "2010-11-05T00:00:01+00:00",
+      "releaseTime": "2010-11-05T10:01:42+00:00",
       "details": "version/a1.2.1_01.json",
-      "detailsSha1": "3c8d8c45676237878aa93f743c159f5bd8a814c0"
+      "detailsSha1": "00815493475dc5a2502a86d0b22880fa7e41160b"
     },
     {
       "id": "a1.2.0_02-launcher",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.0_02-launcher.json",
-      "sha1": "d5667ec1a3cb4fbbfe9c29f635e679f1df15cf4a",
+      "sha1": "5c3beef291c109db3b736eb16d837391b8d15e3c",
       "time": "2010-10-29T22:00:00+00:00",
-      "releaseTime": "2010-10-31T13:52:00+00:00",
+      "releaseTime": "2010-10-31T13:52:27+00:00",
       "details": "version/a1.2.0_02-launcher.json",
-      "detailsSha1": "6ebeae40a1bf11e81beb6230f5ceeee3cec7af11"
+      "detailsSha1": "8c401b3dbb458c963e5d9a060ef227ae539f0d2d"
     },
     {
       "id": "a1.2.0_02",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.0_02.json",
-      "sha1": "6c70d6fa38ef3fbc294d43241e7b18cdd62fd42b",
+      "sha1": "e3ada0c0dc4677c9b8e2f7d8cf76171b417651f0",
       "time": "2010-11-03T22:00:00+00:00",
-      "releaseTime": "2010-10-31T13:52:00+00:00",
+      "releaseTime": "2010-10-31T13:52:27+00:00",
       "details": "version/a1.2.0_02.json",
-      "detailsSha1": "e43b18137bbc0ded50edf928db97b334893a2ae6"
+      "detailsSha1": "a61163f93f25257e647d067892ea5d96435396dc"
     },
     {
       "id": "a1.2.0_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.0_01.json",
-      "sha1": "cdf0548e54d40249bb8c809085d5f462adc4630b",
+      "sha1": "6a376d3d18c10017b6a3e44676eba8b7901b01f2",
       "time": "2010-10-30T22:00:00+00:00",
-      "releaseTime": "2010-10-30T21:47:00+00:00",
+      "releaseTime": "2010-10-30T21:47:30+00:00",
       "details": "version/a1.2.0_01.json",
-      "detailsSha1": "a70de4ff0faa4931166a7ecd7b1fdb2a5ad67cdd"
+      "detailsSha1": "d44b69e39d9cbe45b1b0ce22b19a49f080298613"
     },
     {
       "id": "a0.2.2_01",
@@ -6643,21 +6643,21 @@
       "id": "a1.2.0",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.0.json",
-      "sha1": "f52a221496660da79e1d396a6cd0b33860c8035e",
+      "sha1": "b38694d88522f317cf1159d6e35a00abc0866417",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2010-10-30T20:57:00+00:00",
+      "releaseTime": "2010-10-30T20:57:26+00:00",
       "details": "version/a1.2.0.json",
-      "detailsSha1": "4dfb3624478b370efbf2c6f7f38a4979385fa8b3"
+      "detailsSha1": "8f3cfabbb1286e59dab98919f5d340945337d2ad"
     },
     {
       "id": "a1.2.0-2057",
       "type": "old_alpha",
       "url": "version/manifest/a1.2.0-2057.json",
-      "sha1": "f10745810804f379b298be9b60fd0d7851ee5ff8",
+      "sha1": "b82d9bf96a5804ec45d8b943fa7bafbe7db9646f",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2010-10-30T20:57:00+00:00",
+      "releaseTime": "2010-10-30T20:57:26+00:00",
       "details": "version/a1.2.0-2057.json",
-      "detailsSha1": "85869675f39114ad0de8f2d7da6046480cfeebd2"
+      "detailsSha1": "6b77f8d390085cf649b3f2f221f7f1a421c032b3"
     },
     {
       "id": "a0.2.2",
@@ -6672,21 +6672,21 @@
       "id": "a1.1.2_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.2_01.json",
-      "sha1": "11611032aa7dc1377c56f1422b4a307c4799d576",
+      "sha1": "578855dfeea96958014f0e6b8e22b525dd9b3f7d",
       "time": "2010-09-22T22:00:00+00:00",
-      "releaseTime": "2010-09-23T00:00:00+00:00",
+      "releaseTime": "2010-09-23T12:39:20+00:00",
       "details": "version/a1.1.2_01.json",
-      "detailsSha1": "076d978c650a0995fcb55a8f4efe8b0d58067a95"
+      "detailsSha1": "ac29781324b6ac6bd212f9faf9562fce6eb45d09"
     },
     {
       "id": "a1.1.2",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.2.json",
-      "sha1": "d43e8a524e69ae4f9a7d068d6bad353320256586",
+      "sha1": "604e2cb0881792d79432440d9c48eeaeac675466",
       "time": "2010-09-19T22:00:00+00:00",
-      "releaseTime": "2010-09-20T00:00:00+00:00",
+      "releaseTime": "2010-09-18T20:54:48+00:00",
       "details": "version/a1.1.2.json",
-      "detailsSha1": "c47699aacce285745634d203af127ca9cadbaf35"
+      "detailsSha1": "ab08349bdb855096de9abdd39bfcb2424c51d387"
     },
     {
       "id": "a0.2.1",
@@ -6701,31 +6701,31 @@
       "id": "a1.1.1",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.1.json",
-      "sha1": "0e7ec86167b6050bf53fbd577c157a096a40d989",
+      "sha1": "76be83f5769c18151ae7dc519c50c9d9bc5ee43b",
       "time": "2021-06-26T10:46:46+00:00",
-      "releaseTime": "2010-09-18T00:00:00+00:00",
+      "releaseTime": "2010-09-18T17:29:56+00:00",
       "details": "version/a1.1.1.json",
-      "detailsSha1": "e5901ef3281ea617a389cba164904ac5e631e0ad"
+      "detailsSha1": "14b0e82741bf7a4b02172bdb04964273126e85f9"
     },
     {
       "id": "a1.1.0",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.0.json",
-      "sha1": "8255ec78702038fd2abcaefa7c08680a61d3ee64",
+      "sha1": "aa3406d482630135363a5dbc744e71614d906a92",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2010-09-13T19:33:00+00:00",
+      "releaseTime": "2010-09-13T19:33:31+00:00",
       "details": "version/a1.1.0.json",
-      "detailsSha1": "0ad2b30c61c0e99a1f8e21d6df2590f2f0bf10d2"
+      "detailsSha1": "2de5413fbd06e39506dc7b60c6ea708747f022f7"
     },
     {
       "id": "a1.1.0-131933",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.0-131933.json",
-      "sha1": "396b37f4183237385e351998c434957ffcf5304e",
+      "sha1": "d4a08f10b701d83a1a301133d56cdeb29b6811f9",
       "time": "2016-02-02T15:37:47+00:00",
-      "releaseTime": "2010-09-13T19:33:00+00:00",
+      "releaseTime": "2010-09-13T19:33:31+00:00",
       "details": "version/a1.1.0-131933.json",
-      "detailsSha1": "7c9e088a5efc04d4807eb1bb79358939d7571095"
+      "detailsSha1": "1a549e4c3c7ddf70dc4dfc8ad4c00f9177ac35c9"
     },
     {
       "id": "a0.2.0_01",
@@ -6740,21 +6740,21 @@
       "id": "a1.1.0-101847-launcher",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.0-101847-launcher.json",
-      "sha1": "420e3b6ef9b8096a456c3d31b7f4571bde8529c6",
+      "sha1": "a156df9c645edf7728fb0217d635202b5e9568cf",
       "time": "2010-09-12T22:00:00+00:00",
-      "releaseTime": "2010-09-10T18:47:00+00:00",
+      "releaseTime": "2010-09-10T18:47:27+00:00",
       "details": "version/a1.1.0-101847-launcher.json",
-      "detailsSha1": "ac312971497f50ce1f0db1081ccf5491c426a728"
+      "detailsSha1": "2fb4c535a277d01f4221f999c52d9289d80b9178"
     },
     {
       "id": "a1.1.0-101847",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.0-101847.json",
-      "sha1": "2d17096a6b66e46907b238ced725d04e8a24daf8",
+      "sha1": "f57fc12528aa308f5a600bea56aa0bdc477df19f",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-09-10T18:47:00+00:00",
+      "releaseTime": "2010-09-10T18:47:27+00:00",
       "details": "version/a1.1.0-101847.json",
-      "detailsSha1": "e1e7671c1ad17ed34b93afec97b9782c8762620c"
+      "detailsSha1": "ab1d37be518a1e84464dbc45990ddbca02ad793f"
     },
     {
       "id": "a0.2.0",
@@ -6769,31 +6769,31 @@
       "id": "a1.0.17_04",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.17_04.json",
-      "sha1": "f0291aeeb66d4230e35f6d74043b02c47dfcb84f",
+      "sha1": "878f3259e964eaefce28a81ae99db9c13626ad6b",
       "time": "2010-08-22T22:00:00+00:00",
-      "releaseTime": "2010-08-23T21:24:00+00:00",
+      "releaseTime": "2010-08-23T21:24:17+00:00",
       "details": "version/a1.0.17_04.json",
-      "detailsSha1": "18f12ae09420040e8f85f3d5b61fdc588fbfa8f2"
+      "detailsSha1": "8671c5e7b65d4b9e8de32da1e10c274e946e4467"
     },
     {
       "id": "a1.0.17_03",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.17_03.json",
-      "sha1": "cc7f927b41513b1e744b78a630d959efc8fbc525",
+      "sha1": "92ab258edb0f5adf869dd7c8548ad74b9dcb3a2c",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-08-23T16:22:00+00:00",
+      "releaseTime": "2010-08-23T16:22:31+00:00",
       "details": "version/a1.0.17_03.json",
-      "detailsSha1": "1b12e644934e87cbaf18b6cdf2b61c32c65ad554"
+      "detailsSha1": "f4fcda9bbb5085212b6d7f0507e24e90be9a5423"
     },
     {
       "id": "a1.0.17_02",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.17_02.json",
-      "sha1": "41b21b51f50fc8c31948c9dfd60bab590aea773f",
+      "sha1": "edd2f2f22d870d8ebb8318dbfe363efa1e65d35c",
       "time": "2010-08-19T22:00:00+00:00",
-      "releaseTime": "2010-08-20T13:23:00+00:00",
+      "releaseTime": "2010-08-20T13:23:48+00:00",
       "details": "version/a1.0.17_02.json",
-      "detailsSha1": "2eaded76b8e4aaebf6546fc6910963eac6dfff3d"
+      "detailsSha1": "d21bf0d089cb2cc83bb2dc1b673bfe5eec31d8d3"
     },
     {
       "id": "a0.1.4",
@@ -6817,21 +6817,21 @@
       "id": "a1.0.16_02",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.16_02.json",
-      "sha1": "754326fccbd877659ee192f9825562885295436a",
+      "sha1": "6636f789c42f2950531e74a09de4f57922260c71",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-08-13T00:00:00+00:00",
+      "releaseTime": "2010-08-13T09:30:14+00:00",
       "details": "version/a1.0.16_02.json",
-      "detailsSha1": "51e707813289a1d9e5b0b1faa2fddf38b094e804"
+      "detailsSha1": "99235a3598cd085b3d0ad956ec346cba7c22c9c6"
     },
     {
       "id": "a1.0.16_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.16_01.json",
-      "sha1": "7a42d5aa1cf1531eb3c9f5d55b671a67285ad8a1",
+      "sha1": "c24af21f6287c5c6003d9bafe9b4d78450ca4e21",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2010-08-13T00:00:00+00:00",
+      "releaseTime": "2010-08-12T18:00:06+00:00",
       "details": "version/a1.0.16_01.json",
-      "detailsSha1": "0b94eb4f64876c6f98df908e864e2791e3aea1b3"
+      "detailsSha1": "0d58e19668553547b90642c890657e673bc908a3"
     },
     {
       "id": "a0.1.2_01",
@@ -6866,11 +6866,11 @@
       "id": "a1.0.16",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.16.json",
-      "sha1": "9acbe4ba104f831199a0d640b9f0f106fe324613",
+      "sha1": "04e998bef9b71dabdcf78405b0661b06a2a07ab6",
       "time": "2010-08-11T22:00:00+00:00",
-      "releaseTime": "2010-08-12T00:00:00+00:00",
+      "releaseTime": "2010-08-12T16:18:24+00:00",
       "details": "version/a1.0.16.json",
-      "detailsSha1": "283931dce5c274e77587b6cee930a94f8b41794c"
+      "detailsSha1": "8a66649c9a0d4a2533576384b7e97c9dff239f4e"
     },
     {
       "id": "a0.1.0",
@@ -6885,771 +6885,771 @@
       "id": "a1.0.15",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.15.json",
-      "sha1": "2cb5fb9b59f5554f2097802e38824619900bdbdb",
+      "sha1": "b8bd82f829a6826ebb934588c76601f9351bd9b0",
       "time": "2010-08-03T22:00:00+00:00",
-      "releaseTime": "2010-08-04T00:00:00+00:00",
+      "releaseTime": "2010-08-03T19:47:25+00:00",
       "details": "version/a1.0.15.json",
-      "detailsSha1": "dfea40b7a8661383db85f6e1ed75e80813354f2b"
+      "detailsSha1": "222001fb81ccc2b31ceaef522aaba96e7bdd0efd"
     },
     {
       "id": "a1.0.14",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.14.json",
-      "sha1": "63bb3f594c768a5dad724e1592cae243007a3961",
+      "sha1": "a983051e4eeaaaba1ae6b203060f866924920bc0",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-30T00:00:00+00:00",
+      "releaseTime": "2010-07-30T16:59:15+00:00",
       "details": "version/a1.0.14.json",
-      "detailsSha1": "2c53d1abc9fe4559a2499ecbfbb2548d7d209b05"
+      "detailsSha1": "a8fd5abe3a933440f5cc5f16af8c68d0566e436e"
     },
     {
       "id": "a1.0.14-1659-launcher",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.14-1659-launcher.json",
-      "sha1": "7b9be3eb6f50c3968f221a9629a818a9b0b972da",
+      "sha1": "253c5cca4ab17f38f19f9718726a53a1c3a3c0c9",
       "time": "2010-07-29T22:00:00+00:00",
-      "releaseTime": "2010-07-30T00:00:00+00:00",
+      "releaseTime": "2010-07-30T16:59:15+00:00",
       "details": "version/a1.0.14-1659-launcher.json",
-      "detailsSha1": "2aaff4a1dd4d28bfe049761e4ba9007c3635b146"
+      "detailsSha1": "3359e52ff4ea3035522f282cbd5c91d3dad3a26d"
     },
     {
       "id": "a1.0.14-1659",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.14-1659.json",
-      "sha1": "8daf51363ee8e3214343296c017aeef20d3f322f",
+      "sha1": "b2cf3853bce9bf3245f0a0674000eca054d9fe41",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-30T00:00:00+00:00",
+      "releaseTime": "2010-07-30T16:59:15+00:00",
       "details": "version/a1.0.14-1659.json",
-      "detailsSha1": "7121a61093bfcb73d9a7506a6ea3d7cbb1d8bef5"
+      "detailsSha1": "16684b8eddb899a43cdf57f707f288b891592334"
     },
     {
       "id": "a1.0.14-1603",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.14-1603.json",
-      "sha1": "1ed76b41340ceb8605693895297e5b84d35e88bf",
+      "sha1": "74fadf77250d59726496f5b6bc9755ceaeb91e32",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-30T00:00:00+00:00",
+      "releaseTime": "2010-07-30T16:03:24+00:00",
       "details": "version/a1.0.14-1603.json",
-      "detailsSha1": "a8e4353914f3fb798e12824ff892d5c6381dd856"
+      "detailsSha1": "fa2dd48c6b98969d9783ffef375f139c0cef5f89"
     },
     {
       "id": "a1.0.13_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.13_01.json",
-      "sha1": "c263c9e53548168fc6cf4b971f622a5dba5c8a94",
+      "sha1": "21cff38bf2308c5628b7fd7d59f2861e2ad3fa4b",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-29T14:44:00+00:00",
+      "releaseTime": "2010-07-29T14:44:52+00:00",
       "details": "version/a1.0.13_01.json",
-      "detailsSha1": "93f809e7dcfd803d0e4d8e0e6e0d95e7b4835aaf"
+      "detailsSha1": "4b64ee0f5d0abf3ecc643aa158432bf624ccfe65"
     },
     {
       "id": "a1.0.13_01-1444",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.13_01-1444.json",
-      "sha1": "89244f66e9f45d815f0eb35c4b75f182502c3987",
+      "sha1": "aa0aff3f409545e0caca5eee63ff67e34ed3571e",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-29T14:44:00+00:00",
+      "releaseTime": "2010-07-29T14:44:52+00:00",
       "details": "version/a1.0.13_01-1444.json",
-      "detailsSha1": "da316bf7438a5b7e89e82bc5d71be5e0e548cbc1"
+      "detailsSha1": "b82d0b6565907021ea2cef80043fb3de7c10efbd"
     },
     {
       "id": "a1.0.13_01-1038",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.13_01-1038.json",
-      "sha1": "5a53effd2c493b84c82c41b56d73c88b5ac4833c",
+      "sha1": "ed29b1990305fc2b4b1a8f916e86d7c48ca20fd5",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-29T10:38:00+00:00",
+      "releaseTime": "2010-07-29T10:38:16+00:00",
       "details": "version/a1.0.13_01-1038.json",
-      "detailsSha1": "d93ddab37e4958355456099c85cd2b9a942a9726"
+      "detailsSha1": "74d91c81b78815bb8c00e3b4ff1422a137310530"
     },
     {
       "id": "a1.0.13",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.13.json",
-      "sha1": "2e18bea22ab526184517e3d5822b8501d894719b",
+      "sha1": "f10fd6be8e73970f8aff379e93705360a6b4c41c",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-28T00:00:00+00:00",
+      "releaseTime": "2010-07-28T16:30:03+00:00",
       "details": "version/a1.0.13.json",
-      "detailsSha1": "87d77a111710e782322b020c9c64f8cf513928cf"
+      "detailsSha1": "a5b28d88b530eab399802f86bb6edae514538e21"
     },
     {
       "id": "a1.0.12",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.12.json",
-      "sha1": "3d77722a331af93a1470af60e5892ea21bafd22c",
+      "sha1": "135622f2fce47294573d0339b3b36cc05af50af8",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-26T00:00:00+00:00",
+      "releaseTime": "2010-07-26T16:08:57+00:00",
       "details": "version/a1.0.12.json",
-      "detailsSha1": "b77bc9fc3ceb77a99f8e481577c0d5555112a804"
+      "detailsSha1": "bf3c7998dc84f5a8e45fe38dbed3e1682381cadf"
     },
     {
       "id": "a1.0.11",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.11.json",
-      "sha1": "2ab83dbd4babd5b7784e45d94234c5cd23e5362c",
+      "sha1": "fd8e3a2d61bf4aa678b712f69d61634b6225ec55",
       "time": "2010-07-22T22:00:00+00:00",
-      "releaseTime": "2010-07-23T00:00:00+00:00",
+      "releaseTime": "2010-07-23T14:36:39+00:00",
       "details": "version/a1.0.11.json",
-      "detailsSha1": "4c750dfd3652d2ec3680e4b6292f7b66fd7ddc5a"
+      "detailsSha1": "f60326bc40b2cc63581b60c6c4c96da3da950274"
     },
     {
       "id": "a1.0.10",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.10.json",
-      "sha1": "4f177a70835d00157865f4fd72aa1a55f4e5f5e8",
+      "sha1": "33bfe74d3feec08d462b3badb3b0ac43a69c7744",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-22T00:00:00+00:00",
+      "releaseTime": "2010-07-22T16:57:14+00:00",
       "details": "version/a1.0.10.json",
-      "detailsSha1": "bc155bbddbf197d8cf4a565813bcc2651cdb96c9"
+      "detailsSha1": "b74f0374783ff374591bad87ef05ad880ef408f1"
     },
     {
       "id": "a1.0.9",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.9.json",
-      "sha1": "9870facc1dd2c79d3f4cc479eca50d70687b1017",
+      "sha1": "13f9258ce996756a9f3e5301c5cd01b2bc859fd2",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-21T00:00:00+00:00",
+      "releaseTime": "2010-07-21T11:30:33+00:00",
       "details": "version/a1.0.9.json",
-      "detailsSha1": "6c4b3949af1b13ea2742bda0fc1f3267e3bf69eb"
+      "detailsSha1": "7c490b31f3a0efd90170630886d2ec6b82708a93"
     },
     {
       "id": "a1.0.8_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.8_01.json",
-      "sha1": "8db87a0608907d9b287aca950bf927471d636882",
+      "sha1": "ac840248b56042204e00d1c4e6ce7b2647e3e80b",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2010-07-20T00:00:00+00:00",
+      "releaseTime": "2010-07-19T23:40:38+00:00",
       "details": "version/a1.0.8_01.json",
-      "detailsSha1": "87ebdcfc7e350a7327250cef00ae231ab76d236b"
+      "detailsSha1": "af89843038a4a004d0cb4a5086208840de7a2cf7"
     },
     {
       "id": "a1.0.7",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.7.json",
-      "sha1": "4f268eeaadd2984f1c44c06b4963f686d869ac69",
+      "sha1": "9ed18474bcba35304ff653e05b1a502010b5497b",
       "time": "2013-08-06T04:00:00-07:00",
-      "releaseTime": "2010-07-20T00:00:00+00:00",
+      "releaseTime": "2010-07-19T17:23:58+00:00",
       "details": "version/a1.0.7.json",
-      "detailsSha1": "86db69d3f491a9011052661f8e1002f6f091d90c"
+      "detailsSha1": "8f72190c0146826a05229caafe98b80a003fef49"
     },
     {
       "id": "a1.0.6_03",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.6_03.json",
-      "sha1": "b92598816a9c47b089b6f205da9e3798286c472f",
+      "sha1": "dd5549bdd323b6a27c6ea9941671ad768a4b2053",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-17T00:00:00+00:00",
+      "releaseTime": "2010-07-17T18:25:00+00:00",
       "details": "version/a1.0.6_03.json",
-      "detailsSha1": "d4108cbcc74e580fa2903639e884f719c9c566a9"
+      "detailsSha1": "96d00f691707bd269c7ecf3ef6f252476dce3269"
     },
     {
       "id": "a1.0.6_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.6_01.json",
-      "sha1": "3bda7dc7b508764f5db381705034d2873b6faa99",
+      "sha1": "43603c3e17f8393be586aeba269391d7bf45a01d",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-17T00:00:00+00:00",
+      "releaseTime": "2010-07-17T17:03:24+00:00",
       "details": "version/a1.0.6_01.json",
-      "detailsSha1": "a92719aaa79a47ec36cf6203b90e24022b410895"
+      "detailsSha1": "0e1eeee9a9c27538593e98486a36d5b943c44750"
     },
     {
       "id": "a1.0.6",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.6.json",
-      "sha1": "ae4e3c5f445fee0b64f8712c9f34755fbfb04d4f",
+      "sha1": "dce8d794f28e7d3d0e24095ca417e287e9a0a346",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-16T00:00:00+00:00",
+      "releaseTime": "2010-07-16T11:29:26+00:00",
       "details": "version/a1.0.6.json",
-      "detailsSha1": "a9c699660c2b41bbf18d819de9934c34ad9055b7"
+      "detailsSha1": "6ff5dc82c543349c62894ffaeba7d8251280faf6"
     },
     {
       "id": "a1.0.5_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.5_01.json",
-      "sha1": "f8bd26995a70675252f3d518dab8d2aa1d158262",
+      "sha1": "27976b44d278af65e41f9994d44a16def8dc1f05",
       "time": "2010-07-12T22:00:00+00:00",
-      "releaseTime": "2010-07-13T00:00:00+00:00",
+      "releaseTime": "2010-07-14T20:46:28+00:00",
       "details": "version/a1.0.5_01.json",
-      "detailsSha1": "316e3fa731f3395f2a714ed0ccb6d6231db8dc48"
+      "detailsSha1": "4bcbb168f8659b5cc4bf08183f99c8c76e99ee1d"
     },
     {
       "id": "a1.0.5",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.5.json",
-      "sha1": "2998bca19cc2b8954bee072fe3411e341598e0c9",
+      "sha1": "4e8bb5bf0c0150dd6fcbf48a95ace3bf32aabc8a",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-13T00:00:00+00:00",
+      "releaseTime": "2010-07-13T21:49:00+00:00",
       "details": "version/a1.0.5.json",
-      "detailsSha1": "38eafa7faeb08db96e0cd30c82078267c5e72270"
+      "detailsSha1": "56f53de3dd0e553309a2a0a1ea0555aead2e6adc"
     },
     {
       "id": "a1.0.5-2149",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.5-2149.json",
-      "sha1": "c94beaf193e881c31ab06ac1e8c1da9791dc546f",
+      "sha1": "6b46601e0e195d52c9e6bc4e5b35ba0b189c2d54",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-13T00:00:00+00:00",
+      "releaseTime": "2010-07-13T21:49:51+00:00",
       "details": "version/a1.0.5-2149.json",
-      "detailsSha1": "56b8cbe71d1488ee736fa8a451de7f09b37d3dec"
+      "detailsSha1": "de25d5c5220ae25289349d3472f2dae73c2fecbf"
     },
     {
       "id": "a1.0.4-launcher",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.4-launcher.json",
-      "sha1": "a21884ee5b3022db57d401803839c2aa7a4374ee",
+      "sha1": "ed05ef62ee19353b5aa8cbde1627b491f9886a1e",
       "time": "2010-07-08T22:00:00+00:00",
-      "releaseTime": "2010-07-09T00:00:00+00:00",
+      "releaseTime": "2010-07-09T15:12:54+00:00",
       "details": "version/a1.0.4-launcher.json",
-      "detailsSha1": "5a567ee815c7c9c35f565f46867ed3132404839e"
+      "detailsSha1": "f1b279ab3d810854e471c1b5ecf7074b2c13c0a2"
     },
     {
       "id": "a1.0.4",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.4.json",
-      "sha1": "a7ba76025da56ea9d71ec8a4884519b279714692",
+      "sha1": "0ad3ead32cd470b5bebe767866bb189aaf0dfae2",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-09T00:00:00+00:00",
+      "releaseTime": "2010-07-09T15:12:54+00:00",
       "details": "version/a1.0.4.json",
-      "detailsSha1": "e3c20921e73aebe5d8920632688b79ba075bc866"
+      "detailsSha1": "4aed131e56bb6e2003f39846800781d0fa9c2851"
     },
     {
       "id": "a1.0.3",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.3.json",
-      "sha1": "786d514d0191da94f8915cb63669ab270401b652",
+      "sha1": "44b04961fe26c770149b48ef8a34441a6d032b6a",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-07T00:00:00+00:00",
+      "releaseTime": "2010-07-07T18:59:25+00:00",
       "details": "version/a1.0.3.json",
-      "detailsSha1": "88c8ca406f170da08c98d5405514a166a53e7b39"
+      "detailsSha1": "258d5f7854f55e5dbcb8aba05573ffa7c39487ac"
     },
     {
       "id": "a1.0.2_02",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.2_02.json",
-      "sha1": "dd9d65803d00bf8a2a4417d2da324035da698799",
+      "sha1": "1a336025fac210d5ca69812675e1b069f43a20a9",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-06T00:00:00+00:00",
+      "releaseTime": "2010-07-06T18:44:32+00:00",
       "details": "version/a1.0.2_02.json",
-      "detailsSha1": "8c141518ebfbcfdd479fb9c23e65a7285938039b"
+      "detailsSha1": "648053335a39126ea58ae9c67552cfe3ebbc42ff"
     },
     {
       "id": "a1.0.2_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.2_01.json",
-      "sha1": "c6e8e5db15c1dddd079f199af715c61228070f50",
+      "sha1": "8375c8d2195451affa159a7e603eb1524a4b20fe",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-06T00:00:00+00:00",
+      "releaseTime": "2010-07-06T13:27:24+00:00",
       "details": "version/a1.0.2_01.json",
-      "detailsSha1": "999969a76b43f7a5826cce418b8ab39057a8cc2a"
+      "detailsSha1": "f6a3b190dbaee3cc66100b0aff5453f9dcd3f81f"
     },
     {
       "id": "a1.0.1_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.0.1_01.json",
-      "sha1": "6bb4633167b7230e13b1c44630633f19c4c132b4",
+      "sha1": "f61c9b920665c372173b3b573a2ffd1a9549830b",
       "time": "2017-10-22T05:26:50+00:00",
-      "releaseTime": "2010-07-04T00:00:00+00:00",
+      "releaseTime": "2010-07-02T23:19:56+00:00",
       "details": "version/a1.0.1_01.json",
-      "detailsSha1": "20d02010799974444725cbfbc760146dbe61713c"
+      "detailsSha1": "e914ea3b49134f33a561ef0360e6bf756a20ad07"
     },
     {
       "id": "inf-20100630-1835",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100630-1835.json",
-      "sha1": "ad4eeaf9460b37c8d8ece0153bee97230ee51d8c",
+      "sha1": "51e925ce4888a496d8d8ff2df6acf4090d3ba49a",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-30T18:35:00+00:00",
+      "releaseTime": "2010-06-30T18:35:03+00:00",
       "details": "version/inf-20100630-1835.json",
-      "detailsSha1": "65a3c34d33066d0bc81721dbfc037b4958809cac"
+      "detailsSha1": "f98368fe81cfec21cb77361d36705ad39748259f"
     },
     {
       "id": "inf-20100630-1340",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100630-1340.json",
-      "sha1": "57f1ea34f5f43bbf37bf3170ce218c7cf1999aab",
+      "sha1": "d4fb789a035c44a45ce4174e669a99a02a94d51d",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-30T13:40:00+00:00",
+      "releaseTime": "2010-06-30T13:40:06+00:00",
       "details": "version/inf-20100630-1340.json",
-      "detailsSha1": "e58e1e897307732ab47512e6820a94e154aba3c0"
+      "detailsSha1": "04429abe6722bfb1726f30770ad9f8deccf330f6"
     },
     {
       "id": "inf-20100629",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100629.json",
-      "sha1": "d1fd6e54cd82a91b7ec718a4c27aab667b922a31",
+      "sha1": "9fc3cc5e7ff6e5412c2ef047051dd9cff06274c1",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-29T19:57:00+00:00",
+      "releaseTime": "2010-06-29T19:57:55+00:00",
       "details": "version/inf-20100629.json",
-      "detailsSha1": "1adb3859db5aff74573048a0f0262a0fbc573409"
+      "detailsSha1": "1d6a32440f7b2e5e0f3edaf7419b43ebdf07f609"
     },
     {
       "id": "inf-20100627",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100627.json",
-      "sha1": "e969dfa019685e9cfa618d0e3e40b301847329d7",
+      "sha1": "af2e470294a241b50a318bff14aaf3850f77b793",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-27T08:26:00+00:00",
+      "releaseTime": "2010-06-27T08:26:48+00:00",
       "details": "version/inf-20100627.json",
-      "detailsSha1": "b98aeffca6bd4bb0fa0611d1a4943936d7b4f93c"
+      "detailsSha1": "6d6e9733ae3b38c5323e73713b1e4fdbfc47f53f"
     },
     {
       "id": "inf-20100625-1917",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100625-1917.json",
-      "sha1": "faac65d2954c9f73c8ebdf82405d2d6f5498162f",
+      "sha1": "b998033fe9bb520234e79dec4940ed1dc5a037fe",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-25T19:17:00+00:00",
+      "releaseTime": "2010-06-25T19:17:28+00:00",
       "details": "version/inf-20100625-1917.json",
-      "detailsSha1": "fd2274ebe1037069e3909ec1a1fd1059727798f4"
+      "detailsSha1": "72f49b2274d96eb70a3a45f6ef6e1ed4e8449f2b"
     },
     {
       "id": "inf-20100625-0922",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100625-0922.json",
-      "sha1": "3daf82fb3c4920dec48a159dfd74f2b289b15864",
+      "sha1": "a7502896553036955fef5c58ee179d39dc27f648",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-25T09:22:00+00:00",
+      "releaseTime": "2010-06-25T09:22:36+00:00",
       "details": "version/inf-20100625-0922.json",
-      "detailsSha1": "e62dccb631a5d4318f4dde78ef19660a5636c7fc"
+      "detailsSha1": "b3fbe8ca5787259f8eaa47384f24ead05dc64d41"
     },
     {
       "id": "inf-20100624",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100624.json",
-      "sha1": "cca606d9580de1432fb3b76fa1fd26e393c63f04",
+      "sha1": "a2bb219633bac33bf0b0fb27efb9b90f43f304de",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-24T17:39:00+00:00",
+      "releaseTime": "2010-06-24T17:39:08+00:00",
       "details": "version/inf-20100624.json",
-      "detailsSha1": "ee34cd67d3229e775471a57ef0a379294932ec1f"
+      "detailsSha1": "9dd00780f51629fc0fa8c30e17284b777a2fa84f"
     },
     {
       "id": "inf-20100618",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100618.json",
-      "sha1": "2e05293303bbf1cfa855b1ef8208ed5226264cf6",
+      "sha1": "a7d3112eae2aff2d72d2cbe355d0d0f8e51c1d52",
       "time": "2010-06-15T22:00:00+00:00",
-      "releaseTime": "2010-06-18T21:22:00+00:00",
+      "releaseTime": "2010-06-18T21:22:24+00:00",
       "details": "version/inf-20100618.json",
-      "detailsSha1": "b74dd014dd69f8325b071044a90df9dc1e878e31"
+      "detailsSha1": "062b54b3d8fd4f61f3e6ebcf15e1d41d461ee2ea"
     },
     {
       "id": "inf-20100617-1531",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100617-1531.json",
-      "sha1": "de7b3920493efcb91e491c8b15184c05d9bd18b1",
+      "sha1": "cb5e6c98eb57b43b8d0700240e5d182607a94f67",
       "time": "2010-06-17T00:00:00-00:00",
-      "releaseTime": "2010-06-17T15:31:00+00:00",
+      "releaseTime": "2010-06-17T15:31:20+00:00",
       "details": "version/inf-20100617-1531.json",
-      "detailsSha1": "f33653fac617cac335192dff758ed8ff975495c7"
+      "detailsSha1": "bf312307699fa358f6eda563f1daa07158abf18b"
     },
     {
       "id": "inf-20100617-1205",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100617-1205.json",
-      "sha1": "228b5c1f0104ec9278bcdf3b320aca2b656a0481",
+      "sha1": "03daeccbefb564019a2e08a82bf8057ed9301ef8",
       "time": "2010-06-17T00:00:00-00:00",
-      "releaseTime": "2010-06-17T12:05:00+00:00",
+      "releaseTime": "2010-06-17T12:05:46+00:00",
       "details": "version/inf-20100617-1205.json",
-      "detailsSha1": "83435e533469d05341b6c74245aa4708be3a75a7"
+      "detailsSha1": "388dd1e46e3bc3ab2be045a9e5509c9c27b57511"
     },
     {
       "id": "inf-20100616-1808",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100616-1808.json",
-      "sha1": "086854cd0606d345d246ae3ba99f129e8d788472",
+      "sha1": "3b4a3544950fdbd1a4d27489d24dcec5120776c9",
       "time": "2021-06-26T23:01:15+00:00",
-      "releaseTime": "2010-06-16T18:08:00+00:00",
+      "releaseTime": "2010-06-16T18:08:38+00:00",
       "details": "version/inf-20100616-1808.json",
-      "detailsSha1": "7ef95b86c83bb06743db2a1f9177cee41af76ed4"
+      "detailsSha1": "877eeb764f456b7d5420fc3f9568913c155beeba"
     },
     {
       "id": "inf-20100615",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100615.json",
-      "sha1": "6fb3bde5accb8be5b3cb1f1f2c0ffb8064877825",
+      "sha1": "b7b67182eaefa3a7941ff4f261cd17761e413cad",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-15T14:03:00+00:00",
+      "releaseTime": "2010-06-15T14:03:54+00:00",
       "details": "version/inf-20100615.json",
-      "detailsSha1": "494b46335cb481e830bbb11828cb7e68c5c9557a"
+      "detailsSha1": "71e0bf66fded8236f11149ebf6341d28cfa789bb"
     },
     {
       "id": "inf-20100611",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100611.json",
-      "sha1": "fd4b515c11755f2435129566a908735a390b145a",
+      "sha1": "a4eaa1de6b968647bdfb68b0be9863afb0c1cd21",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-11T15:04:00+00:00",
+      "releaseTime": "2010-06-11T15:04:58+00:00",
       "details": "version/inf-20100611.json",
-      "detailsSha1": "10f65e4ee721913a46f9d84fb12bcaf7a9422926"
+      "detailsSha1": "6981d2799acc30f26307a50e4a2e76aa4e452f5c"
     },
     {
       "id": "inf-20100608",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100608.json",
-      "sha1": "80ad0e39c34ebcfb88558a0597fb23311b148aed",
+      "sha1": "aeea9a8a97064ffa1c5064df8ee12aee7b388eda",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-08T16:12:00+00:00",
+      "releaseTime": "2010-06-08T16:12:50+00:00",
       "details": "version/inf-20100608.json",
-      "detailsSha1": "529b5335b8681b418b31a9e04b3c039405c9a479"
+      "detailsSha1": "b3f0895a5cc7fabce417ad00f02e90c83c3274e9"
     },
     {
       "id": "inf-20100607",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100607.json",
-      "sha1": "ab82d7992ad65083c40681530eaf55daa0614118",
+      "sha1": "0d8f760bfda705f82d33c1bbc3c54e8bede6258f",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-06-07T18:20:00+00:00",
+      "releaseTime": "2010-06-07T18:20:10+00:00",
       "details": "version/inf-20100607.json",
-      "detailsSha1": "c81620f78aeef0e7bdac2e45fadd105590e0170a"
+      "detailsSha1": "fbabc2fec916daa029a7604bf7e794bc02293b85"
     },
     {
       "id": "inf-20100420",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100420.json",
-      "sha1": "f19b95f5513657ab195f51b5a16c311eab6853a2",
+      "sha1": "823161887c54ca38d4145d1a6cc4efaf7ad8f21e",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-04-20T16:35:00+00:00",
+      "releaseTime": "2010-04-20T16:35:44+00:00",
       "details": "version/inf-20100420.json",
-      "detailsSha1": "4f11a1ea57eccf9f80d8735a929750f259b983a5"
+      "detailsSha1": "00200c20744e9777ab4691458d104b97f1329475"
     },
     {
       "id": "inf-20100415",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100415.json",
-      "sha1": "95aa5e984543edc837ed480c7060c509bdcd8917",
+      "sha1": "b4721fdf7fea2bd1b5b63269fd2f6f0c05c05e1c",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-04-15T09:32:00+00:00",
+      "releaseTime": "2010-04-15T09:32:06+00:00",
       "details": "version/inf-20100415.json",
-      "detailsSha1": "067873579c398caf95336f73e38ee844d7d37f5e"
+      "detailsSha1": "709476fbddfda2df5330bb13fbd6e67d1b3c875e"
     },
     {
       "id": "inf-20100414",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100414.json",
-      "sha1": "2332bcc1a6d3c23055f95005dd752c831aaa5abc",
+      "sha1": "c26b0532cce5bd942dd4fbd39a65c6c5533380e2",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-04-14T19:40:00+00:00",
+      "releaseTime": "2010-04-14T19:40:44+00:00",
       "details": "version/inf-20100414.json",
-      "detailsSha1": "25f713f1615b6dbad4583eeddac2882918629d4b"
+      "detailsSha1": "e26dd91c4c0e60686a14a80d6f193abb00b054d0"
     },
     {
       "id": "inf-20100413-1953",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100413-1953.json",
-      "sha1": "61a4587c2d32d8c56f4e7bf14fa3db7bb7b8df3e",
+      "sha1": "408ae9c275e8ac8d159945d3f518d76557b96e87",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-04-13T19:53:00+00:00",
+      "releaseTime": "2010-04-13T19:53:42+00:00",
       "details": "version/inf-20100413-1953.json",
-      "detailsSha1": "8cfc2e4415009f9e93d0b784fa17cb125304cdae"
+      "detailsSha1": "7558ed931eefb6c2767584fc97d107a100ccf9ec"
     },
     {
       "id": "inf-20100330-1511",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100330-1511.json",
-      "sha1": "4859f463c95d5f98f299b076fa52c7a2f08fe786",
+      "sha1": "1a015370277dc1d4834a65517e6ed8059553ba1a",
       "time": "2010-03-30T00:00:00-00:00",
-      "releaseTime": "2010-03-30T16:11:00+00:00",
+      "releaseTime": "2010-03-30T15:11:02+00:00",
       "details": "version/inf-20100330-1511.json",
-      "detailsSha1": "1636e78c33168ee0a23ec8bb353d6781be1b3bab"
+      "detailsSha1": "8b4ac5edf9d3dbc178351f3ec2f8b8ec8e93a65d"
     },
     {
       "id": "inf-20100327",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100327.json",
-      "sha1": "56be9d213169e79f59d7987959a1e1ba1d0c047e",
+      "sha1": "3a2075e899d1c8d385393b055d743711b5e95234",
       "time": "2010-03-27T00:00:00-00:00",
-      "releaseTime": "2010-03-27T20:06:00+00:00",
+      "releaseTime": "2010-03-27T20:06:32+00:00",
       "details": "version/inf-20100327.json",
-      "detailsSha1": "07493b59f27b72263c2f62f85f810ddd000dad3b"
+      "detailsSha1": "5c8f330eec40cf1da984419043465535f3c298a1"
     },
     {
       "id": "inf-20100325-1640",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100325-1640.json",
-      "sha1": "f5161c00778a8c04a3d8db5f3c48c40c033d96e0",
+      "sha1": "e82bf5d6eeafce367780e3c4e66a98ba9e936d38",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-03-25T16:40:00+00:00",
+      "releaseTime": "2010-03-25T16:40:08+00:00",
       "details": "version/inf-20100325-1640.json",
-      "detailsSha1": "b671f954882d9452a505123d36b6585085749d04"
+      "detailsSha1": "bb8e105fad1c18af67b1fc1aacb62e7bc1809f17"
     },
     {
       "id": "inf-20100321-1817",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100321-1817.json",
-      "sha1": "a7549313f7a03b8dad30270c49224742bdd1f22a",
+      "sha1": "faf41159f4193adb5ed5e6698a954832dda22dc9",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-03-21T18:17:00+00:00",
+      "releaseTime": "2010-03-21T18:17:26+00:00",
       "details": "version/inf-20100321-1817.json",
-      "detailsSha1": "6a3684b1bb5aef715ce338e69186ab75f0e7a4b6"
+      "detailsSha1": "badd89b5aeb09de7d30bd8e1e940331c77617207"
     },
     {
       "id": "inf-20100320",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100320.json",
-      "sha1": "810288b50abd08bfb1344e925fda308a1eb567fc",
+      "sha1": "70af601572a17e10d2b5af6cb57f3985aa7ffc8c",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-03-20T20:50:00+00:00",
+      "releaseTime": "2010-03-20T20:50:16+00:00",
       "details": "version/inf-20100320.json",
-      "detailsSha1": "8e17a1da4818621a263ffba2b95e6aa6441f8c8d"
+      "detailsSha1": "5fd922aea71e23194895a60e983cb1c5f07992f6"
     },
     {
       "id": "inf-20100316",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100316.json",
-      "sha1": "f42e848631eaae05fa23cb5bd532d5a1a547c281",
+      "sha1": "81a1063d56730e87205cc74d9f403fd41170bb2b",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-03-16T16:23:00+00:00",
+      "releaseTime": "2010-03-16T16:23:18+00:00",
       "details": "version/inf-20100316.json",
-      "detailsSha1": "4f4ced0a952a2a18bc1ee05ae2beb7ec720dc26f"
+      "detailsSha1": "8095a4787fccc5b1907331dce470020c4fecdc73"
     },
     {
       "id": "inf-20100313",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100313.json",
-      "sha1": "4087fb2981ae06f05067108dc7f6d3729cd6446f",
+      "sha1": "88ca15a55d8c6bf14620dd1eed2fcd5c672327b2",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-03-13T22:26:00+00:00",
+      "releaseTime": "2010-03-13T22:26:10+00:00",
       "details": "version/inf-20100313.json",
-      "detailsSha1": "9e56453191b15a69b9e71147237975205f0c455d"
+      "detailsSha1": "96d324085e5653726370af86fbe3d30b8ea47963"
     },
     {
       "id": "inf-20100227-1433",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100227-1433.json",
-      "sha1": "9dd92e2a350a4b659827d577abc9beea9cbdfd71",
+      "sha1": "4709ee3b082286f462668dc93cb25d8cb1c47294",
       "time": "2015-04-13T07:33:30-07:00",
-      "releaseTime": "2010-02-27T14:33:00+00:00",
+      "releaseTime": "2010-02-27T14:33:04+00:00",
       "details": "version/inf-20100227-1433.json",
-      "detailsSha1": "5998d2298a9b8f48948251001bc1bc8913ea91bd"
+      "detailsSha1": "cb08536b15569005d8a71a9080a1b466aaf6cc29"
     },
     {
       "id": "in-20100223",
       "type": "old_alpha",
       "url": "version/manifest/in-20100223.json",
-      "sha1": "4c51d8aa77c40ebb2a9b2ebe911422eb3084c63a",
+      "sha1": "2ddb36b78a5c344e67574a8a1baad5b096e8b159",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2010-02-23T15:42:00+00:00",
+      "releaseTime": "2010-02-23T15:42:08+00:00",
       "details": "version/in-20100223.json",
-      "detailsSha1": "dee3ecb81f8d20a3002c398b913656b94d5345aa"
+      "detailsSha1": "5ee77a96a93ead1bb63b963d3667ec8a3313e153"
     },
     {
       "id": "in-20100219",
       "type": "old_alpha",
       "url": "version/manifest/in-20100219.json",
-      "sha1": "c33bb9a7b2fa57381915c94f778321ebb33db78d",
+      "sha1": "851d8a388479c8e3fba601b15f4efb30f178f686",
       "time": "2017-10-24T00:00:00+00:00",
-      "releaseTime": "2010-02-19T15:11:00+00:00",
+      "releaseTime": "2010-02-19T15:11:34+00:00",
       "details": "version/in-20100219.json",
-      "detailsSha1": "f92e73a8d081a8f598e4440420a6935dde05595b"
+      "detailsSha1": "bb133f4b52dcdccd04673a01a091eca6368901d9"
     },
     {
       "id": "in-20100218-0016",
       "type": "old_alpha",
       "url": "version/manifest/in-20100218-0016.json",
-      "sha1": "eab261cf39582b0e2f0b415409fa9afa38d219a0",
+      "sha1": "4cfae5b0cf3c7c5cdd5b0f671b30c0cf2542b839",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-18T00:16:00+00:00",
+      "releaseTime": "2010-02-18T00:16:06+00:00",
       "details": "version/in-20100218-0016.json",
-      "detailsSha1": "e8865bf59aa114ed252a65f279f0b0a42e40bf34"
+      "detailsSha1": "ac6c4101fd9d573d4d50d1e7776eb727abda16db"
     },
     {
       "id": "in-20100214",
       "type": "old_alpha",
       "url": "version/manifest/in-20100214.json",
-      "sha1": "20341f80044039a60d24640d02e49a65760a00a1",
+      "sha1": "4bfab88f89867a00aa73cce6a753ae72a234a30f",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-14T21:43:00+00:00",
+      "releaseTime": "2010-02-14T21:43:46+00:00",
       "details": "version/in-20100214.json",
-      "detailsSha1": "a81ce1762804324579665af6fa698e3b5305b631"
+      "detailsSha1": "fc3da42209d764105d2cf958bfc527e7b1d0618b"
     },
     {
       "id": "in-20100213",
       "type": "old_alpha",
       "url": "version/manifest/in-20100213.json",
-      "sha1": "94ce775132acc428e9bfbbf7e0e412e94f940bdb",
+      "sha1": "28e68a5b1ac9affbf0f2d089ecadb30519f29950",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-13T22:58:00+00:00",
+      "releaseTime": "2010-02-13T22:58:22+00:00",
       "details": "version/in-20100213.json",
-      "detailsSha1": "bca596908bac60a841fbca2405cdce9400a0007e"
+      "detailsSha1": "641183d8f823501f895bda0bd208e5454302fd2c"
     },
     {
       "id": "in-20100212-1622",
       "type": "old_alpha",
       "url": "version/manifest/in-20100212-1622.json",
-      "sha1": "64b658704be2baecfb27ac00d353fc9691f7a7ad",
+      "sha1": "fa89e629cb0fdb2e2ed9c926ddca9fa924574f65",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-12T16:22:00+00:00",
+      "releaseTime": "2010-02-12T16:22:10+00:00",
       "details": "version/in-20100212-1622.json",
-      "detailsSha1": "947600a8d937574b67746dca6174428098347212"
+      "detailsSha1": "57f8b73488c8bdb405b6afcc1d435d03c6f28b52"
     },
     {
       "id": "in-20100212-1210",
       "type": "old_alpha",
       "url": "version/manifest/in-20100212-1210.json",
-      "sha1": "d54a6c4b6ca852c4bb3a6e27560061586beb01bf",
+      "sha1": "00451e8a5dfbb76780bce4225928b47cdbee2cdc",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-12T12:10:00+00:00",
+      "releaseTime": "2010-02-12T12:10:52+00:00",
       "details": "version/in-20100212-1210.json",
-      "detailsSha1": "62aee17f756d55de634dbbccf5b0e1af71c7ae75"
+      "detailsSha1": "d14e738676aed65bb84547d08a5bad97229b668f"
     },
     {
       "id": "in-20100207-1703",
       "type": "old_alpha",
       "url": "version/manifest/in-20100207-1703.json",
-      "sha1": "88cb55e36fc0447a1a495ca4694a54ff1b9f4ed5",
+      "sha1": "d4adcc40d1c06744b17dd3ac21cfb8876c22ebc0",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-07T17:03:00+00:00",
+      "releaseTime": "2010-02-07T17:03:36+00:00",
       "details": "version/in-20100207-1703.json",
-      "detailsSha1": "0464701475a22338e4147a997994925f207e0905"
+      "detailsSha1": "8ccf5581deea9b42e2bc5418a4863f42af6f708a"
     },
     {
       "id": "in-20100207-1101",
       "type": "old_alpha",
       "url": "version/manifest/in-20100207-1101.json",
-      "sha1": "5591790d88339ecaab14603651f252126a25f6a8",
+      "sha1": "cdafcad8426b7f17c67276bb9e3fc933ae210f81",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-02-07T11:01:00+00:00",
+      "releaseTime": "2010-02-07T11:01:02+00:00",
       "details": "version/in-20100207-1101.json",
-      "detailsSha1": "c3db0a119ab80a60e7836ce2ed5c041a334d28e8"
+      "detailsSha1": "8ca2d2e0539f0d649cf80c8f6859ce813a91a9c9"
     },
     {
       "id": "in-20100206-2103",
       "type": "old_alpha",
       "url": "version/manifest/in-20100206-2103.json",
-      "sha1": "67eaa8d657e403a5687da334dc73f4af732e3903",
+      "sha1": "7dc9b804216d65cba048d5de30a659ee055f6663",
       "time": "2020-10-14T18:51:02+00:00",
-      "releaseTime": "2010-02-06T21:03:00+00:00",
+      "releaseTime": "2010-02-06T21:03:58+00:00",
       "details": "version/in-20100206-2103.json",
-      "detailsSha1": "01fbaa0564ee14a4491d5074be4b5d02ca4dd64e"
+      "detailsSha1": "afb558fe891b527d2f8b60ca0a7bbd9466b27e55"
     },
     {
       "id": "in-20100202-2330",
       "type": "old_alpha",
       "url": "version/manifest/in-20100202-2330.json",
-      "sha1": "b51f27500fef3cce33d534d0390a32b322d9f249",
+      "sha1": "02caa9a59e2e38b9f20f851e1b3976b7c4b053f6",
       "time": "2017-09-20T19:21:48+02:00",
-      "releaseTime": "2010-02-03T23:30:00+00:00",
+      "releaseTime": "2010-02-02T23:30:46+00:00",
       "details": "version/in-20100202-2330.json",
-      "detailsSha1": "2ae707c4a40b3924cebcf95d2a7a9b6de1e8d5a3"
+      "detailsSha1": "a0e1cdbba098a71d5a20e6382be4fe0de1e29de1"
     },
     {
       "id": "in-20100201-2227",
       "type": "old_alpha",
       "url": "version/manifest/in-20100201-2227.json",
-      "sha1": "939b871fd22e538080e10c45dcb51ba1be45e944",
+      "sha1": "1ebbd93deb14eb3bd1499eef21b844fb287dff72",
       "time": "2017-09-20T19:21:48+02:00",
-      "releaseTime": "2010-02-01T22:27:00+00:00",
+      "releaseTime": "2010-02-01T22:27:26+00:00",
       "details": "version/in-20100201-2227.json",
-      "detailsSha1": "b452aabb14f6fd1c6ad98cb0daf21e7e786049d5"
+      "detailsSha1": "7a554652531ef8f79a8099eda72ff748f39839ff"
     },
     {
       "id": "in-20100201-0025",
       "type": "old_alpha",
       "url": "version/manifest/in-20100201-0025.json",
-      "sha1": "1df3a3fe604b46ddb92efb272efe892b3ed69772",
+      "sha1": "6f85fe601b3265822accb4372dbe2e1ca8086520",
       "time": "2017-09-20T19:21:48+02:00",
-      "releaseTime": "2010-02-01T00:25:00+00:00",
+      "releaseTime": "2010-02-01T00:25:48+00:00",
       "details": "version/in-20100201-0025.json",
-      "detailsSha1": "4339d41d56d0c1997a3902c41986f4965b5a0ab4"
+      "detailsSha1": "1b1dc22ed66e05072543bbe397848ca3de5477c0"
     },
     {
       "id": "in-20100131-2244",
       "type": "old_alpha",
       "url": "version/manifest/in-20100131-2244.json",
-      "sha1": "a69b265c51f1559b57388dc927c504b030557b31",
+      "sha1": "6db3d7183cbdd47113c917b5a1ede8f6f8cdf0e9",
       "time": "2017-09-20T19:21:48+02:00",
-      "releaseTime": "2010-01-31T22:44:00+00:00",
+      "releaseTime": "2010-01-31T22:44:48+00:00",
       "details": "version/in-20100131-2244.json",
-      "detailsSha1": "c90b14dc074c2b863ac28e4be7f1d92a04432202"
+      "detailsSha1": "856e46dd4b3c0b9ab2d4940ce07b9898842ef1f5"
     },
     {
       "id": "in-20100130",
       "type": "old_alpha",
       "url": "version/manifest/in-20100130.json",
-      "sha1": "53c8f6669f6dd098c81e1c46ab050e8081c8d4f4",
+      "sha1": "97cb44777fd5c2c7d3bb5f665e874b5a7954cc73",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2010-01-30T01:09:00+00:00",
+      "releaseTime": "2010-01-30T01:09:30+00:00",
       "details": "version/in-20100130.json",
-      "detailsSha1": "563c7bc3288d1e84bd89cba9cd82864765bb6e7d"
+      "detailsSha1": "c9ac8271371ba98108995d5806e74ba6d9ff4857"
     },
     {
       "id": "in-20100129-1452",
       "type": "old_alpha",
       "url": "version/manifest/in-20100129-1452.json",
-      "sha1": "106e37dc2dc3e2665f9ea46427a1d8c6c4407d06",
+      "sha1": "99d47a451e7a4d8ae67dfa55e06f6a690d13ce6d",
       "time": "2010-01-29T00:00:00-00:00",
-      "releaseTime": "2010-01-29T14:52:00+00:00",
+      "releaseTime": "2010-01-29T14:52:40+00:00",
       "details": "version/in-20100129-1452.json",
-      "detailsSha1": "26d7854689da16b4e434ec272439c77407e33e49"
+      "detailsSha1": "cf0eb828f3999f48b52b2c3c399890e0eb01c245"
     },
     {
       "id": "in-20100128-2304",
       "type": "old_alpha",
       "url": "version/manifest/in-20100128-2304.json",
-      "sha1": "124d6286b5287b766882dcf469b78bf732b873f3",
+      "sha1": "c3eadf8c06d259e59e923b53f5aa8511b8a4f46b",
       "time": "2010-01-28T23:04:00-00:00",
-      "releaseTime": "2010-01-28T23:04:00+00:00",
+      "releaseTime": "2010-01-28T23:04:18+00:00",
       "details": "version/in-20100128-2304.json",
-      "detailsSha1": "208bcfc9eeef19221a4730e5a8f9ea2bc38194ee"
+      "detailsSha1": "861ebe16915923b11ba76f6d25f434533c8c94dd"
     },
     {
       "id": "in-20100125",
       "type": "old_alpha",
       "url": "version/manifest/in-20100125.json",
-      "sha1": "e8e62c071ba14950436a1363ecfa8a1b2577034d",
+      "sha1": "4fc1e21c8cfc04345fa86b42ea86166a41d1871d",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-01-25T21:00:00+00:00",
+      "releaseTime": "2010-01-25T21:00:58+00:00",
       "details": "version/in-20100125.json",
-      "detailsSha1": "c017ed197c77514df031cb8db8f5948788cc7a96"
+      "detailsSha1": "19f589aeaebd8e88e20c16b6341f1fc9a8b42839"
     },
     {
       "id": "in-20100124-2310",
       "type": "old_alpha",
       "url": "version/manifest/in-20100124-2310.json",
-      "sha1": "d2eb1f474528474501f55956c484be9451014066",
+      "sha1": "8dafc1d7cca2b1f590bc5bc5dc1f9cb153173494",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-01-24T23:10:00+00:00",
+      "releaseTime": "2010-01-24T23:10:20+00:00",
       "details": "version/in-20100124-2310.json",
-      "detailsSha1": "c73ce05c1eab1209aefba83459a04f4289056ac2"
+      "detailsSha1": "6961cab09a7b206bd29c9b8f3fb05f49d3ca2ef7"
     },
     {
       "id": "in-20100110",
       "type": "old_alpha",
       "url": "version/manifest/in-20100110.json",
-      "sha1": "81e64e1fcf36ddbe07dc265f6352c2dfef4c5444",
+      "sha1": "63721812285c2f4d792618e945b1f3eba9d95e35",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2010-01-10T23:02:00+00:00",
+      "releaseTime": "2010-01-10T23:02:28+00:00",
       "details": "version/in-20100110.json",
-      "detailsSha1": "70dbfa6e83ac2458c8f33295c45abc5acfe0c053"
+      "detailsSha1": "e0721e5dd246e1c9194f7a3cd4319a55f01904ff"
     },
     {
       "id": "in-20100104-2258",
       "type": "old_alpha",
       "url": "version/manifest/in-20100104-2258.json",
-      "sha1": "c32e1af8a43ea73de997c2bce44fe20ce03e3282",
+      "sha1": "a6b44db2e60dc96789446a8116bcd16de843124c",
       "time": "2013-08-06T07:33:30-07:00",
-      "releaseTime": "2010-01-04T22:58:00+00:00",
+      "releaseTime": "2010-01-04T22:58:12+00:00",
       "details": "version/in-20100104-2258.json",
-      "detailsSha1": "6adc2855df5825bbe54f595e5617eeca7444f029"
+      "detailsSha1": "f6eae61f8e3212569857260af3d756c87762a193"
     },
     {
       "id": "in-20091231-2255",
       "type": "old_alpha",
       "url": "version/manifest/in-20091231-2255.json",
-      "sha1": "fbb6feaf28bf0259bd4145467bd6b5a74f1899fa",
+      "sha1": "fdf89b5747aa59f9c23320bb8582387075323378",
       "time": "2021-06-26T22:48:05+00:00",
-      "releaseTime": "2009-12-31T22:55:00+00:00",
+      "releaseTime": "2009-12-31T22:55:48+00:00",
       "details": "version/in-20091231-2255.json",
-      "detailsSha1": "47269415e23b0271d3c801f204dfc2fa1ac20bd9"
+      "detailsSha1": "a3c4d545895c38e9be120ba01d92bc008ee3825d"
     },
     {
       "id": "in-20091223-1459",
       "type": "old_alpha",
       "url": "version/manifest/in-20091223-1459.json",
-      "sha1": "94566e2dc274815bb9a3c110d05cd42562d74736",
+      "sha1": "71a20ae67e224281adc9c31ce6a9e0d1870aebd5",
       "time": "2009-12-23T00:00:00-00:00",
-      "releaseTime": "2009-12-23T14:59:00+00:00",
+      "releaseTime": "2009-12-23T14:59:06+00:00",
       "details": "version/in-20091223-1459.json",
-      "detailsSha1": "81ca7f85e5e95327e4a36999aeddfb1423c2728f"
+      "detailsSha1": "d00b9337c48dd06c0fdcf19ea9e9f45d4ba66b48"
     },
     {
       "id": "c0.30-c-renew",
@@ -7693,71 +7693,71 @@
       "id": "c0.30-c",
       "type": "old_alpha",
       "url": "version/manifest/c0.30-c.json",
-      "sha1": "f46696636a6e81c284d201c9b399365314d73d5f",
+      "sha1": "d5890bcbbf1cf603f41d894782c07fd221e451ca",
       "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T00:00:01+00:00",
+      "releaseTime": "2009-11-10T19:00:40+00:00",
       "details": "version/c0.30-c.json",
-      "detailsSha1": "4d80bb592535ed396e866240c30bde485ff0fa0a"
+      "detailsSha1": "504148637836bfd5e38ce7666ccd0cda8a0ae5e7"
     },
     {
       "id": "c0.30-c-1900",
       "type": "old_alpha",
       "url": "version/manifest/c0.30-c-1900.json",
-      "sha1": "ee88e1f6eff717791a64ad37f058ff94e53b22b2",
+      "sha1": "64098c142a317c813135a03235aae7a2100ffc31",
       "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T00:00:01+00:00",
+      "releaseTime": "2009-11-10T19:00:40+00:00",
       "details": "version/c0.30-c-1900.json",
-      "detailsSha1": "c61774dfef6baabe4ef165cd03f5bc5b551ef83e"
+      "detailsSha1": "8c0ddb7c76b50281d12237d7c3475e5a60d8d74a"
     },
     {
       "id": "c0.30-s",
       "type": "old_alpha",
       "url": "version/manifest/c0.30-s.json",
-      "sha1": "67220169bd2a7328cdf5cbb70f22a99cc923f2ff",
+      "sha1": "d0940c50b958ca0b5a78ba39c4fbd89ffb7f4a3f",
       "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T00:00:00+00:00",
+      "releaseTime": "2009-11-10T18:58:50+00:00",
       "details": "version/c0.30-s.json",
-      "detailsSha1": "f211f7a5779d54ca9a48f18438ef7a7c8a304757"
+      "detailsSha1": "15e35befd55d3eb9fb6db8e12145263bfdc8220e"
     },
     {
       "id": "c0.30-s-1858",
       "type": "old_alpha",
       "url": "version/manifest/c0.30-s-1858.json",
-      "sha1": "925d088b3683048c8588719cc2690178add21653",
+      "sha1": "546259afb94020437e3caa214873fc21489be32c",
       "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T00:00:00+00:00",
+      "releaseTime": "2009-11-10T18:58:50+00:00",
       "details": "version/c0.30-s-1858.json",
-      "detailsSha1": "b45513aba520215df1e1c4410a41dbf500ee58b0"
+      "detailsSha1": "996a5d65801887c67af3d3d8073c9595c5357ae8"
     },
     {
       "id": "c0.30-s-1849",
       "type": "old_alpha",
       "url": "version/manifest/c0.30-s-1849.json",
-      "sha1": "34d9da343f1c9de688e80898847dd31c0c76f4e6",
+      "sha1": "73676de724d09ffd9d6322743299f1dd4620cbea",
       "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T00:00:00+00:00",
+      "releaseTime": "2009-11-10T18:49:00+00:00",
       "details": "version/c0.30-s-1849.json",
-      "detailsSha1": "7c6b99401ec85534265d2b856acc2a492afc7121"
+      "detailsSha1": "4ffd84c8508e292a7d3010db0830f0938ec29b73"
     },
     {
       "id": "c0.29_02",
       "type": "old_alpha",
       "url": "version/manifest/c0.29_02.json",
-      "sha1": "dd9c0f4ef1aa6706b343b7a541ec7bc27bd6c647",
+      "sha1": "ea6897c5cdb1698abfa4ea3c21f5d1321fef0704",
       "time": "2017-09-20T03:05:00+01:00",
-      "releaseTime": "2009-10-30T00:00:00+00:00",
+      "releaseTime": "2009-10-30T18:36:14+00:00",
       "details": "version/c0.29_02.json",
-      "detailsSha1": "c4cf1825f4d29bfb274a6ad37e3464b8332b5eb6"
+      "detailsSha1": "43fdb33ce5a1cf7404bf73f59db264439fd086c1"
     },
     {
       "id": "c0.29_01",
       "type": "old_alpha",
       "url": "version/manifest/c0.29_01.json",
-      "sha1": "897db67c59ca1d837fbff8697ab3dc5dcc946201",
+      "sha1": "7c07f7097e7dc578ef96bc5a20dfcca7837f8d8c",
       "time": "2021-06-26T12:16:50+00:00",
-      "releaseTime": "2009-10-29T13:38:00+00:00",
+      "releaseTime": "2009-10-29T14:38:06+00:00",
       "details": "version/c0.29_01.json",
-      "detailsSha1": "49aed7da8f70942c13ef36a3ff0f5256f2f7f741"
+      "detailsSha1": "d9d3a8ed2e0bc7b69e5c630ec14dbb29ce90449e"
     },
     {
       "id": "c1.9.1",
@@ -7772,11 +7772,11 @@
       "id": "c0.29",
       "type": "old_alpha",
       "url": "version/manifest/c0.29.json",
-      "sha1": "4a4ca45065c3e994fbc30c8f63786601bf495824",
+      "sha1": "e7a5a029715e23e78d43b45a2f0709f4742e2c8c",
       "time": "2009-10-29T10:02:00+00:00",
-      "releaseTime": "2009-10-29T10:02:00+00:00",
+      "releaseTime": "2009-10-29T11:02:16+00:00",
       "details": "version/c0.29.json",
-      "detailsSha1": "f28051cddd2245f7df9535f63657483d689bfa3a"
+      "detailsSha1": "7a92824cd1e21d72d81b5f7f45bcf4df8db615bd"
     },
     {
       "id": "c1.8.3",
@@ -7791,41 +7791,41 @@
       "id": "c0.28_01",
       "type": "old_alpha",
       "url": "version/manifest/c0.28_01.json",
-      "sha1": "6f7c8917566f7bed140599780253895f6621ebaf",
+      "sha1": "e299c67a9c46d27ed0b9c0c34e7e40365a4b75f0",
       "time": "2017-09-20T00:00:00+00:00",
-      "releaseTime": "2009-10-27T00:00:00+00:00",
+      "releaseTime": "2009-10-27T14:22:36+00:00",
       "details": "version/c0.28_01.json",
-      "detailsSha1": "4fab1cf8336f8b6cafbeff55035d360f9b344cd0"
+      "detailsSha1": "6055818d25aa12a6ef5944fbf350e67e00e07be2"
     },
     {
       "id": "c0.27_st",
       "type": "old_alpha",
       "url": "version/manifest/c0.27_st.json",
-      "sha1": "9ea282d256955ba83f6eb88befbdb4eb7a5e980b",
+      "sha1": "5116ae3ae37fc35d99497efc3ee2dc857ad6fbe5",
       "time": "2017-09-17T16:33:30+02:00",
-      "releaseTime": "2009-10-25T00:00:00+00:00",
+      "releaseTime": "2009-10-24T11:20:42+00:00",
       "details": "version/c0.27_st.json",
-      "detailsSha1": "6aa9889982babe5e27ef916db436ba6ff43fb845"
+      "detailsSha1": "23ac72256aa19c99986b7ebb3825f241e421d0f4"
     },
     {
       "id": "c0.25_05_st",
       "type": "old_alpha",
       "url": "version/manifest/c0.25_05_st.json",
-      "sha1": "6e83e94ba2d1025bbe4cae9f0f0e90832753d44d",
+      "sha1": "24f146468ea20305330c7ae63f61d34b5e22a94e",
       "time": "2009-09-03T00:00:00+00:00",
-      "releaseTime": "2009-09-03T00:00:00+00:00",
+      "releaseTime": "2009-09-03T17:10:04+00:00",
       "details": "version/c0.25_05_st.json",
-      "detailsSha1": "efa84e421fd74ae1ff9bd35ab99497125969984a"
+      "detailsSha1": "085636e8b7c08f0c5f41180acb6e60b47706005c"
     },
     {
       "id": "c0.24_st_03",
       "type": "old_alpha",
       "url": "version/manifest/c0.24_st_03.json",
-      "sha1": "ccdeb12645766cbed12e548d31b6878823c8802d",
+      "sha1": "5516eb319b7bb275aa4c653c53ccddeb4d8b07a1",
       "time": "2009-09-01T00:00:00+00:00",
-      "releaseTime": "2009-09-01T00:00:00+00:00",
+      "releaseTime": "2009-09-01T17:55:34+00:00",
       "details": "version/c0.24_st_03.json",
-      "detailsSha1": "e0b61721caaad72cc63e4687c3250502814ca752"
+      "detailsSha1": "123b6add79519695ccf450ce035ffcfb99f31fe6"
     },
     {
       "id": "c0.0.23a_01",
@@ -7841,51 +7841,51 @@
       "id": "c0.0.22a_05",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.22a_05.json",
-      "sha1": "e9f12b328a7e146dbcd3caa9c0e31b281ff10a16",
+      "sha1": "1f67827556bf961c646c01fd20510946617fc7cf",
       "time": "2009-06-30T00:00:00+00:00",
-      "releaseTime": "2009-06-30T00:00:00+00:00",
+      "releaseTime": "2009-06-29T23:28:28+00:00",
       "details": "version/c0.0.22a_05.json",
-      "detailsSha1": "0c34c083d014a255c07a48bb722cec026e901cef"
+      "detailsSha1": "4303c6c34eb6d529055edce060c1bacceb1c38f0"
     },
     {
       "id": "c0.0.21a",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.21a.json",
-      "sha1": "329d9c64c46702dfa0b0581e056dbdb638419c1c",
+      "sha1": "2df117f45bf14b17cc728676e274c58eb369de34",
       "time": "2017-09-20T03:12:34+01:00",
-      "releaseTime": "2009-06-22T22:11:11+00:00",
+      "releaseTime": "2009-06-22T20:08:42+00:00",
       "details": "version/c0.0.21a.json",
-      "detailsSha1": "26b6e9565e7d3c45bb53156fc453b67e86db57e5"
+      "detailsSha1": "689e864fe6cb76e6982fe310fb6d039155767d48"
     },
     {
       "id": "c0.0.21a-2008",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.21a-2008.json",
-      "sha1": "b4eb90f6dcc4690a334b48ffac214affeb54e1b6",
+      "sha1": "230e706641f7d0b9e500f1a591e8d9aa33d21b7c",
       "time": "2017-09-20T03:12:34+01:00",
-      "releaseTime": "2009-06-22T22:11:11+00:00",
+      "releaseTime": "2009-06-22T20:08:42+00:00",
       "details": "version/c0.0.21a-2008.json",
-      "detailsSha1": "680e809d56bc5501723a9786ccb79aa29689e40d"
+      "detailsSha1": "4344addd99cd748b2db3cc57432ef07bd0d62cdb"
     },
     {
       "id": "c0.0.20a_02",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.20a_02.json",
-      "sha1": "bd1af85ef3f1787f7c648c53de9fdf9c33c95626",
+      "sha1": "e50f80ec2bf909c9b35e38ed8559f5bfbd62716a",
       "time": "2009-06-20T23:39:00+00:00",
-      "releaseTime": "2009-06-20T23:39:00+00:00",
+      "releaseTime": "2009-06-20T21:39:14+00:00",
       "details": "version/c0.0.20a_02.json",
-      "detailsSha1": "b173304c748d8e9f3c24e13695bd6a0fd8bfb123"
+      "detailsSha1": "c1ac8063ded3416a62d831c5fc2d029260c8bcd6"
     },
     {
       "id": "c0.0.20a_01",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.20a_01.json",
-      "sha1": "0a23f2125c49eedab0842e3074f06ef8db32b2b1",
+      "sha1": "6b8f6438012bb2a5556a17d930d0450038316e83",
       "time": "2020-10-14T23:51:10+00:00",
-      "releaseTime": "2009-06-20T23:10:00+00:00",
+      "releaseTime": "2009-06-20T21:11:00+00:00",
       "details": "version/c0.0.20a_01.json",
-      "detailsSha1": "ebc9d32eee50a6c5db7002b8393a8ae65402ff56"
+      "detailsSha1": "019f0ce184c17f8cdc30e603fede6f3cc6a81f53"
     },
     {
       "id": "c1.8.2",
@@ -7900,31 +7900,31 @@
       "id": "c0.0.19a_06",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.19a_06.json",
-      "sha1": "dd983ecd2776480aa4991aae16b6210e85cc10f3",
+      "sha1": "927a41fe4f09afd3531f3e8567af37c2ddd91543",
       "time": "2020-10-17T19:47:58-00:00",
-      "releaseTime": "2009-06-20T01:37:00+00:00",
+      "releaseTime": "2009-06-20T01:37:36+00:00",
       "details": "version/c0.0.19a_06.json",
-      "detailsSha1": "e4ae102fefdb2e3d695eb03440584442ed20a6e2"
+      "detailsSha1": "1e2c8d1ece137843035a0918ef65ca082156d345"
     },
     {
       "id": "c0.0.19a_06-0137",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.19a_06-0137.json",
-      "sha1": "14c5d6b8f7b20251a374577e134e961a1233976b",
+      "sha1": "5ca759088e22080f0dbf6c967576ab84fb7c387b",
       "time": "2020-10-17T19:47:58-00:00",
-      "releaseTime": "2009-06-20T01:37:00+00:00",
+      "releaseTime": "2009-06-20T01:37:36+00:00",
       "details": "version/c0.0.19a_06-0137.json",
-      "detailsSha1": "3de2671b51c0c6acd3a81cfc90af513ae4720bc6"
+      "detailsSha1": "a1130cf988c62c89b546870f19b1e94a725510d3"
     },
     {
       "id": "c0.0.19a_04",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.19a_04.json",
-      "sha1": "44ded7da942c786fe6d202ef868591a07d7134e8",
+      "sha1": "a6bdfdc2171a87c9d0eaf770fd6bad7a1e017bb6",
       "time": "2009-06-20T00:53:00+00:00",
-      "releaseTime": "2009-06-20T00:53:00+00:00",
+      "releaseTime": "2009-06-20T00:53:18+00:00",
       "details": "version/c0.0.19a_04.json",
-      "detailsSha1": "f90d79e3da01dc3c6bdb0072e5db3ed5a440e435"
+      "detailsSha1": "dcb255afafa03de4ef0dd5ab526bf73064ecfd7d"
     },
     {
       "id": "c1.6",
@@ -7948,11 +7948,11 @@
       "id": "c0.0.18a_02",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.18a_02.json",
-      "sha1": "f0c1a24d4c909f64aca84718eb7c7c5c93ce246d",
+      "sha1": "f7082a779a66b422fac085c11772fd068f66f0e0",
       "time": "2020-10-15T18:45:15-00:00",
-      "releaseTime": "2009-06-14T10:53:00+00:00",
+      "releaseTime": "2009-06-14T09:53:26+00:00",
       "details": "version/c0.0.18a_02.json",
-      "detailsSha1": "6b0a5b7c041ba0d91f13da8e2deb509095ed4f41"
+      "detailsSha1": "1c7f9b640f85efadfac439771c031ab213d60529"
     },
     {
       "id": "c1.4",
@@ -7967,10 +7967,10 @@
       "id": "c1.4-1422",
       "type": "classic_server",
       "url": "version/manifest/c1.4-1422.json",
-      "sha1": "0db1521abb13791aa2b64ebaea6c5b6ae2d6491b",
-      "releaseTime": "2009-06-13T16:22:00+00:00",
+      "sha1": "42b4a3404f951388ac002c163486f5b4b2058533",
+      "releaseTime": "2009-06-13T14:22:00+00:00",
       "details": "version/c1.4-1422.json",
-      "detailsSha1": "42b68801ee90a20937d11dc6808948d9c53f685e"
+      "detailsSha1": "0f5a24a748f8c0cc406a2387baddb59f59dad352"
     },
     {
       "id": "c1.4-1327",
@@ -7985,21 +7985,21 @@
       "id": "c0.0.17a",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.17a.json",
-      "sha1": "14abae74667140919871211f968020ffa45beada",
+      "sha1": "cbe16376f6068b9bee42b8bc8debe5d78a2c1552",
       "time": "2021-04-17T21:49:29-00:00",
-      "releaseTime": "2009-06-10T20:14:00+00:00",
+      "releaseTime": "2009-06-10T20:14:46+00:00",
       "details": "version/c0.0.17a.json",
-      "detailsSha1": "8669575f0a72d1dd3f5383f8d67c6e95f9762cc2"
+      "detailsSha1": "d0e2071ba9e37fc8a6cb0a6de458956a38bc7f22"
     },
     {
       "id": "c0.0.17a-2014",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.17a-2014.json",
-      "sha1": "cd0a21e0a7dc9325ac4995edc9b34632932e446b",
+      "sha1": "4728219fe9e5f3e8505ccc5bd98f39d9217ff7db",
       "time": "2021-04-17T21:49:29-00:00",
-      "releaseTime": "2009-06-10T20:14:00+00:00",
+      "releaseTime": "2009-06-10T20:14:46+00:00",
       "details": "version/c0.0.17a-2014.json",
-      "detailsSha1": "50632b3e0d78060184649204da8b09cc536696f6"
+      "detailsSha1": "4aadff2b90ac18840bf6204861522f9dc0e78b2f"
     },
     {
       "id": "c1.3",
@@ -8023,71 +8023,71 @@
       "id": "c0.0.16a_02",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.16a_02.json",
-      "sha1": "f417827586506a7c46ad7ac0054c75ceefb1b79f",
+      "sha1": "266774718518b5b92dedfa1d54a7abd174a4e5bc",
       "time": "2019-10-20T21:42:41+00:00",
-      "releaseTime": "2009-06-08T12:47:00+00:00",
+      "releaseTime": "2009-06-08T10:47:16+00:00",
       "details": "version/c0.0.16a_02.json",
-      "detailsSha1": "d1260a912b9893fe745ac69580123c77adee7381"
+      "detailsSha1": "bd750284f21ced70c7e84e320d41f74c149c70e0"
     },
     {
       "id": "c0.0.16a_02-081047",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.16a_02-081047.json",
-      "sha1": "53fc9652b2787db729c56ee8bfc2b73690cc2524",
+      "sha1": "fdc1709a96edbd5aa4267c9cdb304a1dac2393ce",
       "time": "2019-10-20T21:42:41+00:00",
-      "releaseTime": "2009-06-08T12:47:00+00:00",
+      "releaseTime": "2009-06-08T10:47:16+00:00",
       "details": "version/c0.0.16a_02-081047.json",
-      "detailsSha1": "9e5d76e1aa4a2d2f8ab9dff057a44b595d570b39"
+      "detailsSha1": "e5f94653dedfe9015d144efdee4eded5ced1d8b1"
     },
     {
       "id": "c0.0.15a",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.15a.json",
-      "sha1": "3bb6fd506c779ffa304110b67ff7363c762d6938",
+      "sha1": "041bbe73bf8e00994d1caf7e1d5050dc680555ef",
       "time": "2009-05-31T21:04:00+00:00",
-      "releaseTime": "2009-05-31T21:04:00+00:00",
+      "releaseTime": "2009-05-31T19:04:26+00:00",
       "details": "version/c0.0.15a.json",
-      "detailsSha1": "f5b8d8895bddb30f1f42c7af6e62d950aeed4771"
+      "detailsSha1": "92d1e6a7bda75e220cf4d2628ce41b56a8d6af7f"
     },
     {
       "id": "c0.0.15a-05311904",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.15a-05311904.json",
-      "sha1": "614bc6f54f99fa3afd02f3abcd0ee382b34f80c0",
+      "sha1": "0948c9b37af01d1a8b68ae26b0d93bed4d2f1203",
       "time": "2009-05-31T21:04:00+00:00",
-      "releaseTime": "2009-05-31T21:04:00+00:00",
+      "releaseTime": "2009-05-31T19:04:26+00:00",
       "details": "version/c0.0.15a-05311904.json",
-      "detailsSha1": "5e07180edb25bc32396031e21964146e6f301dd7"
+      "detailsSha1": "af26cc4f5919fee2c8c653e6648244551d06626f"
     },
     {
       "id": "c0.0.14a_08",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.14a_08.json",
-      "sha1": "1a5eabcccc1555f0069aec428b0c482b51718731",
+      "sha1": "a57c514833f05db6e13b55ddef5d50d36486798d",
       "time": "2019-10-20T21:41:28+00:00",
-      "releaseTime": "2009-05-28T22:37:00+00:00",
+      "releaseTime": "2009-05-28T20:37:40+00:00",
       "details": "version/c0.0.14a_08.json",
-      "detailsSha1": "865b79f139f21182b05941f4b888d13ed8fd8e9d"
+      "detailsSha1": "e39197713fc573f9d2ccecfc5734793c14b3ef62"
     },
     {
       "id": "c0.0.13a_03-launcher",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.13a_03-launcher.json",
-      "sha1": "1e0714ff15a3b6558aeb23fec23e5015cff1175c",
+      "sha1": "e0e315c93a14595d30e4ff5cde6400a1e8e8c854",
       "time": "2009-05-21T22:00:00+00:00",
-      "releaseTime": "2009-05-22T20:13:30+00:00",
+      "releaseTime": "2009-05-22T18:13:14+00:00",
       "details": "version/c0.0.13a_03-launcher.json",
-      "detailsSha1": "1fbece8565db1d685c1b8a0c8a122e971463fd76"
+      "detailsSha1": "71244f9b8334f70fca192a502b5679a0a8b8596b"
     },
     {
       "id": "c0.0.13a_03",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.13a_03.json",
-      "sha1": "ef91ada485cdc7ce893f1ad4d4f84854424d4d78",
+      "sha1": "cbec22e127a3813f842b3a0e775d20bd41c24cdf",
       "time": "2009-05-21T22:00:00+00:00",
-      "releaseTime": "2009-05-22T20:13:00+00:00",
+      "releaseTime": "2009-05-22T18:13:14+00:00",
       "details": "version/c0.0.13a_03.json",
-      "detailsSha1": "ae756c2f9b384cb0d7320b0953fe01758bfa9308"
+      "detailsSha1": "8ac827545ed334c7844545451788a4549459aaf1"
     },
     {
       "id": "c0.0.13a-launcher",
@@ -8103,21 +8103,21 @@
       "id": "c0.0.12a_03",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.12a_03.json",
-      "sha1": "6d60adeb9088e6fa6aee0f3013475c794c7224cb",
+      "sha1": "f9b83de0156d52dfccacb366a077beb83bcb6eff",
       "time": "2021-04-26T19:18:00-00:00",
-      "releaseTime": "2009-05-20T00:00:00+00:00",
+      "releaseTime": "2009-05-20T00:18:50+00:00",
       "details": "version/c0.0.12a_03.json",
-      "detailsSha1": "a123d6f5909348ede77a9b36f9c5c76af098684f"
+      "detailsSha1": "6c1046f05c867d6836202fd9e43e3ce229772f38"
     },
     {
       "id": "c0.0.12a_03-200018",
       "type": "old_alpha",
       "url": "version/manifest/c0.0.12a_03-200018.json",
-      "sha1": "27d27204c494fa3919c75796b1e4b7a19a3db84a",
+      "sha1": "ac946e18134d40cb9f19e6eea880820da83c5ed0",
       "time": "2021-04-26T19:18:00-00:00",
-      "releaseTime": "2009-05-20T00:00:00+00:00",
+      "releaseTime": "2009-05-20T00:18:50+00:00",
       "details": "version/c0.0.12a_03-200018.json",
-      "detailsSha1": "31105aae2b015071c75f60df02acc9ac3975b925"
+      "detailsSha1": "75d8a6b3f99e465ac29cba507361c4f4280a38c1"
     },
     {
       "id": "c0.0.11a-launcher",
