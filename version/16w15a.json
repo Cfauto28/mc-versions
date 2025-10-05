@@ -1,0 +1,115 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "16w15a",
+  "downloads": {
+    "client": {
+      "sha1": "042a78b65cfd53a0dbf102bba24dfc7ec295905b",
+      "size": 8739319,
+      "url": "https://launcher.mojang.com/v1/objects/042a78b65cfd53a0dbf102bba24dfc7ec295905b/client.jar"
+    },
+    "server": {
+      "sha1": "c254bc24caac3f6d5059f2cc64a80ded2e164289",
+      "size": 8880587,
+      "url": "https://launcher.mojang.com/v1/objects/c254bc24caac3f6d5059f2cc64a80ded2e164289/server.jar"
+    }
+  },
+  "id": "16w15a",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.22",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "net.java.dev.jna:jna:3.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+    "oshi-project:oshi-core:1.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "f0001f27e159394dc7f551a228c302ef8af88e79",
+      "downloadsId": 1,
+      "hash": "1cfd6d6ab138db127850017905cab482d739ca69",
+      "lastModified": "2021-12-15T15:57:57+00:00",
+      "time": "2016-04-11T14:38:28+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/1/c/fd6d6ab138db127850017905cab482d739ca69/16w15a.json"
+    },
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "f0001f27e159394dc7f551a228c302ef8af88e79",
+      "downloadsId": 1,
+      "hash": "44d2d0e609194739dcc343d6f2662b78746be0cb",
+      "lastModified": "2021-07-07T14:01:24+00:00",
+      "time": "2016-04-11T14:38:28+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/4/d2d0e609194739dcc343d6f2662b78746be0cb/16w15a.json"
+    },
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "f0001f27e159394dc7f551a228c302ef8af88e79",
+      "downloadsId": 1,
+      "hash": "19eedbee27d5a0d5a256d1096d8b9a7543516c2f",
+      "lastModified": "2018-08-29T13:00:24+00:00",
+      "time": "2016-04-11T14:38:28+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/1/9/eedbee27d5a0d5a256d1096d8b9a7543516c2f/16w15a.json"
+    },
+    {
+      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
+      "assetIndex": "1.9",
+      "downloads": "f0001f27e159394dc7f551a228c302ef8af88e79",
+      "downloadsId": 1,
+      "hash": "a45921824b60ddd0510605d4cb4f5d5918219564",
+      "lastModified": "2023-06-07T12:45:38+00:00",
+      "time": "2016-04-11T14:38:28+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/4/5921824b60ddd0510605d4cb4f5d5918219564/16w15a.json"
+    }
+  ],
+  "next": [
+    "16w15b"
+  ],
+  "normalizedVersion": "1.9.3-alpha.16.15.a",
+  "previous": [
+    "16w14a"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 109
+  },
+  "releaseTarget": "1.9.3",
+  "releaseTime": "2016-04-11T14:38:28+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 178
+  }
+}

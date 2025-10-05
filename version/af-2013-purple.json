@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "2.0",
+  "downloads": {
+    "client": {
+      "sha1": "ab9e35004d8dfa8f87419876cd9e0c0df9d2d949",
+      "size": 5616654,
+      "url": "https://vault.omniarchive.uk/archive/java/client-april-fools/2.0-purple.jar"
+    },
+    "server": {
+      "sha1": "72da90a967e67dff647291e3b62e2289a30f92dd",
+      "size": 2384786,
+      "url": "https://vault.omniarchive.uk/archive/java/server-april-fools/2.0-purple.jar"
+    }
+  },
+  "id": "af-2013-purple",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "9f53509cc8a9b70e99582ce078194be3795667be",
+      "downloadsId": 1,
+      "hash": "65347e149c94255a0034bbaf46e98787e71063e1",
+      "time": "2013-04-01T17:44:00+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/6/5/347e149c94255a0034bbaf46e98787e71063e1/2point0_purple.json"
+    }
+  ],
+  "next": [],
+  "normalizedVersion": "2.0.0-april.fools.3.purple",
+  "previous": [
+    "af-2013-blue",
+    "af-2013-red"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 92
+  },
+  "releaseTime": "2013-04-01T17:44:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

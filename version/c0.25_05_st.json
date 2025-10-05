@@ -1,0 +1,50 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "0.25_05   SURVIVAL TEST",
+  "downloads": {
+    "client": {
+      "sha1": "349630cb1b895335c38b499f84dc28d9f8a38513",
+      "size": 254705,
+      "url": "https://vault.omniarchive.uk/archive/java/client-classic/c0.25_05_st.jar"
+    }
+  },
+  "id": "c0.25_05_st",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "53d3aa5542c15460fb71443726debdaa2778f6c1",
+      "downloadsId": 1,
+      "hash": "a84f6ddad1e059ea2388d4780eed1a61e37a1ee5",
+      "time": "2009-09-03T00:00:00+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/8/4f6ddad1e059ea2388d4780eed1a61e37a1ee5/c0.25_05_st.json"
+    }
+  ],
+  "next": [
+    "c0.27_st"
+  ],
+  "normalizedVersion": "0.25.5+st",
+  "previous": [
+    "c0.24_st_03"
+  ],
+  "protocol": {
+    "type": "classic",
+    "version": 6
+  },
+  "releaseTime": "2009-09-03T00:00:00+00:00",
+  "server": false,
+  "sharedMappings": false
+}

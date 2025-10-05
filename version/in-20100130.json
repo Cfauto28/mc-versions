@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "0.31",
+  "downloads": {
+    "client": {
+      "sha1": "c871e820d5356b88b3ad854789162f8b9227c80c",
+      "size": 785518,
+      "url": "https://vault.omniarchive.uk/archive/java/client-indev/in-20100130.jar"
+    }
+  },
+  "id": "in-20100130",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "b35156e938418d48a136da44fa56c9b998fba87c",
+      "downloadsId": 1,
+      "hash": "b4cb63ba4a27fc26c9da77d18b6bc608f0d594f6",
+      "time": "2013-08-06T07:33:30-07:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/b/4/cb63ba4a27fc26c9da77d18b6bc608f0d594f6/in-20100130.json"
+    }
+  ],
+  "next": [
+    "in-20100131-2244"
+  ],
+  "normalizedVersion": "0.31.20100130",
+  "previous": [
+    "in-20100129-1452"
+  ],
+  "protocol": null,
+  "releaseTime": "2010-01-30T01:09:00+00:00",
+  "server": false,
+  "sharedMappings": false
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "14w26a",
+  "downloads": {
+    "client": {
+      "sha1": "20f0b48333cf446fe77317ab95012c595b65a8d0",
+      "size": 7527314,
+      "url": "https://launcher.mojang.com/v1/objects/20f0b48333cf446fe77317ab95012c595b65a8d0/client.jar"
+    },
+    "server": {
+      "sha1": "9d167e0b009b99d637ad102a1cb4f5aeb1501e45",
+      "size": 10001790,
+      "url": "https://launcher.mojang.com/v1/objects/9d167e0b009b99d637ad102a1cb4f5aeb1501e45/server.jar"
+    },
+    "windows_server": {
+      "sha1": "9cc0cde33407fc785f25093ceadcdac7ce209e80",
+      "size": 10396030,
+      "url": "https://launcher.mojang.com/v1/objects/9cc0cde33407fc785f25093ceadcdac7ce209e80/windows_server.exe"
+    }
+  },
+  "id": "14w26a",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:16.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.13",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "io.netty:netty-all:4.0.15.Final",
+    "java3d:vecmath:1.5.2",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-lang3:3.2.1",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.1",
+    "tv.twitch:twitch-platform:6.5",
+    "tv.twitch:twitch:6.5"
+  ],
+  "manifests": [
+    {
+      "assetHash": "32ff354a3be1c4dd83027111e6d79ee4d701d2c0",
+      "assetIndex": "14w25a",
+      "downloads": "b39fa252c7902f19ccff9346fce30aa7ed116ee6",
+      "downloadsId": 1,
+      "hash": "28e8ec7a28af980f549dcc1ae7e49403b8ea4fc0",
+      "lastModified": "2021-12-15T16:00:34+00:00",
+      "time": "2014-06-25T13:59:27+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/2/8/e8ec7a28af980f549dcc1ae7e49403b8ea4fc0/14w26a.json"
+    },
+    {
+      "assetHash": "32ff354a3be1c4dd83027111e6d79ee4d701d2c0",
+      "assetIndex": "14w25a",
+      "downloads": "b39fa252c7902f19ccff9346fce30aa7ed116ee6",
+      "downloadsId": 1,
+      "hash": "e9020b00015d74a776604697cb807f413702ae25",
+      "lastModified": "2021-07-07T14:03:50+00:00",
+      "time": "2014-06-25T13:59:27+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/9/020b00015d74a776604697cb807f413702ae25/14w26a.json"
+    },
+    {
+      "assetHash": "32ff354a3be1c4dd83027111e6d79ee4d701d2c0",
+      "assetIndex": "14w25a",
+      "downloads": "b39fa252c7902f19ccff9346fce30aa7ed116ee6",
+      "downloadsId": 1,
+      "hash": "a908244d83401ea686dcb45fcd83548c26233551",
+      "lastModified": "2018-08-29T13:01:56+00:00",
+      "time": "2014-06-25T13:59:27+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/9/08244d83401ea686dcb45fcd83548c26233551/14w26a.json"
+    }
+  ],
+  "next": [
+    "14w26b"
+  ],
+  "normalizedVersion": "1.8.0-alpha.14.26.a",
+  "previous": [
+    "14w25b"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 23
+  },
+  "releaseTarget": "1.8",
+  "releaseTime": "2014-06-25T13:59:27+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

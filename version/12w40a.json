@@ -1,0 +1,64 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "12w40a",
+  "downloads": {
+    "client": {
+      "sha1": "434652551e93fdfb4de30cbe64310037777f7eff",
+      "size": 4884173,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.4/12w40a.jar"
+    },
+    "server": {
+      "sha1": "b7558cf73f9719bbcdff3f519a8a1df853534c13",
+      "size": 1985775,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w40a.jar"
+    },
+    "windows_server": {
+      "sha1": "0a15041d0aa4860f89538a8e16fd06916117c77f",
+      "size": 2167023,
+      "url": "https://files.betacraft.uk/server-archive/release/1.4/prerelease/12w40a.exe"
+    }
+  },
+  "id": "12w40a",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "6487e8e6861ef39ff5834e85082e55c5221da146",
+      "downloadsId": 1,
+      "hash": "91ce499afddbf4bd909e8c5aaf56fb069910d0eb",
+      "time": "2012-10-04T12:33:43+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/9/1/ce499afddbf4bd909e8c5aaf56fb069910d0eb/12w40a.json"
+    }
+  ],
+  "next": [
+    "12w40b"
+  ],
+  "normalizedVersion": "1.4.0-alpha.12.40.a",
+  "previous": [
+    "12w39b"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 44
+  },
+  "releaseTarget": "1.4",
+  "releaseTime": "2012-10-04T12:33:43+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.5",
+  "downloads": {
+    "client": {
+      "sha1": "a3da981fc9b875a51975d8f8100cc0c201c2ce54",
+      "size": 5555731,
+      "url": "https://launcher.mojang.com/v1/objects/a3da981fc9b875a51975d8f8100cc0c201c2ce54/client.jar"
+    },
+    "server": {
+      "sha1": "aedad5159ef56d69c5bcf77ed141f53430af43c3",
+      "size": 2356736,
+      "url": "https://launcher.mojang.com/v1/objects/aedad5159ef56d69c5bcf77ed141f53430af43c3/server.jar"
+    },
+    "windows_server": {
+      "sha1": "6aab93583104a1acfa9b01fd48a10726daf8f011",
+      "size": 2537984,
+      "url": "https://launcher.mojang.com/v1/objects/6aab93583104a1acfa9b01fd48a10726daf8f011/windows_server.exe"
+    }
+  },
+  "id": "1.5",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
+      "assetIndex": "pre-1.6",
+      "downloads": "f53ab28ac22b856386221e7f3529a5929e5c872e",
+      "downloadsId": 1,
+      "hash": "8d8700703aeaf3186d731aed2ec6d0716a39b0f7",
+      "lastModified": "2022-03-16T16:03:30+00:00",
+      "time": "2013-03-06T22:00:00+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/d/8700703aeaf3186d731aed2ec6d0716a39b0f7/1.5.json"
+    },
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "f53ab28ac22b856386221e7f3529a5929e5c872e",
+      "downloadsId": 1,
+      "hash": "02f461146ce02227a8b6fa2062706580b660d2b3",
+      "lastModified": "2019-02-14T15:33:28+00:00",
+      "time": "2013-03-06T22:00:00+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/0/2/f461146ce02227a8b6fa2062706580b660d2b3/1.5.json"
+    }
+  ],
+  "next": [
+    "13w11a"
+  ],
+  "normalizedVersion": "1.5.0",
+  "previous": [
+    "13w10b"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 60
+  },
+  "releaseTarget": "1.5",
+  "releaseTime": "2013-03-13T00:00:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

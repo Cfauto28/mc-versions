@@ -1,0 +1,94 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Combat Test 7b",
+  "downloads": {
+    "client": {
+      "sha1": "0fbf7624030e67904cc0fbe3df2dbf34369a690d",
+      "size": 17521423,
+      "url": "https://launcher.mojang.com/v1/objects/0fbf7624030e67904cc0fbe3df2dbf34369a690d/client.jar"
+    },
+    "client_mappings": {
+      "sha1": "29501c54a8ccd3ba4a0341a83d93a259e9a2cdde",
+      "size": 5728594,
+      "url": "https://launcher.mojang.com/v1/objects/29501c54a8ccd3ba4a0341a83d93a259e9a2cdde/client.txt"
+    },
+    "server": {
+      "sha1": "464d3e619f3e8464e3974b4a6ea388911e31b2fc",
+      "size": 37943870,
+      "url": "https://launcher.mojang.com/v1/objects/464d3e619f3e8464e3974b4a6ea388911e31b2fc/server.jar"
+    },
+    "server_mappings": {
+      "sha1": "1d70f0a8a544c524ea79e4a7c79f65f7a9dffc63",
+      "size": 4396999,
+      "url": "https://launcher.mojang.com/v1/objects/1d70f0a8a544c524ea79e4a7c79f65f7a9dffc63/server.txt"
+    }
+  },
+  "id": "combat-7b",
+  "libraries": [
+    "com.google.code.gson:gson:2.8.0",
+    "com.google.guava:guava:21.0",
+    "com.ibm.icu:icu4j:66.1",
+    "com.mojang:authlib:1.6.25",
+    "com.mojang:brigadier:1.0.17",
+    "com.mojang:datafixerupper:4.0.26",
+    "com.mojang:javabridge:1.0.22",
+    "com.mojang:patchy:1.1",
+    "com.mojang:text2speech:1.11.3",
+    "commons-codec:commons-codec:1.10",
+    "commons-io:commons-io:2.5",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.1.25.Final",
+    "it.unimi.dsi:fastutil:8.2.1",
+    "net.java.dev.jna:jna:4.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:5.0.3",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.5",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.8.1",
+    "org.apache.logging.log4j:log4j-core:2.8.1",
+    "org.lwjgl:lwjgl-glfw:3.2.2",
+    "org.lwjgl:lwjgl-jemalloc:3.2.2",
+    "org.lwjgl:lwjgl-openal:3.2.2",
+    "org.lwjgl:lwjgl-opengl:3.2.2",
+    "org.lwjgl:lwjgl-stb:3.2.2",
+    "org.lwjgl:lwjgl-tinyfd:3.2.2",
+    "org.lwjgl:lwjgl:3.2.2",
+    "oshi-project:oshi-core:1.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
+      "assetIndex": "1.16",
+      "downloads": "a5882b476f58881b558cdcd8c9861010d6c14f80",
+      "downloadsId": 1,
+      "hash": "5188053b642f376b1b1a9bafd9c9ff9333d13252",
+      "time": "2020-08-13T11:56:30+00:00",
+      "type": "pending",
+      "url": "https://ornithemc.net/mc-versions/manifest/5/1/88053b642f376b1b1a9bafd9c9ff9333d13252/1_16_combat-2.json"
+    }
+  ],
+  "next": [
+    "combat-7c"
+  ],
+  "normalizedVersion": "1.16.3-combat.7.b",
+  "previous": [
+    "combat-7a"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 802
+  },
+  "releaseTarget": "combat",
+  "releaseTime": "2020-08-13T11:56:30+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 2703
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": null,
+  "downloads": {
+    "client": {
+      "sha1": "393e8d4b4d708587e2accd7c5221db65365e1075",
+      "size": 26704,
+      "url": "https://launcher.mojang.com/v1/objects/393e8d4b4d708587e2accd7c5221db65365e1075/client.jar"
+    }
+  },
+  "id": "rd-132211-launcher",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
+      "assetIndex": "pre-1.6",
+      "downloads": "f20ee4ea6159b53bf6910bf2e3628b6088eedf45",
+      "downloadsId": 1,
+      "hash": "28e56867f82e3fec84fba1491d18c629653d9517",
+      "lastModified": "2022-03-16T16:04:24+00:00",
+      "time": "2009-05-13T20:11:00+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/2/8/e56867f82e3fec84fba1491d18c629653d9517/rd-132211.json"
+    },
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "f20ee4ea6159b53bf6910bf2e3628b6088eedf45",
+      "downloadsId": 1,
+      "hash": "e51e438c0a0c4bfe8b63db0c88d547167a46d9ff",
+      "lastModified": "2019-02-14T15:34:02+00:00",
+      "time": "2009-05-13T20:11:00+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/5/1e438c0a0c4bfe8b63db0c88d547167a46d9ff/rd-132211.json"
+    }
+  ],
+  "next": [
+    "rd-132328-launcher"
+  ],
+  "normalizedVersion": "0.0.0-rd.132211+launcher",
+  "previous": [],
+  "protocol": null,
+  "releaseTime": "2009-05-13T20:11:00+00:00",
+  "server": false,
+  "sharedMappings": false
+}

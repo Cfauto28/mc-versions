@@ -1,0 +1,116 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.10-pre2",
+  "downloads": {
+    "client": {
+      "sha1": "c08e980eb1d79405c9213717df4cd11e509b0761",
+      "size": 8857151,
+      "url": "https://launcher.mojang.com/v1/objects/c08e980eb1d79405c9213717df4cd11e509b0761/client.jar"
+    },
+    "server": {
+      "sha1": "aa4ec0004eb20a70ef7426816cae992d73718038",
+      "size": 9459518,
+      "url": "https://launcher.mojang.com/v1/objects/aa4ec0004eb20a70ef7426816cae992d73718038/server.jar"
+    }
+  },
+  "id": "1.10-pre2",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.22",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "it.unimi.dsi:fastutil:7.0.12_mojang",
+    "net.java.dev.jna:jna:3.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+    "oshi-project:oshi-core:1.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "1899dc341679632a513470aeb3daf6d8bd154550",
+      "assetIndex": "1.10",
+      "downloads": "30abafb96c67be03d568705af523865d4db8f470",
+      "downloadsId": 1,
+      "hash": "385861afa17f0ac9c1bf969d31f0cce47f51834d",
+      "lastModified": "2021-12-15T15:57:42+00:00",
+      "time": "2016-06-07T14:56:34+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/3/8/5861afa17f0ac9c1bf969d31f0cce47f51834d/1.10-pre2.json"
+    },
+    {
+      "assetHash": "1899dc341679632a513470aeb3daf6d8bd154550",
+      "assetIndex": "1.10",
+      "downloads": "30abafb96c67be03d568705af523865d4db8f470",
+      "downloadsId": 1,
+      "hash": "5bd42fedea283de547e4f21bd29b6198c9cbda3d",
+      "lastModified": "2021-07-07T14:01:12+00:00",
+      "time": "2016-06-07T14:56:34+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/5/b/d42fedea283de547e4f21bd29b6198c9cbda3d/1.10-pre2.json"
+    },
+    {
+      "assetHash": "1899dc341679632a513470aeb3daf6d8bd154550",
+      "assetIndex": "1.10",
+      "downloads": "30abafb96c67be03d568705af523865d4db8f470",
+      "downloadsId": 1,
+      "hash": "083b4673ae11833c2c3d980cb13968ed7e1db40e",
+      "lastModified": "2018-08-29T13:00:10+00:00",
+      "time": "2016-06-07T14:56:34+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/0/8/3b4673ae11833c2c3d980cb13968ed7e1db40e/1.10-pre2.json"
+    },
+    {
+      "assetHash": "7c2800b458376b8fc0b738382fb7784328fddda9",
+      "assetIndex": "1.10",
+      "downloads": "30abafb96c67be03d568705af523865d4db8f470",
+      "downloadsId": 1,
+      "hash": "771598496a4e9b3aabc0a36c05f8d5360834dba8",
+      "lastModified": "2023-06-07T12:45:34+00:00",
+      "time": "2016-06-07T14:56:34+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/7/1598496a4e9b3aabc0a36c05f8d5360834dba8/1.10-pre2.json"
+    }
+  ],
+  "next": [
+    "1.10"
+  ],
+  "normalizedVersion": "1.10.0-pre.2",
+  "previous": [
+    "1.10-pre1"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 205
+  },
+  "releaseTarget": "1.10",
+  "releaseTime": "2016-06-07T14:56:34+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 507
+  }
+}

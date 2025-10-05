@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Alpha v1.2.3_05",
+  "downloads": {
+    "client": {
+      "sha1": "cce2759614f05c7dd46670a536c006056b779a8f",
+      "size": 1104176,
+      "url": "https://vault.omniarchive.uk/archive/java/client-alpha/a1.2.3_05.jar"
+    }
+  },
+  "id": "a1.2.3_05",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "db4c11594550bc498e82d6ae6d17a1fd9ef9de13",
+      "downloadsId": 1,
+      "hash": "9e3fd596793ed85fccd7e74a75c77e3293b9d4cf",
+      "time": "2019-03-18T00:00:00-00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/9/e/3fd596793ed85fccd7e74a75c77e3293b9d4cf/a1.2.3_05.json"
+    }
+  ],
+  "next": [
+    "a1.2.4_01"
+  ],
+  "normalizedVersion": "1.0.0-alpha.1.2.3.5",
+  "previous": [
+    "a1.2.3_04"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 6
+  },
+  "releaseTime": "2010-11-30T18:06:00+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

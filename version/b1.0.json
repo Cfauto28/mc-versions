@@ -1,0 +1,83 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.0",
+  "downloads": {
+    "client": {
+      "sha1": "93faf3398ebf8008d59852dc3c2b22b909ca8a49",
+      "size": 1129160,
+      "url": "https://launcher.mojang.com/v1/objects/93faf3398ebf8008d59852dc3c2b22b909ca8a49/client.jar"
+    },
+    "server": {
+      "sha1": "582fa899199e9eb5d739806db4f4f06655edff3a",
+      "size": 350946,
+      "url": "https://files.betacraft.uk/server-archive/beta/b1.0.jar"
+    },
+    "windows_server": {
+      "sha1": "7c84fc544dc028c02bb02a38be2519c85203b7d7",
+      "size": 531682,
+      "url": "https://files.betacraft.uk/server-archive/beta/b1.0.exe"
+    }
+  },
+  "id": "b1.0",
+  "libraries": [],
+  "manifests": [
+    {
+      "downloads": "575276a2d74077ccf2e8de89ea11b8bd2b6785b6",
+      "downloadsId": 2,
+      "hash": "aef7531405ce5f14aa0fb2532edc26e552332002",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/e/f7531405ce5f14aa0fb2532edc26e552332002/b1.0.json"
+    },
+    {
+      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
+      "assetIndex": "pre-1.6",
+      "downloads": "6ebd5269347c75a8fe95d85fcd2daf1a159737b9",
+      "downloadsId": 1,
+      "hash": "82388a431949e44fe0f2c07de27b4552df0fab79",
+      "lastModified": "2022-03-16T16:04:02+00:00",
+      "time": "2010-12-19T22:00:00+00:00",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/2/388a431949e44fe0f2c07de27b4552df0fab79/b1.0.json"
+    },
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "6ebd5269347c75a8fe95d85fcd2daf1a159737b9",
+      "downloadsId": 1,
+      "hash": "dbf19907d20fbdd66f334a5ed64ac0da732d2d4a",
+      "lastModified": "2019-02-14T15:33:47+00:00",
+      "time": "2010-12-19T22:00:00+00:00",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/d/b/f19907d20fbdd66f334a5ed64ac0da732d2d4a/b1.0.json"
+    },
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "6ebd5269347c75a8fe95d85fcd2daf1a159737b9",
+      "downloadsId": 1,
+      "hash": "d30c50a623893c01ef43fb2da106ea9659b8c82d",
+      "time": "2016-02-02T15:37:47+00:00",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/d/3/0c50a623893c01ef43fb2da106ea9659b8c82d/b1.0.json"
+    }
+  ],
+  "next": [
+    "b1.0_01"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.0.0",
+  "previous": [
+    "a1.2.6",
+    "server-a0.2.8"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 7
+  },
+  "releaseTime": "2010-12-20T17:28:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

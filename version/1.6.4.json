@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.6.4",
+  "downloads": {
+    "client": {
+      "sha1": "1703704407101cf72bd88e68579e3696ce733ecd",
+      "size": 4745096,
+      "url": "https://launcher.mojang.com/v1/objects/1703704407101cf72bd88e68579e3696ce733ecd/client.jar"
+    },
+    "server": {
+      "sha1": "050f93c1f3fe9e2052398f7bd6aca10c63d64a87",
+      "size": 6146738,
+      "url": "https://launcher.mojang.com/v1/objects/050f93c1f3fe9e2052398f7bd6aca10c63d64a87/server.jar"
+    },
+    "windows_server": {
+      "sha1": "30d3267c6b04422ef6349226ee539173f848574c",
+      "size": 6542514,
+      "url": "https://launcher.mojang.com/v1/objects/30d3267c6b04422ef6349226ee539173f848574c/windows_server.exe"
+    }
+  },
+  "id": "1.6.4",
+  "libraries": [
+    "argo:argo:2.25_fixed",
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "manifests": [
+    {
+      "assetHash": "770572e819335b6c0a053f8378ad88eda189fc14",
+      "assetIndex": "legacy",
+      "downloads": "5f59206390844f3caff3727c9b501d62e65d010d",
+      "downloadsId": 1,
+      "hash": "bb161ae394c893e67b74a2a060715430e97521c2",
+      "lastModified": "2018-08-29T13:02:36+00:00",
+      "time": "2013-09-19T15:52:37+00:00",
+      "type": "release",
+      "url": "https://ornithemc.net/mc-versions/manifest/b/b/161ae394c893e67b74a2a060715430e97521c2/1.6.4.json"
+    }
+  ],
+  "next": [],
+  "normalizedVersion": "1.6.4",
+  "previous": [
+    "1.6.3-pre-171231"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 78
+  },
+  "releaseTarget": "1.6.4",
+  "releaseTime": "2013-09-19T15:52:37+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

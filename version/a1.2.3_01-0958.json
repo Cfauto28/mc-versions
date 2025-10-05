@@ -1,0 +1,75 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Alpha v1.2.3_01",
+  "downloads": {
+    "client": {
+      "sha1": "1d46e65022f3a7cf4b8ad30ee5a8d52b3b2b9486",
+      "size": 1101132,
+      "url": "https://launcher.mojang.com/v1/objects/1d46e65022f3a7cf4b8ad30ee5a8d52b3b2b9486/client.jar"
+    }
+  },
+  "id": "a1.2.3_01-0958",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
+      "assetIndex": "pre-1.6",
+      "downloads": "238c421a5cee2fbf0315522793f9a9d9418313eb",
+      "downloadsId": 1,
+      "hash": "743ed2345ab325ac52be2dd8657716d7d514c18b",
+      "lastModified": "2022-03-16T16:04:06+00:00",
+      "time": "2010-11-23T22:00:01+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/4/3ed2345ab325ac52be2dd8657716d7d514c18b/a1.2.3_01.json"
+    },
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "238c421a5cee2fbf0315522793f9a9d9418313eb",
+      "downloadsId": 1,
+      "hash": "cac3a439e55a132a8fac22ee8ef3e01588ccc680",
+      "lastModified": "2019-02-14T15:33:49+00:00",
+      "time": "2010-11-23T22:00:01+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/c/a/c3a439e55a132a8fac22ee8ef3e01588ccc680/a1.2.3_01.json"
+    },
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "238c421a5cee2fbf0315522793f9a9d9418313eb",
+      "downloadsId": 1,
+      "hash": "42186813ce792ec238fd531ee50d8b988d105298",
+      "time": "2016-02-02T15:37:47+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/2/186813ce792ec238fd531ee50d8b988d105298/a1.2.3_01.json"
+    }
+  ],
+  "next": [
+    "a1.2.3_02"
+  ],
+  "normalizedVersion": "1.0.0-alpha.1.2.3.1+0958",
+  "previous": [
+    "a1.2.3"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 5
+  },
+  "releaseTime": "2010-11-24T09:58:00+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

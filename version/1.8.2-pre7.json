@@ -1,0 +1,110 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.8.2-pre7",
+  "downloads": {
+    "client": {
+      "sha1": "07e1062c3fadbf70b10a819bf5c3a9a12339be9f",
+      "size": 8460242,
+      "url": "https://launcher.mojang.com/v1/objects/07e1062c3fadbf70b10a819bf5c3a9a12339be9f/client.jar"
+    },
+    "server": {
+      "sha1": "61039f9df585c52fbeb2e95d1754852ac00b4344",
+      "size": 9777968,
+      "url": "https://launcher.mojang.com/v1/objects/61039f9df585c52fbeb2e95d1754852ac00b4344/server.jar"
+    },
+    "windows_server": {
+      "sha1": "315ad16fd7fe15c6fc26986872d68552945358cd",
+      "size": 10172208,
+      "url": "https://launcher.mojang.com/v1/objects/315ad16fd7fe15c6fc26986872d68552945358cd/windows_server.exe"
+    }
+  },
+  "id": "1.8.2-pre7",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.17",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "net.java.dev.jna:jna:3.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+    "oshi-project:oshi-core:1.1",
+    "tv.twitch:twitch-platform:6.5",
+    "tv.twitch:twitch:6.5"
+  ],
+  "manifests": [
+    {
+      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
+      "assetIndex": "1.8",
+      "downloads": "c342fa6f6e7ff5d07cc54476b2a15e8c2018de9e",
+      "downloadsId": 1,
+      "hash": "35b4a244780b077c34c727816b906850e6be75f4",
+      "lastModified": "2021-12-15T15:59:41+00:00",
+      "time": "2015-02-16T13:01:35+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/3/5/b4a244780b077c34c727816b906850e6be75f4/1.8.2-pre7.json"
+    },
+    {
+      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
+      "assetIndex": "1.8",
+      "downloads": "c342fa6f6e7ff5d07cc54476b2a15e8c2018de9e",
+      "downloadsId": 1,
+      "hash": "587a61950b4c23182816c53f5b97179d27137938",
+      "lastModified": "2021-07-07T14:03:01+00:00",
+      "time": "2015-02-16T13:01:35+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/5/8/7a61950b4c23182816c53f5b97179d27137938/1.8.2-pre7.json"
+    },
+    {
+      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
+      "assetIndex": "1.8",
+      "downloads": "c342fa6f6e7ff5d07cc54476b2a15e8c2018de9e",
+      "downloadsId": 1,
+      "hash": "b246c0d63853d4bf914a63dd649e254f594ffd63",
+      "lastModified": "2018-08-29T13:01:26+00:00",
+      "time": "2015-02-16T13:01:35+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/b/2/46c0d63853d4bf914a63dd649e254f594ffd63/1.8.2-pre7.json"
+    }
+  ],
+  "next": [
+    "1.8.2"
+  ],
+  "normalizedVersion": "1.8.2-pre.7",
+  "previous": [
+    "1.8.2-pre6"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 47
+  },
+  "releaseTarget": "1.8.2",
+  "releaseTime": "2015-02-16T13:01:35+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

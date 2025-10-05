@@ -1,0 +1,45 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "0.2.3",
+  "downloads": {
+    "server": {
+      "sha1": "2bb3c32eb14f9fb6f98984de04cf9bdbc827d496",
+      "size": 305364,
+      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.3.jar"
+    },
+    "windows_server": {
+      "sha1": "1353a1f406efdf6c41e5cbb273e63118a02c3f25",
+      "size": 486100,
+      "url": "https://files.betacraft.uk/server-archive/alpha/a0.2.3.exe"
+    }
+  },
+  "id": "server-a0.2.3",
+  "libraries": [],
+  "manifests": [
+    {
+      "downloads": "ebbf0fa5f694edcd01b9c02d0265e2c8e82f6c25",
+      "downloadsId": 1,
+      "hash": "f3133457fffa6484e144bf6438f7f8a69a717f4f",
+      "type": "alpha_server",
+      "url": "https://ornithemc.net/mc-versions/manifest/f/3/133457fffa6484e144bf6438f7f8a69a717f4f/a0.2.3.json"
+    }
+  ],
+  "next": [
+    "server-a0.2.4"
+  ],
+  "normalizedVersion": "1.0.0-alpha.server.0.2.3",
+  "previous": [
+    "server-a0.2.2_01"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 3
+  },
+  "releaseTime": "2010-11-05T09:41:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}
