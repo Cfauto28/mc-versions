@@ -144,691 +144,691 @@
       "id": "1.14.3",
       "type": "release",
       "url": "version/manifest/1.14.3.json",
-      "sha1": "191f06f86b254e349a3608dc8abeff2d26e93e48",
+      "sha1": "5c05a93ee56921fc15f7356fcc86eb50b38461c5",
       "time": "2019-06-24T12:52:52+00:00",
       "releaseTime": "2019-06-24T12:52:52+00:00",
       "details": "version/1.14.3.json",
-      "detailsSha1": "7b354beb7b9fd0697b59392d4bcbde97e4340c29"
+      "detailsSha1": "df1a1272383653ad1cdd755f6c6cce1d9820c78a"
     },
     {
       "id": "combat1",
       "type": "pending",
       "url": "version/manifest/combat1.json",
-      "sha1": "237e96954b8f8ded76e4d9abb1467ba3d279e1bb",
+      "sha1": "c096db2cec855f620f67620d7c8cc51b9c678778",
       "time": "2019-06-20T13:23:44+00:00",
       "releaseTime": "2019-06-20T13:23:44+00:00",
       "details": "version/combat1.json",
-      "detailsSha1": "3ac4bd6ea16ca980e3aa4c277206fdb59e342dd9"
+      "detailsSha1": "b7259d74654569658c4a83781f8df77411eede21"
     },
     {
       "id": "1.14.3-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.14.3-pre4.json",
-      "sha1": "9ebc15aa8a15de057ef34be47e43bf99f9d37e02",
+      "sha1": "50d416496583a95195ae7108eb64f494a416edfb",
       "time": "2019-06-19T11:44:29+00:00",
       "releaseTime": "2019-06-19T11:44:29+00:00",
       "details": "version/1.14.3-pre4.json",
-      "detailsSha1": "0d9c88acf355a0885387465795f0d34864d74f40"
+      "detailsSha1": "c0bd68289c0fff8630c6e94cd962f55a919267a8"
     },
     {
       "id": "1.14.3-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.14.3-pre3.json",
-      "sha1": "2e9c9d2115721bcb4cf8be2444fbc4228ff29b3f",
+      "sha1": "6f0aab4b2e3ed6357c65079ab114d8fca3a46cda",
       "time": "2019-06-14T08:03:33+00:00",
       "releaseTime": "2019-06-14T08:03:33+00:00",
       "details": "version/1.14.3-pre3.json",
-      "detailsSha1": "e3d1d2f6910ae17a034effd4559ea484fe7ee75b"
+      "detailsSha1": "29211eae54715cc9d459e67492561f32857ce1e3"
     },
     {
       "id": "1.14.3-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.14.3-pre2.json",
-      "sha1": "e6b1a74794032518a78eaaa6e5e922acb8a74b71",
+      "sha1": "6dd7e8531da107edc907de47993325a401518519",
       "time": "2019-06-07T09:11:29+00:00",
       "releaseTime": "2019-06-07T09:11:29+00:00",
       "details": "version/1.14.3-pre2.json",
-      "detailsSha1": "49fe69c3bedd4158127f73518629492a0f400e88"
+      "detailsSha1": "45a52ebd4f7726d8b810f6586b7dd5eb09af4be8"
     },
     {
       "id": "1.14.3-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.14.3-pre1.json",
-      "sha1": "866eac5a77bf965514b53cd25b15d4cafed1246d",
+      "sha1": "af1705d4b0a5efe627db945ff4480004ae97c482",
       "time": "2019-06-03T14:34:20+00:00",
       "releaseTime": "2019-06-03T14:34:20+00:00",
       "details": "version/1.14.3-pre1.json",
-      "detailsSha1": "c5ab6ca1139f479d3487d96dbba14992d45c2e7e"
+      "detailsSha1": "bd7c78c87768796b35b21a742c665b01d0622271"
     },
     {
       "id": "1.14.2",
       "type": "release",
       "url": "version/manifest/1.14.2.json",
-      "sha1": "812a06f1ffc2d86b033e0b1c2b539da96dfc0c7b",
+      "sha1": "8bcdca60f32656e64972d034cb3f3b20d3044f7f",
       "time": "2019-05-27T11:48:25+00:00",
       "releaseTime": "2019-05-27T11:48:25+00:00",
       "details": "version/1.14.2.json",
-      "detailsSha1": "ee56e1c63578ae31e4cab287146b1210c9dd99ba"
+      "detailsSha1": "a8ad65354ee6fb18afcf007bcba83ec269061a16"
     },
     {
       "id": "1.14.2-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre4.json",
-      "sha1": "c5f29b293f21a153a19278ca2868d7c9aad88303",
+      "sha1": "ca88e5a1936e8e396f6e16b6ebb5826ba79409c6",
       "time": "2019-05-27T07:21:11+00:00",
       "releaseTime": "2019-05-27T07:21:11+00:00",
       "details": "version/1.14.2-pre4.json",
-      "detailsSha1": "914cdf8b278800bfc9f1b7178c78d7a224e9dd8c"
+      "detailsSha1": "21536dc37f1baf2a2e4180bc6d6154382ca18a75"
     },
     {
       "id": "1.14.2-pre4-270720",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre4-270720.json",
-      "sha1": "0df6a5ca87a8444a07759f39c432a47c98349176",
+      "sha1": "5e42e2ee5346262b39389d5b572a25bf0e001521",
       "time": "2019-05-27T07:21:11+00:00",
       "releaseTime": "2019-05-27T07:21:11+00:00",
       "details": "version/1.14.2-pre4-270720.json",
-      "detailsSha1": "6d5179bd2dd48f8077dbc039ccbdc2abfe831ab4"
+      "detailsSha1": "365ce65b8a0e273f40ede10c4c27e9e192f7a95a"
     },
     {
       "id": "1.14.2-pre4-241548",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre4-241548.json",
-      "sha1": "9db1c9a11af43c4c8fb194852ce9f109c253d648",
+      "sha1": "3b7d4d47778f3f6a1e78fc085b3e08db4f00eb29",
       "time": "2019-05-24T15:48:24+00:00",
       "releaseTime": "2019-05-24T15:48:24+00:00",
       "details": "version/1.14.2-pre4-241548.json",
-      "detailsSha1": "3e9d5cd4febd0e8b42a08c195b81bdc4b888332a"
+      "detailsSha1": "8c9fef792bdf40224110293a41cc44e7cf7745a0"
     },
     {
       "id": "1.14.2-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre3.json",
-      "sha1": "7e262cf6cdd88223d5c720ddb6cebcffcd0dae3b",
+      "sha1": "00428bef0579a1a608adef68692090f1387081fe",
       "time": "2019-05-22T13:12:51+00:00",
       "releaseTime": "2019-05-22T13:12:51+00:00",
       "details": "version/1.14.2-pre3.json",
-      "detailsSha1": "06b66f4836f3e34ad431d1e018381205cb185844"
+      "detailsSha1": "a30766461710660f5ebb0d3439a67e6020558523"
     },
     {
       "id": "1.14.2-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre2.json",
-      "sha1": "b6d531caa22d3d26cad7285f7640119e63f63bf9",
+      "sha1": "7729e0e07d99dedfcc5f4c945fc8d7107512c8ff",
       "time": "2019-05-17T12:21:03+00:00",
       "releaseTime": "2019-05-17T12:21:03+00:00",
       "details": "version/1.14.2-pre2.json",
-      "detailsSha1": "380665297cc7473f0f75c1359ce6e44b8d6b9895"
+      "detailsSha1": "0665e7d602cff45104cf54daa0757bde3bf271d8"
     },
     {
       "id": "1.14.2-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.14.2-pre1.json",
-      "sha1": "103932a84bfda009875e9e59d1221d743d1920bc",
+      "sha1": "f54ce3847344e7a1ca527a14341b036dc930dc2d",
       "time": "2019-05-16T15:40:25+00:00",
       "releaseTime": "2019-05-16T15:40:25+00:00",
       "details": "version/1.14.2-pre1.json",
-      "detailsSha1": "b09c3ea255e3e6419c387be38ea5eb4816208b24"
+      "detailsSha1": "e82002ef7e0fe0e852f41adeacc1aaa06785a3e0"
     },
     {
       "id": "1.14.1",
       "type": "release",
       "url": "version/manifest/1.14.1.json",
-      "sha1": "90a530cb5c1ecfc574b73337d023d015dd791a0c",
+      "sha1": "f227f44402291d2deec696212453c65d8cfedf4b",
       "time": "2019-05-13T11:10:12+00:00",
       "releaseTime": "2019-05-13T11:10:12+00:00",
       "details": "version/1.14.1.json",
-      "detailsSha1": "6cca3c41d482cd970a7cf727f6b5caebce40b888"
+      "detailsSha1": "4c7a6d3223f55d9f38ab334564dbcc84ca642296"
     },
     {
       "id": "1.14.1-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.14.1-pre2.json",
-      "sha1": "b9fda85e44922710e4f636c84aac6867884756b8",
+      "sha1": "017799f510ff17d02e110a0d17611cda15da7fda",
       "time": "2019-05-09T14:01:04+00:00",
       "releaseTime": "2019-05-09T14:01:04+00:00",
       "details": "version/1.14.1-pre2.json",
-      "detailsSha1": "2528ab271cec0dbf18b227179e516345165cab6e"
+      "detailsSha1": "6e389722eee8927ab0ba9d1ce182cca29c25dd36"
     },
     {
       "id": "1.14.1-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.14.1-pre1.json",
-      "sha1": "41797073408292ce979952ad1299e70735890708",
+      "sha1": "433019433a62691b68890b67297aecbfd0f847e4",
       "time": "2019-05-07T14:44:42+00:00",
       "releaseTime": "2019-05-07T14:44:42+00:00",
       "details": "version/1.14.1-pre1.json",
-      "detailsSha1": "125f01df39f17b740c4f39ff7d13583ab2c7f24c"
+      "detailsSha1": "78e2d0882fe6004dcfa372bda9cb905494d4522d"
     },
     {
       "id": "1.14",
       "type": "release",
       "url": "version/manifest/1.14.json",
-      "sha1": "707f0a57fe129ad15370bd6a6becbbb4fad7267f",
+      "sha1": "8c03a8c2e6768c53aeb1abc446f10381432d6f9d",
       "time": "2019-04-23T14:52:44+00:00",
       "releaseTime": "2019-04-23T14:52:44+00:00",
       "details": "version/1.14.json",
-      "detailsSha1": "2bf26743ef91e575159881179e5895ac361110df"
+      "detailsSha1": "964d26a9a36d2b15f1d1fc658fe1854991f103d2"
     },
     {
       "id": "1.14-pre5",
       "type": "snapshot",
       "url": "version/manifest/1.14-pre5.json",
-      "sha1": "cc59885cbb27a594666768c888d02b8712cb3cf4",
+      "sha1": "ec4c12d125fa74c13cadcdde141182d9932c45a9",
       "time": "2019-04-18T11:05:19+00:00",
       "releaseTime": "2019-04-18T11:05:19+00:00",
       "details": "version/1.14-pre5.json",
-      "detailsSha1": "25fa0301d664bc6e7df638a60d151b291d3cd866"
+      "detailsSha1": "1ea9445808c2d864f19a3fa05d79b6bd54177217"
     },
     {
       "id": "1.14-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.14-pre4.json",
-      "sha1": "b427e8363dabcd7a24f3d995a16fd4e9c08ccc3d",
+      "sha1": "cf4bc6f41f01958806a1860f0f371bb3242860d8",
       "time": "2019-04-17T15:31:12+00:00",
       "releaseTime": "2019-04-17T15:31:12+00:00",
       "details": "version/1.14-pre4.json",
-      "detailsSha1": "c97fbaaf1f6ca891b408c4b11fff039bc7b0fae4"
+      "detailsSha1": "230e52f8590f893dc0966126dd5defbcf776fb55"
     },
     {
       "id": "1.14-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.14-pre3.json",
-      "sha1": "3a39baeff32da1d89a5ba90300260365ca382e8f",
+      "sha1": "f13ae5a54a98d674f1d39f17dce186288934a185",
       "time": "2019-04-16T13:57:10+00:00",
       "releaseTime": "2019-04-16T13:57:10+00:00",
       "details": "version/1.14-pre3.json",
-      "detailsSha1": "873521b5aa7485a784b771b32eb02afa5aa1faa2"
+      "detailsSha1": "573c9df21a4b313ac27b00549f7c5af111ac870c"
     },
     {
       "id": "1.14-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.14-pre2.json",
-      "sha1": "ac1c140383b3246714213ee7050e9fac5495cf7c",
+      "sha1": "63d065bd8458cf4baa8b919146bfce04a1dac109",
       "time": "2019-04-12T11:38:53+00:00",
       "releaseTime": "2019-04-12T11:38:53+00:00",
       "details": "version/1.14-pre2.json",
-      "detailsSha1": "888e964dc867e9b9bae315917ccb4ea38835591c"
+      "detailsSha1": "82f885bfffbf6e0c8c446f024b94c9f9a70a8227"
     },
     {
       "id": "1.14-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.14-pre1.json",
-      "sha1": "642454897aed740ba7f60854b06a89b5128a2cbb",
+      "sha1": "8e08b4181b6f9283a806699ff09b1d783b100ebe",
       "time": "2019-04-10T14:24:16+00:00",
       "releaseTime": "2019-04-10T14:24:16+00:00",
       "details": "version/1.14-pre1.json",
-      "detailsSha1": "82616512f12964bf6ad8c5a663f137fa11656f85"
+      "detailsSha1": "e2e810f33eb91792ce0b692868c16c7e5b4a7a61"
     },
     {
       "id": "19w14b",
       "type": "snapshot",
       "url": "version/manifest/19w14b.json",
-      "sha1": "8a2f7f845249ff1fe2d8e3161c68139c909f2722",
+      "sha1": "154c06a3a2a74cdb67eb0607184fdf72df267dd6",
       "time": "2019-04-05T10:33:58+00:00",
       "releaseTime": "2019-04-05T10:33:58+00:00",
       "details": "version/19w14b.json",
-      "detailsSha1": "db1c9f7015477d82e5500d152cfdcab0082b3d5f"
+      "detailsSha1": "c1d3d7d9f2e351346ec0b39ff0c0ab9f835067f7"
     },
     {
       "id": "19w14a",
       "type": "snapshot",
       "url": "version/manifest/19w14a.json",
-      "sha1": "e57417ba8f3313cc205214e04ce6700fa24d1d67",
+      "sha1": "c73fb7352dcee59826484a750b5d8f20cd9ad675",
       "time": "2019-04-03T13:45:00+00:00",
       "releaseTime": "2019-04-03T13:45:00+00:00",
       "details": "version/19w14a.json",
-      "detailsSha1": "0fdd027296259e0a8777db6afc552ea3748f5ab5"
+      "detailsSha1": "8e1dfb158020b724581e46da181772a652d3eccc"
     },
     {
       "id": "af-2019",
       "type": "snapshot",
       "url": "version/manifest/af-2019.json",
-      "sha1": "ab910e85954136b168bbeaa5d246778795d91728",
+      "sha1": "5c4f67598c1f74b0bd34787547f7ffe1c08b87e9",
       "time": "2019-04-01T11:18:08+00:00",
       "releaseTime": "2019-04-01T11:18:08+00:00",
       "details": "version/af-2019.json",
-      "detailsSha1": "6b72b9bda97dd80c59fbf4b0b9a3c974ef080abb"
+      "detailsSha1": "93ced85b75e0c7e304bacdf7f7368dd0da2d83a6"
     },
     {
       "id": "19w13b",
       "type": "snapshot",
       "url": "version/manifest/19w13b.json",
-      "sha1": "bef8bb90889b75b66b97fd67b662ecb33ffb7dd7",
+      "sha1": "54c742c8b3e660139333f72fbaef2b1183388729",
       "time": "2019-03-29T16:53:22+00:00",
       "releaseTime": "2019-03-29T16:53:22+00:00",
       "details": "version/19w13b.json",
-      "detailsSha1": "f5033078bf353e67eb3a435183d609bb000a7b2b"
+      "detailsSha1": "1a394204631313daf6cd833e174f52da55265ca5"
     },
     {
       "id": "19w13b-1653",
       "type": "snapshot",
       "url": "version/manifest/19w13b-1653.json",
-      "sha1": "8087870fef3bc662b7c911bd5fc8cc1e363a73e3",
+      "sha1": "85711a6932f38c24dd625dc9a026fd4268892c64",
       "time": "2019-03-29T16:53:22+00:00",
       "releaseTime": "2019-03-29T16:53:22+00:00",
       "details": "version/19w13b-1653.json",
-      "detailsSha1": "d3ee653f524b56a6765315bda418ac26365152fb"
+      "detailsSha1": "1ea94e967a2e8771ccf9bd2069718d20478f208c"
     },
     {
       "id": "19w13b-1316",
       "type": "snapshot",
       "url": "version/manifest/19w13b-1316.json",
-      "sha1": "76ae56dfb9744914a6e85f0c948ed3529a0e4898",
+      "sha1": "713deb97cbd3cc0a8dc7fa79923d98a733ad4baa",
       "time": "2019-03-29T16:53:22+00:00",
       "releaseTime": "2019-03-29T13:17:14+00:00",
       "details": "version/19w13b-1316.json",
-      "detailsSha1": "03052d2b68acd2d4e4fbdf9d67e86188bda44ea0"
+      "detailsSha1": "49462c66e80709f74f1a0683519ce7a12a0ee890"
     },
     {
       "id": "19w13a",
       "type": "snapshot",
       "url": "version/manifest/19w13a.json",
-      "sha1": "ab61e9598425af9fe5a5194d0d937e01bd9e9d74",
+      "sha1": "c33b742a0e856ec51fc90989088731752e98ec90",
       "time": "2019-03-27T15:15:31+00:00",
       "releaseTime": "2019-03-27T15:15:31+00:00",
       "details": "version/19w13a.json",
-      "detailsSha1": "616df029a57d39b8b1e41b5e5ed899757828f225"
+      "detailsSha1": "bb10b7949770bc258a44c497071919d930ac188e"
     },
     {
       "id": "19w12b",
       "type": "snapshot",
       "url": "version/manifest/19w12b.json",
-      "sha1": "05f49ddb1cb6dcc44600a1141cc2cac7dbc87a4b",
+      "sha1": "c1bc70f6c474d3f576b44112de0e364c948dcf62",
       "time": "2019-03-21T15:20:01+00:00",
       "releaseTime": "2019-03-21T15:20:01+00:00",
       "details": "version/19w12b.json",
-      "detailsSha1": "2d25e5856f88a450a1a8eff5f2fd3a718935d8ef"
+      "detailsSha1": "d573a2c2126114228bd251e578ec35668cb3323e"
     },
     {
       "id": "19w12a",
       "type": "snapshot",
       "url": "version/manifest/19w12a.json",
-      "sha1": "60cedda21baf37802d50d9736c2ac0562c3096f8",
+      "sha1": "d50e958b83e45e4618afd60621f86cd43a84a699",
       "time": "2019-03-20T16:47:34+00:00",
       "releaseTime": "2019-03-20T16:47:34+00:00",
       "details": "version/19w12a.json",
-      "detailsSha1": "37ae8c08cfc0d697476c06dae3a015ce883f0e48"
+      "detailsSha1": "fc12306e154f2429e0b27a20ea04e2b21d207439"
     },
     {
       "id": "19w11b",
       "type": "snapshot",
       "url": "version/manifest/19w11b.json",
-      "sha1": "210c37883b6750788336e1b18eabc4818a971ae8",
+      "sha1": "b1fc5b7da9425041f5739b23d663d698bd1859b3",
       "time": "2019-03-14T14:26:23+00:00",
       "releaseTime": "2019-03-14T14:26:23+00:00",
       "details": "version/19w11b.json",
-      "detailsSha1": "6e9daf07b21e08731eb9f160428b35c3ae1dbbdd"
+      "detailsSha1": "50de69c1d92930201732dc464a12c64025471161"
     },
     {
       "id": "19w11a",
       "type": "snapshot",
       "url": "version/manifest/19w11a.json",
-      "sha1": "36b85b42110a2780ea4ff010b79dfce66e908212",
+      "sha1": "34cf149a672b3b99f31c0aaba0d9af2744cef482",
       "time": "2019-03-13T13:59:29+00:00",
       "releaseTime": "2019-03-13T13:59:29+00:00",
       "details": "version/19w11a.json",
-      "detailsSha1": "41dfb8175b6391cb005638477c6d43ed68ffc8cb"
+      "detailsSha1": "3331d1e97b9f4a674b23d3ed5a2209cca21a1a95"
     },
     {
       "id": "19w09a",
       "type": "snapshot",
       "url": "version/manifest/19w09a.json",
-      "sha1": "23b006413c29a77308ecf8b11268bdad7d1bf19d",
+      "sha1": "9f3007e33bf8d14d35e071d67959d3a7650e429b",
       "time": "2019-02-27T14:44:30+00:00",
       "releaseTime": "2019-02-27T14:44:30+00:00",
       "details": "version/19w09a.json",
-      "detailsSha1": "adc7e61ed24ce6c11153e03747abe5d82aafb0ca"
+      "detailsSha1": "11f7417fe51e14fe14d83576644f139f5ac67236"
     },
     {
       "id": "19w08b",
       "type": "snapshot",
       "url": "version/manifest/19w08b.json",
-      "sha1": "82e7db042265559025494467d0d3a6ed54ce7f20",
+      "sha1": "dc5af00e488127c69b766be65159e42dd5026494",
       "time": "2019-02-21T13:38:09+00:00",
       "releaseTime": "2019-02-21T13:38:09+00:00",
       "details": "version/19w08b.json",
-      "detailsSha1": "e1e5aba590d69f13cb8693fac988acf59a1145d5"
+      "detailsSha1": "f84a7a43c7fb5cb4f9096b80ac38fba01574bfe7"
     },
     {
       "id": "19w08a",
       "type": "snapshot",
       "url": "version/manifest/19w08a.json",
-      "sha1": "42dd146855deb1d87ba27d40faa4c03407d96647",
+      "sha1": "7eb2d0dda5cfd3635f40563485981a26fad17992",
       "time": "2019-02-20T14:56:58+00:00",
       "releaseTime": "2019-02-20T14:56:58+00:00",
       "details": "version/19w08a.json",
-      "detailsSha1": "84b2ad593fc4e12b4bfd46dc0325e78ba2240caf"
+      "detailsSha1": "2cd40752700ab449d65d723fba86cbb9c2e2e014"
     },
     {
       "id": "19w07a",
       "type": "snapshot",
       "url": "version/manifest/19w07a.json",
-      "sha1": "12d0f58cc0c30e72e639309a89c6c9fcd99874bf",
+      "sha1": "e5b274e5a52eac3ed859412e03a177f2b2b17180",
       "time": "2019-02-13T16:12:08+00:00",
       "releaseTime": "2019-02-13T16:12:08+00:00",
       "details": "version/19w07a.json",
-      "detailsSha1": "f13b1fa8109e74fe58ab7478c8664be049a370db"
+      "detailsSha1": "9f77637ed198bc3e78f39bacf591491e9e7cd8bb"
     },
     {
       "id": "19w06a",
       "type": "snapshot",
       "url": "version/manifest/19w06a.json",
-      "sha1": "53b02b063e955f96ecb1e04d3d55ec6508e0e29e",
+      "sha1": "4681121d29b3d1bfb4ed3b7ed04667583825f949",
       "time": "2019-02-06T16:24:13+00:00",
       "releaseTime": "2019-02-06T16:24:13+00:00",
       "details": "version/19w06a.json",
-      "detailsSha1": "bbece0b17039a7d4a4a2845a3e5fcc8b80d28632"
+      "detailsSha1": "63ce3d3fb6ef2b0811819d57ca6a455c25820cbe"
     },
     {
       "id": "19w05a",
       "type": "snapshot",
       "url": "version/manifest/19w05a.json",
-      "sha1": "72436f68ff5c6e9c754c6d8146f4c30cc40c6435",
+      "sha1": "7cf9fd88029876c863c4308571907a186485c56d",
       "time": "2019-01-30T15:16:49+00:00",
       "releaseTime": "2019-01-30T15:16:49+00:00",
       "details": "version/19w05a.json",
-      "detailsSha1": "2c36277dce401f8bd1bbe5864b627214e9d6254b"
+      "detailsSha1": "2d2b1b6f59ba88070d40c47b182e3f82e42ca1b9"
     },
     {
       "id": "19w04b",
       "type": "snapshot",
       "url": "version/manifest/19w04b.json",
-      "sha1": "049a90afadc81aa8a3677ff4993cebd61e5b1e7c",
+      "sha1": "0a2d62633e85ab79804242f70c11ef5a2c12d1e2",
       "time": "2019-01-25T12:20:15+00:00",
       "releaseTime": "2019-01-25T12:20:15+00:00",
       "details": "version/19w04b.json",
-      "detailsSha1": "bacd831c9991f7923fc3264dc105c258b8cde101"
+      "detailsSha1": "2bf940f38be9afc41757cb5c10caa36fd91dc92e"
     },
     {
       "id": "19w04a",
       "type": "snapshot",
       "url": "version/manifest/19w04a.json",
-      "sha1": "fe7a0a03dc937d7967b052dccb4e1927beb0c70d",
+      "sha1": "151c5000f76ca2bfe63980fec749d223967f7466",
       "time": "2019-01-24T15:31:52+00:00",
       "releaseTime": "2019-01-24T15:31:52+00:00",
       "details": "version/19w04a.json",
-      "detailsSha1": "cc7a24422b5d17c3ee78583bfd6ffab1f6d42410"
+      "detailsSha1": "a9975570351b3b567c64e80377f4691533942382"
     },
     {
       "id": "19w03c",
       "type": "snapshot",
       "url": "version/manifest/19w03c.json",
-      "sha1": "2fe5cd18cd63c2b140f03fb74886a033bbab7c59",
+      "sha1": "93eea9e2e0b0f9d7ea27cb2ac8682e630db835dc",
       "time": "2019-01-18T11:27:13+00:00",
       "releaseTime": "2019-01-18T11:27:13+00:00",
       "details": "version/19w03c.json",
-      "detailsSha1": "38a4a4ede0f78d622fee8c62d32cdf87154c9084"
+      "detailsSha1": "d6b69d68a8412d4f9c3058334d69893884aaaad6"
     },
     {
       "id": "19w03b",
       "type": "snapshot",
       "url": "version/manifest/19w03b.json",
-      "sha1": "500740c76373d7d9e54bf9f22b6348acc4a42ed1",
+      "sha1": "5691a2090e630d532d4a0732b5673db7b720de87",
       "time": "2019-01-17T16:43:27+00:00",
       "releaseTime": "2019-01-17T16:43:27+00:00",
       "details": "version/19w03b.json",
-      "detailsSha1": "e9d42f672ecbe0ab8eacba2ea073fdce6da5acdf"
+      "detailsSha1": "80810830ebc41ded183f23908b0307ccfde0dcd4"
     },
     {
       "id": "19w03a",
       "type": "snapshot",
       "url": "version/manifest/19w03a.json",
-      "sha1": "954eb542b0a3ef102100782940492bdde6b37b71",
+      "sha1": "7e2e86a5bad19761aeba38aef66517df4e76d9c4",
       "time": "2019-01-16T16:45:02+00:00",
       "releaseTime": "2019-01-16T16:45:02+00:00",
       "details": "version/19w03a.json",
-      "detailsSha1": "9df0af2164b8e89fa222a5a47529442974a246f4"
+      "detailsSha1": "8452f8e5172e6c82c1b216dc8c8e0d32b5ade884"
     },
     {
       "id": "19w02a",
       "type": "snapshot",
       "url": "version/manifest/19w02a.json",
-      "sha1": "ae0601fd05e182dd36e4a24f52253673e1c72a88",
+      "sha1": "dda3aba8df13d3d3c033437de399405e79041492",
       "time": "2019-01-09T15:52:07+00:00",
       "releaseTime": "2019-01-09T15:52:07+00:00",
       "details": "version/19w02a.json",
-      "detailsSha1": "f317b0dc026bc3ebedabd23a258a7a2394872ab7"
+      "detailsSha1": "85a4b36ce2fdcdf598b9393500847bb06dd600c7"
     },
     {
       "id": "18w50a",
       "type": "snapshot",
       "url": "version/manifest/18w50a.json",
-      "sha1": "faef6113121bb407ad91f1191bd2d9d967d4b38e",
+      "sha1": "9290c562a988958798c407b13a0ecf1e17f7c95d",
       "time": "2018-12-12T14:58:13+00:00",
       "releaseTime": "2018-12-12T14:58:13+00:00",
       "details": "version/18w50a.json",
-      "detailsSha1": "a19a850b1d05bfcb47d261170140d5eb75e81c6f"
+      "detailsSha1": "b859b2eed9204e2638f4a376836a0f56791b04da"
     },
     {
       "id": "18w49a",
       "type": "snapshot",
       "url": "version/manifest/18w49a.json",
-      "sha1": "2f30ac935d4ac4c70e8b93fa45c6bb9ae55c5423",
+      "sha1": "952dcd7ac6127acb45ad953a6c6b68a3dc545732",
       "time": "2018-12-05T12:24:30+00:00",
       "releaseTime": "2018-12-05T12:24:30+00:00",
       "details": "version/18w49a.json",
-      "detailsSha1": "d22ab184be1fb2b6a117120d2c2d234ae99721f9"
+      "detailsSha1": "14a0963f864b2631ffa9564b62523e08051984d5"
     },
     {
       "id": "18w48b",
       "type": "snapshot",
       "url": "version/manifest/18w48b.json",
-      "sha1": "a772a0b419317d8d1a33bfbbbd0c0c2156947f0b",
+      "sha1": "d15cdf4bc3677155fb27678253bc10336de64090",
       "time": "2018-11-30T10:37:31+00:00",
       "releaseTime": "2018-11-30T10:37:31+00:00",
       "details": "version/18w48b.json",
-      "detailsSha1": "6bcbc50dffc9a41ddea704835a0a6478445826fd"
+      "detailsSha1": "ea9be3664d75ef443585a413f399dd7efc7e3616"
     },
     {
       "id": "18w48a",
       "type": "snapshot",
       "url": "version/manifest/18w48a.json",
-      "sha1": "ce7f1502d27d05d411b6a8d32e74a314a3e188a8",
+      "sha1": "ce33dec3c83423937d1015d44d73e61c0fd89aca",
       "time": "2018-11-29T13:11:38+00:00",
       "releaseTime": "2018-11-29T13:11:38+00:00",
       "details": "version/18w48a.json",
-      "detailsSha1": "c12e0da45955f345f59181ad7222124e77f4d72a"
+      "detailsSha1": "1c0b1523b9d428a8f978f6ed74330e15fcf6cbb3"
     },
     {
       "id": "18w47b",
       "type": "snapshot",
       "url": "version/manifest/18w47b.json",
-      "sha1": "7582103278ddd0de37ff1badca608b96301a0d64",
+      "sha1": "db846a6a7d04623cc71d28e51ffd50f190a2a7d7",
       "time": "2018-11-23T10:46:41+00:00",
       "releaseTime": "2018-11-23T10:46:41+00:00",
       "details": "version/18w47b.json",
-      "detailsSha1": "92b3753188d74bb3af5b8ff7be0d9e71edbac2ce"
+      "detailsSha1": "affdd5df9bd6583f3eb9c2cdd2e59fa9872c5bde"
     },
     {
       "id": "18w47a",
       "type": "snapshot",
       "url": "version/manifest/18w47a.json",
-      "sha1": "e95fea4e8b0e1943803bcdcce3f21a072fd748d4",
+      "sha1": "f18d86955dd6fec3815ed8393774cb73952ea30d",
       "time": "2018-11-21T15:45:22+00:00",
       "releaseTime": "2018-11-21T15:45:22+00:00",
       "details": "version/18w47a.json",
-      "detailsSha1": "0a5c06d2f0b713a35d3cb3317f28f7992d35547a"
+      "detailsSha1": "370e4981b7f201ad8fb865b6a835ad3b4fcf28a1"
     },
     {
       "id": "18w46a",
       "type": "snapshot",
       "url": "version/manifest/18w46a.json",
-      "sha1": "20710b48e4b93d4e17aa6fc517ee69db0cf37c09",
+      "sha1": "f72cc222d295891c02ff1c5d024ef1da0e5091cf",
       "time": "2018-11-15T13:43:14+00:00",
       "releaseTime": "2018-11-15T13:43:14+00:00",
       "details": "version/18w46a.json",
-      "detailsSha1": "65f7d6997f3b2898d456d4f24582d22888cb179f"
+      "detailsSha1": "fd140207a7c58a0b3054928f40d58937cc9e4931"
     },
     {
       "id": "18w45a",
       "type": "snapshot",
       "url": "version/manifest/18w45a.json",
-      "sha1": "f3ac41c7995ec74d1806790084fbc3d10cc4cf98",
+      "sha1": "63c327e8794a8827358dbc2b7d429024db378455",
       "time": "2018-11-07T14:40:06+00:00",
       "releaseTime": "2018-11-07T14:40:06+00:00",
       "details": "version/18w45a.json",
-      "detailsSha1": "e25ade54a3fc34ad46eb40bb223d9612f387748e"
+      "detailsSha1": "ec8c99a04a84e5fef2e1fbdb5914bbafcda5e5a1"
     },
     {
       "id": "18w44a",
       "type": "snapshot",
       "url": "version/manifest/18w44a.json",
-      "sha1": "92ac5d636bf4a48611c55c895faea765c8094157",
+      "sha1": "21caef251b1f4554d5c3fbda071ff8139dc9e7e4",
       "time": "2018-10-31T15:29:16+00:00",
       "releaseTime": "2018-10-31T15:29:16+00:00",
       "details": "version/18w44a.json",
-      "detailsSha1": "146d82b0534acf9814a56cc9e622da4defaff5e7"
+      "detailsSha1": "3525479ebcd45d670fc839ebe18f35fa36961312"
     },
     {
       "id": "18w43c",
       "type": "snapshot",
       "url": "version/manifest/18w43c.json",
-      "sha1": "5bcd875d84e4aebfaa0c3b504b7b96d3f7bd8561",
+      "sha1": "2c1e339a203d01f5a44c476481f166ccc3bc2744",
       "time": "2018-10-26T08:40:46+00:00",
       "releaseTime": "2018-10-26T08:40:46+00:00",
       "details": "version/18w43c.json",
-      "detailsSha1": "68757dbc2aba9c30ea92c65f57059a8cff2a925e"
+      "detailsSha1": "c86f5b04ee37b596d34052ebb085b7a530e70e61"
     },
     {
       "id": "18w43b",
       "type": "snapshot",
       "url": "version/manifest/18w43b.json",
-      "sha1": "07dd4fea9e0296b4dced17f4a075e59f69d49eca",
+      "sha1": "910797c5d9aea8e1552f292b53bd5966f5ca1b62",
       "time": "2018-10-24T15:02:30+00:00",
       "releaseTime": "2018-10-24T15:02:30+00:00",
       "details": "version/18w43b.json",
-      "detailsSha1": "a46b188072dc51dcf0956072e833dce06ede6851"
+      "detailsSha1": "284d4e4846b6f06c58bbf728ec9f916dd2d1ff7a"
     },
     {
       "id": "18w43a",
       "type": "snapshot",
       "url": "version/manifest/18w43a.json",
-      "sha1": "f886b6a0b1f8c55cda47afaf44ca682f5cb8ae88",
+      "sha1": "e5db6233c6a7e45777c60d07fed4199484a20ac1",
       "time": "2018-10-24T10:52:16+00:00",
       "releaseTime": "2018-10-24T10:52:16+00:00",
       "details": "version/18w43a.json",
-      "detailsSha1": "3937164acf7289ba065688a9577a2218ab78d7e2"
+      "detailsSha1": "7c44827305924a2e8c413fdc2ac81ff061bff288"
     },
     {
       "id": "1.13.2",
       "type": "release",
       "url": "version/manifest/1.13.2.json",
-      "sha1": "19b94fdb00ada36acbe02ed6bea6cba84418f936",
+      "sha1": "456bb6a94374fe8f23fe543cec3d3eadbcec9642",
       "time": "2018-10-22T11:41:07+00:00",
       "releaseTime": "2018-10-22T11:41:07+00:00",
       "details": "version/1.13.2.json",
-      "detailsSha1": "100a795b517b5186dfeff3c7db26464c2fd9b401"
+      "detailsSha1": "c3ff94185d1cceab942307d31cbec65cb55ea8ea"
     },
     {
       "id": "1.13.2-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.13.2-pre2.json",
-      "sha1": "fba596b1154cfe432a849b8d736cd2fb574aae2c",
+      "sha1": "722907329869feaf5155878f4884bca09ff84b2b",
       "time": "2018-10-18T14:46:12+00:00",
       "releaseTime": "2018-10-18T14:46:12+00:00",
       "details": "version/1.13.2-pre2.json",
-      "detailsSha1": "74dcb44565d58eb54b5670e78b878697e74ef178"
+      "detailsSha1": "0b048a1348c330eb2062f63576d5322c55ec2755"
     },
     {
       "id": "1.13.2-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.13.2-pre1.json",
-      "sha1": "cdc3b21dd68804155961a193b8a384110844ae93",
+      "sha1": "b0469971e94ba5f5ea091aab0012e60c75a58f92",
       "time": "2018-10-16T13:40:58+00:00",
       "releaseTime": "2018-10-16T13:40:58+00:00",
       "details": "version/1.13.2-pre1.json",
-      "detailsSha1": "1118ee5a25a607f19848701b77f97af038794071"
+      "detailsSha1": "e94f1edc9852861fa6bc3f5807347e40287b0f59"
     },
     {
       "id": "1.13.1",
       "type": "release",
       "url": "version/manifest/1.13.1.json",
-      "sha1": "750609f83ccbd5920ae14eaacb2229ddc51e270e",
+      "sha1": "2379fc01387d1ecaed77a1e88d984c0e9b56acac",
       "time": "2018-08-22T14:03:42+00:00",
       "releaseTime": "2018-08-22T14:03:42+00:00",
       "details": "version/1.13.1.json",
-      "detailsSha1": "134b5dd657b12a6279d3654e985049235de722c2"
+      "detailsSha1": "9660021c93a614e6208a99b792500d8274abde81"
     },
     {
       "id": "1.13.1-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.13.1-pre2.json",
-      "sha1": "bd9cf3a848c6d084f491504e10d308f65602d74d",
+      "sha1": "a0bcd3be105401b5cec7d48dd6a1d15837aecf80",
       "time": "2018-08-20T13:52:09+00:00",
       "releaseTime": "2018-08-20T13:52:09+00:00",
       "details": "version/1.13.1-pre2.json",
-      "detailsSha1": "48a8f93368c73896461b6924baec3d246fbbe2d4"
+      "detailsSha1": "080a82ab12fc473bc6e65238470637ae7072fb60"
     },
     {
       "id": "1.13.1-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.13.1-pre1.json",
-      "sha1": "bb0752bc21d1ac7adfd7e5b184e7f37ebda2ee96",
+      "sha1": "eaecd9af240292d3f11876d01468293d802b4bac",
       "time": "2018-08-16T13:08:44+00:00",
       "releaseTime": "2018-08-16T13:08:44+00:00",
       "details": "version/1.13.1-pre1.json",
-      "detailsSha1": "92f564530910b3b8e6304100d293d507ee9a9e69"
+      "detailsSha1": "5c7a6c7cae3e099b3921753a17601e5c9f37aa96"
     },
     {
       "id": "18w33a",
       "type": "snapshot",
       "url": "version/manifest/18w33a.json",
-      "sha1": "ddf458afa06cfe29c9329432c08be763b5d593ac",
+      "sha1": "7210f58da3171d6160fb6e2e0f2a74042b66ab49",
       "time": "2018-08-15T14:28:56+00:00",
       "releaseTime": "2018-08-15T14:28:56+00:00",
       "details": "version/18w33a.json",
-      "detailsSha1": "038b36da8768bba443a2b627a0d256baa3488a11"
+      "detailsSha1": "7bc65f6a252e1de90bc94260333103e5bc82154f"
     },
     {
       "id": "18w32a",
       "type": "snapshot",
       "url": "version/manifest/18w32a.json",
-      "sha1": "2fc61441b7f75df4e1a7dc0ae50d9a591bffb80a",
+      "sha1": "cf64225fe7f2db50c369987aa52a6dd4567b232d",
       "time": "2018-08-08T13:16:57+00:00",
       "releaseTime": "2018-08-08T13:16:57+00:00",
       "details": "version/18w32a.json",
-      "detailsSha1": "f1010725ddebabb552fd334e79dab84e113b2307"
+      "detailsSha1": "fa4e2f74a8845d493169492083586f847eabe53e"
     },
     {
       "id": "18w31a",
       "type": "snapshot",
       "url": "version/manifest/18w31a.json",
-      "sha1": "6a64f23e4fce667604e2da678ca35f4bb04cc1c3",
+      "sha1": "7dbad489bdeb822c1c5dfb6d2836d6460872584d",
       "time": "2018-08-01T12:54:44+00:00",
       "releaseTime": "2018-08-01T12:54:44+00:00",
       "details": "version/18w31a.json",
-      "detailsSha1": "a2fe4ba3b62a6785fc7493e82ddbf22034a6210c"
+      "detailsSha1": "65c99672e7da21745b091d259431d47733aef1e2"
     },
     {
       "id": "18w30b",
       "type": "snapshot",
       "url": "version/manifest/18w30b.json",
-      "sha1": "8b1d75d03d8caa603d1ac96b593a5fdc3bf7bcf3",
+      "sha1": "1ccf379dbb8f89fa4227b6a376faaff332aad4a7",
       "time": "2018-07-26T16:06:57+00:00",
       "releaseTime": "2018-07-26T16:06:57+00:00",
       "details": "version/18w30b.json",
-      "detailsSha1": "4f9086771fb69fc5590bbb5fe780ef11128eadd7"
+      "detailsSha1": "f9397dc36ec97066896393bf850a7be8a939759a"
     },
     {
       "id": "18w30a",
       "type": "snapshot",
       "url": "version/manifest/18w30a.json",
-      "sha1": "a46c39c7ba5a8196766aab9043d4d8563c2f471b",
+      "sha1": "9d06bd8e44e9f9fcab7f6b84f955ec11c947ac78",
       "time": "2018-07-25T14:29:31+00:00",
       "releaseTime": "2018-07-25T14:29:31+00:00",
       "details": "version/18w30a.json",
-      "detailsSha1": "d0b508eb6d8e3cea317968973d92e3da7ee9935d"
+      "detailsSha1": "c8daa04ddb360e9a4961c77cc0d4937fa975b011"
     },
     {
       "id": "1.13",
       "type": "release",
       "url": "version/manifest/1.13.json",
-      "sha1": "15eb9071cd8592d8cf623d71f0ed610678ae9425",
+      "sha1": "7d4075e9f7990b1599b6581c0d57f6a24dcbbfd8",
       "time": "2018-07-18T15:11:46+00:00",
       "releaseTime": "2018-07-18T15:11:46+00:00",
       "details": "version/1.13.json",
-      "detailsSha1": "27766ebc4439fc6f045a06717f1b056f95b459d3"
+      "detailsSha1": "a5919f4695efaf0b53609e72b5a54e94f0a9054f"
     },
     {
       "id": "1.13-pre10",
@@ -1354,1781 +1354,1781 @@
       "id": "1.12.2",
       "type": "release",
       "url": "version/manifest/1.12.2.json",
-      "sha1": "993b0db2be75b7eb14621f92010638a5a5551af0",
+      "sha1": "b71ab43ae2c27a74b81fdce20d19f0a644e3d76a",
       "time": "2017-09-18T08:39:46+00:00",
       "releaseTime": "2017-09-18T08:39:46+00:00",
       "details": "version/1.12.2.json",
-      "detailsSha1": "438a418b4c07119e3ca5ab3f0976eea343423ec9"
+      "detailsSha1": "e4dccf85b6d9f35522e7ff7597f8a5b644ce2471"
     },
     {
       "id": "1.12.2-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.12.2-pre2.json",
-      "sha1": "244133edf492311df4d22a2bfea63048f00442b1",
+      "sha1": "35ee565667a837aa7287eac8c5442f2d3db8ca84",
       "time": "2017-09-15T08:21:17+00:00",
       "releaseTime": "2017-09-15T08:21:17+00:00",
       "details": "version/1.12.2-pre2.json",
-      "detailsSha1": "c15e946e77499f1088885bf4834312792055a0b0"
+      "detailsSha1": "00fe30798631c18630f15526d5ffaba6f79ec975"
     },
     {
       "id": "1.12.2-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.12.2-pre1.json",
-      "sha1": "3b959b5e9561f51fc3e84e8d77ad9d9c737926a6",
+      "sha1": "45fd02021b55bd78e9dd0d4eb2037962ebd438a4",
       "time": "2017-09-13T13:33:31+00:00",
       "releaseTime": "2017-09-13T13:33:31+00:00",
       "details": "version/1.12.2-pre1.json",
-      "detailsSha1": "1fedc882d69a1d2524d62aa9ad6b9ed4e0f11bfd"
+      "detailsSha1": "14fa3a7941ef3684375e41a98855cda833b27f2d"
     },
     {
       "id": "1.12.1",
       "type": "release",
       "url": "version/manifest/1.12.1.json",
-      "sha1": "5e83b80c94f95f737a1240fb3fc0603e39f10091",
+      "sha1": "7dfb5424c3a5320cab2811ee2aa70bc430a088ac",
       "time": "2017-08-03T12:40:39+00:00",
       "releaseTime": "2017-08-03T12:40:39+00:00",
       "details": "version/1.12.1.json",
-      "detailsSha1": "519ca254e4bf43be8f1aa13e35d0f4150230a896"
+      "detailsSha1": "eba5f1f04f73d5d06d6f4552b3d2ed157557f543"
     },
     {
       "id": "1.12.1-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.12.1-pre1.json",
-      "sha1": "51a3ae597dab0e2c8133e1971b8a5b52465c6685",
+      "sha1": "b5ed3d816dcec3a2be5ffd17ee02f5e95fa033ac",
       "time": "2017-08-02T10:53:55+00:00",
       "releaseTime": "2017-08-02T10:53:55+00:00",
       "details": "version/1.12.1-pre1.json",
-      "detailsSha1": "8b1819a647d0366fbe07e7c2b4a3003df2153617"
+      "detailsSha1": "131cc43ab1cb11d338f8bb0093c693a7b25693e3"
     },
     {
       "id": "17w31a",
       "type": "snapshot",
       "url": "version/manifest/17w31a.json",
-      "sha1": "1fd84e6d5b80582a6d78dee2114f548620276964",
+      "sha1": "38ff2c636ca83886e29cd595ac57780c715ef7a1",
       "time": "2017-08-01T09:41:23+00:00",
       "releaseTime": "2017-08-01T09:41:23+00:00",
       "details": "version/17w31a.json",
-      "detailsSha1": "fb6a3d34138ba1a36f91e19c79a34eed24e59feb"
+      "detailsSha1": "b7261cc4ba6ef12bb642efe2b4c30641059489a6"
     },
     {
       "id": "1.12",
       "type": "release",
       "url": "version/manifest/1.12.json",
-      "sha1": "9f62bd73de87cd92f4521065f0ac15d1ac0474be",
+      "sha1": "79e2301cfd64a01f91d3a2d6afc43304e330082d",
       "time": "2017-06-02T13:50:27+00:00",
       "releaseTime": "2017-06-02T13:50:27+00:00",
       "details": "version/1.12.json",
-      "detailsSha1": "0cbe6e7d8e2339479ca147b11108a75c02b9c1ba"
+      "detailsSha1": "25d15842c4fa704958d9756b47a5db1f64c1857d"
     },
     {
       "id": "1.12-pre7",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre7.json",
-      "sha1": "51b484808a2083e1988695ccef1c643090c85941",
+      "sha1": "622f3653191613fba6db51655977fb43d1092cc4",
       "time": "2017-05-31T10:56:41+00:00",
       "releaseTime": "2017-05-31T10:56:41+00:00",
       "details": "version/1.12-pre7.json",
-      "detailsSha1": "d91ef578caf2a2ceb256a7ea2c9c7a4a4825bd21"
+      "detailsSha1": "abdd320f45504f987700af0262737e3fe287bb0e"
     },
     {
       "id": "1.12-pre6",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre6.json",
-      "sha1": "9861d3102bab30949a1a255886e905b0d8f06c7f",
+      "sha1": "a049a8e77333074485cf415fe5e9af60d148cb96",
       "time": "2017-05-29T11:45:12+00:00",
       "releaseTime": "2017-05-29T11:45:12+00:00",
       "details": "version/1.12-pre6.json",
-      "detailsSha1": "6c5e93c90e2f9718c59a6c87375e006cf5e96e72"
+      "detailsSha1": "69f331924db6cc40c5a0c4c6e4ae3c3ce0a7e943"
     },
     {
       "id": "1.12-pre5",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre5.json",
-      "sha1": "4fbc36ef133404da4aed5d353508ed83de73746c",
+      "sha1": "efb2dec36ad2e4be693e3891152ac5908f227d99",
       "time": "2017-05-19T07:43:28+00:00",
       "releaseTime": "2017-05-19T07:43:28+00:00",
       "details": "version/1.12-pre5.json",
-      "detailsSha1": "fd5c4c2084754697f7a77fe2e225363b7e9d1d56"
+      "detailsSha1": "c54c048e6c1ba15fa08d284e5bf11867b9b2e8ea"
     },
     {
       "id": "1.12-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre4.json",
-      "sha1": "9036c30311e64b79d739f5fb1845318a4371d15f",
+      "sha1": "113668f733164cc9fb55d2a95acf9abacab73268",
       "time": "2017-05-18T12:28:16+00:00",
       "releaseTime": "2017-05-18T12:28:16+00:00",
       "details": "version/1.12-pre4.json",
-      "detailsSha1": "c84a401c3dfc326bb1cdfa8463977bbd16e20dec"
+      "detailsSha1": "30733506485fc3f939572d85fa3a3c16ab6d27b7"
     },
     {
       "id": "1.12-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre3.json",
-      "sha1": "ea2bb6addb706d4116ac193839cc4791a886eb2e",
+      "sha1": "6e1e965b92017d581abb8e09efd39bc47b59d44d",
       "time": "2017-05-17T14:09:18+00:00",
       "releaseTime": "2017-05-17T14:09:18+00:00",
       "details": "version/1.12-pre3.json",
-      "detailsSha1": "9567d0c1bcfe982e8e50be729e241504aa96caf7"
+      "detailsSha1": "a2a0985d61abade145ae3cb360908a19086d406e"
     },
     {
       "id": "1.12-pre3-1409",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre3-1409.json",
-      "sha1": "202c03bc0ede29123f27040479f237e5349f552b",
+      "sha1": "11a27536d13939b76ed3741a419bdfd392ed6dd6",
       "time": "2017-05-17T14:09:18+00:00",
       "releaseTime": "2017-05-17T14:09:18+00:00",
       "details": "version/1.12-pre3-1409.json",
-      "detailsSha1": "3e809c1abac4fd784fa12aec4d4a9fded8865ac2"
+      "detailsSha1": "696fcc809949d49eafa49d38227be6bb7a111dfe"
     },
     {
       "id": "1.12-pre3-1316",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre3-1316.json",
-      "sha1": "1cad6b8cd80299dd71ab8056a0fdc0c413fe5264",
+      "sha1": "eb394cc65548323a6024ec256b41c125558895d7",
       "time": "2017-05-17T13:16:00+00:00",
       "releaseTime": "2017-05-17T13:33:31+00:00",
       "details": "version/1.12-pre3-1316.json",
-      "detailsSha1": "eff1f31dcffa89e6b3b14e28607a35e20c5046d2"
+      "detailsSha1": "824b4f9e282be6d539c095373289b8ec5fe294c5"
     },
     {
       "id": "1.12-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre2.json",
-      "sha1": "b015e38d1b19f7588ef6db9cb749c1addd0aaaf2",
+      "sha1": "c3e9754b43b2a6eee42751c4ff76a8711d370b3b",
       "time": "2017-05-11T12:11:12+00:00",
       "releaseTime": "2017-05-11T12:11:12+00:00",
       "details": "version/1.12-pre2.json",
-      "detailsSha1": "b592cbf20c3cedc3f7deeaac2f20cb9e21e1e3d7"
+      "detailsSha1": "9ea8a6c3cfa06c2b924f4ebc68800e38550c1af5"
     },
     {
       "id": "1.12-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.12-pre1.json",
-      "sha1": "c3c0994e672217722b7dd9bc84408587af30837c",
+      "sha1": "a9f7208593dd7701777cf0f39850b4c12ba7fb37",
       "time": "2017-05-10T11:37:17+00:00",
       "releaseTime": "2017-05-10T11:37:17+00:00",
       "details": "version/1.12-pre1.json",
-      "detailsSha1": "98b433aecfcc38a283998ded66c588da26eb4a3a"
+      "detailsSha1": "33f987605f56e787fe94dc407763febe6294c2f6"
     },
     {
       "id": "17w18b",
       "type": "snapshot",
       "url": "version/manifest/17w18b.json",
-      "sha1": "92ee49c26f799a90fd50eac4a9fbb917e76da797",
+      "sha1": "c3c3861431c0e03fd3326daa1ce27dfec2d078e4",
       "time": "2017-05-04T13:40:22+00:00",
       "releaseTime": "2017-05-04T13:40:22+00:00",
       "details": "version/17w18b.json",
-      "detailsSha1": "9a2a2182bf4bc0496d68391ff3775ebed5c54412"
+      "detailsSha1": "62ad14c35f5d3d71993ace7c5d7964365487ecff"
     },
     {
       "id": "17w18a",
       "type": "snapshot",
       "url": "version/manifest/17w18a.json",
-      "sha1": "d2b1eaf9c9f7bfdffbbc44bc5342d8443c5832c3",
+      "sha1": "117e0a682d8578ce71a241434d2b52b1592b623e",
       "time": "2017-05-03T14:50:23+00:00",
       "releaseTime": "2017-05-03T14:50:23+00:00",
       "details": "version/17w18a.json",
-      "detailsSha1": "8f60e8cd483de133ce5b66a03d38d3ed35ba1208"
+      "detailsSha1": "116cb9f7ee18b21c3a3678612dc922d87787bcf5"
     },
     {
       "id": "17w18a-1450",
       "type": "snapshot",
       "url": "version/manifest/17w18a-1450.json",
-      "sha1": "cb08cbd05ba26ebb82a7ca473ff1bc67ecd930ce",
+      "sha1": "415f6c6480c63b215dca472fcbf8181b0075656f",
       "time": "2017-05-03T14:50:23+00:00",
       "releaseTime": "2017-05-03T14:50:23+00:00",
       "details": "version/17w18a-1450.json",
-      "detailsSha1": "04b8542b35a5eb90af7c75daa7cf7c959773f3f9"
+      "detailsSha1": "3705b776144a98157bc4ddd2637001f983698438"
     },
     {
       "id": "17w18a-1331",
       "type": "snapshot",
       "url": "version/manifest/17w18a-1331.json",
-      "sha1": "fea9fcf315557b66bb873997e170c7c1034e3964",
+      "sha1": "11b4d752a917885ad78292c976e5aef74df7e3b3",
       "time": "2017-05-03T14:50:23+00:00",
       "releaseTime": "2017-05-03T13:31:00+00:00",
       "details": "version/17w18a-1331.json",
-      "detailsSha1": "7874bc74045d84a91097c29a79bfddb4e7003071"
+      "detailsSha1": "28dc7ae93b258fd44e42624a567d27e9778f9164"
     },
     {
       "id": "17w17b",
       "type": "snapshot",
       "url": "version/manifest/17w17b.json",
-      "sha1": "a9447bf90b7d17ea6c9e34289dd3e40b11dfdbdc",
+      "sha1": "8504dfcda2d7fc1180703943269b6c91c097e424",
       "time": "2017-04-27T13:24:23+00:00",
       "releaseTime": "2017-04-27T13:24:23+00:00",
       "details": "version/17w17b.json",
-      "detailsSha1": "35944c0e415916ac64ee80101ea69bf58dd490cb"
+      "detailsSha1": "23a931964a9561dd7297502742d4952864fc9c36"
     },
     {
       "id": "17w17a",
       "type": "snapshot",
       "url": "version/manifest/17w17a.json",
-      "sha1": "3b47bfffe3d65bc213ef87847ae5af82194aa644",
+      "sha1": "35beb4c1c54e6ecd1cf7483e1fc8273d1b15c4c0",
       "time": "2017-04-26T13:48:23+00:00",
       "releaseTime": "2017-04-26T13:48:23+00:00",
       "details": "version/17w17a.json",
-      "detailsSha1": "ddd22a24a740d018f6bef9521b9bd3124e4a6d64"
+      "detailsSha1": "cc95cfa90156545cc49122f20f92f2f619a055a4"
     },
     {
       "id": "17w16b",
       "type": "snapshot",
       "url": "version/manifest/17w16b.json",
-      "sha1": "3d53dc1da6b24861e6fdeaaa970474d979bae61f",
+      "sha1": "c29a024b84d3d4f5ab01a66f1a901a5e554d4a4a",
       "time": "2017-04-21T12:02:59+00:00",
       "releaseTime": "2017-04-21T12:02:59+00:00",
       "details": "version/17w16b.json",
-      "detailsSha1": "d425f27afafdff8e8be6e983dcac8594be7fc474"
+      "detailsSha1": "d8498b3b69d31dae31cfe81eab28a681e29fe363"
     },
     {
       "id": "17w16a",
       "type": "snapshot",
       "url": "version/manifest/17w16a.json",
-      "sha1": "2e1bde68de9c4f9cf294d8d13e10776c8eeb0a47",
+      "sha1": "21ecc0a411bd29f1f53e5f4cbc30a125af732f99",
       "time": "2017-04-20T13:58:35+00:00",
       "releaseTime": "2017-04-20T13:58:35+00:00",
       "details": "version/17w16a.json",
-      "detailsSha1": "d8b40e0443524c364541d9c2503e5d92d9df5914"
+      "detailsSha1": "a5f8de49bd8f678a9fc504a4e958e27b986f86a7"
     },
     {
       "id": "17w15a",
       "type": "snapshot",
       "url": "version/manifest/17w15a.json",
-      "sha1": "03318a64a4e660dd5f59fb7c59d02ac570290a66",
+      "sha1": "2ef73250636eaf17e54482868fbfbccdd2ed78ad",
       "time": "2017-04-12T09:30:50+00:00",
       "releaseTime": "2017-04-12T09:30:50+00:00",
       "details": "version/17w15a.json",
-      "detailsSha1": "74e7c30bdb9b00c75373155655a8bad90c4d9317"
+      "detailsSha1": "e86bccf4a4406360d9a0f1d5431631ccb3b64bdb"
     },
     {
       "id": "17w14a",
       "type": "snapshot",
       "url": "version/manifest/17w14a.json",
-      "sha1": "7494a454fe4ddf2c958655b89fd883484cecc54e",
+      "sha1": "0948d5dd6c43753a9f7e5c5656fe5cc2ad39bb50",
       "time": "2017-04-05T13:58:01+00:00",
       "releaseTime": "2017-04-05T13:58:01+00:00",
       "details": "version/17w14a.json",
-      "detailsSha1": "587056847dbc8157a7891e9266a5260af736e841"
+      "detailsSha1": "f6d7b20cd48cca8746a9c606a76e16a79588a545"
     },
     {
       "id": "17w13b",
       "type": "snapshot",
       "url": "version/manifest/17w13b.json",
-      "sha1": "692b1f2b0813d19d3eba427168a2e03317ee3ca4",
+      "sha1": "2b9b3df2a0a8095c36ad42d9e463bd20f24b6712",
       "time": "2017-03-31T11:06:35+00:00",
       "releaseTime": "2017-03-31T11:06:35+00:00",
       "details": "version/17w13b.json",
-      "detailsSha1": "c0192360d106d5714ee35cbadfefb7998823880a"
+      "detailsSha1": "4a3c6c0df84f2adb3cfa4fbf567bf2a9de33768d"
     },
     {
       "id": "17w13a",
       "type": "snapshot",
       "url": "version/manifest/17w13a.json",
-      "sha1": "a08a7c18a31e12d3cfe52fef0f17f241fbc2aef5",
+      "sha1": "c8f190d10de64c23041ee848941ecd969a30ad90",
       "time": "2017-03-30T09:32:19+00:00",
       "releaseTime": "2017-03-30T09:32:19+00:00",
       "details": "version/17w13a.json",
-      "detailsSha1": "da3e1bc380afbebdf36aff6006fa6251b76fd87c"
+      "detailsSha1": "a0288fa3ab7c7853cd94fe8bbe176d902be9c749"
     },
     {
       "id": "17w13a-0932",
       "type": "snapshot",
       "url": "version/manifest/17w13a-0932.json",
-      "sha1": "64713536f9be87076fbcd8b683911eb43b77cdb6",
+      "sha1": "61a0fd889297d6806683cec3f0388eb9366b9555",
       "time": "2017-03-30T09:32:19+00:00",
       "releaseTime": "2017-03-30T09:32:19+00:00",
       "details": "version/17w13a-0932.json",
-      "detailsSha1": "7adbbd972009045d1e70afda0830829c45063552"
+      "detailsSha1": "2af5c7234ad9305fc98c8d3265539ae4e118c8f5"
     },
     {
       "id": "17w13a-0805",
       "type": "snapshot",
       "url": "version/manifest/17w13a-0805.json",
-      "sha1": "d3e38458606630947fa3ba231fe6c6b2bde99827",
+      "sha1": "14d3932faebcb71a1f42bbd242cbdaa4eea80e2e",
       "time": "2017-03-30T09:32:19+00:00",
       "releaseTime": "2017-03-30T08:39:42+00:00",
       "details": "version/17w13a-0805.json",
-      "detailsSha1": "99bd69cb30bc5ec7cd6b0cac0f4475fc3549d4f1"
+      "detailsSha1": "9ea00ad38d1a769e5bc400881bc45bd7e1457617"
     },
     {
       "id": "17w06a",
       "type": "snapshot",
       "url": "version/manifest/17w06a.json",
-      "sha1": "2e9ce05853fc7bd8050c22ffe3882269e048e30a",
+      "sha1": "79ce4e362b5183ddf78d43c34b325734a7c64cce",
       "time": "2017-02-08T13:16:29+00:00",
       "releaseTime": "2017-02-08T13:16:29+00:00",
       "details": "version/17w06a.json",
-      "detailsSha1": "4a734b2c63a9407b7c3cb17383a68a4868055d01"
+      "detailsSha1": "d349105057a10a56d0d5649e44420289aadfbe5f"
     },
     {
       "id": "1.11.2",
       "type": "release",
       "url": "version/manifest/1.11.2.json",
-      "sha1": "cc06e2f7c3c314fdbce0e21e06eb49002ae75f48",
+      "sha1": "4cb930b626b1ca331b74b805aca1ce6b2545098c",
       "time": "2016-12-21T09:29:12+00:00",
       "releaseTime": "2016-12-21T09:29:12+00:00",
       "details": "version/1.11.2.json",
-      "detailsSha1": "696e377afa1c9aec7803ae623f6d37386958ae65"
+      "detailsSha1": "69c24962136467b5d1c3bbb242869e8d67499e29"
     },
     {
       "id": "1.11.1",
       "type": "release",
       "url": "version/manifest/1.11.1.json",
-      "sha1": "d4cad23c6870ace8d3729d9a7fa851ea88293807",
+      "sha1": "e889143eb78a70e2adfe8ad13a66282bc3965f76",
       "time": "2016-12-20T14:05:34+00:00",
       "releaseTime": "2016-12-20T14:05:34+00:00",
       "details": "version/1.11.1.json",
-      "detailsSha1": "d94e7ce2e910ec1a9d63afe8da0ed81e9be1d915"
+      "detailsSha1": "4f5c4cbfe0b114d67bfd5e33c45d4bb1f3c9d454"
     },
     {
       "id": "16w50a",
       "type": "snapshot",
       "url": "version/manifest/16w50a.json",
-      "sha1": "17a4485e3a4323c42ffd7de6f6dcde7fb646f392",
+      "sha1": "880475e39864ee332761d8f3e7ede5de2b4ae897",
       "time": "2016-12-15T14:38:52+00:00",
       "releaseTime": "2016-12-15T14:38:52+00:00",
       "details": "version/16w50a.json",
-      "detailsSha1": "2ed641b1ef2780c52f6f50fdb83fa6542c043315"
+      "detailsSha1": "faed9dea98bc9da3f5098a79cf4882763c4d52c7"
     },
     {
       "id": "1.11",
       "type": "release",
       "url": "version/manifest/1.11.json",
-      "sha1": "afb49995d6b468435022c980ca9189b2ab061a4b",
+      "sha1": "40f29c7fa16c969d7e35beabe4882ef176630153",
       "time": "2016-11-14T14:34:40+00:00",
       "releaseTime": "2016-11-14T14:34:40+00:00",
       "details": "version/1.11.json",
-      "detailsSha1": "0bc46c1fb5309aa61991d0626bde07ea6dd106b7"
+      "detailsSha1": "de6f00fdbcd7e3694b22a259c50f205f906cd7e2"
     },
     {
       "id": "1.11-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.11-pre1.json",
-      "sha1": "2d6b59ffffdc818785bd314c94cfda54fc41816f",
+      "sha1": "c5af5d40e689b128ff8579edfbe9eff5977338b7",
       "time": "2016-11-08T13:42:50+00:00",
       "releaseTime": "2016-11-08T13:42:50+00:00",
       "details": "version/1.11-pre1.json",
-      "detailsSha1": "73f59ec57d6771c0eba2bed9d9d67b06a65ca277"
+      "detailsSha1": "1cdd1250bd1e1f478c1a455060efa92896d9ed94"
     },
     {
       "id": "16w44a",
       "type": "snapshot",
       "url": "version/manifest/16w44a.json",
-      "sha1": "d4392f801522ff28987fbf6b1d60f7dfd3ed9ac2",
+      "sha1": "08788d99914a8b16978fb5d9d221c2aa8ce6f4c9",
       "time": "2016-11-03T14:17:11+00:00",
       "releaseTime": "2016-11-03T14:17:11+00:00",
       "details": "version/16w44a.json",
-      "detailsSha1": "9f5229700c2c51cb04c2b958683b44ac551f3d51"
+      "detailsSha1": "f1da1271449613718ee502fa115e3c690d977b47"
     },
     {
       "id": "16w43a",
       "type": "snapshot",
       "url": "version/manifest/16w43a.json",
-      "sha1": "043b10be45e19271b061437b5fc894cdc542396f",
+      "sha1": "d13c6e23452d252076ce113e938673686557984a",
       "time": "2016-10-27T09:00:51+00:00",
       "releaseTime": "2016-10-27T09:00:51+00:00",
       "details": "version/16w43a.json",
-      "detailsSha1": "1777b6f0d03a752ca2ba66717c7a3e3a2ed35c4b"
+      "detailsSha1": "f7330441c2738a7a5eefb1b51053ff80bbd00318"
     },
     {
       "id": "16w42a",
       "type": "snapshot",
       "url": "version/manifest/16w42a.json",
-      "sha1": "bd87d15844ad46c44c81bec5d9a20fc321b0730d",
+      "sha1": "8d3aed69fc8db252730c2d23d0ca1216b2740d33",
       "time": "2016-10-19T11:17:47+00:00",
       "releaseTime": "2016-10-19T11:17:47+00:00",
       "details": "version/16w42a.json",
-      "detailsSha1": "00c49b8c7ca2d70cf4e2d48d1e7d5c6450d2e24a"
+      "detailsSha1": "8e56ef8baa4ff263c19cbdf8969092c02ca7a303"
     },
     {
       "id": "16w41a",
       "type": "snapshot",
       "url": "version/manifest/16w41a.json",
-      "sha1": "08d519d7a6d787d58141bfd16eec34b681213dfb",
+      "sha1": "ff2a4a62cf342e31007cc5297dbf9c786a355f07",
       "time": "2016-10-13T14:28:35+00:00",
       "releaseTime": "2016-10-13T14:28:35+00:00",
       "details": "version/16w41a.json",
-      "detailsSha1": "8b9035f768088fb2056d8050b15d00516ae1b343"
+      "detailsSha1": "b17984f6a68f31a1874f1ab0fe85623f56bc68c6"
     },
     {
       "id": "16w40a",
       "type": "snapshot",
       "url": "version/manifest/16w40a.json",
-      "sha1": "790003d5c3f99581e76068e800288c4778b9edab",
+      "sha1": "ce117b50351a834d3a6f110511725759d7292bb5",
       "time": "2016-10-06T13:57:59+00:00",
       "releaseTime": "2016-10-06T13:57:59+00:00",
       "details": "version/16w40a.json",
-      "detailsSha1": "6f63bb862a193ba35b104ce484086d4e0bc5d0e3"
+      "detailsSha1": "3491e48c1ef0ba967fb49ac8af2110178e732fa0"
     },
     {
       "id": "16w39c",
       "type": "snapshot",
       "url": "version/manifest/16w39c.json",
-      "sha1": "29d94286aa222744224ff1cd1ea6e3fe89841527",
+      "sha1": "643b2baae19958177fc901c4bdb5f906a38da681",
       "time": "2016-09-30T14:11:48+00:00",
       "releaseTime": "2016-09-30T14:11:48+00:00",
       "details": "version/16w39c.json",
-      "detailsSha1": "4b047347e4e41f39a559de4736f7517908e68aa3"
+      "detailsSha1": "cdf2a70feadfcaf1b1622ca9397a46fff7724ae0"
     },
     {
       "id": "16w39b",
       "type": "snapshot",
       "url": "version/manifest/16w39b.json",
-      "sha1": "1954d4402cc31d33067c3aa9ef6d243a69255615",
+      "sha1": "921c49a544825e7df6543e51977e213852836f51",
       "time": "2016-09-29T14:39:39+00:00",
       "releaseTime": "2016-09-29T14:39:39+00:00",
       "details": "version/16w39b.json",
-      "detailsSha1": "5fd3abf221e17a6a122ede425a44c23d8c6abc47"
+      "detailsSha1": "7ddc61c5d13b375d794c0faa2210c3ebaadb8f06"
     },
     {
       "id": "16w39a",
       "type": "snapshot",
       "url": "version/manifest/16w39a.json",
-      "sha1": "a3d33e782fd87fd69446b14aed98de6efbde5a85",
+      "sha1": "b8e99dc9bdc4f1d64448390214f35d1944224eb6",
       "time": "2016-09-28T13:32:06+00:00",
       "releaseTime": "2016-09-28T13:32:06+00:00",
       "details": "version/16w39a.json",
-      "detailsSha1": "a2168cea8f5fefba908699aee51b80d2861dc9cf"
+      "detailsSha1": "0b9c1eb3a640f85d9a87bc79188543fc29af9a67"
     },
     {
       "id": "16w38a",
       "type": "snapshot",
       "url": "version/manifest/16w38a.json",
-      "sha1": "24b961e70121ab38f2ae66dcd23ddb0f55ba826a",
+      "sha1": "317b036dcd57ad7de8f2785344f26a4cdbec7ecf",
       "time": "2016-09-20T12:40:49+00:00",
       "releaseTime": "2016-09-20T12:40:49+00:00",
       "details": "version/16w38a.json",
-      "detailsSha1": "b8702755a2064ea141560100e1c5360052678d13"
+      "detailsSha1": "7e826dbd8ff979c3284d085c1f385a29c6d6c21b"
     },
     {
       "id": "16w36a",
       "type": "snapshot",
       "url": "version/manifest/16w36a.json",
-      "sha1": "b0b01c93cab5743aa43650e127720eb06aa2407b",
+      "sha1": "fab8005644f445af1611f0bfd513215d4f9a19df",
       "time": "2016-09-08T14:55:10+00:00",
       "releaseTime": "2016-09-08T14:55:10+00:00",
       "details": "version/16w36a.json",
-      "detailsSha1": "264783fd8e2fc6f0ebbcba5a9d5267dc3fa7a907"
+      "detailsSha1": "3cc9d91249753f362f9b1fa8dcb453a5d54f1ace"
     },
     {
       "id": "16w35a",
       "type": "snapshot",
       "url": "version/manifest/16w35a.json",
-      "sha1": "4c7f2d98382a906c258ebf12d6760d0d5ccbe156",
+      "sha1": "e9bc70cc2839accc16a912714a120f9f646a535d",
       "time": "2016-09-01T13:13:38+00:00",
       "releaseTime": "2016-09-01T13:13:38+00:00",
       "details": "version/16w35a.json",
-      "detailsSha1": "e8c2ad0ac0fcbf524bf44de0e5e28d81505f3680"
+      "detailsSha1": "905cf8d0e86e629a9b680c3e434a3ab232afb3e6"
     },
     {
       "id": "16w33a",
       "type": "snapshot",
       "url": "version/manifest/16w33a.json",
-      "sha1": "9db85777527b5d1fc7fc626f742259031d4a8216",
+      "sha1": "ee86e54c578e92d96bdce6454f4234b70b922d7a",
       "time": "2016-08-17T12:48:57+00:00",
       "releaseTime": "2016-08-17T12:48:57+00:00",
       "details": "version/16w33a.json",
-      "detailsSha1": "cf3753eb78ecbfe6c0546897817200fdf0d9bea0"
+      "detailsSha1": "c9ad65cc16f596629c36e35268408911b5f2f6e5"
     },
     {
       "id": "16w32b",
       "type": "snapshot",
       "url": "version/manifest/16w32b.json",
-      "sha1": "92af0bc2c6c532944f805221048522bbe1ff60b2",
+      "sha1": "d2aa56f44ffd4243d83e6417af01555f26e3856f",
       "time": "2016-08-11T14:34:29+00:00",
       "releaseTime": "2016-08-11T14:34:29+00:00",
       "details": "version/16w32b.json",
-      "detailsSha1": "75b9473a1f00f1967364477600c21f9ad47a5fc5"
+      "detailsSha1": "75fa5ca8ff5fd139d30d46a6a7f46264c4ba39c9"
     },
     {
       "id": "16w32a",
       "type": "snapshot",
       "url": "version/manifest/16w32a.json",
-      "sha1": "86ebea7ff46178c4a174d2b163f72d61e1939aae",
+      "sha1": "2de28bb4a44a7f19473be26057da7de6a8f5ddb6",
       "time": "2016-08-10T12:30:10+00:00",
       "releaseTime": "2016-08-10T12:30:10+00:00",
       "details": "version/16w32a.json",
-      "detailsSha1": "47344df23ce838259af11b3f97c7b18781d2ffb1"
+      "detailsSha1": "28fef57ab5130188e4b182d39efcada47e7189e6"
     },
     {
       "id": "1.10.2",
       "type": "release",
       "url": "version/manifest/1.10.2.json",
-      "sha1": "c7bdd29e725f59d981dbc225189c0181d9b5875a",
+      "sha1": "f3ac3546744a5295e0b2f2a186e4785c11cc7be1",
       "time": "2016-06-23T09:17:32+00:00",
       "releaseTime": "2016-06-23T09:17:32+00:00",
       "details": "version/1.10.2.json",
-      "detailsSha1": "10565cb14ee51fe4107704ca278e1f278cc26d6d"
+      "detailsSha1": "f36e73f2d70043fe968452bfaa40840444941f7e"
     },
     {
       "id": "1.10.1",
       "type": "release",
       "url": "version/manifest/1.10.1.json",
-      "sha1": "bf1bb23998d7b03e2946cf338ab816ea0afacf08",
+      "sha1": "ab9d3de201903e8831b67e2424822d650b2eaaa3",
       "time": "2016-06-22T10:13:22+00:00",
       "releaseTime": "2016-06-22T10:13:22+00:00",
       "details": "version/1.10.1.json",
-      "detailsSha1": "240b0b53d2e1d350aee72d1a4cd4b9e2889b6f3e"
+      "detailsSha1": "dbea21ae382efa6ce1a8ad64deb0c849999d3f1d"
     },
     {
       "id": "1.10",
       "type": "release",
       "url": "version/manifest/1.10.json",
-      "sha1": "74e720d861d742934c479564d3fd87a214bbb1ca",
+      "sha1": "d18e975a50aeb438611e5f21d70f4d15e6629aff",
       "time": "2016-06-08T13:06:18+00:00",
       "releaseTime": "2016-06-08T13:06:18+00:00",
       "details": "version/1.10.json",
-      "detailsSha1": "82efbde4871a9bb5ca184fd1beba3f1b2d262aef"
+      "detailsSha1": "a969967cf2f3807a5cda688b9fc9745050684446"
     },
     {
       "id": "1.10-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.10-pre2.json",
-      "sha1": "b003dbdf75965dd931ac7760518563071fffc500",
+      "sha1": "22ec604c90fee0f929537903afce1f09a7c26ea2",
       "time": "2016-06-07T14:56:34+00:00",
       "releaseTime": "2016-06-07T14:56:34+00:00",
       "details": "version/1.10-pre2.json",
-      "detailsSha1": "14e95dd050e31ce44356fc598785180280fb08e5"
+      "detailsSha1": "386fd05aa0e9978d88b2d51f3c6fe54193a5a64a"
     },
     {
       "id": "1.10-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.10-pre1.json",
-      "sha1": "36bafe82c0c1f9a9da238e7374c54ccb6c103a19",
+      "sha1": "16ff06198eac8f2f36deadd73bf96dfe96662faf",
       "time": "2016-06-02T14:45:16+00:00",
       "releaseTime": "2016-06-02T14:45:16+00:00",
       "details": "version/1.10-pre1.json",
-      "detailsSha1": "193c8c7ebfe7f0a3496d2c827d1cbe39f4651304"
+      "detailsSha1": "d508a97ef14694076922c08cdc728a4644a4a7db"
     },
     {
       "id": "16w21b",
       "type": "snapshot",
       "url": "version/manifest/16w21b.json",
-      "sha1": "d673d5e4d67c2426576c4e29e12e860b21a80372",
+      "sha1": "d05fdbe9d97af6dd3f088a26a1ccbc14288d5d9c",
       "time": "2016-05-26T12:47:22+00:00",
       "releaseTime": "2016-05-26T12:47:22+00:00",
       "details": "version/16w21b.json",
-      "detailsSha1": "e27514910aa0fdad2436f69d404bcc4c460cd874"
+      "detailsSha1": "7fd335284d055b07326e883c89c1c08338d02ff0"
     },
     {
       "id": "16w21a",
       "type": "snapshot",
       "url": "version/manifest/16w21a.json",
-      "sha1": "d77bce8da4b45b312fb23382f2f3ae3de5d0e3de",
+      "sha1": "73a20ed886b8e1db8cab7ee2a0f978334fa7fac3",
       "time": "2016-05-25T13:12:09+00:00",
       "releaseTime": "2016-05-25T13:12:09+00:00",
       "details": "version/16w21a.json",
-      "detailsSha1": "b0928488e5ab4aa5eb01d04641c65cec33e65406"
+      "detailsSha1": "7e78012bfa8c49732c59cad69e98dda874b096e9"
     },
     {
       "id": "16w20a",
       "type": "snapshot",
       "url": "version/manifest/16w20a.json",
-      "sha1": "925879647f65b6ef2d9b920b89b5272e500cb775",
+      "sha1": "2fc03484dff4a3d9a72d24f1107f35e86a8c9843",
       "time": "2016-05-18T12:45:14+00:00",
       "releaseTime": "2016-05-18T12:45:14+00:00",
       "details": "version/16w20a.json",
-      "detailsSha1": "b37a86b24d64cf6dc16112d029e114e4edaaee73"
+      "detailsSha1": "9bddf7f76225e26179ce62da6462f1ba4546a328"
     },
     {
       "id": "1.9.4",
       "type": "release",
       "url": "version/manifest/1.9.4.json",
-      "sha1": "91904b5ece2144d6810f72bde3b63c14b3513492",
+      "sha1": "208b172e807c8f01bf3e6cf18091f567a7499bc5",
       "time": "2016-05-10T10:17:16+00:00",
       "releaseTime": "2016-05-10T10:17:16+00:00",
       "details": "version/1.9.4.json",
-      "detailsSha1": "eb93a4ca8513f1b106ce84e4db7f9a3d91dda037"
+      "detailsSha1": "04a7c8351aca7584c2824fb620324de3a61ff332"
     },
     {
       "id": "1.9.3",
       "type": "release",
       "url": "version/manifest/1.9.3.json",
-      "sha1": "f81737bf76cd9cf2f047d6d1b29b4b6c864a988a",
+      "sha1": "09ce9c5d6f0273f370e948a7c85f45acfecf84af",
       "time": "2016-05-10T08:33:35+00:00",
       "releaseTime": "2016-05-10T08:33:35+00:00",
       "details": "version/1.9.3.json",
-      "detailsSha1": "e1d3cdddde442293d18dc2a69f201abc7d1cf31c"
+      "detailsSha1": "c8488e6f66302dc0a7d28344afff994a0933092f"
     },
     {
       "id": "1.9.3-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.9.3-pre3.json",
-      "sha1": "7508529d43b2402a56e2abb5e283517ff5209303",
+      "sha1": "0aca0633298c7e54cd16f035e85b39e3776f9c5c",
       "time": "2016-05-03T09:28:11+00:00",
       "releaseTime": "2016-05-03T09:28:11+00:00",
       "details": "version/1.9.3-pre3.json",
-      "detailsSha1": "ae810ad301f545132b3b10b7d63a5590f0521dc3"
+      "detailsSha1": "3c0547a23a16170aa665ae01f57dc91f16d9cf9f"
     },
     {
       "id": "1.9.3-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.9.3-pre2.json",
-      "sha1": "8d65316d7bc4a934e184bda28f93d3bee1051b36",
+      "sha1": "7d97b1804e359438d974960f655785ff9212cb36",
       "time": "2016-04-27T13:33:20+00:00",
       "releaseTime": "2016-04-27T13:33:20+00:00",
       "details": "version/1.9.3-pre2.json",
-      "detailsSha1": "78e0e570418637ce99f41eb9a0972a63ba9984de"
+      "detailsSha1": "b737d47d52784346dbcff44c9d0a868d2b98716c"
     },
     {
       "id": "1.9.3-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.9.3-pre1.json",
-      "sha1": "bba4cea879091348a94c513caa1e0dbff703e75e",
+      "sha1": "3781027cdeb16b5b7c72082ee6901255b575f5a7",
       "time": "2016-04-21T12:41:42+00:00",
       "releaseTime": "2016-04-21T12:41:42+00:00",
       "details": "version/1.9.3-pre1.json",
-      "detailsSha1": "f62c941198ad6af6f3a5fc9a546d0b5cf3b8d00a"
+      "detailsSha1": "525aa458641b0f329729ac4267aa944567eea5af"
     },
     {
       "id": "16w15b",
       "type": "snapshot",
       "url": "version/manifest/16w15b.json",
-      "sha1": "b501340204a7b56122fe40ec40dba6acfa7cdb55",
+      "sha1": "a9d8b7b4b8d97521193766d1662ecf2733fc366b",
       "time": "2016-04-13T13:56:41+00:00",
       "releaseTime": "2016-04-13T13:56:41+00:00",
       "details": "version/16w15b.json",
-      "detailsSha1": "3ed74704f5083c4d85aa5cf4b047e3f56bef5aca"
+      "detailsSha1": "f7968ef11781c6b128d68c2d12ffd1842826b7ed"
     },
     {
       "id": "16w15a",
       "type": "snapshot",
       "url": "version/manifest/16w15a.json",
-      "sha1": "cc056955baf539bbadf764a24517c40b3bcf6658",
+      "sha1": "c859433db58edb083318cc78856e9c3676ac917f",
       "time": "2016-04-11T14:38:28+00:00",
       "releaseTime": "2016-04-11T14:38:28+00:00",
       "details": "version/16w15a.json",
-      "detailsSha1": "aa81e8b6db097cc0c16af666e7c462467750b226"
+      "detailsSha1": "8c4d260d406bb8f44c82533967dbfd65d9ec7198"
     },
     {
       "id": "16w14a",
       "type": "snapshot",
       "url": "version/manifest/16w14a.json",
-      "sha1": "52c0002ae2e359eed67d56c38e406a2003e73d31",
+      "sha1": "bddcad5dd5572377eb6d60d5f133bf9d95924eec",
       "time": "2016-04-07T12:47:51+00:00",
       "releaseTime": "2016-04-07T12:47:51+00:00",
       "details": "version/16w14a.json",
-      "detailsSha1": "272154a8b8c85572310cd9ea269b82c72956af36"
+      "detailsSha1": "c897f61e6b33e17f39e3b3eb174e411e1f668471"
     },
     {
       "id": "af-2016",
       "type": "snapshot",
       "url": "version/manifest/af-2016.json",
-      "sha1": "48c0facc034104ff7448082828ad3801211feb34",
+      "sha1": "91aff18ba1b12b38346a6758fdac2a5afac84474",
       "time": "2016-03-31T16:18:53+00:00",
       "releaseTime": "2016-03-31T16:18:53+00:00",
       "details": "version/af-2016.json",
-      "detailsSha1": "c03f26db788725a19061d0a14a80bece4bf2b217"
+      "detailsSha1": "b4c93543ba77cb20499ee72a2fe7c44c0ce66217"
     },
     {
       "id": "1.9.2",
       "type": "release",
       "url": "version/manifest/1.9.2.json",
-      "sha1": "ff62f5b7217c474ea3780c5cf1db2cf91bce7bd9",
+      "sha1": "155e8e5a294b75ea6f0b5fc71a14d41ab16a8801",
       "time": "2016-03-30T15:23:55+00:00",
       "releaseTime": "2016-03-30T15:23:55+00:00",
       "details": "version/1.9.2.json",
-      "detailsSha1": "f172ae18a057407a11113349fd2c534a3f10baf9"
+      "detailsSha1": "e409e9e50639f1519d3182d4b43ac9e4bf78a3a7"
     },
     {
       "id": "1.9.1",
       "type": "release",
       "url": "version/manifest/1.9.1.json",
-      "sha1": "540574aaee1aefa9561a50783979f8dbc60c502a",
+      "sha1": "2afefe8d852e1284e7ac0982c9ff27f20facb6d0",
       "time": "2016-03-30T13:43:07+00:00",
       "releaseTime": "2016-03-30T13:43:07+00:00",
       "details": "version/1.9.1.json",
-      "detailsSha1": "7bd624ebc0ddac4005ec447e059ae803d0fac231"
+      "detailsSha1": "11f983abe86620ff9ec63d8870c12f1f14cf4f95"
     },
     {
       "id": "1.9.1-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.9.1-pre3.json",
-      "sha1": "dee855ac65c1a7ef04f30d74e8ca06c2de23d95c",
+      "sha1": "583cfae82710f3685c1536c1f9686a80d4f88316",
       "time": "2016-03-11T09:20:36+00:00",
       "releaseTime": "2016-03-11T09:20:36+00:00",
       "details": "version/1.9.1-pre3.json",
-      "detailsSha1": "15698a6c0ef28722ccb7a79877d94a3d5c6b83c7"
+      "detailsSha1": "312fe22e9a32d139d3bb7a8144ddb3f756480341"
     },
     {
       "id": "1.9.1-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.9.1-pre2.json",
-      "sha1": "ffffed3a1e177d01ed6c66374eb850c43888a136",
+      "sha1": "09bea79e387af9612a73145f9250d641d46f9ff6",
       "time": "2016-03-10T15:06:03+00:00",
       "releaseTime": "2016-03-10T15:06:03+00:00",
       "details": "version/1.9.1-pre2.json",
-      "detailsSha1": "5e78b750fc4dff476c011581af669aad9b34dd05"
+      "detailsSha1": "54224fc8cf9dedf5cd1e503a585b8b5657e7d6d6"
     },
     {
       "id": "1.9.1-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.9.1-pre1.json",
-      "sha1": "ce9c021806f794f2015f35b86321d12bb48e93e4",
+      "sha1": "1f220e03042681fde6042844ee2b9dfe9b137532",
       "time": "2016-03-09T16:27:29+00:00",
       "releaseTime": "2016-03-09T16:27:29+00:00",
       "details": "version/1.9.1-pre1.json",
-      "detailsSha1": "b6fafb38b8637f9fc631af8ada38f39cadd629ef"
+      "detailsSha1": "20a2f3eec4fa3400bc91fbbf66991e6b12a1f87e"
     },
     {
       "id": "1.9",
       "type": "release",
       "url": "version/manifest/1.9.json",
-      "sha1": "53f3bcf3968fe120534b82a25086d1ace79a339e",
+      "sha1": "6be1e3b0ef9c9d2b659da39401ffedd61080caed",
       "time": "2016-02-29T13:49:54+00:00",
       "releaseTime": "2016-02-29T13:49:54+00:00",
       "details": "version/1.9.json",
-      "detailsSha1": "afc0e95231941c4c0eda9baf82873430eb4c4e5f"
+      "detailsSha1": "612031512282be6916d49bbe5b604cc8c2902574"
     },
     {
       "id": "1.9-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.9-pre4.json",
-      "sha1": "3844dd7fd1aa6b46f1cba8c20b5965a84f28af33",
+      "sha1": "0eaa211ef1116ecf5ff98d4f9921db69f61c5c1d",
       "time": "2016-02-26T15:21:11+00:00",
       "releaseTime": "2016-02-26T15:21:11+00:00",
       "details": "version/1.9-pre4.json",
-      "detailsSha1": "3cdeae3df6a512745e6d360359232b0fcfde96d8"
+      "detailsSha1": "a7090e52d75023d3345b737e124f032310799e63"
     },
     {
       "id": "1.9-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.9-pre3.json",
-      "sha1": "769af2a4aedd3edcff539c8f4cfc6dcfcf4ed8cd",
+      "sha1": "4093c9cb6acae4be1fc4c4af6d8d8f55ab13bd16",
       "time": "2016-02-24T15:52:36+00:00",
       "releaseTime": "2016-02-24T15:52:36+00:00",
       "details": "version/1.9-pre3.json",
-      "detailsSha1": "afb8e049e659244b180ab295fcb88767703de346"
+      "detailsSha1": "9b1a0e4bb806d9da72894ecfb949d2d824405727"
     },
     {
       "id": "1.9-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.9-pre2.json",
-      "sha1": "008c4a398e2cf641ba93d99fc609a2e29f7c6c1d",
+      "sha1": "e35acb48b9d29a0ed2ea38c36390fc64157bdb5e",
       "time": "2016-02-18T17:41:00+00:00",
       "releaseTime": "2016-02-18T17:41:00+00:00",
       "details": "version/1.9-pre2.json",
-      "detailsSha1": "b2c0999e23baf6a588230d64ebe3d4c2eba57049"
+      "detailsSha1": "b0a425caf10c84b83b0ce832dc8deab3001c51a4"
     },
     {
       "id": "1.9-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.9-pre1.json",
-      "sha1": "4c6c949a31631b068d13cc47563459eeeff5b9da",
+      "sha1": "717f8bc16daab67cacdfd711f955f76c723a2dee",
       "time": "2016-02-17T15:23:19+00:00",
       "releaseTime": "2016-02-17T15:23:19+00:00",
       "details": "version/1.9-pre1.json",
-      "detailsSha1": "02a8f2a06004b9df1809bc38907c2e792d7850f8"
+      "detailsSha1": "61f8e8354e84f2d7f6f6b75132b8fd916ccec9d5"
     },
     {
       "id": "16w07b",
       "type": "snapshot",
       "url": "version/manifest/16w07b.json",
-      "sha1": "df72c845a66f6f48478e56062ba911ceadd9d173",
+      "sha1": "5b99face259393de329461cfd2c5054eb93c3e88",
       "time": "2016-02-16T15:22:39+00:00",
       "releaseTime": "2016-02-16T15:22:39+00:00",
       "details": "version/16w07b.json",
-      "detailsSha1": "6905904ade4d54a8936b9e0c072e557c79bc5705"
+      "detailsSha1": "166b821980df6e0726dfd41b2c659d00169c6b60"
     },
     {
       "id": "16w07a",
       "type": "snapshot",
       "url": "version/manifest/16w07a.json",
-      "sha1": "e87ed1eaad2e3970fd764fdce98166ce733d4bc7",
+      "sha1": "8bf15e6373574b6b4346bc9fbaf036ba2fee861b",
       "time": "2016-02-15T15:48:46+00:00",
       "releaseTime": "2016-02-15T15:48:46+00:00",
       "details": "version/16w07a.json",
-      "detailsSha1": "3019ffdff8e147451cf5cc887fb7739a8f963384"
+      "detailsSha1": "71f4b697b8ebdbd298964f9c12bb32aca0ecbf06"
     },
     {
       "id": "16w06a",
       "type": "snapshot",
       "url": "version/manifest/16w06a.json",
-      "sha1": "b833469924008c38090372c265a417c69727b75b",
+      "sha1": "366c8e62388dee8f5a0f18d4b3b02eb9c208ca3b",
       "time": "2016-02-10T15:06:41+00:00",
       "releaseTime": "2016-02-10T15:06:41+00:00",
       "details": "version/16w06a.json",
-      "detailsSha1": "a839eca9153a54c32ef11ef1e6df5c63f4698ff2"
+      "detailsSha1": "ce60d9df8c3fe66d47734ad4a6251351c5db84b4"
     },
     {
       "id": "16w05b",
       "type": "snapshot",
       "url": "version/manifest/16w05b.json",
-      "sha1": "01d830545c153f1f7aae8f46c77863f43173089b",
+      "sha1": "ff1524ece02ae549df3674780c72b29b0464b449",
       "time": "2016-02-04T15:28:02+00:00",
       "releaseTime": "2016-02-04T15:28:02+00:00",
       "details": "version/16w05b.json",
-      "detailsSha1": "d95ecc060c14a9b719592ecc300056a111318bcf"
+      "detailsSha1": "a4cd19e5ffcdc7ee542c17f7c2831a2ac750a973"
     },
     {
       "id": "16w05a",
       "type": "snapshot",
       "url": "version/manifest/16w05a.json",
-      "sha1": "65604eb4988722d6838b77d057466cfdfb931825",
+      "sha1": "3dcf0813b5109c15933192f08d778541616e7b9d",
       "time": "2016-02-03T15:48:38+00:00",
       "releaseTime": "2016-02-03T15:48:38+00:00",
       "details": "version/16w05a.json",
-      "detailsSha1": "f8043b553427e3b27dc52c1c5a21199de9e707d3"
+      "detailsSha1": "14c1515620e6c55e2a0467e97d2d284828c16e7a"
     },
     {
       "id": "16w04a",
       "type": "snapshot",
       "url": "version/manifest/16w04a.json",
-      "sha1": "9e0c2a90dead3541a5a030f6642584da6d590af4",
+      "sha1": "cc0bcc81bfdb50c1e617dc175dc519321d32ffef",
       "time": "2016-01-28T15:37:24+00:00",
       "releaseTime": "2016-01-28T15:37:24+00:00",
       "details": "version/16w04a.json",
-      "detailsSha1": "464969992150f0971e1d9474c59cc7068d1aab93"
+      "detailsSha1": "beec54e92cb8bae9b2af99fa85b0b65247ce3a32"
     },
     {
       "id": "16w03a",
       "type": "snapshot",
       "url": "version/manifest/16w03a.json",
-      "sha1": "0abd0081a5c07ec1dbbc9f7bfff4aad23c12f63e",
+      "sha1": "1e1e6aa57336fd117d582a081f076ec5759e392d",
       "time": "2016-01-20T14:29:24+00:00",
       "releaseTime": "2016-01-20T14:29:24+00:00",
       "details": "version/16w03a.json",
-      "detailsSha1": "88d4d882be828c2d9cdbffcf4711512073d8830c"
+      "detailsSha1": "05e66a20f720961727b58ce9eec99ebe6d484e17"
     },
     {
       "id": "16w02a",
       "type": "snapshot",
       "url": "version/manifest/16w02a.json",
-      "sha1": "732cb3340d6ac9aa252f828d19a78f67b9a1ada6",
+      "sha1": "34d06194fc342ee5ef693207c8801eac8435d823",
       "time": "2016-01-13T15:15:16+00:00",
       "releaseTime": "2016-01-13T15:15:16+00:00",
       "details": "version/16w02a.json",
-      "detailsSha1": "f482af7111debc398d76b9d6d289408374155b10"
+      "detailsSha1": "ed0c123541fcc3a2eb24c1e0fa50911e67954078"
     },
     {
       "id": "15w51b",
       "type": "snapshot",
       "url": "version/manifest/15w51b.json",
-      "sha1": "b86f368c7403e0baf11785ca6ca9ee4c257dc9d4",
+      "sha1": "b638afae08e2b08e53a07e2d9047d590811d8e61",
       "time": "2015-12-17T15:30:41+00:00",
       "releaseTime": "2015-12-17T15:30:41+00:00",
       "details": "version/15w51b.json",
-      "detailsSha1": "47b995e98c0cc6fa7fe6620c4561c951865a9f3a"
+      "detailsSha1": "9a696e008742f349e9d1158b12062d95dce39069"
     },
     {
       "id": "15w51a",
       "type": "snapshot",
       "url": "version/manifest/15w51a.json",
-      "sha1": "5aac55e0a7ca172d3a62fd4a8084d23d68b219d1",
+      "sha1": "c85a48ca2f1b9de7188a9f82463e555c8ab9615c",
       "time": "2015-12-17T14:02:37+00:00",
       "releaseTime": "2015-12-17T14:02:37+00:00",
       "details": "version/15w51a.json",
-      "detailsSha1": "97c463cc66dc9c4b10558d675a348b5075be010d"
+      "detailsSha1": "1c24185f623f9a2bbbee7274c5306c12a47d528f"
     },
     {
       "id": "15w50a",
       "type": "snapshot",
       "url": "version/manifest/15w50a.json",
-      "sha1": "5858acda2038c2208c49d9ffe8259982da061264",
+      "sha1": "69f31e852208566465e8b2ad95a3a0dba96fa028",
       "time": "2015-12-09T15:35:57+00:00",
       "releaseTime": "2015-12-09T15:35:57+00:00",
       "details": "version/15w50a.json",
-      "detailsSha1": "86ad3e71e334d6017fa096a9e4a7a8b8b784c11c"
+      "detailsSha1": "1f64a6e8fc812ebcdf9502af77ad13165e64bf15"
     },
     {
       "id": "1.8.9",
       "type": "release",
       "url": "version/manifest/1.8.9.json",
-      "sha1": "2ce9efd13cf13433089894b4338fc8be8ab42b2e",
+      "sha1": "96dbb5035e03eb6ee681bcc526c9843297049577",
       "time": "2015-12-03T09:24:39+00:00",
       "releaseTime": "2015-12-03T09:24:39+00:00",
       "details": "version/1.8.9.json",
-      "detailsSha1": "085eeff0adc0405644957633a8ebe9b1cbfe28ab"
+      "detailsSha1": "df168e5d93ca45811f6564658316c1c86eba4454"
     },
     {
       "id": "15w49b",
       "type": "snapshot",
       "url": "version/manifest/15w49b.json",
-      "sha1": "b559c71c637c1d874f0dd307607b566d6f658c65",
+      "sha1": "60da2175898d3c27428734fcc73f82c3a36627cd",
       "time": "2015-12-03T15:23:22+00:00",
       "releaseTime": "2015-12-03T15:23:22+00:00",
       "details": "version/15w49b.json",
-      "detailsSha1": "cdc43869f72fc3e8cd414f20cffad55db7d2e4d0"
+      "detailsSha1": "29fa998f7f0cd64ed50b048a1d08ed95bb5bf2ec"
     },
     {
       "id": "15w49a",
       "type": "snapshot",
       "url": "version/manifest/15w49a.json",
-      "sha1": "4bc6d8b35331beeb1e840db62f1e6db75ab4e7fb",
+      "sha1": "787cb689a11c417112f1ac4849aa811adf038e1d",
       "time": "2015-12-02T15:09:37+00:00",
       "releaseTime": "2015-12-02T15:09:37+00:00",
       "details": "version/15w49a.json",
-      "detailsSha1": "4379a22d6eeea4cdf8baa0720454e4af75288060"
+      "detailsSha1": "005fce8d871f7bba9bbdbb4698bb9b2438028c42"
     },
     {
       "id": "15w47c",
       "type": "snapshot",
       "url": "version/manifest/15w47c.json",
-      "sha1": "fe51d9503037a8fb32b2a3bacdd9b7aba26d3152",
+      "sha1": "9a00cfef816f2b1fe58811bb276b0ec596c1a3bd",
       "time": "2015-11-20T12:46:56+00:00",
       "releaseTime": "2015-11-20T12:46:56+00:00",
       "details": "version/15w47c.json",
-      "detailsSha1": "c07489b976d909f84a2226a6398f1467c14ca43e"
+      "detailsSha1": "f57adc80fa7f379e03ea5a4aed7eeda92da38a17"
     },
     {
       "id": "15w47b",
       "type": "snapshot",
       "url": "version/manifest/15w47b.json",
-      "sha1": "9018b2b41fccdc2720426e3285f7a2ee2424a49a",
+      "sha1": "477d501fb2c6d307e5c541b09eda8c63ca90140c",
       "time": "2015-11-19T14:48:03+00:00",
       "releaseTime": "2015-11-19T14:48:03+00:00",
       "details": "version/15w47b.json",
-      "detailsSha1": "4eae6b2d743f0db5c4436630a055a7e7a3471aef"
+      "detailsSha1": "2605c3d44d5ceca522d71431d9d52df3909ad411"
     },
     {
       "id": "15w47a",
       "type": "snapshot",
       "url": "version/manifest/15w47a.json",
-      "sha1": "c7682a5d30b436cd8d764be913020f75353a03cc",
+      "sha1": "ca19e68bba858cde3f96361012eaa474d3658f08",
       "time": "2015-11-18T15:53:41+00:00",
       "releaseTime": "2015-11-18T15:53:41+00:00",
       "details": "version/15w47a.json",
-      "detailsSha1": "b9487de4d5619522cc677ccb815c82dc9415e65b"
+      "detailsSha1": "e9572618424da4aa008c57e5943339b1dc51bce6"
     },
     {
       "id": "15w46a",
       "type": "snapshot",
       "url": "version/manifest/15w46a.json",
-      "sha1": "00aa61d4b04f5ab7f34e8966679377e221e44140",
+      "sha1": "3394c53582333e29c1dc42150fc24075b7649a1c",
       "time": "2015-11-12T12:11:47+00:00",
       "releaseTime": "2015-11-12T12:11:47+00:00",
       "details": "version/15w46a.json",
-      "detailsSha1": "dc3c559fe459d9ec1e56db29bb65fdd1004c630c"
+      "detailsSha1": "a8dfde976dca0f9f3627dd6892d3f5440ba9dbc3"
     },
     {
       "id": "15w45a",
       "type": "snapshot",
       "url": "version/manifest/15w45a.json",
-      "sha1": "fe77942e9a703a161b28139da86a52b1962b8272",
+      "sha1": "2b086f2199c337d792da5307b9ecff473d8b16b6",
       "time": "2015-11-05T13:04:07+00:00",
       "releaseTime": "2015-11-05T13:04:07+00:00",
       "details": "version/15w45a.json",
-      "detailsSha1": "640e7af74a6f4f8452f1f7929082419fa58f3d91"
+      "detailsSha1": "1ee4a0015c99ae76dc484cdc081d437eac23c72d"
     },
     {
       "id": "15w44b",
       "type": "snapshot",
       "url": "version/manifest/15w44b.json",
-      "sha1": "ebda8cc7a2381f3206cde430285d2e840b5fecc2",
+      "sha1": "056a24ba3641e071eaccef6e78f8d46888c6e5bd",
       "time": "2015-10-30T11:23:17+00:00",
       "releaseTime": "2015-10-30T11:23:17+00:00",
       "details": "version/15w44b.json",
-      "detailsSha1": "14c0a71fcf1e1a622e83d2bc54f886365d68fc18"
+      "detailsSha1": "2a0a71b415324f15daf82ccc66b6811a247e83d7"
     },
     {
       "id": "15w44a",
       "type": "snapshot",
       "url": "version/manifest/15w44a.json",
-      "sha1": "fe5922301bb9d2675402488ce2a6e05342d813cd",
+      "sha1": "998cb66523668d2202935ff25b37f2ee850a2823",
       "time": "2015-10-28T15:09:36+00:00",
       "releaseTime": "2015-10-28T15:09:36+00:00",
       "details": "version/15w44a.json",
-      "detailsSha1": "41280fe7f58a578a30693384d7f35fed05712e47"
+      "detailsSha1": "9c6eacf272da56f8acd70c0c220a5206582d71ea"
     },
     {
       "id": "15w43c",
       "type": "snapshot",
       "url": "version/manifest/15w43c.json",
-      "sha1": "8f76091a9d5538e9d16216b5b8f583cbf81f9eff",
+      "sha1": "de9ecc461c61f86385cf146b6c52d85350bbeb9e",
       "time": "2015-10-23T15:35:55+00:00",
       "releaseTime": "2015-10-23T15:35:55+00:00",
       "details": "version/15w43c.json",
-      "detailsSha1": "34f05686c7d9d20adfaf212da302f49ef6160339"
+      "detailsSha1": "257d81685fa9eb878d8dcbc821c3440dfe54467f"
     },
     {
       "id": "15w43b",
       "type": "snapshot",
       "url": "version/manifest/15w43b.json",
-      "sha1": "ed53f2ae1d99ebe1b6a553a58f513f4ba47e5fb2",
+      "sha1": "2ddac8f641316df2ada47971a710371566d20dbe",
       "time": "2015-10-22T14:11:58+00:00",
       "releaseTime": "2015-10-22T14:11:58+00:00",
       "details": "version/15w43b.json",
-      "detailsSha1": "820e6dfe9c3c94c629b15690fbaa56cb5045754e"
+      "detailsSha1": "da33fe788dfad122e0695390cc1640ce588110f2"
     },
     {
       "id": "15w43a",
       "type": "snapshot",
       "url": "version/manifest/15w43a.json",
-      "sha1": "1ac37ff2e6b3e1a13f863f27b466e9961260c4bd",
+      "sha1": "1925aa4521cc5bb43dd3a6fdfec880220d9d16ce",
       "time": "2015-10-21T15:28:52+00:00",
       "releaseTime": "2015-10-21T15:28:52+00:00",
       "details": "version/15w43a.json",
-      "detailsSha1": "ec31e763226667063d9b7feee436babf2bbbf65a"
+      "detailsSha1": "0d845ee080c02130778c753f9f25ad1846679df5"
     },
     {
       "id": "15w42a",
       "type": "snapshot",
       "url": "version/manifest/15w42a.json",
-      "sha1": "8d04a13e4582f30c20e12c75f5e47148fb9e4bc3",
+      "sha1": "7173380ae3165dd6619003a345496a76bd98cf10",
       "time": "2015-10-14T13:25:14+00:00",
       "releaseTime": "2015-10-14T13:25:14+00:00",
       "details": "version/15w42a.json",
-      "detailsSha1": "2d747dfa5ba5eba72b98b672d0fa2b1964a71a26"
+      "detailsSha1": "f68eaedefca292d25f7aa10e61fdbcf833220659"
     },
     {
       "id": "15w41b",
       "type": "snapshot",
       "url": "version/manifest/15w41b.json",
-      "sha1": "bd1f1333d72d9d245dd033f3c85293094310ee00",
+      "sha1": "bca788e43ce1cad8cb625e6d63bd6047e63fdf46",
       "time": "2015-10-07T14:07:26+00:00",
       "releaseTime": "2015-10-07T14:07:26+00:00",
       "details": "version/15w41b.json",
-      "detailsSha1": "292927735ad7eed062bf13391625bda1f0cc1cdb"
+      "detailsSha1": "68a6b1cfe6cc57231264ad98cc9d363480386d84"
     },
     {
       "id": "15w41a",
       "type": "snapshot",
       "url": "version/manifest/15w41a.json",
-      "sha1": "0b5f0f37023140e165d90bcfedd89820243ca032",
+      "sha1": "867931a7c38c414fabc4ad9faf2b72b81eef0a8a",
       "time": "2015-10-07T13:19:53+00:00",
       "releaseTime": "2015-10-07T13:19:53+00:00",
       "details": "version/15w41a.json",
-      "detailsSha1": "ac2ffb6fb20925d55c48d6070be1168a87687128"
+      "detailsSha1": "d946ac7bf2bb51c8f8ccebcfd04ef976fc01b9ba"
     },
     {
       "id": "15w40b",
       "type": "snapshot",
       "url": "version/manifest/15w40b.json",
-      "sha1": "a34591cedc6a853c9bc87f21e9efaaba707d7e2f",
+      "sha1": "dbf0a388ede15a8ee14d9cf064a51b367f98b2d2",
       "time": "2015-09-30T14:13:54+00:00",
       "releaseTime": "2015-09-30T14:13:54+00:00",
       "details": "version/15w40b.json",
-      "detailsSha1": "96d2aa74ac46b267029677d1442e5c9e85a76726"
+      "detailsSha1": "bc7ebdb971c4beddaba099ea2cf6c202efcb8415"
     },
     {
       "id": "15w40a",
       "type": "snapshot",
       "url": "version/manifest/15w40a.json",
-      "sha1": "08fe02693ab8fb58cf7b3389153522b78f720309",
+      "sha1": "23b07ac23232cd6b8f0ef4144afe3ae6ba9cd18d",
       "time": "2015-09-30T13:13:54+00:00",
       "releaseTime": "2015-09-30T13:13:54+00:00",
       "details": "version/15w40a.json",
-      "detailsSha1": "d8b905af512cb9474d85208995c4aa56f90b5432"
+      "detailsSha1": "f0f54910b50540aa26d0c48a552b4a9639695b7b"
     },
     {
       "id": "15w39c",
       "type": "snapshot",
       "url": "version/manifest/15w39c.json",
-      "sha1": "aa96d6f95ef428e56dbc4558263e3be9371545e7",
+      "sha1": "6b164f536c7829b8ef88e5b9291f83618918ff14",
       "time": "2015-09-23T13:13:54+00:00",
       "releaseTime": "2015-09-23T13:13:54+00:00",
       "details": "version/15w39c.json",
-      "detailsSha1": "50372daee83a906e7d2c987f33f412610ecce633"
+      "detailsSha1": "bcc03c12e9bacff4925b0f5eaecb17c399fc0dc1"
     },
     {
       "id": "15w39b",
       "type": "snapshot",
       "url": "version/manifest/15w39b.json",
-      "sha1": "f621e9cee3a87c406633b7c323d296e6a788a46a",
+      "sha1": "0c3225904c086193e49d37dc780a5f3a3c8cccde",
       "time": "2015-09-21T15:09:52+00:00",
       "releaseTime": "2015-09-21T15:09:52+00:00",
       "details": "version/15w39b.json",
-      "detailsSha1": "71dc0ad4b2f5865a2073081aaec8043cc80a6cd9"
+      "detailsSha1": "8d37c5e96c022b4d73bbe3e675e330be32480aa5"
     },
     {
       "id": "15w39a",
       "type": "snapshot",
       "url": "version/manifest/15w39a.json",
-      "sha1": "b38e858dab00b445c8f0cd9fd1f5d624ae15e0da",
+      "sha1": "b21ff297d34097939c47cf21c1ad0ba6a8b680ad",
       "time": "2015-09-21T13:16:32+00:00",
       "releaseTime": "2015-09-21T13:16:32+00:00",
       "details": "version/15w39a.json",
-      "detailsSha1": "b6ba83dd862b9d1ca261d760ec7a6b649c6fa4ad"
+      "detailsSha1": "13273d9dbb5f56a4da3d1670dc4af045ce81d404"
     },
     {
       "id": "15w38b",
       "type": "snapshot",
       "url": "version/manifest/15w38b.json",
-      "sha1": "a6386f88e0abdea0fee18bdec424c0bcf800fad6",
+      "sha1": "47897767326e6808607a6cf65b37a44d2736362c",
       "time": "2015-09-17T14:22:31+00:00",
       "releaseTime": "2015-09-17T14:22:31+00:00",
       "details": "version/15w38b.json",
-      "detailsSha1": "165d9b67ba627147a1f63dfccafb741fa677720d"
+      "detailsSha1": "1bcc72bfddb7c204ce21e6716df4da28e905fb23"
     },
     {
       "id": "15w38a",
       "type": "snapshot",
       "url": "version/manifest/15w38a.json",
-      "sha1": "a9ee886728b5132e252440c0b92b684c9b40239b",
+      "sha1": "3a5b8ef393c6459c1908e366b139a822eb0bcdbb",
       "time": "2015-09-16T14:22:31+00:00",
       "releaseTime": "2015-09-16T14:22:31+00:00",
       "details": "version/15w38a.json",
-      "detailsSha1": "bae29f413f8cb46bf952fbdfbd6d27bb97f2e7b1"
+      "detailsSha1": "077fa0f0e2789a9f42ff5ffda71479a8abd22fc2"
     },
     {
       "id": "15w37a",
       "type": "snapshot",
       "url": "version/manifest/15w37a.json",
-      "sha1": "6a5448c9d156150e4dd0adf2c4919ba53956dc39",
+      "sha1": "606b30a1c1665929e7b291fa4d9eb6673b5eb070",
       "time": "2015-09-10T14:22:31+00:00",
       "releaseTime": "2015-09-10T14:22:31+00:00",
       "details": "version/15w37a.json",
-      "detailsSha1": "fc2a5d4401168601815ab174f099ba76b3b7fc3d"
+      "detailsSha1": "691acb6dd2f58240e27e0881e056c740a265306b"
     },
     {
       "id": "15w36d",
       "type": "snapshot",
       "url": "version/manifest/15w36d.json",
-      "sha1": "9f19b9ff2f3d68be11546f79fbc988431459842d",
+      "sha1": "678848d625b61c597a872cd10d2a4c67cab2c215",
       "time": "2015-09-04T14:22:31+00:00",
       "releaseTime": "2015-09-04T14:22:31+00:00",
       "details": "version/15w36d.json",
-      "detailsSha1": "8a5bd35cec1a77d30f735385cb84aa46287645c8"
+      "detailsSha1": "69743e2a9c727663e58fa46ec2fcb37642b458c2"
     },
     {
       "id": "15w36c",
       "type": "snapshot",
       "url": "version/manifest/15w36c.json",
-      "sha1": "e9c6a44d2eeb12c99a2339637ee0a9d220473bf9",
+      "sha1": "f14d09280eb0458399fc551af1dc08d333988468",
       "time": "2015-09-02T16:07:22+00:00",
       "releaseTime": "2015-09-02T16:07:22+00:00",
       "details": "version/15w36c.json",
-      "detailsSha1": "ef669874bc13186bef157ddcff315d31a0d4d469"
+      "detailsSha1": "2d0c6b6473b76035cc557f31991e223af134a0cf"
     },
     {
       "id": "15w36b",
       "type": "snapshot",
       "url": "version/manifest/15w36b.json",
-      "sha1": "e3efb249dc1c1acdbed38ccb543e6739a944c8d2",
+      "sha1": "c012529f5412984a0f1c4691826e0dcb041aefef",
       "time": "2015-09-02T15:36:25+00:00",
       "releaseTime": "2015-09-02T15:36:25+00:00",
       "details": "version/15w36b.json",
-      "detailsSha1": "f5e63bf5cad5a00c722930d4a044739d024c307f"
+      "detailsSha1": "bf4ffef2a406f8c381505218fb4b8560fa5a4725"
     },
     {
       "id": "15w36a",
       "type": "snapshot",
       "url": "version/manifest/15w36a.json",
-      "sha1": "8a6a09cfdf7d2f3b48efa225268dd9384faf20a5",
+      "sha1": "e90aec32341e64856f5af31ef6b5f65e7e1db53d",
       "time": "2015-09-02T14:46:40+00:00",
       "releaseTime": "2015-09-02T14:46:40+00:00",
       "details": "version/15w36a.json",
-      "detailsSha1": "c20e07adf1a209e1244fbdfb040e385f4eac5cbc"
+      "detailsSha1": "beda3320e9e00f36b2d17629a8cfa69d7895d86e"
     },
     {
       "id": "15w35e",
       "type": "snapshot",
       "url": "version/manifest/15w35e.json",
-      "sha1": "ce4b5c2d37e5d77307a8a6aa801b0d71b6c4399e",
+      "sha1": "c7da3387fca38082c60ddd263a6a9648f828d050",
       "time": "2015-08-28T18:14:02+00:00",
       "releaseTime": "2015-08-28T18:14:02+00:00",
       "details": "version/15w35e.json",
-      "detailsSha1": "be2ec3a77dc0fceec25a3018b5ccd358c70d0047"
+      "detailsSha1": "4c6d9511dc8cb4f2486750997b73dbc2fdeca6a7"
     },
     {
       "id": "15w35d",
       "type": "snapshot",
       "url": "version/manifest/15w35d.json",
-      "sha1": "1c058e0d36109729d2fbb39d3d2acb34d00d43b6",
+      "sha1": "a15a39f0953de6baa163bdd1ac35773069a73c36",
       "time": "2015-08-28T16:25:35+00:00",
       "releaseTime": "2015-08-28T16:25:35+00:00",
       "details": "version/15w35d.json",
-      "detailsSha1": "3622ab10da197a7a6210bd42a57c4fec2a1e7c2e"
+      "detailsSha1": "f951badee702ab4e815db3cbaf02b7817e2fa222"
     },
     {
       "id": "15w35c",
       "type": "snapshot",
       "url": "version/manifest/15w35c.json",
-      "sha1": "8b777571c226ff66bf53ce2cfc1d30a081bddaba",
+      "sha1": "c77bbc082103e18f3100e470fecd847869a2af2b",
       "time": "2015-08-28T11:21:00+00:00",
       "releaseTime": "2015-08-28T11:21:00+00:00",
       "details": "version/15w35c.json",
-      "detailsSha1": "1076531ffb39c941a01b3911027451e412bbc243"
+      "detailsSha1": "720cec93fed58903169f7b6408555c1235d191e6"
     },
     {
       "id": "15w35b",
       "type": "snapshot",
       "url": "version/manifest/15w35b.json",
-      "sha1": "08b0dcf23169e1ae48f5ea2158ffe28b127cb899",
+      "sha1": "dbe1322b7d4179f8a36f69544e19820337ed8c56",
       "time": "2015-08-24T15:39:18+00:00",
       "releaseTime": "2015-08-24T15:39:18+00:00",
       "details": "version/15w35b.json",
-      "detailsSha1": "e1ed4629a2f1a58782215f234a1bd10dd207efd6"
+      "detailsSha1": "0ae2689b55dee8df19e7da5e924bc7d4d981f86b"
     },
     {
       "id": "15w35a",
       "type": "snapshot",
       "url": "version/manifest/15w35a.json",
-      "sha1": "9d164b48d19ae6a9da58b66a9379e6c5f3670a14",
+      "sha1": "7f06b952939bfa6d65593e44678b834bb9103d3d",
       "time": "2015-08-24T14:19:31+00:00",
       "releaseTime": "2015-08-24T14:19:31+00:00",
       "details": "version/15w35a.json",
-      "detailsSha1": "47e8fc9cc8dc88f8efbcf6145b9e9ed5780d592c"
+      "detailsSha1": "94c8f2d7dd59d9a3bb92bba8fbb90cc982d3d619"
     },
     {
       "id": "15w34d",
       "type": "snapshot",
       "url": "version/manifest/15w34d.json",
-      "sha1": "a21304949b259f2ccfa3db3c565a653680f27dac",
+      "sha1": "40ca5813314d142b200cef768f2265e647fa050e",
       "time": "2015-08-21T15:27:55+00:00",
       "releaseTime": "2015-08-21T15:27:55+00:00",
       "details": "version/15w34d.json",
-      "detailsSha1": "bfec4af835e8256263f3662b3b9cdbd8286bd17d"
+      "detailsSha1": "3e87782f12204bcb26971ca5d6187606d09d86c6"
     },
     {
       "id": "15w34c",
       "type": "snapshot",
       "url": "version/manifest/15w34c.json",
-      "sha1": "673641d6f81c45a17a9778ead1eef46c3c30af19",
+      "sha1": "781c4a0fc05398637513ee8d2b071b07498d0a1e",
       "time": "2015-08-21T12:45:20+00:00",
       "releaseTime": "2015-08-21T12:45:20+00:00",
       "details": "version/15w34c.json",
-      "detailsSha1": "351deddbd3ae95b8bb5c5d84501bb9cba0486ac3"
+      "detailsSha1": "5533f865a87e0d103fbab4164f32a4cdd632d79b"
     },
     {
       "id": "15w34b",
       "type": "snapshot",
       "url": "version/manifest/15w34b.json",
-      "sha1": "ba17c1c015a3ad37ca7ab6fd027c4be80cca4907",
+      "sha1": "8986a94e386161d538d2a94650725d7502b42aaa",
       "time": "2015-08-20T14:00:03+00:00",
       "releaseTime": "2015-08-20T14:00:03+00:00",
       "details": "version/15w34b.json",
-      "detailsSha1": "443083f3eef0336a40b00873fb0a6acb2b704770"
+      "detailsSha1": "478495d7d3fa0706f8046444c8bd1174e750e2c1"
     },
     {
       "id": "15w34a",
       "type": "snapshot",
       "url": "version/manifest/15w34a.json",
-      "sha1": "a520998f52aa6d0a3324233d008555a87b0bc7af",
+      "sha1": "2349a4d3e0bfc482784d852e3eb5952273c7d300",
       "time": "2015-08-19T12:56:01+00:00",
       "releaseTime": "2015-08-19T12:56:01+00:00",
       "details": "version/15w34a.json",
-      "detailsSha1": "a91accbc77e68812bb067aaf222c2c5cfcfc0474"
+      "detailsSha1": "2c6d087de4eb844d59d1af328096904015579a20"
     },
     {
       "id": "15w33c",
       "type": "snapshot",
       "url": "version/manifest/15w33c.json",
-      "sha1": "cc37cd718ba995a221f120483711518cac0f0dcf",
+      "sha1": "69fd5cd081325b21315f67accdd7b5401889daf0",
       "time": "2015-08-14T13:10:46+00:00",
       "releaseTime": "2015-08-14T13:10:46+00:00",
       "details": "version/15w33c.json",
-      "detailsSha1": "7d564b6c524157eb9f27dc2bfc3b4718b1cae453"
+      "detailsSha1": "2b617243bdf6307bfbcae8bbfb962d575c35aa13"
     },
     {
       "id": "15w33b",
       "type": "snapshot",
       "url": "version/manifest/15w33b.json",
-      "sha1": "3d7a7d4eddc3778d354d5e49adf686a43c7cd332",
+      "sha1": "407c69f1ade6b03aa7fe4ec34aa40ba28c4f6a81",
       "time": "2015-08-12T15:29:11+00:00",
       "releaseTime": "2015-08-12T15:29:11+00:00",
       "details": "version/15w33b.json",
-      "detailsSha1": "0c0f5a2469545d75fd96515a99ae27cf3c288484"
+      "detailsSha1": "66350bad75d0310931d3f66aef2960d058519857"
     },
     {
       "id": "15w33a",
       "type": "snapshot",
       "url": "version/manifest/15w33a.json",
-      "sha1": "3e28b62610bac757b76243dd5bf1cd10fbddf0ad",
+      "sha1": "fecf1a42ec381346be8e7e34161b449a359a7d82",
       "time": "2015-08-12T14:05:07+00:00",
       "releaseTime": "2015-08-12T14:05:07+00:00",
       "details": "version/15w33a.json",
-      "detailsSha1": "8597aba8ed18b8ef46c4dd05dd825ca8dd1a63a9"
+      "detailsSha1": "6c80fa7eac2dcd015047370d1895e0ceee551893"
     },
     {
       "id": "15w32c",
       "type": "snapshot",
       "url": "version/manifest/15w32c.json",
-      "sha1": "170070c655252f3f451ca7190973c28450da9ff1",
+      "sha1": "ba4c94245b282c233b1e4e8cd7856bfcb6826b0d",
       "time": "2015-08-07T14:08:17+00:00",
       "releaseTime": "2015-08-07T14:08:17+00:00",
       "details": "version/15w32c.json",
-      "detailsSha1": "1ced8703443a4d39ed4ee33ae65ad5c69c07e18c"
+      "detailsSha1": "8b30e97f666c3d4854af5e1169971bb2949c4db3"
     },
     {
       "id": "15w32b",
       "type": "snapshot",
       "url": "version/manifest/15w32b.json",
-      "sha1": "24094f465ff9fabbd089e1e94b3e9b6a2cc94ed5",
+      "sha1": "1538a35fc52864eec675ac5cc86498f7d9caca5c",
       "time": "2015-08-06T13:51:47+00:00",
       "releaseTime": "2015-08-06T13:51:47+00:00",
       "details": "version/15w32b.json",
-      "detailsSha1": "908625f20699756565b8424c2635f409f1f93fce"
+      "detailsSha1": "edebde066e13b75061b099e0880f9367d937144d"
     },
     {
       "id": "15w32a",
       "type": "snapshot",
       "url": "version/manifest/15w32a.json",
-      "sha1": "ef682184af62bcd9ba7f2d1ad5a8adc4be7dfad9",
+      "sha1": "6add300ff8faa78d380d840fd59abb51546ceeeb",
       "time": "2015-08-05T12:22:42+00:00",
       "releaseTime": "2015-08-05T12:22:42+00:00",
       "details": "version/15w32a.json",
-      "detailsSha1": "da41953bd8f4be54f8987377f93ab42e2de2ba97"
+      "detailsSha1": "f7507314069d18329b058c1056bbba185b45fb8f"
     },
     {
       "id": "15w31c",
       "type": "snapshot",
       "url": "version/manifest/15w31c.json",
-      "sha1": "b127104f401ea36da9915af97444881a996d30f1",
+      "sha1": "0fec968b7b94968e488313f6205a2ecffc15cd6a",
       "time": "2015-07-31T13:45:08+00:00",
       "releaseTime": "2015-07-31T13:45:08+00:00",
       "details": "version/15w31c.json",
-      "detailsSha1": "057e4049bd31fbf27c49f628c74517976d50028a"
+      "detailsSha1": "d9a4791314bfaa296431bd171c74af82f603d146"
     },
     {
       "id": "15w31b",
       "type": "snapshot",
       "url": "version/manifest/15w31b.json",
-      "sha1": "d3fd000658205854ca675349aefe1012fbdd40e7",
+      "sha1": "adad5abecf421cb25cbac3c8c9733d722e82009a",
       "time": "2015-07-30T13:38:32+00:00",
       "releaseTime": "2015-07-30T13:38:32+00:00",
       "details": "version/15w31b.json",
-      "detailsSha1": "2b9ec567490b979686839a73c0aa827568d700f1"
+      "detailsSha1": "ffc3a7c3f5d6f1c13ae7558f2509065859fb8808"
     },
     {
       "id": "15w31a",
       "type": "snapshot",
       "url": "version/manifest/15w31a.json",
-      "sha1": "84e7aaf635d9afdb878b9c47b4f908028d3b217a",
+      "sha1": "03ce29c9ed00529e5090f68566060fd5fe72dc11",
       "time": "2015-07-29T13:24:33+00:00",
       "releaseTime": "2015-07-29T13:24:33+00:00",
       "details": "version/15w31a.json",
-      "detailsSha1": "1b4cd3847af6a9ed39c0c81d5fd46c4b0718bc09"
+      "detailsSha1": "5a9d1927e1ba0e58abba4066dfcf8f7cb8d5fd55"
     },
     {
       "id": "1.8.8",
       "type": "release",
       "url": "version/manifest/1.8.8.json",
-      "sha1": "c2ad2ef37f6ba7638c9efff37ee1f661fce60b85",
+      "sha1": "55f5d3214ae393760bebbd05121c8326cd3614ee",
       "time": "2015-07-27T10:31:28+00:00",
       "releaseTime": "2015-07-28T16:42:47+00:00",
       "details": "version/1.8.8.json",
-      "detailsSha1": "a929c3ea0d9afd43089bb87eb1c54b3bc087ee9f"
+      "detailsSha1": "2e43ead6dfb4a7f31bb9e674936f37dd90180428"
     },
     {
       "id": "1.8.7",
       "type": "release",
       "url": "version/manifest/1.8.7.json",
-      "sha1": "c09ba6010a39f66ef81bf31ae7036263f8de1ffa",
+      "sha1": "530a76dc598449dbcd110fd681b726d5b34e9a17",
       "time": "2015-06-05T10:10:44+00:00",
       "releaseTime": "2015-06-05T10:10:44+00:00",
       "details": "version/1.8.7.json",
-      "detailsSha1": "0e3cc4edaf4c1067c2cc76059872f4469507b3b9"
+      "detailsSha1": "a615306f01b0f153d3be5e8c270f39db70a93960"
     },
     {
       "id": "1.8.6",
       "type": "release",
       "url": "version/manifest/1.8.6.json",
-      "sha1": "9f19d8e628ff300a0ca09a6c13f1aaf77e50e728",
+      "sha1": "f82ab3ca13ab9715a78734e6b56a215aeded86c6",
       "time": "2015-05-25T10:31:19+00:00",
       "releaseTime": "2015-05-25T10:31:19+00:00",
       "details": "version/1.8.6.json",
-      "detailsSha1": "87b5edbabcb4ea229dbb26f0eaeb5719fbeb4fd1"
+      "detailsSha1": "ced098af13b89a3a4f474b8de939e554c9998ba7"
     },
     {
       "id": "1.8.5",
       "type": "release",
       "url": "version/manifest/1.8.5.json",
-      "sha1": "f2b918f2c9121df6db714ac2edc326913a05a1c0",
+      "sha1": "a278205883530fffc63b1f20382e1554c720818c",
       "time": "2015-05-22T11:15:28+00:00",
       "releaseTime": "2015-05-22T11:15:28+00:00",
       "details": "version/1.8.5.json",
-      "detailsSha1": "ca7315aa1285d54822d128d420b6949e316cc16a"
+      "detailsSha1": "f98f3249a75bedac7b6eaf95e4e2f50eb99bf6dc"
     },
     {
       "id": "1.8.4",
       "type": "release",
       "url": "version/manifest/1.8.4.json",
-      "sha1": "2f72d1a4e30aa920b81e738374d6c8c126af151b",
+      "sha1": "c8a96a2338ebee3c30e454f86a1f32e95fb3e8e1",
       "time": "2015-04-17T11:37:50+00:00",
       "releaseTime": "2015-04-17T11:37:50+00:00",
       "details": "version/1.8.4.json",
-      "detailsSha1": "65915d2c3a2ddde3b7c63b094b1d7a5dabf7cfa0"
+      "detailsSha1": "1ebcfbf91d7f9966a803678e93a50d697aeb1a2c"
     },
     {
       "id": "af-2015",
       "type": "snapshot",
       "url": "version/manifest/af-2015.json",
-      "sha1": "55e6d5bfe6698d8bc0b340732d91b728cc33bbe5",
+      "sha1": "a3fbee8f0997060df99b1a4813bb5cb0288aa150",
       "time": "2015-04-01T07:08:00+00:00",
       "releaseTime": "2015-04-01T07:08:00+00:00",
       "details": "version/af-2015.json",
-      "detailsSha1": "e1ef72f9d699ccd431b7c264cd9989f7b62c279a"
+      "detailsSha1": "bb88b304b6d33fdee440a14e49d26a64d36980b2"
     },
     {
       "id": "1.8.3",
       "type": "release",
       "url": "version/manifest/1.8.3.json",
-      "sha1": "5a4186755f25b91ef3842c3079552288d55d158f",
+      "sha1": "4b349d28ffa4c57354ecbb2a853edc2aeeaab350",
       "time": "2015-02-20T14:00:09+00:00",
       "releaseTime": "2015-02-20T14:00:09+00:00",
       "details": "version/1.8.3.json",
-      "detailsSha1": "401322d29a74504b71f21e3a17b3ec35346fd827"
+      "detailsSha1": "a5dacad8f179ba8dc625e57ff71f1f7d8ac80879"
     },
     {
       "id": "1.8.2",
       "type": "release",
       "url": "version/manifest/1.8.2.json",
-      "sha1": "b747b9f97efcd8569b34ded55b96ed4df420a37a",
+      "sha1": "141ec72ba590ec606b0ff49c61e43e8a0157082b",
       "time": "2015-02-19T15:47:29+00:00",
       "releaseTime": "2015-02-19T15:47:29+00:00",
       "details": "version/1.8.2.json",
-      "detailsSha1": "294df77e0233ce8ad99049de95d3f6f4cc25a6f4"
+      "detailsSha1": "59b2eabe92fa849a671a56af8ed180469bb02024"
     },
     {
       "id": "1.8.2-pre7",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre7.json",
-      "sha1": "bfad6a4813f71e7547fa6edf1c22d4fa67a12de6",
+      "sha1": "13fff988e8c2de3e5e332fda95d22916f8cc3482",
       "time": "2015-02-16T13:01:35+00:00",
       "releaseTime": "2015-02-16T13:01:35+00:00",
       "details": "version/1.8.2-pre7.json",
-      "detailsSha1": "e1b2a23e6e46eabcb31d406323c1324672a08dd5"
+      "detailsSha1": "a634d0d1d2340020463e4d4c0ef2467aef4ecdfa"
     },
     {
       "id": "1.8.2-pre6",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre6.json",
-      "sha1": "e8e916600c05ec186b945043d685d58067c64688",
+      "sha1": "27f81725af3f55297509f4def570e086908c8f8d",
       "time": "2015-01-30T11:58:24+00:00",
       "releaseTime": "2015-01-30T11:58:24+00:00",
       "details": "version/1.8.2-pre6.json",
-      "detailsSha1": "35a55f47020b12c6b7f089410e573a7934f69082"
+      "detailsSha1": "c3e1c8e31456d0179fe6b02aed225739c36950de"
     },
     {
       "id": "1.8.2-pre5",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre5.json",
-      "sha1": "82c87e6f984daa3430af77c946feea99b69ca529",
+      "sha1": "856f83369195087f51b32310a42f32c086c85595",
       "time": "2015-01-26T15:03:24+00:00",
       "releaseTime": "2015-01-26T15:03:24+00:00",
       "details": "version/1.8.2-pre5.json",
-      "detailsSha1": "84e1adf610d5cc2536704f717831d7c57bef3e99"
+      "detailsSha1": "33d28769cc680d5a0814d251547556ae98d8fb5f"
     },
     {
       "id": "1.8.2-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre4.json",
-      "sha1": "76b01cf4808bb441e217b9627beaa79cd4a77d4d",
+      "sha1": "a7d0c8f1f525aecbebcd4b07bcd98b96443e95ca",
       "time": "2015-01-16T14:19:59+00:00",
       "releaseTime": "2015-01-16T14:19:59+00:00",
       "details": "version/1.8.2-pre4.json",
-      "detailsSha1": "30567b7370c5a682be4bcc045ad292d9c91ad162"
+      "detailsSha1": "3dc513a9c3d67dd0ebbb909a0ff568566b4201be"
     },
     {
       "id": "1.8.2-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre3.json",
-      "sha1": "1bafb24e5c3d137dafaabf3c9391e870477bcd4a",
+      "sha1": "07c5f2ad612bc40ec5240b75e10a28d0193da3df",
       "time": "2015-01-15T16:44:33+00:00",
       "releaseTime": "2015-01-15T16:44:33+00:00",
       "details": "version/1.8.2-pre3.json",
-      "detailsSha1": "3119e83c1b79505c36c8f71cb68e427ea08374fe"
+      "detailsSha1": "d7614f74bf15854fda493b3718c1a6e9d3f77530"
     },
     {
       "id": "1.8.2-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre2.json",
-      "sha1": "18a85c7aae075545332ce822701e3109a0b99e38",
+      "sha1": "4f41015dea4c90babe429b2b42d1e6b9524c00d9",
       "time": "2015-01-15T15:07:31+00:00",
       "releaseTime": "2015-01-15T15:07:31+00:00",
       "details": "version/1.8.2-pre2.json",
-      "detailsSha1": "9fa3370713bcb9e1b343b7d89d99d3177791761d"
+      "detailsSha1": "bb462154e45e156355952f67f6687c1bf25dd1a8"
     },
     {
       "id": "1.8.2-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.8.2-pre1.json",
-      "sha1": "0c00880ab9db8c509bc15c04f33242605af8cb9b",
+      "sha1": "3e214d6885832b51da8b1eef73157527a9b3298e",
       "time": "2014-12-18T11:29:41+00:00",
       "releaseTime": "2014-12-18T11:29:41+00:00",
       "details": "version/1.8.2-pre1.json",
-      "detailsSha1": "dcdda56fce83a6631c923767f795f99cafecc27f"
+      "detailsSha1": "39044e84b5badbc202397461d799edf5e32cb3ba"
     },
     {
       "id": "1.8.1",
       "type": "release",
       "url": "version/manifest/1.8.1.json",
-      "sha1": "dfbdb3558b78b5c91bca2da8d44592b9b461e76e",
+      "sha1": "4128a89a17f7b9827051383a45d42b75f8a15864",
       "time": "2014-11-24T14:13:31+00:00",
       "releaseTime": "2014-11-24T14:13:31+00:00",
       "details": "version/1.8.1.json",
-      "detailsSha1": "30440082477e32b5a7e5bb91c22e72e3c0ac081f"
+      "detailsSha1": "399ea51b4f7b5c31ce3227908b7bd1906721b036"
     },
     {
       "id": "1.8.1-pre5",
       "type": "snapshot",
       "url": "version/manifest/1.8.1-pre5.json",
-      "sha1": "18e470c18212c9052358b2d9cba5f9dbd5ede7d1",
+      "sha1": "5b54c003f9205033d9507e6675241f9fdea7f564",
       "time": "2014-11-19T14:30:48+00:00",
       "releaseTime": "2014-11-19T14:30:48+00:00",
       "details": "version/1.8.1-pre5.json",
-      "detailsSha1": "c24cadc57b8e84267211e43082d3db694d6e3120"
+      "detailsSha1": "493797ac185e738503254128a4de0e999bf58b94"
     },
     {
       "id": "1.8.1-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.8.1-pre4.json",
-      "sha1": "63b395bb44ddaa56dbad2fdb50ec35f7444bf9f4",
+      "sha1": "09ec02f8e73e28abf9eb393f8a51c662fc34d92d",
       "time": "2014-11-06T14:10:50+00:00",
       "releaseTime": "2014-11-06T14:10:50+00:00",
       "details": "version/1.8.1-pre4.json",
-      "detailsSha1": "9a7fefa415477af63a69cbf8686793a6e1f7d8f6"
+      "detailsSha1": "f130588fc1e6bebb1dee0947dc20c1267db3aeed"
     },
     {
       "id": "1.8.1-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.8.1-pre3.json",
-      "sha1": "0952872b5d1ee5f8642c12f4c067ff53302503f7",
+      "sha1": "81c364c350e28a861ed6e9adc284d68e3c45b8ea",
       "time": "2014-10-23T12:59:42+00:00",
       "releaseTime": "2014-10-23T12:59:42+00:00",
       "details": "version/1.8.1-pre3.json",
-      "detailsSha1": "7feead5eaa8d153f7198044c9495eb0cb5f0bc4d"
+      "detailsSha1": "8849cca87f0eaf49bd6fa859b6d34d7fc8281d04"
     },
     {
       "id": "1.8.1-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.8.1-pre2.json",
-      "sha1": "1773a84132f3039b600891791e1a1a5b964cb252",
+      "sha1": "d2ec75dd86c54512bf2af54e8972e45eecddf8ec",
       "time": "2014-10-16T14:19:27+00:00",
       "releaseTime": "2014-10-16T14:19:27+00:00",
       "details": "version/1.8.1-pre2.json",
-      "detailsSha1": "9cb150895ee6efdcf1e33e2558d8138bb1bbb851"
+      "detailsSha1": "30460bf1eaf1d7e0b4f7fe4577560c6bda790e02"
     },
     {
       "id": "1.8.1-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.8.1-pre1.json",
-      "sha1": "fd7bf6c6860daab88670e02c8bfe21fecf91fa54",
+      "sha1": "32f9184eea3ef8c552547800f821421009c49a24",
       "time": "2014-10-15T13:25:11+00:00",
       "releaseTime": "2014-10-15T13:25:11+00:00",
       "details": "version/1.8.1-pre1.json",
-      "detailsSha1": "dd8ea7f51f5927402b84f82b7e209767e762c039"
+      "detailsSha1": "ea41b745a8a5d62742b56f12e2ab7eb9f958faa1"
     },
     {
       "id": "1.8",
       "type": "release",
       "url": "version/manifest/1.8.json",
-      "sha1": "b276af2fc86485bfe51f7e38c676de9fcfebecfd",
+      "sha1": "abe01224fcaf9a17374b57c9baf6772b1066ebbe",
       "time": "2014-09-02T08:24:35+00:00",
       "releaseTime": "2014-09-02T08:24:35+00:00",
       "details": "version/1.8.json",
-      "detailsSha1": "628a5f93cfc7db9cb8ecebb7903a0b46e331f447"
+      "detailsSha1": "482157f199e51c955a38c97926cc4c713a524837"
     },
     {
       "id": "1.8-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.8-pre3.json",
-      "sha1": "2e8e381a49d2273161127db04e2b852e86edb879",
+      "sha1": "4d070a76073b6ebd0b3bcffd2c673675f03c8108",
       "time": "2014-08-28T09:40:54+00:00",
       "releaseTime": "2014-08-28T09:40:54+00:00",
       "details": "version/1.8-pre3.json",
-      "detailsSha1": "848c07c696662612bfc3ecca4b2da3eddc4a27ce"
+      "detailsSha1": "49d53200b95ad04f1c5c17f658f3f26e9ef52d81"
     },
     {
       "id": "1.8-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.8-pre2.json",
-      "sha1": "47213858f0cdb23cd5a5bcabd8c761d7f82e30a5",
+      "sha1": "99113e9875c4f9eb4334d64344877a45ff4a3fd0",
       "time": "2014-08-25T14:52:18+00:00",
       "releaseTime": "2014-08-25T14:52:18+00:00",
       "details": "version/1.8-pre2.json",
-      "detailsSha1": "ea344e277c3c1b4cb2fa114950ec80bcf8d8bd78"
+      "detailsSha1": "25be206559b58a26b3b16d8dfb5602a0c2043fe2"
     },
     {
       "id": "1.8-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.8-pre1.json",
-      "sha1": "f47803ed3059e937a5825befe5de8da42077eeb7",
+      "sha1": "77da225fc4a9aa303360947e8d8a21e7298cb2ab",
       "time": "2014-08-21T13:56:26+00:00",
       "releaseTime": "2014-08-21T13:56:26+00:00",
       "details": "version/1.8-pre1.json",
-      "detailsSha1": "618da098e695ad296f1ecce693dcb2d453ef158c"
+      "detailsSha1": "5b6229070461caf7c9b722ca7a4a99271b77b591"
     },
     {
       "id": "14w34d",
       "type": "snapshot",
       "url": "version/manifest/14w34d.json",
-      "sha1": "19e1963798393a2204ed8b799a3a92dca33cc4e3",
+      "sha1": "f32e2f24b920d4e0108fa52eb6e38f8be889b390",
       "time": "2014-08-20T12:46:59+00:00",
       "releaseTime": "2014-08-20T12:46:59+00:00",
       "details": "version/14w34d.json",
-      "detailsSha1": "40069fb50e658b00c03d8df25c8b16b794b77ba7"
+      "detailsSha1": "e887d70cbaf0ce125c1b9ccec47ae3f10fa143da"
     },
     {
       "id": "14w34c",
       "type": "snapshot",
       "url": "version/manifest/14w34c.json",
-      "sha1": "81a9352228ca48ada877494892e8a215e244feae",
+      "sha1": "e925a0e6a662ea5d231c5fcc450532f0611a6222",
       "time": "2014-08-19T15:31:24+00:00",
       "releaseTime": "2014-08-19T15:49:00+00:00",
       "details": "version/14w34c.json",
-      "detailsSha1": "9d83e2b9da55b41e91e2dc3a8dbc34f4b2688a09"
+      "detailsSha1": "934e79a7fcb59cb1c82ed16840bef1b8129e5050"
     },
     {
       "id": "14w34c-1549",
       "type": "snapshot",
       "url": "version/manifest/14w34c-1549.json",
-      "sha1": "5589153922b975ad82180d7174187cdddb9cf585",
+      "sha1": "d05c0fd1034f46e6a368a83e5427236d1b0786f4",
       "time": "2014-08-19T15:31:24+00:00",
       "releaseTime": "2014-08-19T15:49:00+00:00",
       "details": "version/14w34c-1549.json",
-      "detailsSha1": "c24b808033ff8c1d98fdf192f1167357e6a51738"
+      "detailsSha1": "e67770661cf11abe0a1dfd0516f914965c42320b"
     },
     {
       "id": "14w34b",
       "type": "snapshot",
       "url": "version/manifest/14w34b.json",
-      "sha1": "ffd5ff71fb4666b1f071a083f75757deb2f78f84",
+      "sha1": "2a35b96d81945cbdc0f24352358e1a8b80fd620e",
       "time": "2014-08-18T15:14:28+00:00",
       "releaseTime": "2014-08-18T15:14:28+00:00",
       "details": "version/14w34b.json",
-      "detailsSha1": "6c00236e673d294c3e9d00fad5278e2108378d28"
+      "detailsSha1": "c0cd1031e0385f2c8042bd489c62119d7b8b20b8"
     },
     {
       "id": "14w34a",
       "type": "snapshot",
       "url": "version/manifest/14w34a.json",
-      "sha1": "faaf714354634f2594586329310b9550c5204cb8",
+      "sha1": "d270b034f2e48b27b0a135ece480224721212e97",
       "time": "2014-08-18T14:14:11+00:00",
       "releaseTime": "2014-08-18T14:14:11+00:00",
       "details": "version/14w34a.json",
-      "detailsSha1": "228da04f4f7cc9e930647c72667ec28bda8e0924"
+      "detailsSha1": "0007a7c4ea0aa062562b7e4cc11d532242b251b4"
     },
     {
       "id": "14w33c",
       "type": "snapshot",
       "url": "version/manifest/14w33c.json",
-      "sha1": "f21b4baeec9be77b394ef0dc03c6daedf89f3a45",
+      "sha1": "0b7cd6bbf2e1aac452156415c8f16c5d6c1514fe",
       "time": "2014-08-15T18:00:26+00:00",
       "releaseTime": "2014-08-15T18:00:26+00:00",
       "details": "version/14w33c.json",
-      "detailsSha1": "f75056205c7f34972652409752d072bf765087db"
+      "detailsSha1": "399e65e5e9b0f9b4966dcc88bb475c6a1de58316"
     },
     {
       "id": "14w33b",
       "type": "snapshot",
       "url": "version/manifest/14w33b.json",
-      "sha1": "b4110ce26f3ea674003405452974e20a4b069eec",
+      "sha1": "a0628afb23733c523d462e68bc582b183e91b56c",
       "time": "2014-08-15T16:23:51+00:00",
       "releaseTime": "2014-08-15T16:23:51+00:00",
       "details": "version/14w33b.json",
-      "detailsSha1": "3f15e8a8cd956b530207ac4940e62923181f8471"
+      "detailsSha1": "f03d8eeeb58957b5a6836bba6ac80cf12de06c4f"
     },
     {
       "id": "14w33a",
       "type": "snapshot",
       "url": "version/manifest/14w33a.json",
-      "sha1": "ae3cc21af5b13f17ff907d6a46596d506ffc3a7c",
+      "sha1": "df504d5c67125989bba2bd214beb31c622c1d61a",
       "time": "2014-08-13T15:08:14+00:00",
       "releaseTime": "2014-08-13T15:08:14+00:00",
       "details": "version/14w33a.json",
-      "detailsSha1": "bfbb9516b62354a44391204ffe153926bbf21771"
+      "detailsSha1": "65d56a20e34f3612103d65f3558d8ba4e7f236fa"
     },
     {
       "id": "14w32d",
       "type": "snapshot",
       "url": "version/manifest/14w32d.json",
-      "sha1": "949e9833bda653da3230d4555e6a73c8d02bdc73",
+      "sha1": "48a7a1b4870a1099ecbaf663ba26e113dc9f7d2e",
       "time": "2014-08-08T15:13:41+00:00",
       "releaseTime": "2014-08-08T15:13:41+00:00",
       "details": "version/14w32d.json",
-      "detailsSha1": "f6f161413d5e9ab6a2f93df9a0ebeb8fb1910b01"
+      "detailsSha1": "f933605f65f58df04ee3abf78d06ba61f44d2612"
     },
     {
       "id": "14w32c",
       "type": "snapshot",
       "url": "version/manifest/14w32c.json",
-      "sha1": "71614e6f85245141f713c1d58956c47b2090c41f",
+      "sha1": "f463dbcf348d23a9c109037e3d7984af7dd4310c",
       "time": "2014-08-08T14:11:20+00:00",
       "releaseTime": "2014-08-08T14:11:20+00:00",
       "details": "version/14w32c.json",
-      "detailsSha1": "057e25923d47e4225d09d6dd33e0223c93c73dc7"
+      "detailsSha1": "f36944904339c3dcd5510a518bdeee24fc09a180"
     },
     {
       "id": "14w32b",
       "type": "snapshot",
       "url": "version/manifest/14w32b.json",
-      "sha1": "5b64563144bf6249dac0fe3fa2cb6d0b8c208687",
+      "sha1": "ed06c3c836f7f228acad47952590aa44e6f6f94b",
       "time": "2014-08-07T14:45:17+00:00",
       "releaseTime": "2014-08-07T14:45:17+00:00",
       "details": "version/14w32b.json",
-      "detailsSha1": "cf1c31f4ac3a33ca60b7bafcd728a8775ff8bf13"
+      "detailsSha1": "72801d756d0119a4d4822e9893907df30b300c35"
     },
     {
       "id": "14w32a",
       "type": "snapshot",
       "url": "version/manifest/14w32a.json",
-      "sha1": "5ce07fe0024b5ab644e48f8fc7ec8c879fe27bb3",
+      "sha1": "a6fade3d6774dde83ea4342e41398ad3e58f651c",
       "time": "2014-08-06T14:01:16+00:00",
       "releaseTime": "2014-08-06T14:01:16+00:00",
       "details": "version/14w32a.json",
-      "detailsSha1": "bd8e6ca1bfc2bf57a3b97047c0cbd5a1b6ce3824"
+      "detailsSha1": "468e21a8fee426ef3d7d8dbe0d1be692a469d8a9"
     },
     {
       "id": "14w31a",
       "type": "snapshot",
       "url": "version/manifest/14w31a.json",
-      "sha1": "c3b6104075db0c1c3b2fa3e003da6e9aca2b9986",
+      "sha1": "5850b0fa7cb6aab74793be0b8e0f370f46ff12f2",
       "time": "2014-07-30T15:38:05+00:00",
       "releaseTime": "2014-07-30T15:38:05+00:00",
       "details": "version/14w31a.json",
-      "detailsSha1": "4f06cdb6ac0525dd926e50513415040de2fdace2"
+      "detailsSha1": "9f01f36c5815c68d76bdc4090cc5665b660a2368"
     },
     {
       "id": "14w30c",
       "type": "snapshot",
       "url": "version/manifest/14w30c.json",
-      "sha1": "ace4b2b66ee970fe85d27f147e4e775022f382a7",
+      "sha1": "e613348e3ba993d01151cb876a68bdc73a85b815",
       "time": "2014-07-24T14:39:09+00:00",
       "releaseTime": "2014-07-24T14:39:09+00:00",
       "details": "version/14w30c.json",
-      "detailsSha1": "a50453089d34ccbe166d7e2daa98bc81bfa62758"
+      "detailsSha1": "d382335c7bc36bcbca07a6508918364abdfa745d"
     },
     {
       "id": "14w30b",
       "type": "snapshot",
       "url": "version/manifest/14w30b.json",
-      "sha1": "0246f76b616733d406923bcd0664670ca20d18c5",
+      "sha1": "222da5898a03aa402d76c3c0914f199c202a0a9c",
       "time": "2014-07-23T15:03:03+00:00",
       "releaseTime": "2014-07-23T15:03:03+00:00",
       "details": "version/14w30b.json",
-      "detailsSha1": "204285751fb8d0407541115b023458142a2b4751"
+      "detailsSha1": "03b6cd187339b5ffd2705e95d57114c905dca20e"
     },
     {
       "id": "14w30a",
       "type": "snapshot",
       "url": "version/manifest/14w30a.json",
-      "sha1": "45cf1c27d66dab6c53b53cc9f93c0ca11e11c25b",
+      "sha1": "d61bb586296ee568e7510889265050ef620d7f4f",
       "time": "2014-07-23T13:15:42+00:00",
       "releaseTime": "2014-07-23T13:15:42+00:00",
       "details": "version/14w30a.json",
-      "detailsSha1": "286e3a0b268defcd7829529f407cd9aff9987a92"
+      "detailsSha1": "e342fc5b3c48f6f6095c77d4ae4c23b8089b6ead"
     },
     {
       "id": "14w29b",
       "type": "snapshot",
       "url": "version/manifest/14w29b.json",
-      "sha1": "4391f27199d12f6bcb7441675a744b2c86291aa9",
+      "sha1": "028fde4bb4dfd18a07e23491143675982a94f03f",
       "time": "2014-07-16T17:27:40+00:00",
       "releaseTime": "2014-07-16T17:27:40+00:00",
       "details": "version/14w29b.json",
-      "detailsSha1": "367ce8b42e4b06c9e0ff0e6cd1a50ce02f028ccf"
+      "detailsSha1": "f7b8ae0593a9cd0f03eb22c2d1d4ea911f5a4bb3"
     },
     {
       "id": "14w29a",
       "type": "snapshot",
       "url": "version/manifest/14w29a.json",
-      "sha1": "5529f3d639eb3d286ec38b7508b7997e3a448975",
+      "sha1": "0b2746ac2b388c2ed78cfc6e1d52577f606988d1",
       "time": "2014-07-16T15:18:17+00:00",
       "releaseTime": "2014-07-16T15:18:17+00:00",
       "details": "version/14w29a.json",
-      "detailsSha1": "12005918cf8fbea1d88fbb1cd69f8d7935490d44"
+      "detailsSha1": "656a64e61533b405165d2bc0582d49fdb215720c"
     },
     {
       "id": "14w28b",
       "type": "snapshot",
       "url": "version/manifest/14w28b.json",
-      "sha1": "6790731d9c357fe6b6f1018979ab4529a0720281",
+      "sha1": "304e963570278f080d0617ade1e50ba4c1241992",
       "time": "2014-07-10T14:28:48+00:00",
       "releaseTime": "2014-07-10T14:28:48+00:00",
       "details": "version/14w28b.json",
-      "detailsSha1": "8ba9c6401d9b3b4d821805324ce42c64c4622443"
+      "detailsSha1": "122286efa09589b06846fd4fbef9a8ac6e94cd66"
     },
     {
       "id": "14w28a",
@@ -3184,11 +3184,11 @@
       "id": "1.7.10",
       "type": "release",
       "url": "version/manifest/1.7.10.json",
-      "sha1": "4b316919b457e3b9a268cfa416e025656d8b47d5",
+      "sha1": "c990812c6c5817cdc7f080fca926fd3ce3b830f9",
       "time": "2014-05-14T17:29:23+00:00",
       "releaseTime": "2014-06-26T00:00:00+00:00",
       "details": "version/1.7.10.json",
-      "detailsSha1": "98cdac00d4cbf4d5dbc952a7dfd2d84a3510d25f"
+      "detailsSha1": "5d782dd7174bd6c9a9f55d016cd99459cd82a479"
     },
     {
       "id": "14w26b",
@@ -3234,51 +3234,51 @@
       "id": "1.7.10-pre4",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre4.json",
-      "sha1": "ae91c567c3d876ca5a60e26abf3cefe676dac748",
+      "sha1": "dd72d1c101e93f04133b83393312e11a2541560e",
       "time": "2014-05-14T16:29:23+00:00",
       "releaseTime": "2014-06-18T00:00:00+00:00",
       "details": "version/1.7.10-pre4.json",
-      "detailsSha1": "1cc38b1f6f6f7953e821391163c403708c73cba0"
+      "detailsSha1": "46e620f98e5de516919a1988b0b2f0903af809db"
     },
     {
       "id": "1.7.10-pre3",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre3.json",
-      "sha1": "f10bdc88acb4ab563a3cf273ea35eb94fc39cba8",
+      "sha1": "fa62bc8dd15b78bbe653c5594be2e1952de8d016",
       "time": "2014-05-14T15:29:23+00:00",
       "releaseTime": "2014-06-10T00:00:00+00:00",
       "details": "version/1.7.10-pre3.json",
-      "detailsSha1": "147c9d52008840cae9ae8bb8be6a65d62b7a5a83"
+      "detailsSha1": "f2fe7e31a5c3799f1b8f7354e5063a7700fbae46"
     },
     {
       "id": "1.7.10-pre2",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre2.json",
-      "sha1": "9fc96085ef79e22008fcd71be11997c3dfb283a6",
+      "sha1": "7ecfa0e623def69d7cce2023e850dcc4e4e52a7c",
       "time": "2014-05-14T14:29:23+00:00",
       "releaseTime": "2014-06-04T10:45:00+00:00",
       "details": "version/1.7.10-pre2.json",
-      "detailsSha1": "1ae965173f9e161f1e272da7ef5bce651c47ce3b"
+      "detailsSha1": "def411b582e45e16abc374fa9a648966268edac7"
     },
     {
       "id": "1.7.10-pre2-1045",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre2-1045.json",
-      "sha1": "d957e87ae4050c2ae7ef3e39b3783cb8aefdb06d",
+      "sha1": "10b182a82a5e084adaed2fd2fa29ff3bc0b9c115",
       "time": "2014-05-14T14:29:23+00:00",
       "releaseTime": "2014-06-04T10:45:00+00:00",
       "details": "version/1.7.10-pre2-1045.json",
-      "detailsSha1": "da607c04afc728579b84c0597eaa11ee34960ff7"
+      "detailsSha1": "ae9fdeb40aa069eefaa0ebcc13c812cfd844c660"
     },
     {
       "id": "1.7.10-pre1",
       "type": "snapshot",
       "url": "version/manifest/1.7.10-pre1.json",
-      "sha1": "cf521d90e047a3de26a37b7e876add69429ed9b5",
+      "sha1": "a4fcd63301b0c2efe2b48363e6bc141b1a0b1352",
       "time": "2014-05-14T13:29:23+00:00",
       "releaseTime": "2014-06-03T00:00:00+00:00",
       "details": "version/1.7.10-pre1.json",
-      "detailsSha1": "fc332ded029bc06bdec2ff53dd95b62250005ae9"
+      "detailsSha1": "119ac370c63b1667eb38e1e70e779a5582035ca6"
     },
     {
       "id": "14w21b",
@@ -4518,7 +4518,7 @@
       "time": "2013-04-23T21:51:22+00:00",
       "releaseTime": "2013-04-23T21:18:00+00:00",
       "details": "version/13w16b-2118.json",
-      "detailsSha1": "029dced4f9e3c8ff233369386923078ea42ce6f2"
+      "detailsSha1": "35895c93c2e1a84e7bd5e3d0509d54578a899940"
     },
     {
       "id": "13w16a",
@@ -4568,7 +4568,7 @@
       "time": "2013-04-21T12:49:30+00:00",
       "releaseTime": "2013-04-18T18:00:00+00:00",
       "details": "version/13w16a-181800.json",
-      "detailsSha1": "884abeefd2d22693895f82b0343ef87b578e5438"
+      "detailsSha1": "9d81a0de80eeb95495106874eaaa7703276b1117"
     },
     {
       "id": "af-2013-purple",
@@ -5912,7 +5912,7 @@
       "time": "2013-08-06T04:00:00-07:00",
       "releaseTime": "2011-09-13T12:41:06+00:00",
       "details": "version/b1.8-pre2-131240.json",
-      "detailsSha1": "072dabbf6d0bdf4d9b4a9c61315e5bccbc15951a"
+      "detailsSha1": "c4317633cfb98fdba97fd7e0b465d453ae2b0cc2"
     },
     {
       "id": "b1.8-pre2-131225",
@@ -6293,7 +6293,7 @@
       "sha1": "c901b2edd4808041b8ad01ff22739369f1e79aad",
       "releaseTime": "2010-12-22T12:55:30+00:00",
       "details": "version/b1.1.json",
-      "detailsSha1": "d24e20a8daf5fa00c8b8e53618faa5aadec1febf"
+      "detailsSha1": "52ed69c57d3a49c2535bf646043b26523228b524"
     },
     {
       "id": "b1.1-1255",
