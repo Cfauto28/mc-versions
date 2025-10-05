@@ -8186,7 +8186,7 @@
       "releaseTime": "2011-01-21T13:57:00+00:00",
       "details": "version/b1.2_02.json",
       "sha1": "0f3a084f33ffe74b4dd228879ed4213acaecb77f",
-      "detailsSha1": "df056d3c3dff946f3dd38e9559add615722ea413"
+      "detailsSha1": "bd4e0d12594af18c692c30db06b2e0871526a1af"
     },
     {
       "id": "b1.2_02-launcher",
@@ -8205,7 +8205,7 @@
       "releaseTime": "2011-01-14T13:26:00+00:00",
       "details": "version/b1.2_01.json",
       "sha1": "257cc5ec75cc5cd66d445a7c89085dfc037577f8",
-      "detailsSha1": "a13229859283b22d2cfb6e0b0a3eb3bd2046d3d6"
+      "detailsSha1": "7740bd478c88a55619f6b7a744968d9faed65c73"
     },
     {
       "id": "b1.2",
