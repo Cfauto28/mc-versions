@@ -21,7 +21,6 @@
     "com.ibm.icu:icu4j-core-mojang:51.2",
     "com.mojang:authlib:1.5.25",
     "com.mojang:patchy:1.3.9",
-    "com.mojang:realms:1.10.8",
     "com.mojang:text2speech:1.10.1",
     "com.paulscode:codecjorbis:20101023",
     "com.paulscode:codecwav:20101023",

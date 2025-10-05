@@ -23,7 +23,6 @@
     "com.mojang:brigadier:1.0.14",
     "com.mojang:datafixerupper:1.0.21",
     "com.mojang:patchy:1.3.9",
-    "com.mojang:realms:1.14.0",
     "com.mojang:text2speech:1.10.3",
     "com.paulscode:codecjorbis:20101023",
     "com.paulscode:codecwav:20101023",

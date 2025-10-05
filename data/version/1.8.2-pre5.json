@@ -26,7 +26,6 @@
     "com.ibm.icu:icu4j-core-mojang:51.2",
     "com.mojang:authlib:1.5.17",
     "com.mojang:netty:1.8.8",
-    "com.mojang:realms:1.7.8-pre",
     "com.paulscode:codecjorbis:20101023",
     "com.paulscode:codecwav:20101023",
     "com.paulscode:libraryjavasound:20101123",

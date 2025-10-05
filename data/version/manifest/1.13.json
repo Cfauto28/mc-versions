@@ -508,17 +508,6 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/mojang/realms/1.13.4/realms-1.13.4.jar",
-          "sha1": "61a4dc19ebc5bd0981e7c69712c7c3e1d08bbd90",
-          "size": 6386404,
-          "url": "https://libraries.minecraft.net/com/mojang/realms/1.13.4/realms-1.13.4.jar"
-        }
-      },
-      "name": "com.mojang:realms:1.13.4"
-    },
-    {
-      "downloads": {
-        "artifact": {
           "path": "org/lwjgl/lwjgl/3.1.6/lwjgl-3.1.6.jar",
           "sha1": "75a08ab96db25e3dd05a127e69e314deb0c13161",
           "size": 299086,

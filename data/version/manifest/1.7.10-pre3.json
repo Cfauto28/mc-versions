@@ -45,17 +45,6 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/mojang/realms/1.2.1/realms-1.2.1.jar",
-          "sha1": "c4de1e3e8641bc8ad754191d7ad5ed0b718e1e6c",
-          "size": 213192,
-          "url": "https://libraries.minecraft.net/com/mojang/realms/1.2.1/realms-1.2.1.jar"
-        }
-      },
-      "name": "com.mojang:realms:1.2.1"
-    },
-    {
-      "downloads": {
-        "artifact": {
           "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
           "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
           "size": 365552,

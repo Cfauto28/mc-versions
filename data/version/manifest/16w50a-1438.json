@@ -249,17 +249,6 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/mojang/realms/1.10.1/realms-1.10.1.jar",
-          "sha1": "d6369254de32e6e23866c7d99d1d081c2dba11fa",
-          "size": 1463224,
-          "url": "https://libraries.minecraft.net/com/mojang/realms/1.10.1/realms-1.10.1.jar"
-        }
-      },
-      "name": "com.mojang:realms:1.10.1"
-    },
-    {
-      "downloads": {
-        "artifact": {
           "path": "org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar",
           "sha1": "a698750c16740fd5b3871425f4cb3bbaa87f529d",
           "size": 365552,
