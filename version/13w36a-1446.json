@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "13w36a",
+  "downloads": {
+    "client": {
+      "sha1": "875b8f0cd1397b6eaaaef71090649382d46de2d6",
+      "size": 4890231,
+      "url": "https://launcher.mojang.com/v1/objects/875b8f0cd1397b6eaaaef71090649382d46de2d6/client.jar"
+    }
+  },
+  "id": "13w36a-1446",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "13w36a"
+  ],
+  "normalizedVersion": "1.7.0-alpha.13.36.a+1446",
+  "previous": [
+    "13w36a-1234"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 75
+  },
+  "releaseTarget": "1.7",
+  "releaseTime": "2013-09-05T14:46:00+00:00",
+  "server": false,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

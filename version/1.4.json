@@ -1,0 +1,53 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.4",
+  "downloads": {
+    "client": {
+      "sha1": "2007097b53d3eb43b2c1f3f78caab4a4ef690c7a",
+      "size": 4926161,
+      "url": "https://launcher.mojang.com/v1/objects/2007097b53d3eb43b2c1f3f78caab4a4ef690c7a/client.jar"
+    },
+    "server": {
+      "sha1": "9470a2bb0fcb8a426328441a01dba164fbbe52c9",
+      "size": 2016725,
+      "url": "https://launcher.mojang.com/v1/objects/9470a2bb0fcb8a426328441a01dba164fbbe52c9/server.jar"
+    },
+    "windows_server": {
+      "sha1": "29a7d1e17f7594a9e88b6ba8e7888890aa746a5d",
+      "size": 2197973,
+      "url": "https://launcher.mojang.com/v1/objects/29a7d1e17f7594a9e88b6ba8e7888890aa746a5d/windows_server.exe"
+    }
+  },
+  "id": "1.4",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "1.4.1-1338",
+    "1.4.1"
+  ],
+  "normalizedVersion": "1.4.0",
+  "previous": [
+    "12w42b"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 47
+  },
+  "releaseTarget": "1.4",
+  "releaseTime": "2012-10-19T00:00:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

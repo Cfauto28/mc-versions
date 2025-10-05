@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Infdev",
+  "downloads": {
+    "client": {
+      "sha1": "510dcdef7e982fa5a98ed73199a89d34c28f6838",
+      "size": 577423,
+      "url": "https://vault.omniarchive.uk/archive/java/client-infdev/inf-20100616-1808.jar"
+    }
+  },
+  "id": "inf-20100616-1808",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "inf-20100617-1205"
+  ],
+  "normalizedVersion": "0.31.20100616-t1808",
+  "previous": [
+    "inf-20100615"
+  ],
+  "protocol": null,
+  "releaseTime": "2010-06-16T18:08:38+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

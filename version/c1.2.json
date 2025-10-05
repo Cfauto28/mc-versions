@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": null,
+  "downloads": {
+    "server_zip": {
+      "sha1": "4ce6ac800d83e42ea1348dc0296d50b36af05e07",
+      "size": 36733,
+      "url": "https://vault.omniarchive.uk/archive/java/server-classic/c1.2.zip"
+    }
+  },
+  "id": "c1.2",
+  "libraries": [],
+  "next": [
+    "c1.3"
+  ],
+  "normalizedVersion": "0.30.0-classic.1.2.0",
+  "previous": [],
+  "protocol": {
+    "type": "classic",
+    "version": 3
+  },
+  "releaseTime": "2009-06-08T20:48:00+00:00",
+  "server": true,
+  "sharedMappings": false
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft 11w49a",
+  "downloads": {
+    "client": {
+      "sha1": "f4981ba0fee00a16d8dc9ec87bf2c4fdb51e4b7c",
+      "size": 3509701,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.1/pre/11w50a.jar"
+    },
+    "server": {
+      "sha1": "f388f7e3ad02afb8373a425a36cad5f8455deb30",
+      "size": 1051198,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.1/pre/11w50a.jar"
+    }
+  },
+  "id": "11w50a",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "12w01a"
+  ],
+  "normalizedVersion": "1.1.0-alpha.11.50.a",
+  "previous": [
+    "11w49a"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 22
+  },
+  "releaseTarget": "1.1",
+  "releaseTime": "2011-12-15T12:51:52+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

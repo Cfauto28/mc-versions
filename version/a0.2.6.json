@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "0.2.6",
+  "downloads": {
+    "server": {
+      "sha1": "7f69b0f797ad8ced39f0b84af0ed3412dad9233d",
+      "size": 319774,
+      "url": "https://vault.omniarchive.uk/archive/java/server-alpha/a0.2.6.jar"
+    }
+  },
+  "id": "a0.2.6",
+  "libraries": [],
+  "next": [
+    "a0.2.6_01"
+  ],
+  "normalizedVersion": "1.0.0-alpha.0.2.6",
+  "previous": [
+    "a0.2.5_02"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 6
+  },
+  "releaseTime": "2010-11-30T18:07:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

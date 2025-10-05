@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "12w49a",
+  "downloads": {
+    "client": {
+      "sha1": "a5a4cf65cf89207eb6ad7371c9237973865eba81",
+      "size": 4990865,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.4/pre/12w49a.jar"
+    },
+    "server": {
+      "sha1": "dcb4c0c0011c9b944e6548b6559af7afab22408c",
+      "size": 2057571,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/12w49a.jar"
+    },
+    "windows_server": {
+      "sha1": "885fa9f1c74caeb2e269b0f9f30aa68ee296ba1c",
+      "size": 2238819,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.4/pre/12w49a.exe"
+    }
+  },
+  "id": "12w49a",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "12w50a"
+  ],
+  "normalizedVersion": "1.4.6-alpha.12.49.a",
+  "previous": [
+    "1.4.5"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 50
+  },
+  "releaseTarget": "1.4.6",
+  "releaseTime": "2012-12-07T15:36:57+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

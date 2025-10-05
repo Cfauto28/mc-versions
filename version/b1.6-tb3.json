@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.6 Test Build 3",
+  "downloads": {
+    "client": {
+      "sha1": "3eddb7fd2e960b19e70a53358d513d4d1dfc43bf",
+      "size": 1421293,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.6/pre/b1.6-tb3.jar"
+    },
+    "server": {
+      "sha1": "2aae89e3f069cdd30f6e7d7727ba8e8ad8132143",
+      "size": 489816,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.6/pre/b1.6-tb3.jar"
+    }
+  },
+  "id": "b1.6-tb3",
+  "libraries": [],
+  "next": [
+    "b1.6"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.6.0.test.3",
+  "previous": [
+    "b1.5_01",
+    "b1.6-trailer"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 12
+  },
+  "releaseTime": "2011-05-25T08:36:23+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

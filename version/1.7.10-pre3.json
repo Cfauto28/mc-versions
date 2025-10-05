@@ -1,0 +1,74 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.7.10-pre3",
+  "downloads": {
+    "client": {
+      "sha1": "9e3d4d71e9827fa2024ec90c065b2120ba80a024",
+      "size": 5314833,
+      "url": "https://launcher.mojang.com/v1/objects/9e3d4d71e9827fa2024ec90c065b2120ba80a024/client.jar"
+    },
+    "server": {
+      "sha1": "b9fdcbd17407d9eaeedcf4ff79b3121ee40133db",
+      "size": 9606901,
+      "url": "https://launcher.mojang.com/v1/objects/b9fdcbd17407d9eaeedcf4ff79b3121ee40133db/server.jar"
+    },
+    "windows_server": {
+      "sha1": "267c1456c63485f1b91fd3504795e18799c3a404",
+      "size": 10001141,
+      "url": "https://launcher.mojang.com/v1/objects/267c1456c63485f1b91fd3504795e18799c3a404/windows_server.exe"
+    }
+  },
+  "id": "1.7.10-pre3",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:15.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.13",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.10.Final",
+    "java3d:vecmath:1.3.1",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.1",
+    "tv.twitch:twitch-platform:5.16",
+    "tv.twitch:twitch:5.16"
+  ],
+  "next": [
+    "1.7.10-pre4"
+  ],
+  "normalizedVersion": "1.7.10-pre.3",
+  "previous": [
+    "1.7.10-pre2"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 5
+  },
+  "releaseTarget": "1.7.10",
+  "releaseTime": "2014-06-10T00:00:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

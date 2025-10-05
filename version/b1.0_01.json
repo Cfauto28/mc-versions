@@ -1,0 +1,44 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.0_01",
+  "downloads": {
+    "client": {
+      "sha1": "4caf69885b64132e42d3ce49996dbdb1691d7111",
+      "size": 1129193,
+      "url": "https://launcher.mojang.com/v1/objects/4caf69885b64132e42d3ce49996dbdb1691d7111/client.jar"
+    },
+    "server": {
+      "sha1": "5270b250d8a1c48f170d53b4b3874b01c55ec72c",
+      "size": 350966,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.0/b1.0_01.jar"
+    },
+    "windows_server": {
+      "sha1": "fbfe7435d0d88ba7ea930ab633c3b577c1deef6b",
+      "size": 531702,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.0/b1.0_01.exe"
+    }
+  },
+  "id": "b1.0_01",
+  "libraries": [],
+  "next": [
+    "b1.0.2-0841",
+    "b1.0.2",
+    "b1.1-1245",
+    "b1.1"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.0.1",
+  "previous": [
+    "b1.0"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 7
+  },
+  "releaseTime": "2010-12-20T18:29:28+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}
