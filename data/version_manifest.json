@@ -7727,17 +7727,7 @@
       "time": "2013-08-06T17:33:30+03:00",
       "releaseTime": "2009-11-10T18:58:50+00:00",
       "details": "version/c0.30-s-1858.json",
-      "detailsSha1": "996a5d65801887c67af3d3d8073c9595c5357ae8"
-    },
-    {
-      "id": "c0.30-s-1849",
-      "type": "old_alpha",
-      "url": "version/manifest/c0.30-s-1849.json",
-      "sha1": "0860aacb16ee20febae119bf15f0b65cd55fe25d",
-      "time": "2013-08-06T17:33:30+03:00",
-      "releaseTime": "2009-11-10T18:49:00+00:00",
-      "details": "version/c0.30-s-1849.json",
-      "detailsSha1": "7b27a556566564ee2a506227c5a4d03feb03dd8a"
+      "detailsSha1": "e6ba4b32c883341dca18ef62dd401a9d44aa79e7"
     },
     {
       "id": "c0.29_02",
@@ -7747,7 +7737,7 @@
       "time": "2017-09-20T03:05:00+01:00",
       "releaseTime": "2009-10-30T18:36:14+00:00",
       "details": "version/c0.29_02.json",
-      "detailsSha1": "d6f6bc04cbb13e5941d3ae1662b24e4803dccbed"
+      "detailsSha1": "5576bada51c9dfee03ad114d882008a5e89b9f32"
     },
     {
       "id": "c0.29_01",
