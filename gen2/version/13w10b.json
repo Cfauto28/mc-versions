@@ -1,0 +1,52 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "13w10b",
+  "downloads": {
+    "client": {
+      "sha1": "21e35ffe1772d1cf89aea653c7a883acb54b13a3",
+      "size": 5555235,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/13w10b.jar"
+    },
+    "server": {
+      "sha1": "c2f55646dc322c529ad94d4fe8bba215bca371a5",
+      "size": 2356739,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.5/pre/13w10b.jar"
+    },
+    "windows_server": {
+      "sha1": "39970f200b6ee751071fef17ca00e349197015c3",
+      "size": 2537987,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.5/pre/13w10b.exe"
+    }
+  },
+  "id": "13w10b",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "1.5-pre-071309"
+  ],
+  "normalizedVersion": "1.5.0-alpha.13.10.b",
+  "previous": [
+    "13w10a"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 60
+  },
+  "releaseTarget": "1.5",
+  "releaseTime": "2013-03-06T11:21:10+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

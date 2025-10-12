@@ -1,0 +1,380 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "23w43a",
+  "downloads": {
+    "client": {
+      "sha1": "dcb8011ca231f2810d5e713b7683f3551a5420a2",
+      "size": 23813492,
+      "url": "https://piston-data.mojang.com/v1/objects/dcb8011ca231f2810d5e713b7683f3551a5420a2/client.jar"
+    },
+    "client_mappings": {
+      "sha1": "702f352a23bd37619d24c8926f5309b3b180fb0c",
+      "size": 8759867,
+      "url": "https://piston-data.mojang.com/v1/objects/702f352a23bd37619d24c8926f5309b3b180fb0c/client.txt"
+    },
+    "server": {
+      "sha1": "135f89e56c2d83d9ef0f7915f0cdf1047737d51a",
+      "size": 48661379,
+      "url": "https://piston-data.mojang.com/v1/objects/135f89e56c2d83d9ef0f7915f0cdf1047737d51a/server.jar"
+    },
+    "server_mappings": {
+      "sha1": "fb7db2fd0cd59c85173d1b04c906f46c0c673b1f",
+      "size": 6700153,
+      "url": "https://piston-data.mojang.com/v1/objects/fb7db2fd0cd59c85173d1b04c906f46c0c673b1f/server.txt"
+    }
+  },
+  "id": "23w43a",
+  "libraries": [
+    "com.github.oshi:oshi-core:6.4.5",
+    "com.google.code.gson:gson:2.10.1",
+    "com.google.guava:failureaccess:1.0.1",
+    "com.google.guava:guava:32.1.2-jre",
+    "com.ibm.icu:icu4j:73.2",
+    "com.mojang:authlib:5.0.50",
+    "com.mojang:blocklist:1.0.10",
+    "com.mojang:brigadier:1.2.9",
+    "com.mojang:datafixerupper:6.0.8",
+    "com.mojang:logging:1.1.1",
+    "com.mojang:patchy:2.2.10",
+    "com.mojang:text2speech:1.17.9",
+    "commons-codec:commons-codec:1.16.0",
+    "commons-io:commons-io:2.13.0",
+    "commons-logging:commons-logging:1.2",
+    "io.netty:netty-buffer:4.1.97.Final",
+    "io.netty:netty-codec:4.1.97.Final",
+    "io.netty:netty-common:4.1.97.Final",
+    "io.netty:netty-handler:4.1.97.Final",
+    "io.netty:netty-resolver:4.1.97.Final",
+    "io.netty:netty-transport-classes-epoll:4.1.97.Final",
+    "io.netty:netty-transport-native-unix-common:4.1.97.Final",
+    "io.netty:netty-transport:4.1.97.Final",
+    "it.unimi.dsi:fastutil:8.5.12",
+    "net.java.dev.jna:jna-platform:5.13.0",
+    "net.java.dev.jna:jna:5.13.0",
+    "net.sf.jopt-simple:jopt-simple:5.0.4",
+    "org.apache.commons:commons-compress:1.22",
+    "org.apache.commons:commons-lang3:3.13.0",
+    "org.apache.httpcomponents:httpclient:4.5.13",
+    "org.apache.httpcomponents:httpcore:4.4.16",
+    "org.apache.logging.log4j:log4j-api:2.19.0",
+    "org.apache.logging.log4j:log4j-core:2.19.0",
+    "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
+    "org.joml:joml:1.10.5",
+    "org.lwjgl:lwjgl-glfw:3.3.2",
+    "org.lwjgl:lwjgl-jemalloc:3.3.2",
+    "org.lwjgl:lwjgl-openal:3.3.2",
+    "org.lwjgl:lwjgl-opengl:3.3.2",
+    "org.lwjgl:lwjgl-stb:3.3.2",
+    "org.lwjgl:lwjgl-tinyfd:3.3.2",
+    "org.lwjgl:lwjgl:3.3.2",
+    "org.slf4j:slf4j-api:2.0.7"
+  ],
+  "manifests": [
+    {
+      "assetHash": "9a4c7871e2bc2db42539b5c2b9f5147487e4b4ef",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "e079a262df48bf705b04f555944e73e4bf0d9189",
+      "lastModified": "2024-03-27T14:59:08+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/0/79a262df48bf705b04f555944e73e4bf0d9189/23w43a.json"
+    },
+    {
+      "assetHash": "e43b3c4288c27de68376dd08d75f1fec7084c692",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "335819f954960ffaa991f0b92deafba172d0340c",
+      "lastModified": "2024-03-20T14:51:35+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/3/3/5819f954960ffaa991f0b92deafba172d0340c/23w43a.json"
+    },
+    {
+      "assetHash": "983136437168c63e3dfaa99e1e32a2fa3be3cfda",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "8553096713cafe8276c77510378dd3724a83d717",
+      "lastModified": "2024-03-14T14:32:03+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/5/53096713cafe8276c77510378dd3724a83d717/23w43a.json"
+    },
+    {
+      "assetHash": "506c5e65d8e8d1325bff1e9212c7e52d69960f3c",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "245424ff0747164666e224f84dbd2b7c390dbfeb",
+      "lastModified": "2024-03-06T10:47:38+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/2/4/5424ff0747164666e224f84dbd2b7c390dbfeb/23w43a.json"
+    },
+    {
+      "assetHash": "3bbb49b0a9ab31327d31a97123bf6cb3707c8d0f",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "604855af0f1a35029ea4bf850004188834d3dbc5",
+      "lastModified": "2024-02-28T13:19:31+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/6/0/4855af0f1a35029ea4bf850004188834d3dbc5/23w43a.json"
+    },
+    {
+      "assetHash": "b9f332d9d96875d646845442b900660bd567f47e",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "23859742f206eadeb56ad58620785cef6f9e18ca",
+      "lastModified": "2024-02-14T14:34:17+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/2/3/859742f206eadeb56ad58620785cef6f9e18ca/23w43a.json"
+    },
+    {
+      "assetHash": "7e7a1662625ffe234cffc0575390ed44f7971a95",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "1da65b745e78c67ce1ba0c28d27654426eac235a",
+      "lastModified": "2024-02-07T15:02:01+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/1/d/a65b745e78c67ce1ba0c28d27654426eac235a/23w43a.json"
+    },
+    {
+      "assetHash": "491f30aa7abc5d6b7c5ee912e43acd03edc77a63",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "685b0341463ffa31bbbeaf29d214788722f0f437",
+      "lastModified": "2024-02-01T13:07:51+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/6/8/5b0341463ffa31bbbeaf29d214788722f0f437/23w43a.json"
+    },
+    {
+      "assetHash": "09f15a3a825664ea8a6face267379e51e1fc5e08",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "eb35fc18220fee59337411f9b31a851c1e59f7ba",
+      "lastModified": "2024-01-31T13:28:23+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/b/35fc18220fee59337411f9b31a851c1e59f7ba/23w43a.json"
+    },
+    {
+      "assetHash": "79738102d8654035485e3dfa43ba88fa574462e6",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "42b548d700b0504d9ae5a60045c1521acf796eaf",
+      "lastModified": "2024-01-24T14:05:27+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/2/b548d700b0504d9ae5a60045c1521acf796eaf/23w43a.json"
+    },
+    {
+      "assetHash": "d530a4a48801883f159118d90b8a0366c0e4faf0",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "e12d0efbf2c301fca3a79cd79b11b7934f9bf589",
+      "lastModified": "2024-01-18T12:52:57+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/1/2d0efbf2c301fca3a79cd79b11b7934f9bf589/23w43a.json"
+    },
+    {
+      "assetHash": "3daf4e97b01a90a0d3cf5f15461091cd2ff1f321",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "adee48f5c5e11e4a79e335bd62228d64ee8ba0df",
+      "lastModified": "2024-01-17T14:38:36+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/d/ee48f5c5e11e4a79e335bd62228d64ee8ba0df/23w43a.json"
+    },
+    {
+      "assetHash": "40102b73ddbad0609793b3c4d6bf889abb6f867b",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "b1ba2dc126ddb1bba903af53d4f999f502c3a2e2",
+      "lastModified": "2023-12-18T13:55:11+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/b/1/ba2dc126ddb1bba903af53d4f999f502c3a2e2/23w43a.json"
+    },
+    {
+      "assetHash": "42329c33f5a1e56b6100b6526888bd735ca7bb1d",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "2a29d262167081ece43210afbaa3829e00a92736",
+      "lastModified": "2023-12-07T13:04:49+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/2/a/29d262167081ece43210afbaa3829e00a92736/23w43a.json"
+    },
+    {
+      "assetHash": "0330714509467ed7d02faa0b179dcf33c6969583",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "7286b99e3f9b81c7b82e694945a969f026f917f3",
+      "lastModified": "2023-12-06T14:48:21+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/2/86b99e3f9b81c7b82e694945a969f026f917f3/23w43a.json"
+    },
+    {
+      "assetHash": "4aa429892f522b263a067d00df51bf54ab919d60",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "656c357c59184bc363ae9fd0692aa96d8cfa092e",
+      "lastModified": "2023-12-05T08:26:17+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/6/5/6c357c59184bc363ae9fd0692aa96d8cfa092e/23w43a.json"
+    },
+    {
+      "assetHash": "4ea456d4597f7488f6690d176afcff185f76285a",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "877633e282addbdb7eeb163161e2914dbec510ad",
+      "lastModified": "2023-11-30T13:54:11+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/7/7633e282addbdb7eeb163161e2914dbec510ad/23w43a.json"
+    },
+    {
+      "assetHash": "83615f6273ea3dfb5029ea8ced54691aecca0583",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "89231649f439ca26af7bd85004112ef0ba0abe2c",
+      "lastModified": "2023-11-28T13:55:48+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/9/231649f439ca26af7bd85004112ef0ba0abe2c/23w43a.json"
+    },
+    {
+      "assetHash": "7b583a572e50a03bd2cc574170dae6a39d872ba5",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "7c47507ed2fd763d3567470c79cfaf318d793e40",
+      "lastModified": "2023-11-27T14:37:13+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/c/47507ed2fd763d3567470c79cfaf318d793e40/23w43a.json"
+    },
+    {
+      "assetHash": "9c71e089c7d072871984f74be0a3c4080409f2e3",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "ef5df698d0f420a1c2f8952903f9a9b78dc0e118",
+      "lastModified": "2023-11-22T12:39:32+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/e/f/5df698d0f420a1c2f8952903f9a9b78dc0e118/23w43a.json"
+    },
+    {
+      "assetHash": "2cc6cffd1a6797b766dca45b7d22361867d1dc03",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "349b598abc7f5686642c5765ee98b7ba005ea58b",
+      "lastModified": "2023-11-20T15:49:43+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/3/4/9b598abc7f5686642c5765ee98b7ba005ea58b/23w43a.json"
+    },
+    {
+      "assetHash": "70f70dfe4b92354ef437d5dd137b8951f4702ee4",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "40df9221df1f70531b74b3fba124220db3351f6e",
+      "lastModified": "2023-11-16T14:26:28+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/0/df9221df1f70531b74b3fba124220db3351f6e/23w43a.json"
+    },
+    {
+      "assetHash": "509b64c348b80318cf458a95f2250c5e7f94a3d4",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "f02460cb28565f7b5910b17f079978ff7b8d8d63",
+      "lastModified": "2023-11-08T14:09:12+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/f/0/2460cb28565f7b5910b17f079978ff7b8d8d63/23w43a.json"
+    },
+    {
+      "assetHash": "0aca1121d5b33397ffe642b4ffb6adee9d563bc3",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "3c71b32bde2931a7e791afe80df83eb217f27ced",
+      "lastModified": "2023-11-01T12:40:51+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/3/c/71b32bde2931a7e791afe80df83eb217f27ced/23w43a.json"
+    },
+    {
+      "assetHash": "c756326b57a7ca717cc8af52cd4311bbb495ecda",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "4d609307f48122451fa31d1b0b41fe4d82882534",
+      "lastModified": "2023-10-26T13:54:56+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/d/609307f48122451fa31d1b0b41fe4d82882534/23w43a.json"
+    },
+    {
+      "assetHash": "e2a90327fb08815479cfe05e42a2e16ba7ce020d",
+      "assetIndex": "10",
+      "downloads": "cd6e996035c9d4a808e90a6338700928311a7247",
+      "downloadsId": 1,
+      "hash": "df4223f23e197a1d25923627d0671aad9fb56366",
+      "lastModified": "2023-10-25T13:44:28+00:00",
+      "time": "2023-10-25T13:34:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/d/f/4223f23e197a1d25923627d0671aad9fb56366/23w43a.json"
+    }
+  ],
+  "next": [
+    "23w43b"
+  ],
+  "normalizedVersion": "1.20.3-alpha.23.43.a",
+  "previous": [
+    "23w42a"
+  ],
+  "protocol": {
+    "type": "netty-snapshot",
+    "version": 159
+  },
+  "releaseTarget": "1.20.3",
+  "releaseTime": "2023-10-25T13:34:37+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 3686
+  }
+}

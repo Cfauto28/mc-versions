@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "13w19a",
+  "downloads": {
+    "client": {
+      "sha1": "39ef2f27bada1fb1a6addd972a25427ec33bd39d",
+      "size": 4612412,
+      "url": "https://launcher.mojang.com/v1/objects/39ef2f27bada1fb1a6addd972a25427ec33bd39d/client.jar"
+    },
+    "server": {
+      "sha1": "17997ee2d9a3ad1070a74707f58ebb3e3a46ae10",
+      "size": 6984782,
+      "url": "https://launcher.mojang.com/v1/objects/17997ee2d9a3ad1070a74707f58ebb3e3a46ae10/server.jar"
+    },
+    "windows_server": {
+      "sha1": "8d7e18b2ebaceb1f6cb7dec83149026a297f8ece",
+      "size": 7165006,
+      "url": "https://launcher.mojang.com/v1/objects/8d7e18b2ebaceb1f6cb7dec83149026a297f8ece/windows_server.exe"
+    }
+  },
+  "id": "13w19a",
+  "libraries": [
+    "argo:argo:2.25_fixed",
+    "com.google.guava:guava:14.0",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.4",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "13w21a"
+  ],
+  "normalizedVersion": "1.6.0-alpha.13.19.a",
+  "previous": [
+    "13w18c"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 66
+  },
+  "releaseTarget": "1.6",
+  "releaseTime": "2013-05-10T14:48:02+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

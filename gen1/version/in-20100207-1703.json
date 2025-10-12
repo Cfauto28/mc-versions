@@ -1,0 +1,47 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Indev",
+  "downloads": {
+    "client": {
+      "sha1": "fa8525be5612d00f6001be7d4cdb764b66e88f9d",
+      "size": 464930,
+      "url": "https://vault.omniarchive.uk/archive/java/client-indev/in-20100207-1703.jar"
+    }
+  },
+  "id": "in-20100207-1703",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "42baec400badbc715eef26a94c3aa5dd711472c1",
+      "downloadsId": 1,
+      "hash": "8ac15149079369976ad2803515cb72272feb47bb",
+      "time": "2017-09-20T00:00:00+00:00",
+      "type": "old_alpha",
+      "url": "https://ornithemc.net/mc-versions/manifest/8/a/c15149079369976ad2803515cb72272feb47bb/in-20100207-2.json"
+    }
+  ],
+  "next": [
+    "in-20100212-1210"
+  ],
+  "normalizedVersion": "0.31.20100207+1703",
+  "previous": [
+    "in-20100207-1101"
+  ],
+  "protocol": null,
+  "releaseTime": "2010-02-07T17:03:00+00:00",
+  "server": false,
+  "sharedMappings": false
+}

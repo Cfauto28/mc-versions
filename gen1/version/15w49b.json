@@ -1,0 +1,120 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "15w49b",
+  "downloads": {
+    "client": {
+      "sha1": "52b24b872a1280023f2d9dc44a70ad9a052a11f1",
+      "size": 8653646,
+      "url": "https://launcher.mojang.com/v1/objects/52b24b872a1280023f2d9dc44a70ad9a052a11f1/client.jar"
+    },
+    "server": {
+      "sha1": "e376081a73fe429c23db41a99a68a4b04c53ba8e",
+      "size": 8827037,
+      "url": "https://launcher.mojang.com/v1/objects/e376081a73fe429c23db41a99a68a4b04c53ba8e/server.jar"
+    },
+    "windows_server": {
+      "sha1": "8d72d717ad9ae39afa3d19d62e0b5f5809a53010",
+      "size": 9221277,
+      "url": "https://launcher.mojang.com/v1/objects/8d72d717ad9ae39afa3d19d62e0b5f5809a53010/windows_server.exe"
+    }
+  },
+  "id": "15w49b",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.22",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "net.java.dev.jna:jna:3.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+    "oshi-project:oshi-core:1.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "ea7adb66e88a75f683c5cc05b8eacf0a91149190",
+      "downloadsId": 1,
+      "hash": "cb25a52e7809ac3f1e488de12a72ec1979daa482",
+      "lastModified": "2021-12-15T15:58:28+00:00",
+      "time": "2015-12-03T15:23:22+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/c/b/25a52e7809ac3f1e488de12a72ec1979daa482/15w49b.json"
+    },
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "ea7adb66e88a75f683c5cc05b8eacf0a91149190",
+      "downloadsId": 1,
+      "hash": "6cca4912c94be0da90df7cfabfd95d150826bcf1",
+      "lastModified": "2021-07-07T14:01:53+00:00",
+      "time": "2015-12-03T15:23:22+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/6/c/ca4912c94be0da90df7cfabfd95d150826bcf1/15w49b.json"
+    },
+    {
+      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
+      "assetIndex": "1.9",
+      "downloads": "ea7adb66e88a75f683c5cc05b8eacf0a91149190",
+      "downloadsId": 1,
+      "hash": "11ed2f1ee3a2aee647cae8982c009256b598c3ba",
+      "lastModified": "2018-08-29T13:00:44+00:00",
+      "time": "2015-12-03T15:23:22+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/1/1/ed2f1ee3a2aee647cae8982c009256b598c3ba/15w49b.json"
+    },
+    {
+      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
+      "assetIndex": "1.9",
+      "downloads": "ea7adb66e88a75f683c5cc05b8eacf0a91149190",
+      "downloadsId": 1,
+      "hash": "545d63411058441077818e78866ce45121dbeb6f",
+      "lastModified": "2023-06-07T12:45:47+00:00",
+      "time": "2015-12-03T15:23:22+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/5/4/5d63411058441077818e78866ce45121dbeb6f/15w49b.json"
+    }
+  ],
+  "next": [
+    "15w50a"
+  ],
+  "normalizedVersion": "1.9.0-alpha.15.49.b",
+  "previous": [
+    "15w49a"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 91
+  },
+  "releaseTarget": "1.9",
+  "releaseTime": "2015-12-03T15:23:22+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 152
+  }
+}

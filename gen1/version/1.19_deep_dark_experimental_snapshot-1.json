@@ -1,0 +1,94 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Deep Dark Experimental Snapshot 1",
+  "downloads": {
+    "client": {
+      "sha1": "17f03648f0956343d4ae35260067d200a5aabc56",
+      "size": 20335422,
+      "url": "https://launcher.mojang.com/v1/objects/17f03648f0956343d4ae35260067d200a5aabc56/client.jar"
+    },
+    "client_mappings": {
+      "sha1": "668d017c0c3bfc47a7b4c9e75e0841b31123c5e0",
+      "size": 6715569,
+      "url": "https://launcher.mojang.com/v1/objects/668d017c0c3bfc47a7b4c9e75e0841b31123c5e0/client.txt"
+    },
+    "server": {
+      "sha1": "973e76b8067bab5410fef92bf4412ada1f7b0f97",
+      "size": 46603686,
+      "url": "https://launcher.mojang.com/v1/objects/973e76b8067bab5410fef92bf4412ada1f7b0f97/server.jar"
+    },
+    "server_mappings": {
+      "sha1": "7c6d4d114bfb0cb482a549dda1b587aece9c04af",
+      "size": 5200216,
+      "url": "https://launcher.mojang.com/v1/objects/7c6d4d114bfb0cb482a549dda1b587aece9c04af/server.txt"
+    }
+  },
+  "id": "1.19_deep_dark_experimental_snapshot-1",
+  "libraries": [
+    "com.github.oshi:oshi-core:5.8.5",
+    "com.google.code.gson:gson:2.8.9",
+    "com.google.guava:failureaccess:1.0.1",
+    "com.google.guava:guava:31.0.1-jre",
+    "com.ibm.icu:icu4j:70.1",
+    "com.mojang:authlib:3.2.38",
+    "com.mojang:blocklist:1.0.6",
+    "com.mojang:brigadier:1.0.18",
+    "com.mojang:datafixerupper:4.0.26",
+    "com.mojang:javabridge:1.2.24",
+    "com.mojang:patchy:2.1.6",
+    "com.mojang:text2speech:1.11.3",
+    "commons-codec:commons-codec:1.15",
+    "commons-io:commons-io:2.11.0",
+    "commons-logging:commons-logging:1.2",
+    "io.netty:netty-all:4.1.68.Final",
+    "it.unimi.dsi:fastutil:8.5.6",
+    "net.java.dev.jna:jna-platform:5.10.0",
+    "net.java.dev.jna:jna:5.10.0",
+    "net.sf.jopt-simple:jopt-simple:5.0.4",
+    "org.apache.commons:commons-compress:1.21",
+    "org.apache.commons:commons-lang3:3.12.0",
+    "org.apache.httpcomponents:httpclient:4.5.13",
+    "org.apache.httpcomponents:httpcore:4.4.14",
+    "org.apache.logging.log4j:log4j-api:2.16.0",
+    "org.apache.logging.log4j:log4j-core:2.16.0",
+    "org.apache.logging.log4j:log4j-slf4j18-impl:2.16.0",
+    "org.lwjgl:lwjgl-glfw:3.2.2",
+    "org.lwjgl:lwjgl-jemalloc:3.2.2",
+    "org.lwjgl:lwjgl-openal:3.2.2",
+    "org.lwjgl:lwjgl-opengl:3.2.2",
+    "org.lwjgl:lwjgl-stb:3.2.2",
+    "org.lwjgl:lwjgl-tinyfd:3.2.2",
+    "org.lwjgl:lwjgl:3.2.2",
+    "org.slf4j:slf4j-api:1.8.0-beta4"
+  ],
+  "manifests": [
+    {
+      "assetHash": "f91cf48b5e282816e251797d3406d4514e20c3a8",
+      "assetIndex": "1.19_deep_dark_side_snapshot",
+      "downloads": "2190547641e3b77cfce3b0848c4b3f4ed8a7bc7f",
+      "downloadsId": 1,
+      "hash": "73c267fd4ea4e7593c9b51b9f4d7e7babc9f5498",
+      "time": "2022-02-17T13:55:59+00:00",
+      "type": "pending",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/3/c267fd4ea4e7593c9b51b9f4d7e7babc9f5498/1_19_deep_dark_experimental_snapshot-1.json"
+    }
+  ],
+  "next": [],
+  "normalizedVersion": "1.19.0-Deep.Dark.Experimental.1",
+  "previous": [
+    "1.18.1"
+  ],
+  "protocol": {
+    "type": "netty-snapshot",
+    "version": 69
+  },
+  "releaseTarget": "1.19",
+  "releaseTime": "2022-02-17T13:55:59+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil",
+    "version": 3066
+  }
+}

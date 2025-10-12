@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "Beta 1.9 Prerelease 3",
+  "downloads": {
+    "server": {
+      "sha1": "9ad4c05197af0426d41ad1f237ecc21ee57ee216",
+      "size": 731317,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.9/pre/b1.9-pre4-1425.jar"
+    }
+  },
+  "id": "b1.9-pre4-1425",
+  "libraries": [],
+  "next": [
+    "b1.9-pre4-1435"
+  ],
+  "normalizedVersion": "1.0.0-pre.4+1425",
+  "previous": [
+    "b1.9-pre3"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 20
+  },
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-10-13T14:25:26+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

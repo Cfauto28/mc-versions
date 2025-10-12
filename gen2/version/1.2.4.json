@@ -1,0 +1,42 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft 1.2.4",
+  "downloads": {
+    "client": {
+      "sha1": "ad6d1fe7455857269d4185cb8f24e62cc0241aaf",
+      "size": 4005025,
+      "url": "https://launcher.mojang.com/v1/objects/ad6d1fe7455857269d4185cb8f24e62cc0241aaf/client.jar"
+    },
+    "server": {
+      "sha1": "ab5203296605bdb3a020b8b4ea6c8d03fd3a3e66",
+      "size": 1350940,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.2/1.2.4.jar"
+    },
+    "windows_server": {
+      "sha1": "64a320314b016721c5f31dce38bc7f3bcb5c9270",
+      "size": 1531676,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.2/1.2.4.exe"
+    }
+  },
+  "id": "1.2.4",
+  "libraries": [],
+  "next": [
+    "1.2.5"
+  ],
+  "normalizedVersion": "1.2.4",
+  "previous": [
+    "1.2.3"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 29
+  },
+  "releaseTarget": "1.2.4",
+  "releaseTime": "2012-03-22T16:00:53+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "anvil"
+  }
+}

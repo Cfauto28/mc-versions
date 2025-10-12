@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.2_02",
+  "downloads": {
+    "client": {
+      "sha1": "551be32655e81a410d81e76259502dde83ebe525",
+      "size": 1182073,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.2/b1.2_02.jar"
+    }
+  },
+  "id": "b1.2_02",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "cd7c54e4b95e8f0299ff8c9654dc37260e9e8c16",
+      "downloadsId": 1,
+      "hash": "fe312aee11af01de0e6686691e54011dedc509a4",
+      "time": "2016-02-02T15:37:47+00:00",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/f/e/312aee11af01de0e6686691e54011dedc509a4/b1.2_02.json"
+    }
+  ],
+  "next": [
+    "b1.3-1647",
+    "b1.3-1713"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.2.2",
+  "previous": [
+    "b1.2_02-launcher"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 8
+  },
+  "releaseTime": "2011-01-21T13:57:00+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

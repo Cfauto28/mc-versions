@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "Beta 1.5_02",
+  "downloads": {
+    "server": {
+      "sha1": "a17bcc9bcbe0685dd485f9fb15764e85b5888619",
+      "size": 458602,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.5/b1.5_02.jar"
+    },
+    "windows_server": {
+      "sha1": "708379a738706e1994a775d7f3692eb4724b943f",
+      "size": 639338,
+      "url": "https://vault.omniarchive.uk/archive/java/server-beta/b1.5/b1.5_02.exe"
+    }
+  },
+  "id": "b1.5_02",
+  "libraries": [],
+  "next": [
+    "b1.6-trailer"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.5.2",
+  "previous": [
+    "b1.5_01"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 11
+  },
+  "releaseTime": "2011-04-20T13:16:30+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

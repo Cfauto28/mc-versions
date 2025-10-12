@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft 12w06a",
+  "downloads": {
+    "client": {
+      "sha1": "a8403c0d4c0cdb65722d864d9cf42663b8aab08b",
+      "size": 3934973,
+      "url": "https://files.betacraft.uk/launcher/assets/versions/1.2/12w06a.jar"
+    },
+    "server": {
+      "sha1": "7518ca0aa64156c1a55f4a8363e9578862adcd3a",
+      "size": 1313060,
+      "url": "https://files.betacraft.uk/server-archive/release/1.2/prerelease/12w06a.jar"
+    }
+  },
+  "id": "12w06a",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "manifests": [
+    {
+      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
+      "assetIndex": "pre-1.6",
+      "downloads": "e09b5c342f3cdfd0ac938dc8c21b8cd7bee7dc43",
+      "downloadsId": 1,
+      "hash": "7007d8c624ad9dc9ca61b7699bfaeacf04db70b9",
+      "time": "2012-02-09T10:44:21+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/7/0/07d8c624ad9dc9ca61b7699bfaeacf04db70b9/12w06a.json"
+    }
+  ],
+  "next": [
+    "12w07a"
+  ],
+  "normalizedVersion": "1.2.0-alpha.12.6.a",
+  "previous": [
+    "12w05b"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 25
+  },
+  "releaseTarget": "1.2",
+  "releaseTime": "2012-02-09T10:44:21+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

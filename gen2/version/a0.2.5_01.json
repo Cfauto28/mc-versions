@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "0.2.5_01",
+  "downloads": {
+    "server": {
+      "sha1": "5ce1d04d71a573ad0c87578a734879b4ea5d6682",
+      "size": 317041,
+      "url": "https://vault.omniarchive.uk/archive/java/server-alpha/a0.2.5_01.jar"
+    },
+    "windows_server": {
+      "sha1": "74154b7b995311a47139baf7f5bbc5c710fb7072",
+      "size": 497777,
+      "url": "https://vault.omniarchive.uk/archive/java/server-alpha/a0.2.5_01.exe"
+    }
+  },
+  "id": "a0.2.5_01",
+  "libraries": [],
+  "next": [
+    "a0.2.5_02"
+  ],
+  "normalizedVersion": "1.0.0-alpha.0.2.5.1",
+  "previous": [
+    "a0.2.5"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 5
+  },
+  "releaseTime": "2010-11-25T16:12:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

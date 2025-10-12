@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.9 Prerelease 2",
+  "downloads": {
+    "client": {
+      "sha1": "b0d40cf43b625631af65e2a645c34b533251da0e",
+      "size": 1988123,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.9/pre/b1.9-pre2.jar"
+    },
+    "server": {
+      "sha1": "71b61b8b3222e5eb9033545d9c743dd2d9732b63",
+      "size": 673938,
+      "url": "https://files.betacraft.uk/server-archive/beta/prerelease/b1.9-pre2.jar"
+    }
+  },
+  "id": "b1.9-pre2",
+  "libraries": [],
+  "manifests": [
+    {
+      "downloads": "de462c9c1366e5cbb04f1df070508185113013b4",
+      "downloadsId": 2,
+      "hash": "a1eafae363f9217248493df6f079981090282c57",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/a/1/eafae363f9217248493df6f079981090282c57/b1.9-pre2.json"
+    },
+    {
+      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+      "assetIndex": "legacy",
+      "downloads": "2fd1339ec3d1903a21581f2c0c583cad23f8ceb7",
+      "downloadsId": 1,
+      "hash": "5db73cd7283c8ff6511d08e99b93b20b74c45854",
+      "time": "2013-08-06T14:00:00+03:00",
+      "type": "old_beta",
+      "url": "https://ornithemc.net/mc-versions/manifest/5/d/b73cd7283c8ff6511d08e99b93b20b74c45854/b1.9-pre2.json"
+    }
+  ],
+  "next": [
+    "b1.9-pre3-201110061350"
+  ],
+  "normalizedVersion": "1.0.0-pre.2",
+  "previous": [
+    "b1.9-pre1"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 19
+  },
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-09-29T12:49:00+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}

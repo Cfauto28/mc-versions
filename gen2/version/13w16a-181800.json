@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": "13w16a",
+  "downloads": {
+    "server": {
+      "sha1": "3ce8d544dbf7281024267f86920743f9bec99025",
+      "size": 6978654,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/13w16a-181800.jar"
+    },
+    "windows_server": {
+      "sha1": "ff3d98256598b83ab3ba75f9c3bc22b39d22f52e",
+      "size": 7158878,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/13w16a-181800.exe"
+    }
+  },
+  "id": "13w16a-181800",
+  "libraries": [],
+  "next": [
+    "13w16a-191517"
+  ],
+  "normalizedVersion": "1.6.0-alpha.13.16.a+181800",
+  "previous": [
+    "1.5.1"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 62
+  },
+  "releaseTarget": "1.6",
+  "releaseTime": "2013-04-18T18:00:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

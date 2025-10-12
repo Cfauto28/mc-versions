@@ -1,0 +1,67 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.7.2",
+  "downloads": {
+    "client": {
+      "sha1": "0c8689f904922af71c7144dcfb81bce976cadd49",
+      "size": 5117607,
+      "url": "https://launcher.mojang.com/v1/objects/0c8689f904922af71c7144dcfb81bce976cadd49/client.jar"
+    },
+    "server": {
+      "sha1": "3716cac82982e7c2eb09f83028b555e9ea606002",
+      "size": 9163955,
+      "url": "https://launcher.mojang.com/v1/objects/3716cac82982e7c2eb09f83028b555e9ea606002/server.jar"
+    },
+    "windows_server": {
+      "sha1": "07ae7cdcff6199735eb0f40da5d5c0763558a678",
+      "size": 9559731,
+      "url": "https://launcher.mojang.com/v1/objects/07ae7cdcff6199735eb0f40da5d5c0763558a678/windows_server.exe"
+    }
+  },
+  "id": "1.7.2",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:15.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.3",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "io.netty:netty-all:4.0.10.Final",
+    "java3d:vecmath:1.3.1",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "13w47a"
+  ],
+  "normalizedVersion": "1.7.2",
+  "previous": [
+    "1.7.1"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 4
+  },
+  "releaseTarget": "1.7.2",
+  "releaseTime": "2013-10-25T13:00:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

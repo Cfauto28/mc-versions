@@ -1,0 +1,73 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "15w31b",
+  "downloads": {
+    "client": {
+      "sha1": "25f9d73567cb53e3d62675c297946ba8d47c4282",
+      "size": 8657710,
+      "url": "https://launcher.mojang.com/v1/objects/25f9d73567cb53e3d62675c297946ba8d47c4282/client.jar"
+    },
+    "server": {
+      "sha1": "67f5af98eeef5f6267aca782ea3a536d50f33bc6",
+      "size": 8527439,
+      "url": "https://launcher.mojang.com/v1/objects/67f5af98eeef5f6267aca782ea3a536d50f33bc6/server.jar"
+    },
+    "windows_server": {
+      "sha1": "95ff19a5eb3b5938bc6ffb8c3269a7df92851717",
+      "size": 8921679,
+      "url": "https://launcher.mojang.com/v1/objects/95ff19a5eb3b5938bc6ffb8c3269a7df92851717/windows_server.exe"
+    }
+  },
+  "id": "15w31b",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.21",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "net.java.dev.jna:jna:3.4.0",
+    "net.java.dev.jna:platform:3.4.0",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
+    "oshi-project:oshi-core:1.1"
+  ],
+  "next": [
+    "15w31c"
+  ],
+  "normalizedVersion": "1.9.0-alpha.15.31.b",
+  "previous": [
+    "15w31a"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 50
+  },
+  "releaseTarget": "1.9",
+  "releaseTime": "2015-07-30T13:38:32+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": false,
+  "displayVersion": null,
+  "downloads": {
+    "server_zip": {
+      "sha1": "fd7b5535fd05c4c6cfe1a0e54110ffd63c76ad9e",
+      "size": 59639,
+      "url": "https://files.betacraft.uk/server-archive/classic/c1.10.1.zip"
+    }
+  },
+  "id": "server-c1.10.1",
+  "libraries": [],
+  "manifests": [
+    {
+      "downloads": "7c31723b084ce5532646e82ab861180165d0c93d",
+      "downloadsId": 1,
+      "hash": "c8be933622655cf000489f2a358deda2562fe154",
+      "type": "classic_server",
+      "url": "https://ornithemc.net/mc-versions/manifest/c/8/be933622655cf000489f2a358deda2562fe154/c1.10.1.json"
+    }
+  ],
+  "next": [
+    "server-a0.1.0"
+  ],
+  "normalizedVersion": "0.30.0-classic.server.1.10.1",
+  "previous": [
+    "server-c1.10"
+  ],
+  "protocol": {
+    "type": "classic",
+    "version": 7
+  },
+  "releaseTime": "2009-12-11T14:19:00+00:00",
+  "server": true,
+  "sharedMappings": false
+}

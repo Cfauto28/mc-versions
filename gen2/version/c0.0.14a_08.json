@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "0.0.14a_08",
+  "downloads": {
+    "client": {
+      "sha1": "e8aa74a5bee547097375d44ffb2e407b2ea8ee4d",
+      "size": 92351,
+      "url": "https://vault.omniarchive.uk/archive/java/client-classic/c0.0.14a_08.jar"
+    }
+  },
+  "id": "c0.0.14a_08",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.6",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "c0.0.15a-05311904",
+    "c0.0.15a"
+  ],
+  "normalizedVersion": "0.14.8",
+  "previous": [
+    "c0.0.13a_03",
+    "c0.0.13a_03-launcher"
+  ],
+  "protocol": null,
+  "releaseTime": "2009-05-28T20:37:40+00:00",
+  "server": false,
+  "sharedMappings": false
+}

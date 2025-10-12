@@ -1,0 +1,74 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "13w25c",
+  "downloads": {
+    "client": {
+      "sha1": "f0f3a912f7a929cc21b6340c5e552ed28f90fa94",
+      "size": 4709948,
+      "url": "https://launcher.mojang.com/v1/objects/f0f3a912f7a929cc21b6340c5e552ed28f90fa94/client.jar"
+    },
+    "server": {
+      "sha1": "0f21dbd39728a50843d1b20cf832f26aaada353d",
+      "size": 7183727,
+      "url": "https://launcher.mojang.com/v1/objects/0f21dbd39728a50843d1b20cf832f26aaada353d/server.jar"
+    },
+    "windows_server": {
+      "sha1": "5a48f00f68abd9278144eb1930d49ae9a3ba10fd",
+      "size": 7579503,
+      "url": "https://launcher.mojang.com/v1/objects/5a48f00f68abd9278144eb1930d49ae9a3ba10fd/windows_server.exe"
+    }
+  },
+  "id": "13w25c",
+  "libraries": [
+    "argo:argo:2.25_fixed",
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "manifests": [
+    {
+      "assetHash": "770572e819335b6c0a053f8378ad88eda189fc14",
+      "assetIndex": "legacy",
+      "downloads": "2e37aa56544acaa005ca09a06f6d2026289002c2",
+      "downloadsId": 1,
+      "hash": "45432877e0be49c9a94d7d7ce4c48d46be10c1a1",
+      "lastModified": "2018-08-29T13:02:42+00:00",
+      "time": "2013-06-20T15:23:37+00:00",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/manifest/4/5/432877e0be49c9a94d7d7ce4c48d46be10c1a1/13w25c.json"
+    }
+  ],
+  "next": [
+    "13w26a"
+  ],
+  "normalizedVersion": "1.6.0-alpha.13.25.c",
+  "previous": [
+    "13w25b"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 71
+  },
+  "releaseTarget": "1.6",
+  "releaseTime": "2013-06-20T15:23:37+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

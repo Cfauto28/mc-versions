@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Alpha v1.2.6",
+  "downloads": {
+    "client": {
+      "sha1": "a68c817afd6c05c253ba5462287c2c19bbb57935",
+      "size": 1105909,
+      "url": "https://launcher.mojang.com/v1/objects/a68c817afd6c05c253ba5462287c2c19bbb57935/client.jar"
+    }
+  },
+  "id": "a1.2.6",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "b1.0"
+  ],
+  "normalizedVersion": "1.0.0-alpha.1.2.6",
+  "previous": [
+    "a1.2.5"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 6
+  },
+  "releaseTime": "2010-12-03T14:18:18+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "alpha"
+  }
+}

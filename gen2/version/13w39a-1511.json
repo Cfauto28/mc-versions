@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "13w39a",
+  "downloads": {
+    "client": {
+      "sha1": "b091a8b92b9d0b1f23ee2fd1a048b751f437ff76",
+      "size": 5018857,
+      "url": "https://launcher.mojang.com/v1/objects/b091a8b92b9d0b1f23ee2fd1a048b751f437ff76/client.jar"
+    },
+    "server": {
+      "sha1": "be8a3fa1988a8bdfa9579be646bd3fb25f72dcc6",
+      "size": 9532076,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.7/pre/13w39a-1511.jar"
+    }
+  },
+  "id": "13w39a-1511",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.1",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "java3d:vecmath:1.3.1",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "13w39a-1627"
+  ],
+  "normalizedVersion": "1.7.0-alpha.13.39.a+1511",
+  "previous": [
+    "13w38c"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 80
+  },
+  "releaseTarget": "1.7",
+  "releaseTime": "2013-09-26T15:11:19+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

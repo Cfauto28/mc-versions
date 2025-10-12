@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.6.3",
+  "downloads": {
+    "client": {
+      "sha1": "eef82c383ea9bd35d41c08d79b974dc8dbc628cc",
+      "size": 4744700,
+      "url": "https://vault.omniarchive.uk/archive/java/client-release/1.6/pre/1.6.3-pre-131100.jar"
+    },
+    "server": {
+      "sha1": "8e48bfbbf144d292cdc66c1e33f346d9279baad9",
+      "size": 6146702,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/1.6.3-pre-131100.jar"
+    },
+    "windows_server": {
+      "sha1": "624944e17c17223f59e91260cabb430be244232c",
+      "size": 6542478,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.6/pre/1.6.3-pre-131100.exe"
+    }
+  },
+  "id": "1.6.3-131100",
+  "libraries": [
+    "argo:argo:2.25_fixed",
+    "com.google.code.gson:gson:2.2.2",
+    "com.google.guava:guava:14.0",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.bouncycastle:bcprov-jdk15on:1.47",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+  ],
+  "next": [
+    "1.6.3-171031",
+    "1.6.3-171231"
+  ],
+  "normalizedVersion": "1.6.3+131100",
+  "previous": [
+    "1.6.2"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 77
+  },
+  "releaseTarget": "1.6.3",
+  "releaseTime": "2013-09-13T11:09:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

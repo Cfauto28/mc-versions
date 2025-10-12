@@ -1,0 +1,69 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "14w02b",
+  "downloads": {
+    "client": {
+      "sha1": "c595430ae9d3624bae57b6cb5719399d87a0fe61",
+      "size": 5286472,
+      "url": "https://launcher.mojang.com/v1/objects/c595430ae9d3624bae57b6cb5719399d87a0fe61/client.jar"
+    },
+    "server": {
+      "sha1": "2f873b2fd721c9ed5ef51e80df96d10e5390ee9f",
+      "size": 9221689,
+      "url": "https://launcher.mojang.com/v1/objects/2f873b2fd721c9ed5ef51e80df96d10e5390ee9f/server.jar"
+    },
+    "windows_server": {
+      "sha1": "ae141a3e630991520327f9f4f9ad5516359624ff",
+      "size": 9617465,
+      "url": "https://launcher.mojang.com/v1/objects/ae141a3e630991520327f9f4f9ad5516359624ff/windows_server.exe"
+    }
+  },
+  "id": "14w02b",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:15.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.2",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-io:commons-io:2.4",
+    "io.netty:netty-all:4.0.10.Final",
+    "java3d:vecmath:1.3.1",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "net.sf.trove4j:trove4j:3.0.3",
+    "org.apache.commons:commons-lang3:3.1",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.1",
+    "tv.twitch:twitch-platform:5.12",
+    "tv.twitch:twitch:5.12"
+  ],
+  "next": [
+    "14w02c"
+  ],
+  "normalizedVersion": "1.8.0-alpha.14.2.b",
+  "previous": [
+    "14w02a"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 5
+  },
+  "releaseTarget": "1.8",
+  "releaseTime": "2014-01-09T15:45:55+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

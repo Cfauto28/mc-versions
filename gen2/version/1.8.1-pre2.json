@@ -1,0 +1,72 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "1.8.1-pre2",
+  "downloads": {
+    "client": {
+      "sha1": "e326dea1becc6e1372b05bfe2440531d13f76959",
+      "size": 7758982,
+      "url": "https://launcher.mojang.com/v1/objects/e326dea1becc6e1372b05bfe2440531d13f76959/client.jar"
+    },
+    "server": {
+      "sha1": "d0b163d9a442e8b49187e4925ef75970ad451f41",
+      "size": 7900164,
+      "url": "https://launcher.mojang.com/v1/objects/d0b163d9a442e8b49187e4925ef75970ad451f41/server.jar"
+    },
+    "windows_server": {
+      "sha1": "9dce33afa6eb49ea692741346c041f143da6332e",
+      "size": 8294404,
+      "url": "https://launcher.mojang.com/v1/objects/9dce33afa6eb49ea692741346c041f143da6332e/windows_server.exe"
+    }
+  },
+  "id": "1.8.1-pre2",
+  "libraries": [
+    "com.google.code.gson:gson:2.2.4",
+    "com.google.guava:guava:17.0",
+    "com.ibm.icu:icu4j-core-mojang:51.2",
+    "com.mojang:authlib:1.5.17",
+    "com.mojang:netty:1.8.8",
+    "com.paulscode:codecjorbis:20101023",
+    "com.paulscode:codecwav:20101023",
+    "com.paulscode:libraryjavasound:20101123",
+    "com.paulscode:librarylwjglopenal:20100824",
+    "com.paulscode:soundsystem:20120107",
+    "commons-codec:commons-codec:1.9",
+    "commons-io:commons-io:2.4",
+    "commons-logging:commons-logging:1.1.3",
+    "io.netty:netty-all:4.0.23.Final",
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.sf.jopt-simple:jopt-simple:4.6",
+    "org.apache.commons:commons-compress:1.8.1",
+    "org.apache.commons:commons-lang3:3.3.2",
+    "org.apache.httpcomponents:httpclient:4.3.3",
+    "org.apache.httpcomponents:httpcore:4.3.2",
+    "org.apache.logging.log4j:log4j-api:2.0-beta9",
+    "org.apache.logging.log4j:log4j-core:2.0-beta9",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl:2.9.1",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.1",
+    "tv.twitch:twitch-platform:6.5",
+    "tv.twitch:twitch:6.5"
+  ],
+  "next": [
+    "1.8.1-pre3"
+  ],
+  "normalizedVersion": "1.8.1-pre.2",
+  "previous": [
+    "1.8.1-pre1"
+  ],
+  "protocol": {
+    "type": "netty",
+    "version": 47
+  },
+  "releaseTarget": "1.8.1",
+  "releaseTime": "2014-10-16T14:19:27+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

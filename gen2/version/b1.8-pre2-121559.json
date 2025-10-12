@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "client": true,
+  "displayVersion": "Minecraft Beta 1.8 Pre-release 2 ;)",
+  "downloads": {
+    "client": {
+      "sha1": "c58de2b57cd35e84724017cc06ec7391a35654d4",
+      "size": 1896840,
+      "url": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre2-121559.jar"
+    }
+  },
+  "id": "b1.8-pre2-121559",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "b1.8-pre2-131225"
+  ],
+  "normalizedVersion": "1.0.0-beta.1.8.0.pre.2+121559",
+  "previous": [
+    "b1.8-pre1"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 16
+  },
+  "releaseTime": "2011-09-12T15:59:32+00:00",
+  "server": false,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}
