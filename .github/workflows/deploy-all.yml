@@ -32,7 +32,7 @@ jobs:
           mkdir dist
           for gen in 1 2; do
             cd ${{ github.workspace }}/repo-gen$gen
-            make dist URL_BASE="https://ornithemc.net/mc-versions/gen$gen"
+            make -e dist URL_BASE="https://ornithemc.net/mc-versions/gen$gen/"
             cp -Tr dist ${{ github.workspace }}/dist/gen$gen
           done
           cd ${{ github.workspace }}
