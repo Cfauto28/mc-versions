@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - actions
       - gen1
       - gen2
 jobs:
@@ -38,7 +39,7 @@ jobs:
           cd ${{ github.workspace }}
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           branch: gh-pages
           folder: dist
