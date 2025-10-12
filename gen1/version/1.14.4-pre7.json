@@ -59,7 +59,7 @@
       "lastModified": "2021-12-15T15:53:47+00:00",
       "time": "2019-07-18T11:32:36+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/b/7/289d163e3141a337a58aa25f48afc5a58a9f1f/1.14.4-pre7.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/b/7/289d163e3141a337a58aa25f48afc5a58a9f1f/1.14.4-pre7.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -70,7 +70,7 @@
       "lastModified": "2021-12-10T03:00:00+00:00",
       "time": "2019-07-18T11:32:36+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/c/d/39d544fb51bcc3c9b492fd3c13760ef79cc1e3/1.14.4-pre7.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/d/39d544fb51bcc3c9b492fd3c13760ef79cc1e3/1.14.4-pre7.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -81,7 +81,7 @@
       "lastModified": "2021-07-07T13:57:36+00:00",
       "time": "2019-07-18T11:32:36+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/7/2/e37d4af3232dcea5738005d6a7a6d9efe3be71/1.14.4-pre7.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/2/e37d4af3232dcea5738005d6a7a6d9efe3be71/1.14.4-pre7.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -92,7 +92,7 @@
       "lastModified": "2019-08-22T12:48:27+00:00",
       "time": "2019-07-18T11:32:36+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/6/b/843f17df31ac763913fe0fc3f8779ea333bbc5/1.14.4-pre7.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/b/843f17df31ac763913fe0fc3f8779ea333bbc5/1.14.4-pre7.json"
     },
     {
       "assetHash": "43b2f3021fe9f7d768378de95538e22da3ee8301",
@@ -103,7 +103,7 @@
       "lastModified": "2023-06-07T12:44:15+00:00",
       "time": "2019-07-18T11:32:36+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/6/6/6da0cb422d8e1328a9b6dca23e493fc547a47b/1.14.4-pre7.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/6/6da0cb422d8e1328a9b6dca23e493fc547a47b/1.14.4-pre7.json"
     }
   ],
   "next": [

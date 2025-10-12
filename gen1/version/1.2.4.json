@@ -27,7 +27,7 @@
       "downloadsId": 2,
       "hash": "aaaf49bdf3bba58a7b4094800cf3e81f693d6217",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/a/af49bdf3bba58a7b4094800cf3e81f693d6217/1.2.4.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/a/af49bdf3bba58a7b4094800cf3e81f693d6217/1.2.4.json"
     },
     {
       "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
@@ -38,7 +38,7 @@
       "lastModified": "2022-03-16T16:03:42+00:00",
       "time": "2012-03-21T22:00:00+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/1/60c0e6b6225ac6748796b708bbc53efd7fb5a8/1.2.4.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/1/60c0e6b6225ac6748796b708bbc53efd7fb5a8/1.2.4.json"
     },
     {
       "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
@@ -49,7 +49,7 @@
       "lastModified": "2019-02-14T15:33:34+00:00",
       "time": "2012-03-21T22:00:00+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/0/3/8f448ee08ad21940b1a4ed7950a5b1471cc14b/1.2.4.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/0/3/8f448ee08ad21940b1a4ed7950a5b1471cc14b/1.2.4.json"
     }
   ],
   "next": [

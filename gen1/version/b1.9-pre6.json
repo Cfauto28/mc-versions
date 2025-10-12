@@ -22,7 +22,7 @@
       "downloadsId": 2,
       "hash": "3417005dc9adfb2f51771f8d8ed41fe9a76795bc",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/4/17005dc9adfb2f51771f8d8ed41fe9a76795bc/b1.9-pre6.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/4/17005dc9adfb2f51771f8d8ed41fe9a76795bc/b1.9-pre6.json"
     },
     {
       "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
@@ -32,7 +32,7 @@
       "hash": "4a807dcabc4151327cae585f800a33cbf5271148",
       "time": "2013-08-06T14:00:00+03:00",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/4/a/807dcabc4151327cae585f800a33cbf5271148/b1.9-pre6.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/4/a/807dcabc4151327cae585f800a33cbf5271148/b1.9-pre6.json"
     }
   ],
   "next": [

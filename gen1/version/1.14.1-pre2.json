@@ -59,7 +59,7 @@
       "lastModified": "2021-12-15T15:54:14+00:00",
       "time": "2019-05-09T14:01:04+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/d/1/cdb1ca44a28bc73f9d2447094bda27ee93db3a/1.14.1%20Pre-Release%202.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/d/1/cdb1ca44a28bc73f9d2447094bda27ee93db3a/1.14.1%20Pre-Release%202.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -70,7 +70,7 @@
       "lastModified": "2021-12-10T03:00:24+00:00",
       "time": "2019-05-09T14:01:04+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/3/e49085b8f604c88c1c88025e7ca8f6037e217f/1.14.1%20Pre-Release%202.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/3/e49085b8f604c88c1c88025e7ca8f6037e217f/1.14.1%20Pre-Release%202.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -81,7 +81,7 @@
       "lastModified": "2021-07-07T13:58:00+00:00",
       "time": "2019-05-09T14:01:04+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/6/3/40d555f357a0286af332f7c625c4181f5d6a0d/1.14.1%20Pre-Release%202.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/3/40d555f357a0286af332f7c625c4181f5d6a0d/1.14.1%20Pre-Release%202.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -92,7 +92,7 @@
       "lastModified": "2019-08-22T12:48:44+00:00",
       "time": "2019-05-09T14:01:04+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/6/9/39833d0d43dbea01fc3e26b6ed42066fe00ae5/1.14.1_Pre-Release_2.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/9/39833d0d43dbea01fc3e26b6ed42066fe00ae5/1.14.1_Pre-Release_2.json"
     },
     {
       "assetHash": "43b2f3021fe9f7d768378de95538e22da3ee8301",
@@ -103,7 +103,7 @@
       "lastModified": "2023-06-07T12:44:23+00:00",
       "time": "2019-05-09T14:01:04+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/e/9/dacddd746c1cdf0548f634e12ba16fc6fc9786/1.14.1%20Pre-Release%202.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/e/9/dacddd746c1cdf0548f634e12ba16fc6fc9786/1.14.1%20Pre-Release%202.json"
     }
   ],
   "next": [

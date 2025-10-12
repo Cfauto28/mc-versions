@@ -59,7 +59,7 @@
       "lastModified": "2021-12-15T15:54:07+00:00",
       "time": "2019-05-27T07:21:11+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/b/66ada737bac402a7064faafe4f350cc0e2dfb6/1.14.2%20Pre-Release%204.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/b/66ada737bac402a7064faafe4f350cc0e2dfb6/1.14.2%20Pre-Release%204.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -70,7 +70,7 @@
       "lastModified": "2021-12-10T03:00:18+00:00",
       "time": "2019-05-27T07:21:11+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/7/5/55dfbe87c85e0a38a102f613949d29d27bc88a/1.14.2%20Pre-Release%204.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/5/55dfbe87c85e0a38a102f613949d29d27bc88a/1.14.2%20Pre-Release%204.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -81,7 +81,7 @@
       "lastModified": "2021-07-07T13:57:54+00:00",
       "time": "2019-05-27T07:21:11+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/9/66293d3f26ef553e61e2e1188db711ac2b8434/1.14.2%20Pre-Release%204.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/9/66293d3f26ef553e61e2e1188db711ac2b8434/1.14.2%20Pre-Release%204.json"
     },
     {
       "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
@@ -92,7 +92,7 @@
       "lastModified": "2019-08-22T12:48:40+00:00",
       "time": "2019-05-27T07:21:11+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/e/cbdfd1b9322a1d846286a88ce8a30710d643e0/1.14.2_Pre-Release_4.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/e/cbdfd1b9322a1d846286a88ce8a30710d643e0/1.14.2_Pre-Release_4.json"
     },
     {
       "assetHash": "43b2f3021fe9f7d768378de95538e22da3ee8301",
@@ -103,7 +103,7 @@
       "lastModified": "2023-06-07T12:44:21+00:00",
       "time": "2019-05-27T07:21:11+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/2/d/6f695dcf668896981712ddb2d2ebca9a2f00cf/1.14.2%20Pre-Release%204.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/2/d/6f695dcf668896981712ddb2d2ebca9a2f00cf/1.14.2%20Pre-Release%204.json"
     }
   ],
   "next": [

@@ -58,7 +58,7 @@
       "lastModified": "2021-12-15T16:01:25+00:00",
       "time": "2013-12-06T13:55:34+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/2/3/d969abbfc55401b0ae55682087d52fa81b6cd1/1.7.3.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/2/3/d969abbfc55401b0ae55682087d52fa81b6cd1/1.7.3.json"
     },
     {
       "assetHash": "f6cf726f4747128d13887010c2cbc44ba83504d9",
@@ -69,7 +69,7 @@
       "lastModified": "2021-07-07T14:04:37+00:00",
       "time": "2013-12-06T13:55:34+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/2/fbeb31bc2f1e91e24c4dc28cd69dae1173e8f8/1.7.3.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/2/fbeb31bc2f1e91e24c4dc28cd69dae1173e8f8/1.7.3.json"
     },
     {
       "assetHash": "f6cf726f4747128d13887010c2cbc44ba83504d9",
@@ -80,7 +80,7 @@
       "lastModified": "2018-08-29T13:02:23+00:00",
       "time": "2013-12-06T13:55:34+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/d/6/8ce38f20a409f165032a183994fd60b7d584a2/1.7.3.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/d/6/8ce38f20a409f165032a183994fd60b7d584a2/1.7.3.json"
     }
   ],
   "next": [

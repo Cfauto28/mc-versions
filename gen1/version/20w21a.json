@@ -70,7 +70,7 @@
       "lastModified": "2022-02-25T13:39:18+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/6/524c750e45c2fb2da7df65f4faff07007d583b/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/6/524c750e45c2fb2da7df65f4faff07007d583b/20w21a.json"
     },
     {
       "assetHash": "738b17ea266089b5e384791eb5a2cf1fafe109b6",
@@ -81,7 +81,7 @@
       "lastModified": "2021-12-15T15:52:20+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/b/6/a4db086a359e78f5e566fe2da9968a59446c99/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/b/6/a4db086a359e78f5e566fe2da9968a59446c99/20w21a.json"
     },
     {
       "assetHash": "738b17ea266089b5e384791eb5a2cf1fafe109b6",
@@ -92,7 +92,7 @@
       "lastModified": "2021-12-10T02:58:40+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/7/9/253513643c5f1080552a5b50d0e4d61cec7872/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/9/253513643c5f1080552a5b50d0e4d61cec7872/20w21a.json"
     },
     {
       "assetHash": "738b17ea266089b5e384791eb5a2cf1fafe109b6",
@@ -103,7 +103,7 @@
       "lastModified": "2021-11-30T09:49:04+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/9/b/6cc0821f94c2849d9ec24bdd3561760343682e/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/9/b/6cc0821f94c2849d9ec24bdd3561760343682e/20w21a.json"
     },
     {
       "assetHash": "ad75fb46ff5c89aa5f9c90e12481e963854f9a6e",
@@ -114,7 +114,7 @@
       "lastModified": "2021-07-07T13:56:17+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/1/a/cac84854ee71d50cef9695e8bda9477114d11e/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/1/a/cac84854ee71d50cef9695e8bda9477114d11e/20w21a.json"
     },
     {
       "assetHash": "ad75fb46ff5c89aa5f9c90e12481e963854f9a6e",
@@ -125,7 +125,7 @@
       "lastModified": "2021-06-29T15:20:35+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/8/d/871f95dbec0d4cac1bddffe06d36f0c5cc3d69/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/8/d/871f95dbec0d4cac1bddffe06d36f0c5cc3d69/20w21a.json"
     },
     {
       "assetHash": "3a5d110a6ab102c7083bae4296d2de4b8fcf92eb",
@@ -136,7 +136,7 @@
       "lastModified": "2021-01-13T14:12:34+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/e/5/c868dbb3ee9aa2abe4e7071575bb9050b9f26e/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/e/5/c868dbb3ee9aa2abe4e7071575bb9050b9f26e/20w21a.json"
     },
     {
       "assetHash": "f8e11ca03b475dd655755b945334c7a0ac2c3b43",
@@ -147,7 +147,7 @@
       "lastModified": "2020-12-02T16:57:24+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/c/b24f37dc8f532b8ab9d4241754be7e07cc70f9/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/c/b24f37dc8f532b8ab9d4241754be7e07cc70f9/20w21a.json"
     },
     {
       "assetHash": "6aeb80664ca8c3c1e114f9ee428bb0bd7d29b1ab",
@@ -158,7 +158,7 @@
       "lastModified": "2020-11-02T16:33:50+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/0/e/1965ca17066783be1ded931a55bae8f286c295/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/0/e/1965ca17066783be1ded931a55bae8f286c295/20w21a.json"
     },
     {
       "assetHash": "f3c4aa96e12951cd2781b3e1c0e8ab82bf719cf2",
@@ -169,7 +169,7 @@
       "lastModified": "2023-06-07T12:43:44+00:00",
       "time": "2020-05-20T12:07:18+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/7/5/3ead80dc9808a48f10991841dd5add50679254/20w21a.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/5/3ead80dc9808a48f10991841dd5add50679254/20w21a.json"
     }
   ],
   "next": [

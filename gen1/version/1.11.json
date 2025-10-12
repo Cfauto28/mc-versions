@@ -58,7 +58,7 @@
       "lastModified": "2021-12-15T15:57:18+00:00",
       "time": "2016-11-14T14:34:40+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/4/7/b4ea166f3fc17f11e843e732a1a0ee025f79bc/1.11.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/4/7/b4ea166f3fc17f11e843e732a1a0ee025f79bc/1.11.json"
     },
     {
       "assetHash": "4fa7f939c7e9902e6c674ad1d00358f8c08d7b8e",
@@ -69,7 +69,7 @@
       "lastModified": "2021-07-07T14:00:50+00:00",
       "time": "2016-11-14T14:34:40+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/7/0/8eeb74f87ed28cb732c33e7948d685d042bbaa/1.11.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/0/8eeb74f87ed28cb732c33e7948d685d042bbaa/1.11.json"
     },
     {
       "assetHash": "4fa7f939c7e9902e6c674ad1d00358f8c08d7b8e",
@@ -80,7 +80,7 @@
       "lastModified": "2018-08-29T12:59:55+00:00",
       "time": "2016-11-14T14:34:40+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/0/7/80c892912703f81edbad3a782f5ed9d4686907/1.11.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/0/7/80c892912703f81edbad3a782f5ed9d4686907/1.11.json"
     },
     {
       "assetHash": "c64959fe73672e9b053b157f57b6aba318d0b3b5",
@@ -91,7 +91,7 @@
       "lastModified": "2023-06-07T12:45:27+00:00",
       "time": "2016-11-14T14:34:40+00:00",
       "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/1/b/bb51c4572688cc2f30ce236f37a16abb7667b0/1.11.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/1/b/bb51c4572688cc2f30ce236f37a16abb7667b0/1.11.json"
     }
   ],
   "next": [

@@ -50,7 +50,7 @@
       "lastModified": "2022-03-16T16:03:18+00:00",
       "time": "2013-06-08T00:32:01+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/1/a/cf2075121fa225484bfc25b04c118c0642f6e5/13w23b.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/1/a/cf2075121fa225484bfc25b04c118c0642f6e5/13w23b.json"
     },
     {
       "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
@@ -61,7 +61,7 @@
       "lastModified": "2019-02-14T15:33:21+00:00",
       "time": "2013-06-08T00:32:01+00:00",
       "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/e/3/2d0fd3ef27223a30085a410c640f9ee3db42aa/13w23b.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/e/3/2d0fd3ef27223a30085a410c640f9ee3db42aa/13w23b.json"
     }
   ],
   "next": [

@@ -22,7 +22,7 @@
       "downloadsId": 2,
       "hash": "3c653306b477fc0863fc83dd49b077843c9c78e1",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/c/653306b477fc0863fc83dd49b077843c9c78e1/b1.5_01.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/c/653306b477fc0863fc83dd49b077843c9c78e1/b1.5_01.json"
     },
     {
       "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
@@ -33,7 +33,7 @@
       "lastModified": "2022-03-16T16:03:53+00:00",
       "time": "2011-04-19T22:00:00+00:00",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/7/6afcb90de5ffa4023be797f629bc77cce6dc05/b1.5_01.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/7/6afcb90de5ffa4023be797f629bc77cce6dc05/b1.5_01.json"
     },
     {
       "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
@@ -44,7 +44,7 @@
       "lastModified": "2019-02-14T15:33:41+00:00",
       "time": "2011-04-19T22:00:00+00:00",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/b/0/e774bf691aa4ce779fbdc04ca21d792a511618/b1.5_01.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/b/0/e774bf691aa4ce779fbdc04ca21d792a511618/b1.5_01.json"
     },
     {
       "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
@@ -54,7 +54,7 @@
       "hash": "5b04110aed6ef7cec6a8e0de896d0ae952f05b98",
       "time": "2016-02-02T15:37:47+00:00",
       "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/b/04110aed6ef7cec6a8e0de896d0ae952f05b98/b1.5_01.json"
+      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/b/04110aed6ef7cec6a8e0de896d0ae952f05b98/b1.5_01.json"
     }
   ],
   "next": [
