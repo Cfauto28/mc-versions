@@ -1,14 +1,25 @@
-name: Build and Deploy
+name: Build and Deploy all generations
 on:
+  workflow_dispatch:
   push:
     branches:
+      - gen1
       - gen2
 jobs:
-  build-and-deploy:
+  build-and-deploy-all-gens:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout gen1
         uses: actions/checkout@v2
+        with:
+          ref: gen1
+          path: repo-gen1
+
+      - name : Checkout gen2
+        uses: actions/checkout@v2
+        with:
+          ref: gen2
+          path: repo-gen2
 
       - name: Set up Deno
         uses: denolib/setup-deno@v2
@@ -17,10 +28,17 @@ jobs:
 
       - name: Build
         run: |
-          make dist
+          mkdir dist
+          for gen in 1 2; do
+            cd ${{ github.workspace }}/repo-gen$gen
+            URL_BASE="https://ornithemc.net/mc-versions/gen$gen"
+            make -e dist
+            cp -Tr dist ${{ github.workspace }}/dist/gen$gen
+          done
+          cd ${{ github.workspace }}
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: gen2-gh-pages
+          branch: gh-pages
           folder: dist
