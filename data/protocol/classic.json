@@ -1,5 +1,5 @@
 {
-  "$schema": "file:///home/simon/git/mc-versions/data/schemas/protocol.json",
+  "$schema": "https://ornithemc.net/mc-versions/schemas/protocol.json",
   "type": "classic",
   "versions": [
     {
