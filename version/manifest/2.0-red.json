@@ -63,17 +63,17 @@
   "assets": "pre-1.6",
   "downloads": {
     "client": {
-      "sha1": "a9add3b4aca10f190fec4dd460ccb4f0f9115d5f",
-      "size": 5614735,
-      "url": "https://vault.omniarchive.uk/archive/java/client-april-fools/2.0-blue.jar"
+      "sha1": "8da6087efaed9e2397d76e74dd558337cc47538f",
+      "size": 5570878,
+      "url": "https://vault.omniarchive.uk/archive/java/client-april-fools/2.0-red.jar"
     },
     "server": {
-      "sha1": "8eea28a45dc3f5519c7239fc0e8171bce9d6d781",
-      "size": 2382838,
-      "url": "https://vault.omniarchive.uk/archive/java/server-april-fools/2.0-blue.jar"
+      "sha1": "9fe138577c08bc12e9f8a07bbb20953ac94d0418",
+      "size": 2369046,
+      "url": "https://vault.omniarchive.uk/archive/java/server-april-fools/2.0-red.jar"
     }
   },
-  "id": "af-2013-blue",
+  "id": "2.0-red",
   "javaVersion": {
     "component": "jre-legacy",
     "majorVersion": 8
@@ -373,7 +373,7 @@
   "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 4,
-  "releaseTime": "2013-04-01T17:40:00+00:00",
-  "time": "2013-04-01T17:40:00+00:00",
+  "releaseTime": "2013-04-01T17:34:00+00:00",
+  "time": "2013-04-01T17:34:00+00:00",
   "type": "snapshot"
 }
