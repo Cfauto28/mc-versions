@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Combat Test 7b",
   "downloads": {
@@ -59,18 +59,6 @@
     "org.lwjgl:lwjgl-tinyfd:3.2.2",
     "org.lwjgl:lwjgl:3.2.2",
     "oshi-project:oshi-core:1.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
-      "assetIndex": "1.16",
-      "downloads": "a5882b476f58881b558cdcd8c9861010d6c14f80",
-      "downloadsId": 1,
-      "hash": "5188053b642f376b1b1a9bafd9c9ff9333d13252",
-      "time": "2020-08-13T11:56:30+00:00",
-      "type": "pending",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/1/88053b642f376b1b1a9bafd9c9ff9333d13252/1_16_combat-2.json"
-    }
   ],
   "next": [
     "combat-7c"

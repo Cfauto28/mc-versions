@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "15w50a",
   "downloads": {
@@ -51,52 +51,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "80c36b1a0d3b0f83a0be63acefb51a3807994124",
-      "downloadsId": 1,
-      "hash": "565c0c62f0b85181a78e0fd58ed6880bcd946f3b",
-      "lastModified": "2021-12-15T15:58:26+00:00",
-      "time": "2015-12-09T15:35:57+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/6/5c0c62f0b85181a78e0fd58ed6880bcd946f3b/15w50a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "80c36b1a0d3b0f83a0be63acefb51a3807994124",
-      "downloadsId": 1,
-      "hash": "aa2ab43d1f3d81439b9da22f21efa0bed9b9dc91",
-      "lastModified": "2021-07-07T14:01:51+00:00",
-      "time": "2015-12-09T15:35:57+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/a/a/2ab43d1f3d81439b9da22f21efa0bed9b9dc91/15w50a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "80c36b1a0d3b0f83a0be63acefb51a3807994124",
-      "downloadsId": 1,
-      "hash": "0062e38c53897394c1f2e863b3e2e8ba27a35945",
-      "lastModified": "2018-08-29T13:00:43+00:00",
-      "time": "2015-12-09T15:35:57+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/0/0/62e38c53897394c1f2e863b3e2e8ba27a35945/15w50a.json"
-    },
-    {
-      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
-      "assetIndex": "1.9",
-      "downloads": "80c36b1a0d3b0f83a0be63acefb51a3807994124",
-      "downloadsId": 1,
-      "hash": "c237c30bbfa3ca43de3664b25d4c48e6f4ed5fb5",
-      "lastModified": "2023-06-07T12:45:47+00:00",
-      "time": "2015-12-09T15:35:57+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/2/37c30bbfa3ca43de3664b25d4c48e6f4ed5fb5/15w50a.json"
-    }
   ],
   "next": [
     "15w51a"

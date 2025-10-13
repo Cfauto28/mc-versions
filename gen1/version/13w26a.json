@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "13w26a",
   "downloads": {
@@ -39,19 +39,6 @@
     "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
-  ],
-  "manifests": [
-    {
-      "assetHash": "770572e819335b6c0a053f8378ad88eda189fc14",
-      "assetIndex": "legacy",
-      "downloads": "671104a91c6733acbf03cba4deebbdd8cfbdeef8",
-      "downloadsId": 1,
-      "hash": "7ee9e11660839f2f413b8d5bf9d5d70b42dc5791",
-      "lastModified": "2018-08-29T13:02:41+00:00",
-      "time": "2013-06-24T16:06:06+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/e/e9e11660839f2f413b8d5bf9d5d70b42dc5791/13w26a.json"
-    }
   ],
   "next": [
     "1.6-pre-06251516"

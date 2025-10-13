@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "1.18 experimental snapshot 6",
   "downloads": {
@@ -62,18 +62,6 @@
     "org.lwjgl:lwjgl-tinyfd:3.2.2",
     "org.lwjgl:lwjgl:3.2.2",
     "org.slf4j:slf4j-api:1.8.0-beta4"
-  ],
-  "manifests": [
-    {
-      "assetHash": "e5af543d9b3ce1c063a97842c38e50e29f961f00",
-      "assetIndex": "1.17",
-      "downloads": "ffd73eb86460d875c783468efe9dc174fcf06ca4",
-      "downloadsId": 1,
-      "hash": "9e3bf8e1d0c7ea54e798fe7c0756ccd37dd6352e",
-      "time": "2021-09-01T12:53:14+00:00",
-      "type": "pending",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/9/e/3bf8e1d0c7ea54e798fe7c0756ccd37dd6352e/1_18_experimental-snapshot-6.json"
-    }
   ],
   "next": [
     "1.18_experimental-snapshot-7"

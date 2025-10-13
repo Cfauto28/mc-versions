@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Minecraft Alpha v1.0.14",
   "downloads": {
@@ -20,18 +20,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "1e12e5a4b25cc7c5440ac8eeab928b523372181d",
-      "downloadsId": 1,
-      "hash": "95bc8e865b8cbd7c71947b2d09b41e1a3568c6dc",
-      "time": "2017-10-22T05:26:50+00:00",
-      "type": "old_alpha",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/9/5/bc8e865b8cbd7c71947b2d09b41e1a3568c6dc/a1.0.14-2.json"
-    }
   ],
   "next": [
     "a1.0.15"

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": false,
   "displayVersion": "0.2.6",
   "downloads": {
@@ -11,15 +11,6 @@
   },
   "id": "server-a0.2.6",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "88bf31b49464c212bb52afd4b00225099c08230e",
-      "downloadsId": 1,
-      "hash": "66be63f0575dffb8ab459f909c870f49fdf74dcd",
-      "type": "alpha_server",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/6/be63f0575dffb8ab459f909c870f49fdf74dcd/a0.2.6.json"
-    }
-  ],
   "next": [
     "server-a0.2.6_01"
   ],

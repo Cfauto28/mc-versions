@@ -1,0 +1,46 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/gen2/schemas/version.json",
+  "client": true,
+  "displayVersion": "2.0",
+  "downloads": {
+    "client": {
+      "sha1": "a9add3b4aca10f190fec4dd460ccb4f0f9115d5f",
+      "size": 5614735,
+      "url": "https://vault.omniarchive.uk/archive/java/client-april-fools/2.0-blue.jar"
+    },
+    "server": {
+      "sha1": "8eea28a45dc3f5519c7239fc0e8171bce9d6d781",
+      "size": 2382838,
+      "url": "https://vault.omniarchive.uk/archive/java/server-april-fools/2.0-blue.jar"
+    }
+  },
+  "id": "2.0-blue",
+  "libraries": [
+    "net.java.jinput:jinput-platform:2.0.5",
+    "net.java.jinput:jinput:2.0.5",
+    "net.java.jutils:jutils:1.0.0",
+    "net.minecraft:launchwrapper:1.5",
+    "net.sf.jopt-simple:jopt-simple:4.5",
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl:2.9.0",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
+    "org.ow2.asm:asm-all:4.1"
+  ],
+  "next": [
+    "2.0-purple"
+  ],
+  "normalizedVersion": "2.0.0-april.fools.1.blue",
+  "previous": [
+    "1.5.1"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 90
+  },
+  "releaseTime": "2013-04-01T17:40:00+00:00",
+  "server": true,
+  "sharedMappings": true,
+  "world": {
+    "format": "anvil"
+  }
+}

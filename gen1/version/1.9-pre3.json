@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "1.9-pre3",
   "downloads": {
@@ -46,52 +46,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "a7c76e1aa9f1924739b1f6c5cd0ae891301185d9",
-      "downloadsId": 1,
-      "hash": "88d594829c5c30c0b331dba30f3e2bc3b0fbd19e",
-      "lastModified": "2021-12-15T15:58:09+00:00",
-      "time": "2016-02-24T15:52:36+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/8/8/d594829c5c30c0b331dba30f3e2bc3b0fbd19e/1.9-pre3.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "a7c76e1aa9f1924739b1f6c5cd0ae891301185d9",
-      "downloadsId": 1,
-      "hash": "48372c444636d120d1ecce7b327704233973b6b1",
-      "lastModified": "2021-07-07T14:01:36+00:00",
-      "time": "2016-02-24T15:52:36+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/4/8/372c444636d120d1ecce7b327704233973b6b1/1.9-pre3.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "a7c76e1aa9f1924739b1f6c5cd0ae891301185d9",
-      "downloadsId": 1,
-      "hash": "3909edf5d77361cdc8fbab9ed151d1a710c0c323",
-      "lastModified": "2018-08-29T13:00:32+00:00",
-      "time": "2016-02-24T15:52:36+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/3/9/09edf5d77361cdc8fbab9ed151d1a710c0c323/1.9-pre3.json"
-    },
-    {
-      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
-      "assetIndex": "1.9",
-      "downloads": "a7c76e1aa9f1924739b1f6c5cd0ae891301185d9",
-      "downloadsId": 1,
-      "hash": "7d91c1d33da9f9d9a9093066a1d16e497db27e08",
-      "lastModified": "2023-06-07T12:45:42+00:00",
-      "time": "2016-02-24T15:52:36+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/d/91c1d33da9f9d9a9093066a1d16e497db27e08/1.9-pre3.json"
-    }
   ],
   "next": [
     "1.9-pre4"

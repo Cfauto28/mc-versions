@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Minecraft Beta 1.2_02",
   "downloads": {
@@ -20,18 +20,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "cd7c54e4b95e8f0299ff8c9654dc37260e9e8c16",
-      "downloadsId": 1,
-      "hash": "fe312aee11af01de0e6686691e54011dedc509a4",
-      "time": "2016-02-02T15:37:47+00:00",
-      "type": "old_beta",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/f/e/312aee11af01de0e6686691e54011dedc509a4/b1.2_02.json"
-    }
   ],
   "next": [
     "b1.3-1647",

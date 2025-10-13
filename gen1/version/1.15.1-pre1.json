@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "1.15.1 Pre-release 1",
   "downloads": {
@@ -59,74 +59,6 @@
     "org.lwjgl:lwjgl-tinyfd:3.2.2",
     "org.lwjgl:lwjgl:3.2.2",
     "oshi-project:oshi-core:1.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "3b41ad81220d2f21ff5b343629de725047dac13d",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "c67858b6053d55dd20ab0505b4c2ff9d4c2a3266",
-      "lastModified": "2021-12-15T15:53:03+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/6/7858b6053d55dd20ab0505b4c2ff9d4c2a3266/1.15.1-pre1.json"
-    },
-    {
-      "assetHash": "3b41ad81220d2f21ff5b343629de725047dac13d",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "7bbda46ad1bf5dd2c38f7df202d0ba9d33c16199",
-      "lastModified": "2021-12-10T02:59:20+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/b/bda46ad1bf5dd2c38f7df202d0ba9d33c16199/1.15.1-pre1.json"
-    },
-    {
-      "assetHash": "3b41ad81220d2f21ff5b343629de725047dac13d",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "e270bdce94202b55bf6e10038c9f14db706f36d8",
-      "lastModified": "2021-07-07T13:56:55+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/e/2/70bdce94202b55bf6e10038c9f14db706f36d8/1.15.1-pre1.json"
-    },
-    {
-      "assetHash": "3b41ad81220d2f21ff5b343629de725047dac13d",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "5991b9f38cc5640c85c8335762a0c1d11b3f2229",
-      "lastModified": "2021-06-29T15:21:14+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/5/9/91b9f38cc5640c85c8335762a0c1d11b3f2229/1.15.1-pre1.json"
-    },
-    {
-      "assetHash": "bfdce6db2ba511d7dba9ef81910943d6c3d2608d",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "c2ad132caaea20bac8694d57da4c1bdcb1196e2f",
-      "lastModified": "2020-08-24T15:05:34+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/2/ad132caaea20bac8694d57da4c1bdcb1196e2f/1.15.1-pre1.json"
-    },
-    {
-      "assetHash": "58c12b1e2878e0a78719778acb803746450b3f1c",
-      "assetIndex": "1.15",
-      "downloads": "3f9f20f4f758db452589c329b9f0623414970129",
-      "downloadsId": 1,
-      "hash": "c6f0bfc16f42591c87dbc9c89352845c23c89a71",
-      "lastModified": "2023-06-07T12:43:59+00:00",
-      "time": "2019-12-12T14:02:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/6/f0bfc16f42591c87dbc9c89352845c23c89a71/1.15.1-pre1.json"
-    }
   ],
   "next": [
     "1.15.1"

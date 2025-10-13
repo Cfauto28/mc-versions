@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Deep Dark Experimental Snapshot 1",
   "downloads": {
@@ -61,18 +61,6 @@
     "org.lwjgl:lwjgl-tinyfd:3.2.2",
     "org.lwjgl:lwjgl:3.2.2",
     "org.slf4j:slf4j-api:1.8.0-beta4"
-  ],
-  "manifests": [
-    {
-      "assetHash": "f91cf48b5e282816e251797d3406d4514e20c3a8",
-      "assetIndex": "1.19_deep_dark_side_snapshot",
-      "downloads": "2190547641e3b77cfce3b0848c4b3f4ed8a7bc7f",
-      "downloadsId": 1,
-      "hash": "73c267fd4ea4e7593c9b51b9f4d7e7babc9f5498",
-      "time": "2022-02-17T13:55:59+00:00",
-      "type": "pending",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/7/3/c267fd4ea4e7593c9b51b9f4d7e7babc9f5498/1_19_deep_dark_experimental_snapshot-1.json"
-    }
   ],
   "next": [],
   "normalizedVersion": "1.19.0-Deep.Dark.Experimental.1",

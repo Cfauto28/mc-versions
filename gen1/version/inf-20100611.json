@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Minecraft Infdev",
   "downloads": {
@@ -20,18 +20,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "f1ab028a5f19b670c8ff6c0a6bc407f3dd569fd8",
-      "downloadsId": 1,
-      "hash": "cea828b9d5f406743f7fe353e6378d9fcd5aec9f",
-      "time": "2015-04-13T07:33:30-07:00",
-      "type": "old_alpha",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/e/a828b9d5f406743f7fe353e6378d9fcd5aec9f/inf-20100611.json"
-    }
   ],
   "next": [
     "inf-20100615"

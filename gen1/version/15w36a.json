@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "15w36a",
   "downloads": {
@@ -51,41 +51,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
-      "assetIndex": "1.8",
-      "downloads": "2aff21002ab51a17a889bbaed2110d1b30dc7b83",
-      "downloadsId": 1,
-      "hash": "cea24a7b0be7f2c96b08c0ad0b1b89fce04b0dc8",
-      "lastModified": "2021-12-15T15:59:04+00:00",
-      "time": "2015-09-02T14:46:40+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/c/e/a24a7b0be7f2c96b08c0ad0b1b89fce04b0dc8/15w36a.json"
-    },
-    {
-      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
-      "assetIndex": "1.8",
-      "downloads": "2aff21002ab51a17a889bbaed2110d1b30dc7b83",
-      "downloadsId": 1,
-      "hash": "6eafcdbbfe845bb58fe9db637aa0a025589bfb39",
-      "lastModified": "2021-07-07T14:02:27+00:00",
-      "time": "2015-09-02T14:46:40+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/6/e/afcdbbfe845bb58fe9db637aa0a025589bfb39/15w36a.json"
-    },
-    {
-      "assetHash": "f6ad102bcaa53b1a58358f16e376d548d44933ec",
-      "assetIndex": "1.8",
-      "downloads": "2aff21002ab51a17a889bbaed2110d1b30dc7b83",
-      "downloadsId": 1,
-      "hash": "bc973885dd8f81bbd78d4e2566bee41079b04b97",
-      "lastModified": "2018-08-29T13:01:04+00:00",
-      "time": "2015-09-02T14:46:40+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/b/c/973885dd8f81bbd78d4e2566bee41079b04b97/15w36a.json"
-    }
   ],
   "next": [
     "15w36b"

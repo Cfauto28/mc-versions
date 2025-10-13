@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "0.30",
   "downloads": {
@@ -20,18 +20,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "41011443b1601b69322fe9cf75f29787c9fd0ea2",
-      "downloadsId": 1,
-      "hash": "19b78d6b9fe7fe79b8819eadce68590dec16379d",
-      "time": "2013-08-06T17:33:30+03:00",
-      "type": "old_alpha",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/1/9/b78d6b9fe7fe79b8819eadce68590dec16379d/c0.30-1.json"
-    }
   ],
   "next": [
     "c0.30-c"

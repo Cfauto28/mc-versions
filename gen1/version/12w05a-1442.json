@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version.json",
   "client": true,
   "displayVersion": "Minecraft 12w05a",
   "downloads": {
@@ -25,18 +25,6 @@
     "org.lwjgl.lwjgl:lwjgl:2.9.0",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
-  ],
-  "manifests": [
-    {
-      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
-      "assetIndex": "pre-1.6",
-      "downloads": "ccd24c5acefc3090f767b09685d24624f21ce1a1",
-      "downloadsId": 1,
-      "hash": "13add98d66af68911102b51e2622264fd454bd47",
-      "time": "2012-02-02T14:43:49+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/gen1/manifest/1/3/add98d66af68911102b51e2622264fd454bd47/12w05a-1442.json"
-    }
   ],
   "next": [
     "12w05b"
