@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ornithemc.net/mc-versions/schemas/release_targets.json",
+  "$id": "https://ornithemc.net/mc-versions/gen1/schemas/release_targets.json",
   "$defs": {
     "version": {
       "description": "A version in the Omniarchive format",

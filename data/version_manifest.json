@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version_manifest.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen1/schemas/version_manifest.json",
   "latest": {
     "old_alpha": "a1.2.6",
     "classic_server": "server-c1.10.1",
