@@ -47,52 +47,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "616464c35251f1d962fc9c940ac3e4bf0614654a",
-      "downloadsId": 1,
-      "hash": "352cf229ab48024740f2aeae3bf459970c0aebdc",
-      "lastModified": "2021-12-15T15:58:13+00:00",
-      "time": "2016-02-16T15:22:39+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/3/5/2cf229ab48024740f2aeae3bf459970c0aebdc/16w07b.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "616464c35251f1d962fc9c940ac3e4bf0614654a",
-      "downloadsId": 1,
-      "hash": "52c2b42c5c9b01b4752dd0bbfa08ef191766b088",
-      "lastModified": "2021-07-07T14:01:39+00:00",
-      "time": "2016-02-16T15:22:39+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/2/c2b42c5c9b01b4752dd0bbfa08ef191766b088/16w07b.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "616464c35251f1d962fc9c940ac3e4bf0614654a",
-      "downloadsId": 1,
-      "hash": "a7c4b150f38763a2468837bf167bfe1a94a0c2e8",
-      "lastModified": "2018-08-29T13:00:35+00:00",
-      "time": "2016-02-16T15:22:39+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/a/7/c4b150f38763a2468837bf167bfe1a94a0c2e8/16w07b.json"
-    },
-    {
-      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
-      "assetIndex": "1.9",
-      "downloads": "616464c35251f1d962fc9c940ac3e4bf0614654a",
-      "downloadsId": 1,
-      "hash": "d489a8f4ea074a18d40a8b83b13bb27ba4ea11f5",
-      "lastModified": "2023-06-07T12:45:43+00:00",
-      "time": "2016-02-16T15:22:39+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/d/4/89a8f4ea074a18d40a8b83b13bb27ba4ea11f5/16w07b.json"
-    }
-  ],
   "next": [
     "1.9-pre1"
   ],

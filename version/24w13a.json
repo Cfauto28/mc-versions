@@ -72,19 +72,6 @@
     "org.lz4:lz4-java:1.8.0",
     "org.slf4j:slf4j-api:2.0.9"
   ],
-  "manifests": [
-    {
-      "assetHash": "0b779bfa8ac3797a58f2f0f49612d4108a2316dc",
-      "assetIndex": "16",
-      "downloads": "8d1bfd7a13ce4a547599656de2f13f933382707a",
-      "downloadsId": 1,
-      "hash": "52a022fefcb16c8caec7ab733e02770e02f08468",
-      "lastModified": "2024-03-27T14:58:56+00:00",
-      "time": "2024-03-27T14:30:20+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/2/a022fefcb16c8caec7ab733e02770e02f08468/24w13a.json"
-    }
-  ],
   "next": [],
   "normalizedVersion": "1.20.5-alpha.24.13.a",
   "previous": [

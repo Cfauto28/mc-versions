@@ -63,52 +63,6 @@
     "org.lwjgl:lwjgl:3.2.2",
     "org.slf4j:slf4j-api:1.8.0-beta4"
   ],
-  "manifests": [
-    {
-      "assetHash": "92aa15a18127b6f9e3f0e5a7d018be7ebb389703",
-      "assetIndex": "1.18",
-      "downloads": "a2b96bcae01d5ecc1036df9b800d1a619a67db39",
-      "downloadsId": 1,
-      "hash": "f9b80fb1bccd2b1227a7ae816bc53d3153831afb",
-      "lastModified": "2022-10-13T10:22:51+00:00",
-      "time": "2022-02-28T10:42:45+00:00",
-      "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/f/9/b80fb1bccd2b1227a7ae816bc53d3153831afb/1.18.2.json"
-    },
-    {
-      "assetHash": "de57d9f6d65a980f86df431603287248d4f148b5",
-      "assetIndex": "1.18",
-      "downloads": "a2b96bcae01d5ecc1036df9b800d1a619a67db39",
-      "downloadsId": 1,
-      "hash": "bf5a26b0bb7407a027b4488213c785b52b3ee66a",
-      "lastModified": "2022-06-07T09:49:48+00:00",
-      "time": "2022-02-28T10:42:45+00:00",
-      "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/b/f/5a26b0bb7407a027b4488213c785b52b3ee66a/1.18.2.json"
-    },
-    {
-      "assetHash": "7fcda714d4a391a711ce434fa1dbbebe73ecf179",
-      "assetIndex": "1.18",
-      "downloads": "a2b96bcae01d5ecc1036df9b800d1a619a67db39",
-      "downloadsId": 1,
-      "hash": "5bfeefc541a3125af909828bda3ef44dcff7973f",
-      "lastModified": "2022-02-28T10:50:47+00:00",
-      "time": "2022-02-28T10:42:45+00:00",
-      "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/b/feefc541a3125af909828bda3ef44dcff7973f/1.18.2.json"
-    },
-    {
-      "assetHash": "d31a2e85ae149dd1b1a7070b22cb8887892fda6c",
-      "assetIndex": "1.18",
-      "downloads": "a2b96bcae01d5ecc1036df9b800d1a619a67db39",
-      "downloadsId": 1,
-      "hash": "c1b048f7ef3e7e1f5a30b8db1914d3bad8e36771",
-      "lastModified": "2023-06-07T12:42:34+00:00",
-      "time": "2022-02-28T10:42:45+00:00",
-      "type": "release",
-      "url": "https://ornithemc.net/mc-versions/manifest/c/1/b048f7ef3e7e1f5a30b8db1914d3bad8e36771/1.18.2.json"
-    }
-  ],
   "next": [
     "22w11a",
     "af-2022"

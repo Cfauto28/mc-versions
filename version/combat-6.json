@@ -60,18 +60,6 @@
     "org.lwjgl:lwjgl:3.2.2",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "17cc2f37d6eaa3cd36e7165e2c66dbe85209083a",
-      "assetIndex": "1.16",
-      "downloads": "ebea2aa995a6e095fbc1db2348d2ae279430d494",
-      "downloadsId": 1,
-      "hash": "9f094e9a21879e0dfc891404a58245e18774776a",
-      "time": "2020-08-07T10:44:47+00:00",
-      "type": "pending",
-      "url": "https://ornithemc.net/mc-versions/manifest/9/f/094e9a21879e0dfc891404a58245e18774776a/1_16_combat-0.json"
-    }
-  ],
   "next": [
     "combat-7a"
   ],

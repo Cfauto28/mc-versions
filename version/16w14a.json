@@ -47,52 +47,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "c48cde054f75506b8258c6d50d9664892d2eb663",
-      "downloadsId": 1,
-      "hash": "df47a121c7b886f2a6dbfa15d907b47d60d86333",
-      "lastModified": "2021-12-15T15:57:58+00:00",
-      "time": "2016-04-07T12:47:51+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/d/f/47a121c7b886f2a6dbfa15d907b47d60d86333/16w14a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "c48cde054f75506b8258c6d50d9664892d2eb663",
-      "downloadsId": 1,
-      "hash": "1115e3dc9e2508d0658ab8c9ef1905fcee0c9395",
-      "lastModified": "2021-07-07T14:01:26+00:00",
-      "time": "2016-04-07T12:47:51+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/1/1/15e3dc9e2508d0658ab8c9ef1905fcee0c9395/16w14a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "c48cde054f75506b8258c6d50d9664892d2eb663",
-      "downloadsId": 1,
-      "hash": "d500bd6a8a7fa26b030ca135c7167750c7e74ec7",
-      "lastModified": "2018-08-29T13:00:24+00:00",
-      "time": "2016-04-07T12:47:51+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/d/5/00bd6a8a7fa26b030ca135c7167750c7e74ec7/16w14a.json"
-    },
-    {
-      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
-      "assetIndex": "1.9",
-      "downloads": "c48cde054f75506b8258c6d50d9664892d2eb663",
-      "downloadsId": 1,
-      "hash": "570f016ff92b4ab31bb18410bb1b73777e9456d0",
-      "lastModified": "2023-06-07T12:45:39+00:00",
-      "time": "2016-04-07T12:47:51+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/5/7/0f016ff92b4ab31bb18410bb1b73777e9456d0/16w14a.json"
-    }
-  ],
   "next": [
     "16w15a"
   ],

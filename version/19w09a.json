@@ -53,63 +53,6 @@
     "org.lwjgl:lwjgl:3.2.1",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
-      "assetIndex": "1.14",
-      "downloads": "2063286a0c9ae61aac524f5668d36f6b2a6d7586",
-      "downloadsId": 1,
-      "hash": "266ba8e52d505b258397ec93db1ed731f1e65198",
-      "lastModified": "2021-12-15T15:54:38+00:00",
-      "time": "2019-02-27T14:44:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/2/6/6ba8e52d505b258397ec93db1ed731f1e65198/19w09a.json"
-    },
-    {
-      "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
-      "assetIndex": "1.14",
-      "downloads": "2063286a0c9ae61aac524f5668d36f6b2a6d7586",
-      "downloadsId": 1,
-      "hash": "fac224263b6b0616e29d6e1622acad672d134d95",
-      "lastModified": "2021-12-10T03:00:47+00:00",
-      "time": "2019-02-27T14:44:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/f/a/c224263b6b0616e29d6e1622acad672d134d95/19w09a.json"
-    },
-    {
-      "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
-      "assetIndex": "1.14",
-      "downloads": "2063286a0c9ae61aac524f5668d36f6b2a6d7586",
-      "downloadsId": 1,
-      "hash": "e27700eacd7924e97a134a3932e1a31a71ea070b",
-      "lastModified": "2021-07-07T13:58:23+00:00",
-      "time": "2019-02-27T14:44:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/e/2/7700eacd7924e97a134a3932e1a31a71ea070b/19w09a.json"
-    },
-    {
-      "assetHash": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
-      "assetIndex": "1.14",
-      "downloads": "2063286a0c9ae61aac524f5668d36f6b2a6d7586",
-      "downloadsId": 1,
-      "hash": "cd9454111e74349cfeea2075f67f61972ef6ceb4",
-      "lastModified": "2019-08-22T12:49:00+00:00",
-      "time": "2019-02-27T14:44:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/c/d/9454111e74349cfeea2075f67f61972ef6ceb4/19w09a.json"
-    },
-    {
-      "assetHash": "43b2f3021fe9f7d768378de95538e22da3ee8301",
-      "assetIndex": "1.14",
-      "downloads": "2063286a0c9ae61aac524f5668d36f6b2a6d7586",
-      "downloadsId": 1,
-      "hash": "ff1a8280581b8d32c14677d1c2dfd1b895127594",
-      "lastModified": "2023-06-07T12:44:32+00:00",
-      "time": "2019-02-27T14:44:30+00:00",
-      "type": "snapshot",
-      "url": "https://ornithemc.net/mc-versions/manifest/f/f/1a8280581b8d32c14677d1c2dfd1b895127594/19w09a.json"
-    }
-  ],
   "next": [
     "19w11a"
   ],
