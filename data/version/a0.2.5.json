@@ -1,5 +1,5 @@
 {
-  "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
+  "$schema": "https://ornithemc.net/mc-versions/gen2/schemas/version.json",
   "client": false,
   "displayVersion": "0.2.5",
   "downloads": {
