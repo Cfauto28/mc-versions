@@ -51,63 +51,6 @@
     "org.lwjgl:lwjgl:3.1.2",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "23981354446ddc141dcf03cc4bfa6b2a9492aa90",
-      "assetIndex": "1.13",
-      "downloads": "8050ba68c7ebc009eab9c1834d23a01f32e3be04",
-      "downloadsId": 1,
-      "hash": "984496fb04477bd90686eee5d206af362477cb51",
-      "lastModified": "2021-12-15T15:55:50+00:00",
-      "time": "2018-05-23T13:11:49+00:00",
-      "type": "snapshot",
-      "url": "../manifest/9/8/4496fb04477bd90686eee5d206af362477cb51/18w21a.json"
-    },
-    {
-      "assetHash": "23981354446ddc141dcf03cc4bfa6b2a9492aa90",
-      "assetIndex": "1.13",
-      "downloads": "8050ba68c7ebc009eab9c1834d23a01f32e3be04",
-      "downloadsId": 1,
-      "hash": "91d4bfbe0c048d8f85f2198c28a9c987b94b5b30",
-      "lastModified": "2021-12-10T03:01:54+00:00",
-      "time": "2018-05-23T13:11:49+00:00",
-      "type": "snapshot",
-      "url": "../manifest/9/1/d4bfbe0c048d8f85f2198c28a9c987b94b5b30/18w21a.json"
-    },
-    {
-      "assetHash": "23981354446ddc141dcf03cc4bfa6b2a9492aa90",
-      "assetIndex": "1.13",
-      "downloads": "8050ba68c7ebc009eab9c1834d23a01f32e3be04",
-      "downloadsId": 1,
-      "hash": "f3db773e87bcbebd515dd1c435adc5a8cb325e10",
-      "lastModified": "2021-07-07T13:59:29+00:00",
-      "time": "2018-05-23T13:11:49+00:00",
-      "type": "snapshot",
-      "url": "../manifest/f/3/db773e87bcbebd515dd1c435adc5a8cb325e10/18w21a.json"
-    },
-    {
-      "assetHash": "23981354446ddc141dcf03cc4bfa6b2a9492aa90",
-      "assetIndex": "1.13",
-      "downloads": "8050ba68c7ebc009eab9c1834d23a01f32e3be04",
-      "downloadsId": 1,
-      "hash": "e40d04529f844c54081b7986177ab652c49995e1",
-      "lastModified": "2018-08-29T12:58:57+00:00",
-      "time": "2018-05-23T13:11:49+00:00",
-      "type": "snapshot",
-      "url": "../manifest/e/4/0d04529f844c54081b7986177ab652c49995e1/18w21a.json"
-    },
-    {
-      "assetHash": "2175b85e150c64f7ed285e7624b87c18cd992497",
-      "assetIndex": "1.13",
-      "downloads": "8050ba68c7ebc009eab9c1834d23a01f32e3be04",
-      "downloadsId": 1,
-      "hash": "c347349b0205733ace4af9cc818a0999d348c47b",
-      "lastModified": "2023-06-07T12:44:58+00:00",
-      "time": "2018-05-23T13:11:49+00:00",
-      "type": "snapshot",
-      "url": "../manifest/c/3/47349b0205733ace4af9cc818a0999d348c47b/18w21a.json"
-    }
-  ],
   "next": [
     "18w21b"
   ],

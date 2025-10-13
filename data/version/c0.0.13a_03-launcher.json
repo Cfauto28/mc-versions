@@ -21,30 +21,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
-      "assetIndex": "pre-1.6",
-      "downloads": "5d9b79c490837b7493f0a6af3769a77d9932be47",
-      "downloadsId": 1,
-      "hash": "a08b1b9ff564c9f0b99b38fce992c9d3360e1346",
-      "lastModified": "2022-03-16T16:04:20+00:00",
-      "time": "2009-05-21T22:00:00+00:00",
-      "type": "old_alpha",
-      "url": "../manifest/a/0/8b1b9ff564c9f0b99b38fce992c9d3360e1346/c0.0.13a_03.json"
-    },
-    {
-      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
-      "assetIndex": "pre-1.6",
-      "downloads": "5d9b79c490837b7493f0a6af3769a77d9932be47",
-      "downloadsId": 1,
-      "hash": "2ed44e74a40256a893db6825a53d612318f9f108",
-      "lastModified": "2019-02-14T15:33:59+00:00",
-      "time": "2009-05-21T22:00:00+00:00",
-      "type": "old_alpha",
-      "url": "../manifest/2/e/d44e74a40256a893db6825a53d612318f9f108/c0.0.13a_03.json"
-    }
-  ],
   "next": [
     "c0.0.14a_08"
   ],

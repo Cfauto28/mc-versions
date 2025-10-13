@@ -72,63 +72,6 @@
     "org.lz4:lz4-java:1.8.0",
     "org.slf4j:slf4j-api:2.0.9"
   ],
-  "manifests": [
-    {
-      "assetHash": "f732fb966ccfc05d0e707800b9f59dd9e7362ef8",
-      "assetIndex": "14",
-      "downloads": "8798a086a54cc819b39bdab75b3fd6cece5df89c",
-      "downloadsId": 1,
-      "hash": "f181b4a24dac85fd3d5e8ae8b5ad253b8958ce13",
-      "lastModified": "2024-03-27T14:58:58+00:00",
-      "time": "2024-02-28T12:38:12+00:00",
-      "type": "snapshot",
-      "url": "../manifest/f/1/81b4a24dac85fd3d5e8ae8b5ad253b8958ce13/24w09a.json"
-    },
-    {
-      "assetHash": "3e2f813f7e9909017b10ed5c2cae6eafea89eb85",
-      "assetIndex": "14",
-      "downloads": "8798a086a54cc819b39bdab75b3fd6cece5df89c",
-      "downloadsId": 1,
-      "hash": "f8b80352dfa3e9bb115cf0576f775b03eac7bca5",
-      "lastModified": "2024-03-20T14:51:25+00:00",
-      "time": "2024-02-28T12:38:12+00:00",
-      "type": "snapshot",
-      "url": "../manifest/f/8/b80352dfa3e9bb115cf0576f775b03eac7bca5/24w09a.json"
-    },
-    {
-      "assetHash": "462e18f4a548c23ccddd6f3ad48fe9f463ffef59",
-      "assetIndex": "14",
-      "downloads": "8798a086a54cc819b39bdab75b3fd6cece5df89c",
-      "downloadsId": 1,
-      "hash": "bc3bc312a42c0edfc5156cb15562c21f0b25af32",
-      "lastModified": "2024-03-14T14:31:52+00:00",
-      "time": "2024-02-28T12:38:12+00:00",
-      "type": "snapshot",
-      "url": "../manifest/b/c/3bc312a42c0edfc5156cb15562c21f0b25af32/24w09a.json"
-    },
-    {
-      "assetHash": "2f85bfe316ddcd36f6393438ecffe6254924456c",
-      "assetIndex": "14",
-      "downloads": "8798a086a54cc819b39bdab75b3fd6cece5df89c",
-      "downloadsId": 1,
-      "hash": "8470b0e3b60aad35b1b5208f6c4d3ee56297ee2c",
-      "lastModified": "2024-03-06T10:47:28+00:00",
-      "time": "2024-02-28T12:38:12+00:00",
-      "type": "snapshot",
-      "url": "../manifest/8/4/70b0e3b60aad35b1b5208f6c4d3ee56297ee2c/24w09a.json"
-    },
-    {
-      "assetHash": "79596403c5ba6186b94b3a9ce07fbcc67a2f188f",
-      "assetIndex": "14",
-      "downloads": "8798a086a54cc819b39bdab75b3fd6cece5df89c",
-      "downloadsId": 1,
-      "hash": "75a2b974c44eb8845cc2e02144880ff7666e3165",
-      "lastModified": "2024-02-28T13:19:21+00:00",
-      "time": "2024-02-28T12:38:12+00:00",
-      "type": "snapshot",
-      "url": "../manifest/7/5/a2b974c44eb8845cc2e02144880ff7666e3165/24w09a.json"
-    }
-  ],
   "next": [
     "24w10a"
   ],

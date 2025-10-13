@@ -11,15 +11,6 @@
   },
   "id": "server-c1.4.1",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "ebd7f2a84340037f4789aa96c1c39dd9b7760d9e",
-      "downloadsId": 1,
-      "hash": "28a731a336be4c5e6ec73121b0747bab8770aec4",
-      "type": "classic_server",
-      "url": "../manifest/2/8/a731a336be4c5e6ec73121b0747bab8770aec4/c1.4.1.json"
-    }
-  ],
   "next": [
     "server-c1.6"
   ],

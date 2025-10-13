@@ -21,37 +21,6 @@
   },
   "id": "1.2.2",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "949def5ca6cf5998ed431a12cfa33ea20b4faed4",
-      "downloadsId": 2,
-      "hash": "a59bb1f952d979d631a03f2eba75b2f416e27b24",
-      "type": "release",
-      "url": "../manifest/a/5/9bb1f952d979d631a03f2eba75b2f416e27b24/1.2.2.json"
-    },
-    {
-      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
-      "assetIndex": "pre-1.6",
-      "downloads": "1d2806124cb47a035cce4deb4c72300b9e724921",
-      "downloadsId": 1,
-      "hash": "cdc1a9a1a62b4bda3838a5e44b2b3ce31ad8a139",
-      "lastModified": "2022-03-16T16:03:43+00:00",
-      "time": "2012-02-29T22:00:01+00:00",
-      "type": "release",
-      "url": "../manifest/c/d/c1a9a1a62b4bda3838a5e44b2b3ce31ad8a139/1.2.2.json"
-    },
-    {
-      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
-      "assetIndex": "pre-1.6",
-      "downloads": "1d2806124cb47a035cce4deb4c72300b9e724921",
-      "downloadsId": 1,
-      "hash": "2bedf35196ec033a85fa90ef7624b56549d7579a",
-      "lastModified": "2019-02-14T15:33:35+00:00",
-      "time": "2012-02-29T22:00:01+00:00",
-      "type": "release",
-      "url": "../manifest/2/b/edf35196ec033a85fa90ef7624b56549d7579a/1.2.2.json"
-    }
-  ],
   "next": [
     "1.2.3"
   ],

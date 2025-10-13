@@ -31,18 +31,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
-      "assetIndex": "pre-1.6",
-      "downloads": "3d12fac19d57c246b84f8c0345808cdf6c607df3",
-      "downloadsId": 1,
-      "hash": "ce3de9c4b1e678e86f44527666a2921d8e05bd73",
-      "time": "2012-05-31T09:20:18+00:00",
-      "type": "snapshot",
-      "url": "../manifest/c/e/3de9c4b1e678e86f44527666a2921d8e05bd73/12w22a.json"
-    }
-  ],
   "next": [
     "12w23a"
   ],

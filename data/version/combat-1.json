@@ -49,18 +49,6 @@
     "org.lwjgl:lwjgl:3.2.2",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "abff559a3c834dbb6c9664d49293efbf625b3de2",
-      "assetIndex": "1.14",
-      "downloads": "db55a29ced35cd284417ee8aed496b7ce3a32700",
-      "downloadsId": 1,
-      "hash": "f4cd670ed8f371f305e11310fffedf059cbc98db",
-      "time": "2019-06-20T13:23:44+00:00",
-      "type": "pending",
-      "url": "../manifest/f/4/cd670ed8f371f305e11310fffedf059cbc98db/1_14_combat-212796.json"
-    }
-  ],
   "next": [
     "combat-2"
   ],

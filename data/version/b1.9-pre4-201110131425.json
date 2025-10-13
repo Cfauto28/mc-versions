@@ -11,15 +11,6 @@
   },
   "id": "b1.9-pre4-201110131425",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "832e657617c624777f31f66d355e5790df6d7967",
-      "downloadsId": 1,
-      "hash": "847207fc4040060d73775e7778087eee25623927",
-      "type": "old_beta",
-      "url": "../manifest/8/4/7207fc4040060d73775e7778087eee25623927/b1.9-pre4-1425.json"
-    }
-  ],
   "next": [
     "b1.9-pre4-201110131434"
   ],

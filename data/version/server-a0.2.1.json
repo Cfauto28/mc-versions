@@ -16,15 +16,6 @@
   },
   "id": "server-a0.2.1",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "8f896c489855e27938de21e49ebb933ec3b9344d",
-      "downloadsId": 1,
-      "hash": "ec9be1861673a895136935a51409099a5472afa0",
-      "type": "alpha_server",
-      "url": "../manifest/e/c/9be1861673a895136935a51409099a5472afa0/a0.2.1.json"
-    }
-  ],
   "next": [
     "server-a0.2.2"
   ],

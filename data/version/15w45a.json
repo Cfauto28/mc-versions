@@ -52,52 +52,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "9773fbecc18d5bd8d9e067a00e75067fedbbb1dc",
-      "downloadsId": 1,
-      "hash": "99572589e24cf3de0da31e9f815cb6ac82ff6e57",
-      "lastModified": "2021-12-15T15:58:37+00:00",
-      "time": "2015-11-05T13:04:07+00:00",
-      "type": "snapshot",
-      "url": "../manifest/9/9/572589e24cf3de0da31e9f815cb6ac82ff6e57/15w45a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "9773fbecc18d5bd8d9e067a00e75067fedbbb1dc",
-      "downloadsId": 1,
-      "hash": "77c1cba788d305aaae60d4968779c295ad88f7b1",
-      "lastModified": "2021-07-07T14:02:02+00:00",
-      "time": "2015-11-05T13:04:07+00:00",
-      "type": "snapshot",
-      "url": "../manifest/7/7/c1cba788d305aaae60d4968779c295ad88f7b1/15w45a.json"
-    },
-    {
-      "assetHash": "06cc9a2c5ce504dc712ea2f699e4d645c48416dd",
-      "assetIndex": "1.9",
-      "downloads": "9773fbecc18d5bd8d9e067a00e75067fedbbb1dc",
-      "downloadsId": 1,
-      "hash": "49a4d2b6f826c869f857b678ae8d5eda6ffaa56c",
-      "lastModified": "2018-08-29T13:00:49+00:00",
-      "time": "2015-11-05T13:04:07+00:00",
-      "type": "snapshot",
-      "url": "../manifest/4/9/a4d2b6f826c869f857b678ae8d5eda6ffaa56c/15w45a.json"
-    },
-    {
-      "assetHash": "d7aae43ea69d80cc3441bee4179abd791f6534cd",
-      "assetIndex": "1.9",
-      "downloads": "9773fbecc18d5bd8d9e067a00e75067fedbbb1dc",
-      "downloadsId": 1,
-      "hash": "ff66602d95ed7555593c00fba5f197671aa1c813",
-      "lastModified": "2023-06-07T12:45:50+00:00",
-      "time": "2015-11-05T13:04:07+00:00",
-      "type": "snapshot",
-      "url": "../manifest/f/f/66602d95ed7555593c00fba5f197671aa1c813/15w45a.json"
-    }
-  ],
   "next": [
     "15w46a"
   ],

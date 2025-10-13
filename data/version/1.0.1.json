@@ -11,15 +11,6 @@
   },
   "id": "1.0.1",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "9fcfb0314ec60b2f74c55430d149be6bb2f788ee",
-      "downloadsId": 1,
-      "hash": "6a3fe08d8b2b3b7b505751cefe0abbb861e5e474",
-      "type": "release",
-      "url": "../manifest/6/a/3fe08d8b2b3b7b505751cefe0abbb861e5e474/1.0.1.json"
-    }
-  ],
   "next": [
     "11w47a"
   ],

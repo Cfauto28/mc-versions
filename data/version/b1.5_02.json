@@ -16,15 +16,6 @@
   },
   "id": "b1.5_02",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "0c87ed78bbb2b842a174dafcad8683bc3e9c2076",
-      "downloadsId": 1,
-      "hash": "947b4850ece2be5211143eecf59f2cbdfa832603",
-      "type": "old_beta",
-      "url": "../manifest/9/4/7b4850ece2be5211143eecf59f2cbdfa832603/b1.5_02.json"
-    }
-  ],
   "next": [
     "b1.6-pre-trailer"
   ],

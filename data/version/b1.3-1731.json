@@ -16,15 +16,6 @@
   },
   "id": "b1.3-1731",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "71298bbdaa519d5b2023d6ca677535dc67fdbd1c",
-      "downloadsId": 1,
-      "hash": "cdfea9669b201157dfc95869b6c98755bc7f1f42",
-      "type": "old_beta",
-      "url": "../manifest/c/d/fea9669b201157dfc95869b6c98755bc7f1f42/b1.3-1731.json"
-    }
-  ],
   "next": [
     "b1.3_01"
   ],

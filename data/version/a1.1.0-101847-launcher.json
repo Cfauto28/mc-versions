@@ -21,40 +21,6 @@
     "org.lwjgl.lwjgl:lwjgl_util:2.9.0",
     "org.ow2.asm:asm-all:4.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "3d8e55480977e32acd9844e545177e69a52f594b",
-      "assetIndex": "pre-1.6",
-      "downloads": "695065cdeedb78cbd136992b2892d52e8cf78752",
-      "downloadsId": 1,
-      "hash": "ce536f761a4dcca51bd8a4caaf6e703017e383e1",
-      "lastModified": "2022-03-16T16:04:12+00:00",
-      "time": "2010-09-12T22:00:00+00:00",
-      "type": "old_alpha",
-      "url": "../manifest/c/e/536f761a4dcca51bd8a4caaf6e703017e383e1/a1.1.0.json"
-    },
-    {
-      "assetHash": "4759bad2824e419da9db32861fcdc3a274336532",
-      "assetIndex": "pre-1.6",
-      "downloads": "695065cdeedb78cbd136992b2892d52e8cf78752",
-      "downloadsId": 1,
-      "hash": "1d618bbd3003844eabae0c8922aaa9b0c688bad5",
-      "lastModified": "2019-02-14T15:33:54+00:00",
-      "time": "2010-09-12T22:00:00+00:00",
-      "type": "old_alpha",
-      "url": "../manifest/1/d/618bbd3003844eabae0c8922aaa9b0c688bad5/a1.1.0.json"
-    },
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "695065cdeedb78cbd136992b2892d52e8cf78752",
-      "downloadsId": 1,
-      "hash": "574191cb0e00c5f94a425aef9f8810d1f7355aa8",
-      "time": "2016-02-02T15:37:47+00:00",
-      "type": "old_alpha",
-      "url": "../manifest/5/7/4191cb0e00c5f94a425aef9f8810d1f7355aa8/a1.1.0-1-launcher.json"
-    }
-  ],
   "next": [
     "a1.1.0-131933"
   ],

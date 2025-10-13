@@ -11,15 +11,6 @@
   },
   "id": "b1.6-pre-trailer",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "28b7aef062eb9b14b088b275ac70dbf8b7538d09",
-      "downloadsId": 1,
-      "hash": "214e5e672c03b3f80b0b37263d3e4953cb4b1083",
-      "type": "old_beta",
-      "url": "../manifest/2/1/4e5e672c03b3f80b0b37263d3e4953cb4b1083/b1.6-pre-trailer.json"
-    }
-  ],
   "next": [
     "b1.6-tb3"
   ],

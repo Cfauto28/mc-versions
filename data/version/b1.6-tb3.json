@@ -16,25 +16,6 @@
   },
   "id": "b1.6-tb3",
   "libraries": [],
-  "manifests": [
-    {
-      "downloads": "ee963b85c41d5c55d81ac9acd10886b5fc2bb92e",
-      "downloadsId": 2,
-      "hash": "321f4e1a0bd5365a32cad3896c9ad3240af31f70",
-      "type": "old_beta",
-      "url": "../manifest/3/2/1f4e1a0bd5365a32cad3896c9ad3240af31f70/b1.6-tb3.json"
-    },
-    {
-      "assetHash": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
-      "assetIndex": "legacy",
-      "downloads": "c840277919d2813c0139d8c7a9bffb28a614faab",
-      "downloadsId": 1,
-      "hash": "b74d0454d967b8298648cb3042ff9b329eef2629",
-      "time": "2013-08-06T07:33:30-07:00",
-      "type": "old_beta",
-      "url": "../manifest/b/7/4d0454d967b8298648cb3042ff9b329eef2629/b1.6-tb3.json"
-    }
-  ],
   "next": [
     "b1.6"
   ],

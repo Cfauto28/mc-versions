@@ -60,18 +60,6 @@
     "org.lwjgl:lwjgl:3.2.2",
     "oshi-project:oshi-core:1.1"
   ],
-  "manifests": [
-    {
-      "assetHash": "bdb68de96a44ec1e9ed6d9cfcd2ee973be618c3a",
-      "assetIndex": "1.16",
-      "downloads": "5410763dd662393510f56a098d933dceb4113551",
-      "downloadsId": 1,
-      "hash": "e8bf4932e7d2d8d55292d52d70587da5c8586953",
-      "time": "2020-08-26T06:24:28+00:00",
-      "type": "pending",
-      "url": "../manifest/e/8/bf4932e7d2d8d55292d52d70587da5c8586953/1_16_combat-6.json"
-    }
-  ],
   "next": [],
   "normalizedVersion": "1.16.3-combat.8.c",
   "previous": [
