@@ -1,25 +1,30 @@
 {
   "$schema": "https://ornithemc.net/mc-versions/schemas/version.json",
   "client": true,
-  "displayVersion": "1.RV-Pre1",
+  "displayVersion": "15w14a",
   "downloads": {
     "client": {
-      "sha1": "3843fae71dd283e68897ead618255fa1ddcf4c8d",
-      "size": 8746426,
-      "url": "https://launcher.mojang.com/v1/objects/3843fae71dd283e68897ead618255fa1ddcf4c8d/client.jar"
+      "sha1": "1bea9340956b96f2b5452aa576e0cf460990efc6",
+      "size": 8471640,
+      "url": "https://launcher.mojang.com/v1/objects/1bea9340956b96f2b5452aa576e0cf460990efc6/client.jar"
     },
     "server": {
-      "sha1": "f51d9489706f603be6be9716407f1dab5f7f2733",
-      "size": 8851148,
-      "url": "https://launcher.mojang.com/v1/objects/f51d9489706f603be6be9716407f1dab5f7f2733/server.jar"
+      "sha1": "f7d2bd26ce7893477fc1ca6e27b671345253bae4",
+      "size": 9769320,
+      "url": "https://launcher.mojang.com/v1/objects/f7d2bd26ce7893477fc1ca6e27b671345253bae4/server.jar"
+    },
+    "windows_server": {
+      "sha1": "a93cc6d45dd62cae48b4758e9b04e2147e11033c",
+      "size": 10163560,
+      "url": "https://launcher.mojang.com/v1/objects/a93cc6d45dd62cae48b4758e9b04e2147e11033c/windows_server.exe"
     }
   },
-  "id": "af-2016",
+  "id": "15w14a",
   "libraries": [
     "com.google.code.gson:gson:2.2.4",
     "com.google.guava:guava:17.0",
     "com.ibm.icu:icu4j-core-mojang:51.2",
-    "com.mojang:authlib:1.5.22",
+    "com.mojang:authlib:1.5.17",
     "com.mojang:netty:1.8.8",
     "com.paulscode:codecjorbis:20101023",
     "com.paulscode:codecwav:20101023",
@@ -45,23 +50,23 @@
     "org.lwjgl.lwjgl:lwjgl-platform:2.9.4-nightly-20150209",
     "org.lwjgl.lwjgl:lwjgl:2.9.4-nightly-20150209",
     "org.lwjgl.lwjgl:lwjgl_util:2.9.4-nightly-20150209",
-    "oshi-project:oshi-core:1.1"
+    "oshi-project:oshi-core:1.1",
+    "tv.twitch:twitch-platform:6.5",
+    "tv.twitch:twitch:6.5"
   ],
   "next": [],
-  "normalizedVersion": "1.9.3-april.fools",
+  "normalizedVersion": "1.8.4-april.fools",
   "previous": [
-    "1.9.2"
+    "1.8.3"
   ],
   "protocol": {
-    "incompatible": true,
     "type": "netty",
-    "version": 108
+    "version": 48
   },
-  "releaseTime": "2016-03-31T16:18:53+00:00",
+  "releaseTime": "2015-04-01T07:08:00+00:00",
   "server": true,
   "sharedMappings": true,
   "world": {
-    "format": "anvil",
-    "version": 173
+    "format": "anvil"
   }
 }

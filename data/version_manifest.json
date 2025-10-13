@@ -381,14 +381,14 @@
       "detailsSha1": "8e1dfb158020b724581e46da181772a652d3eccc"
     },
     {
-      "id": "af-2019",
+      "id": "3D Shareware v1.34",
       "type": "snapshot",
-      "url": "version/manifest/af-2019.json",
-      "sha1": "5c4f67598c1f74b0bd34787547f7ffe1c08b87e9",
+      "url": "version/manifest/3D Shareware v1.34.json",
+      "sha1": "b428008f228961d1077e7bd86d784d1ca7a31143",
       "time": "2019-04-01T11:18:08+00:00",
       "releaseTime": "2019-04-01T11:18:08+00:00",
-      "details": "version/af-2019.json",
-      "detailsSha1": "93ced85b75e0c7e304bacdf7f7368dd0da2d83a6"
+      "details": "version/3D Shareware v1.34.json",
+      "detailsSha1": "a5aa8e597efa014497857e68ff586121442134b9"
     },
     {
       "id": "19w13b",
@@ -398,7 +398,7 @@
       "time": "2019-03-29T16:53:22+00:00",
       "releaseTime": "2019-03-29T16:53:22+00:00",
       "details": "version/19w13b.json",
-      "detailsSha1": "1a394204631313daf6cd833e174f52da55265ca5"
+      "detailsSha1": "8c5c80482afb33fe2d8fb9bb6d2115a4274aa7b7"
     },
     {
       "id": "19w13b-1653",
@@ -2011,14 +2011,14 @@
       "detailsSha1": "c897f61e6b33e17f39e3b3eb174e411e1f668471"
     },
     {
-      "id": "af-2016",
+      "id": "1.RV-Pre1",
       "type": "snapshot",
-      "url": "version/manifest/af-2016.json",
-      "sha1": "a5b3e6e0de21e1410960cf9cad5d83fb13c4b2b5",
+      "url": "version/manifest/1.RV-Pre1.json",
+      "sha1": "44fc4093e647dfe14021d28c6a9d525ceb28ce9b",
       "time": "2016-03-31T16:18:53+00:00",
       "releaseTime": "2016-03-31T16:18:53+00:00",
-      "details": "version/af-2016.json",
-      "detailsSha1": "b4c93543ba77cb20499ee72a2fe7c44c0ce66217"
+      "details": "version/1.RV-Pre1.json",
+      "detailsSha1": "f47a5d8b42fbe0662dfb091149b77267c6aac10e"
     },
     {
       "id": "1.9.2",
@@ -2028,7 +2028,7 @@
       "time": "2016-03-30T15:23:55+00:00",
       "releaseTime": "2016-03-30T15:23:55+00:00",
       "details": "version/1.9.2.json",
-      "detailsSha1": "e409e9e50639f1519d3182d4b43ac9e4bf78a3a7"
+      "detailsSha1": "9095d181d6a4510cc01f84ef76245131e356e7aa"
     },
     {
       "id": "1.9.1",
@@ -2741,14 +2741,14 @@
       "detailsSha1": "1ebcfbf91d7f9966a803678e93a50d697aeb1a2c"
     },
     {
-      "id": "af-2015",
+      "id": "15w14a",
       "type": "snapshot",
-      "url": "version/manifest/af-2015.json",
-      "sha1": "4d5544dc945354643e1417c47176feae6df60ee9",
+      "url": "version/manifest/15w14a.json",
+      "sha1": "c00fbd86488a3e5dac4f8120b75df1d953ed1f94",
       "time": "2015-04-01T07:08:00+00:00",
       "releaseTime": "2015-04-01T07:08:00+00:00",
-      "details": "version/af-2015.json",
-      "detailsSha1": "bb88b304b6d33fdee440a14e49d26a64d36980b2"
+      "details": "version/15w14a.json",
+      "detailsSha1": "294b14cbf79d80ca8ff4329700fd9ddc66f99587"
     },
     {
       "id": "1.8.3",
@@ -2758,7 +2758,7 @@
       "time": "2015-02-20T14:00:09+00:00",
       "releaseTime": "2015-02-20T14:00:09+00:00",
       "details": "version/1.8.3.json",
-      "detailsSha1": "a5dacad8f179ba8dc625e57ff71f1f7d8ac80879"
+      "detailsSha1": "16c2cbd2ca3e04be93ea10708aadf773ec10db97"
     },
     {
       "id": "1.8.2",
@@ -4571,34 +4571,34 @@
       "detailsSha1": "9d81a0de80eeb95495106874eaaa7703276b1117"
     },
     {
-      "id": "af-2013-purple",
+      "id": "2.0-purple",
       "type": "snapshot",
-      "url": "version/manifest/af-2013-purple.json",
-      "sha1": "20ba4e83896f96c5d253d3750d358e17f19cbb21",
+      "url": "version/manifest/2.0-purple.json",
+      "sha1": "75415609a0a90c617f14e855f674af3055a81c32",
       "time": "2013-04-01T17:44:00+00:00",
       "releaseTime": "2013-04-01T17:44:00+00:00",
-      "details": "version/af-2013-purple.json",
-      "detailsSha1": "78d0bc1374449b675ebbebb6e9bf3bcbaec0327a"
+      "details": "version/2.0-purple.json",
+      "detailsSha1": "f9d59853866ecf76fd47c6336ffe5bb73d954ee2"
     },
     {
-      "id": "af-2013-blue",
+      "id": "2.0-blue",
       "type": "snapshot",
-      "url": "version/manifest/af-2013-blue.json",
-      "sha1": "d83ccbcdebf24272b00c7de255a3f4160e20cec0",
+      "url": "version/manifest/2.0-blue.json",
+      "sha1": "f8ac4e268c931834f2ff3e4b4ea00cbd84fb2360",
       "time": "2013-04-01T17:40:00+00:00",
       "releaseTime": "2013-04-01T17:40:00+00:00",
-      "details": "version/af-2013-blue.json",
-      "detailsSha1": "ba3da5477ad0349b3b7d9c4573ebb41759c75d81"
+      "details": "version/2.0-blue.json",
+      "detailsSha1": "123588fe8086dd77f8a22ec8898079721b4957bf"
     },
     {
-      "id": "af-2013-red",
+      "id": "2.0-red",
       "type": "snapshot",
-      "url": "version/manifest/af-2013-red.json",
-      "sha1": "1ed4161a83f7f152c31e94e0d6fa44ca2e0dcb5b",
+      "url": "version/manifest/2.0-red.json",
+      "sha1": "e3194c2038fd2ece944e063239f18cd5fe630233",
       "time": "2013-04-01T17:34:00+00:00",
       "releaseTime": "2013-04-01T17:34:00+00:00",
-      "details": "version/af-2013-red.json",
-      "detailsSha1": "1476f745e9748179c7860db129b6c71c21f16a2b"
+      "details": "version/2.0-red.json",
+      "detailsSha1": "b3aa61cafff2345e5cdf56434fd12f109e4d392d"
     },
     {
       "id": "1.5.1",
@@ -4608,7 +4608,7 @@
       "time": "2013-03-20T10:00:00+00:00",
       "releaseTime": "2013-03-21T10:42:14+00:00",
       "details": "version/1.5.1.json",
-      "detailsSha1": "d60c7c76eecda04c1881649f28e2ae2833a0c959"
+      "detailsSha1": "2e2c9676ab397a1c902b266e23c9af16dfe22bc6"
     },
     {
       "id": "1.5.1-pre-191519",
