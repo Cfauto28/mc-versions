@@ -385,73 +385,45 @@
     {
       "downloads": {
         "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl/2.9.3/lwjgl-2.9.3.jar",
-          "sha1": "3df168ac74e4a8c96562cdff24ad352e255bf89c",
-          "size": 1053471,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.3/lwjgl-2.9.3.jar"
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.4+legacyfabric.15/lwjgl-2.9.4+legacyfabric.15.jar",
+          "sha1": "4aa4a428a0af94c82d4cb700708733a9d448c8d7",
+          "size": 1080569,
+          "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl/2.9.4+legacyfabric.15/lwjgl-2.9.4+legacyfabric.15.jar"
         }
       },
-      "name": "org.lwjgl.lwjgl:lwjgl:2.9.3",
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.4+legacyfabric.15"
     },
     {
       "downloads": {
         "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.3/lwjgl_util-2.9.3.jar",
-          "sha1": "751f06b62424da056954c67288fd5c494431e350",
-          "size": 173911,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.3/lwjgl_util-2.9.3.jar"
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4+legacyfabric.15/lwjgl_util-2.9.4+legacyfabric.15.jar",
+          "sha1": "9fb7110ce0567de6134365d4b42d1652f215b801",
+          "size": 180575,
+          "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4+legacyfabric.15/lwjgl_util-2.9.4+legacyfabric.15.jar"
         }
       },
-      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.3",
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4+legacyfabric.15"
     },
     {
       "downloads": {
-        "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3.jar",
-          "sha1": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
-          "size": 22,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3.jar"
-        },
         "classifiers": {
           "natives-linux": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-linux.jar",
-            "sha1": "b1eafe80093381c56415731e1d64279e6140bcd0",
-            "size": 578675,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-linux.jar"
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-linux.jar",
+            "sha1": "061d5d567dc1eed14f34b4639ab8406363c6eab4",
+            "size": 4434295,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-linux.jar"
           },
           "natives-osx": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-osx.jar",
-            "sha1": "6686cf6ddaa20b4290aa6599a09bc0d17369be05",
-            "size": 426817,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-osx.jar"
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-osx.jar",
+            "sha1": "4a19c718098653f0f8cb284e2670455ddd0aa227",
+            "size": 1599360,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-osx.jar"
           },
           "natives-windows": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-windows.jar",
-            "sha1": "fbc2afb3e288578e9942578decb6291a490549a0",
-            "size": 613744,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.3/lwjgl-platform-2.9.3-natives-windows.jar"
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-windows.jar",
+            "sha1": "7837accdad72b380999ce2f0fa1cdd4a1f0f123d",
+            "size": 2490338,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-windows.jar"
           }
         }
       },
@@ -460,104 +432,12 @@
           "META-INF/"
         ]
       },
-      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.3",
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4+legacyfabric.15",
       "natives": {
         "linux": "natives-linux",
         "osx": "natives-osx",
         "windows": "natives-windows"
-      },
-      "rules": [
-        {
-          "action": "allow"
-        },
-        {
-          "action": "disallow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar",
-          "sha1": "7707204c9ffa5d91662de95f0a224e2f721b22af",
-          "size": 1045632,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl/2.9.2-nightly-20140822/lwjgl-2.9.2-nightly-20140822.jar"
-        }
-      },
-      "name": "org.lwjgl.lwjgl:lwjgl:2.9.2-nightly-20140822",
-      "rules": [
-        {
-          "action": "allow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar",
-          "sha1": "f0e612c840a7639c1f77f68d72a28dae2f0c8490",
-          "size": 173887,
-          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl_util/2.9.2-nightly-20140822/lwjgl_util-2.9.2-nightly-20140822.jar"
-        }
-      },
-      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.2-nightly-20140822",
-      "rules": [
-        {
-          "action": "allow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
-    },
-    {
-      "downloads": {
-        "classifiers": {
-          "natives-linux": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar",
-            "sha1": "d898a33b5d0a6ef3fed3a4ead506566dce6720a5",
-            "size": 578539,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar"
-          },
-          "natives-osx": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar",
-            "sha1": "79f5ce2fea02e77fe47a3c745219167a542121d7",
-            "size": 468116,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar"
-          },
-          "natives-windows": {
-            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar",
-            "sha1": "78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341",
-            "size": 613680,
-            "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.2-nightly-20140822/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar"
-          }
-        }
-      },
-      "extract": {
-        "exclude": [
-          "META-INF/"
-        ]
-      },
-      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.2-nightly-20140822",
-      "natives": {
-        "linux": "natives-linux",
-        "osx": "natives-osx",
-        "windows": "natives-windows"
-      },
-      "rules": [
-        {
-          "action": "allow",
-          "os": {
-            "name": "osx"
-          }
-        }
-      ]
+      }
     },
     {
       "downloads": {

@@ -31,9 +31,9 @@
     "net.sf.jopt-simple:jopt-simple:4.4",
     "org.apache.commons:commons-lang3:3.1",
     "org.bouncycastle:bcprov-jdk15on:1.47",
-    "org.lwjgl.lwjgl:lwjgl-platform:2.9.0",
-    "org.lwjgl.lwjgl:lwjgl:2.9.0",
-    "org.lwjgl.lwjgl:lwjgl_util:2.9.0"
+    "org.lwjgl.lwjgl:lwjgl-platform:2.9.4+legacyfabric.15",
+    "org.lwjgl.lwjgl:lwjgl:2.9.4+legacyfabric.15",
+    "org.lwjgl.lwjgl:lwjgl_util:2.9.4+legacyfabric.15"
   ],
   "next": [
     "13w22a"
