@@ -8555,7 +8555,7 @@
       "time": "2010-09-22T22:00:00+00:00",
       "releaseTime": "2010-09-23T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.2_01.json",
-      "sha1": "b0060e9ad498492b0ece6658ef124dc725837732",
+      "sha1": "083fa6dc943b591dfd4e2d215e357c2c3961600a",
       "detailsSha1": "bb674d444a522dfc73d14e1379d350115c1fbb4d"
     },
     {
@@ -8565,7 +8565,7 @@
       "time": "2010-09-19T22:00:00+00:00",
       "releaseTime": "2010-09-20T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.2.json",
-      "sha1": "65f55acedd379c8f5acaa4fe8925b97ab39b8f67",
+      "sha1": "fadfea0d25fbec54ada28e943edb3510ff9f19c2",
       "detailsSha1": "b2f4fe357f9d08b97185e82722f4deaada7414ca"
     },
     {
@@ -8584,7 +8584,7 @@
       "time": "2021-06-26T10:46:46+00:00",
       "releaseTime": "2010-09-18T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.1.json",
-      "sha1": "7f010a5bbaae5aa64e35ae1690a0a1fbc79a5a06",
+      "sha1": "b65c3d4ae532adbd891a9e6f5d6985302cc5547b",
       "detailsSha1": "389a9349d4876b8c80ebad06901aae0b699de9a9"
     },
     {
@@ -8594,7 +8594,7 @@
       "time": "2016-02-02T15:37:47+00:00",
       "releaseTime": "2010-09-13T19:33:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.0-131933.json",
-      "sha1": "2956d839b90654a903956e344b8ab16a55ec406c",
+      "sha1": "dacd2ee7e5dc91b1e3ff5361825ab0cf1130a079",
       "detailsSha1": "d50721959bdfa73535297e7371218687b2cfe7b2"
     },
     {
@@ -8613,7 +8613,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-09-10T18:47:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.0-101847.json",
-      "sha1": "56cc9364aa364d942cfd7aafb85129d411ab1db3",
+      "sha1": "28e2c859dd019044f48adb3ffa8c88cf67f63188",
       "detailsSha1": "70ca8cd963f5a9df7ffaa6647b3ef9aaa387ed58"
     },
     {
@@ -8623,7 +8623,7 @@
       "time": "2010-09-12T22:00:00+00:00",
       "releaseTime": "2010-09-10T18:47:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.1.0-101847-launcher.json",
-      "sha1": "2d4f3a33fd6cd5f277f3f2f2d119698439906da8",
+      "sha1": "78ddd6c439308bddd7bf1f8345c61480b929392b",
       "detailsSha1": "6cb71afaf2caef5ec6f3ebb6abf13d4ff0ae633a"
     },
     {
@@ -8642,7 +8642,7 @@
       "time": "2010-08-22T22:00:00+00:00",
       "releaseTime": "2010-08-23T21:24:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.17_04.json",
-      "sha1": "4b13bb6cdab8014a8e37e6c9704444ac5714df91",
+      "sha1": "c4c524143fcc372bce1070fd983bfe0ffc2a9083",
       "detailsSha1": "8dd9efc94bf4f88f60330299bd21046a480fb042"
     },
     {
@@ -8652,7 +8652,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-08-23T16:22:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.17_03.json",
-      "sha1": "5e0579dd65c36dfacc6bff40fc9327780570ba7c",
+      "sha1": "a50b202b3f4b60d25675ddfbeb07a76e2a4d51d8",
       "detailsSha1": "22658cb408cea5d91530be934063ce7d0bd72c08"
     },
     {
@@ -8662,7 +8662,7 @@
       "time": "2010-08-19T22:00:00+00:00",
       "releaseTime": "2010-08-20T13:23:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.17_02.json",
-      "sha1": "1ab9b3f93ebf00f871ffe62493bf9892ae11d993",
+      "sha1": "f9d270c22b69991912a5a262d4ef8a604b95fdb2",
       "detailsSha1": "049eea4a975a422fb81fcf298c837300fcb0da33"
     },
     {
@@ -8690,7 +8690,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-08-13T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.16_02.json",
-      "sha1": "4c62430f2c37aaf55b932ef28239638ff2527b5a",
+      "sha1": "5370b4923096100b0393b7d5217008b12f5314f7",
       "detailsSha1": "40e1ffd58be8ee23c72bdc14fd762e9c3f381640"
     },
     {
@@ -8700,7 +8700,7 @@
       "time": "2013-08-06T04:00:00-07:00",
       "releaseTime": "2010-08-13T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.16_01.json",
-      "sha1": "224a0689e79d6f5c61e4a3ec34d31e1f833b3cd7",
+      "sha1": "d785c4f9ca81ad74f83b89442991e16ed836989a",
       "detailsSha1": "9cf52689f8b51bbdb1daca011eecf1e7b58f9c8f"
     },
     {
@@ -8729,7 +8729,7 @@
       "time": "2010-08-11T22:00:00+00:00",
       "releaseTime": "2010-08-12T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.16.json",
-      "sha1": "bceaea0a220f8ede507fa9d9a564b930b081d802",
+      "sha1": "68486f72bd8226958d8b0e9a14f97fa9cc870ca7",
       "detailsSha1": "f9fa28de506f3b2c8f7dcc433767ea78be8f8b42"
     },
     {
@@ -8748,7 +8748,7 @@
       "time": "2010-08-03T22:00:00+00:00",
       "releaseTime": "2010-08-04T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.15.json",
-      "sha1": "a3457543cfc74b35c0cbd34ba0d5e2fa936d316f",
+      "sha1": "83c59e8c82414f48ef4ebaef267b3c9dd2150776",
       "detailsSha1": "869a643c20092af120183b228b74a26d9706feff"
     },
     {
@@ -8758,7 +8758,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-30T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.14-1659.json",
-      "sha1": "0d5a1411a48cabc0c77c1a9229cb1b804be4d074",
+      "sha1": "99f78f88e1b48ccaddca48db88a38ee622f89246",
       "detailsSha1": "921438a72fb3d1138bdf444bfc3c4082d692aef1"
     },
     {
@@ -8768,7 +8768,7 @@
       "time": "2010-07-29T22:00:00+00:00",
       "releaseTime": "2010-07-30T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.14-1659-launcher.json",
-      "sha1": "b45104d30212ee08bf8fb31e88a147c5bada4ae7",
+      "sha1": "38cce0fef463717c2d351d5fe6628a03bc0d03a4",
       "detailsSha1": "f673b38b10979baead42d1df135d9084cca45629"
     },
     {
@@ -8778,7 +8778,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-30T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.14-1603.json",
-      "sha1": "37346dcb754dda000d7dd7b3352219e89a18810b",
+      "sha1": "784e46c142507401ca8b4f5b25479f52554e4a08",
       "detailsSha1": "9faaa172bb439eb518634deb3949798237ba5a7c"
     },
     {
@@ -8788,7 +8788,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-29T14:44:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.13_01-1444.json",
-      "sha1": "987dde4c7e05a7e0d388eaf8b270009169612f38",
+      "sha1": "63cb2f34c8f5559c50a193d6f119eab13aa9efec",
       "detailsSha1": "79958c606bd77cc3e092a4791863f0d84de0712e"
     },
     {
@@ -8798,7 +8798,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-29T10:38:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.13_01-1038.json",
-      "sha1": "4dda7fc7c2a56d7d17ee828e97468027266f7654",
+      "sha1": "c77317338a80e35d5a8c7ee6982f0c4b78e178c6",
       "detailsSha1": "97edefb3e2c3e7bc338283be3dcadbc497a3e61c"
     },
     {
@@ -8808,7 +8808,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-28T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.13.json",
-      "sha1": "ee7be3c778a670e5ae096ac09a38b65206da65e9",
+      "sha1": "cb144624374905a1c6f61d7a7a54be36332132a7",
       "detailsSha1": "e51873d621b2b65ee76e28bf00a0f0b7841f8a3b"
     },
     {
@@ -8818,7 +8818,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-26T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.12.json",
-      "sha1": "cac2eda5bccd14c8bdbc9830370686d39ebc3c48",
+      "sha1": "4d59f303f0fbf9d1c5a4a1985dbd61e7f608075c",
       "detailsSha1": "c6029d378fe640599f4d4f4e4c5b101b077bc8db"
     },
     {
@@ -8828,7 +8828,7 @@
       "time": "2010-07-22T22:00:00+00:00",
       "releaseTime": "2010-07-23T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.11.json",
-      "sha1": "9192a5bb1393c4f86c089ba5837558d7aef8e700",
+      "sha1": "6b4db2b9c165c0ca88ee83f9fefbc47645bb590e",
       "detailsSha1": "cda0ad4b19133d38d017fd85d78e5502090b0c2a"
     },
     {
@@ -8838,7 +8838,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-22T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.10.json",
-      "sha1": "e5eab8cc011fcd303e2b239580b4db5560febae7",
+      "sha1": "fe7e15a33371b4ccfd90d8fb4ca640671a951494",
       "detailsSha1": "229ab05fbc90cca8406cfb15c7329fa9625fa73b"
     },
     {
@@ -8848,7 +8848,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-21T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.9.json",
-      "sha1": "f0e23d76a7668744580240d3de01f516ad30faea",
+      "sha1": "81280fe1fa7f92b1c58ac7664be89ccf8bd1b8e5",
       "detailsSha1": "a7ef4c15c3c718ecbbcbfe2dc212f56c5e694fcf"
     },
     {
@@ -8858,7 +8858,7 @@
       "time": "2013-08-06T04:00:00-07:00",
       "releaseTime": "2010-07-20T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.8_01.json",
-      "sha1": "ade7ca3165fb6fd177437a1d1a54f2436c7ee392",
+      "sha1": "71692f78346c63094573fd2f154ebc3333ac15f5",
       "detailsSha1": "17d9baf7af9f47095339ab70e198e381259c070b"
     },
     {
@@ -8868,7 +8868,7 @@
       "time": "2013-08-06T04:00:00-07:00",
       "releaseTime": "2010-07-20T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.7.json",
-      "sha1": "335c9200712a1cdc645548ded8b375704cfb1a31",
+      "sha1": "13a96b4daf4eab84288a7ef88e325f19e7bf3fd4",
       "detailsSha1": "4dc16a648b44382dc229150b4b93527d110e2d32"
     },
     {
@@ -8878,7 +8878,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-17T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.6_03.json",
-      "sha1": "2533ae7d2885184c0825f63d6d28a38251eb3fab",
+      "sha1": "a6a8c2da85a5ea034b5fb867245337c7be95e000",
       "detailsSha1": "aa5011a511eae36089f8e9a1a6a5fbc63cf9a459"
     },
     {
@@ -8888,7 +8888,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-17T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.6_01.json",
-      "sha1": "ba6ebabde22f64f61092096364e303f5f080c5bc",
+      "sha1": "7e470c7b223bbe0c0cd4ec814d4ee327b90f764d",
       "detailsSha1": "11faaa2be3048f6acae1d9e8423d4fe960d51d9e"
     },
     {
@@ -8898,7 +8898,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-16T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.6.json",
-      "sha1": "294f7b70069b29d3fe45d5a59b32d53a4e95ab61",
+      "sha1": "7afcc7da6321e13c94042a402b3c45774892d9b4",
       "detailsSha1": "bb1b9019805bb58b58a38ead3186aa269e3591ec"
     },
     {
@@ -8908,7 +8908,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-13T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.5-2149.json",
-      "sha1": "d2ef0adcff107ee112a336a2ad152f3209957362",
+      "sha1": "e8d004fb063a4126c8157c4c3a28c0e8116c1bcf",
       "detailsSha1": "8adad7641bceae5069615a6ee9e82415c620f8a0"
     },
     {
@@ -8918,7 +8918,7 @@
       "time": "2010-07-12T22:00:00+00:00",
       "releaseTime": "2010-07-13T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.5_01.json",
-      "sha1": "cde034c204ab1f36955c07162381f64c9dc49fa5",
+      "sha1": "351c03fa5ab67ac2ea4256b75b8efafc082e2de1",
       "detailsSha1": "65eb2f0abfac5f1cb0649932fe4c00c5db1f4f59"
     },
     {
@@ -8928,7 +8928,7 @@
       "time": "2010-07-08T22:00:00+00:00",
       "releaseTime": "2010-07-09T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.4-launcher.json",
-      "sha1": "a94ab28fe7065bd573412823fb9a2ae0d364a60c",
+      "sha1": "8a9c175303c2a50971659ee7004ad2e461158d9b",
       "detailsSha1": "f98812cb8aaa67c37eb5d97e202f9bf492bfbf56"
     },
     {
@@ -8938,7 +8938,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-09T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.4.json",
-      "sha1": "400721700c0e9b76052cf46b73f39e582b4b2bbc",
+      "sha1": "e6b1271184fbfee29ba1b9bbd1bc018a74d2ddf3",
       "detailsSha1": "8352360d7abee0793394591431026503a63b381a"
     },
     {
@@ -8948,7 +8948,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-07T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.3.json",
-      "sha1": "a90209d29dbb52c457ec2706fcf83cd068844ea3",
+      "sha1": "3102f953722f91f6ce9da55c0da70fad8b981bbe",
       "detailsSha1": "817152782087079e61916c771cea97240a93c090"
     },
     {
@@ -8958,7 +8958,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-06T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.2_02.json",
-      "sha1": "5a9398d13b30fda726c80ca90d055b89b6d4fc37",
+      "sha1": "f9b5484eb5344cf7ab08a41b5b392c541d982af0",
       "detailsSha1": "a729484c6308253a9269f30f01745defd2a5a323"
     },
     {
@@ -8968,7 +8968,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-06T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.2_01.json",
-      "sha1": "80cc62e6e723fdd28e2ed32e0d695da159ed5198",
+      "sha1": "0d73460bf258db6c7fec802e95e9b5afe3af1845",
       "detailsSha1": "c2acc1fc7b3da7c10a52e848b93f4d25632c878c"
     },
     {
@@ -8978,7 +8978,7 @@
       "time": "2017-10-22T05:26:50+00:00",
       "releaseTime": "2010-07-04T00:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/a1.0.1_01.json",
-      "sha1": "88bf2e96faaddb524825dae0c99db0a89d66c9c6",
+      "sha1": "adc26db94675ed39ac63caddf62f575a38e1fca5",
       "detailsSha1": "dc6da876f5d16edf7804a143bebe0019df1940b5"
     },
     {
@@ -8988,7 +8988,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-30T18:35:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100630-1835.json",
-      "sha1": "237c1f8d616d6a538ddd16f9c50ede54d415d2ec",
+      "sha1": "2eed50734bc42887dbdc4bd20b29bf8ae4d6bbc6",
       "detailsSha1": "e8c85adf8b41c4ec2307e8afa0784801b098d23c"
     },
     {
@@ -8998,7 +8998,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-30T13:40:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100630-1340.json",
-      "sha1": "e236308f51df42c469ebf47e06b935b468ccd8e8",
+      "sha1": "a3d43cefdc59f29cfdc4b00639a3c177364112cf",
       "detailsSha1": "d1f1fd77a7c10244c796e6f1f5b0218cc0fba053"
     },
     {
@@ -9008,7 +9008,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-29T19:57:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100629.json",
-      "sha1": "64b3a006463e1835bd9b30067ee204a28522edcd",
+      "sha1": "b4413de7ccb27bb0a543e48c2033a78ef59a76ea",
       "detailsSha1": "adacd1115f34b6a4159c5a2786330c213f8fe3f8"
     },
     {
@@ -9018,7 +9018,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-27T08:26:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100627.json",
-      "sha1": "3e76a412684e3c6b8b4705e1a520fe3d533c98a6",
+      "sha1": "04dad7254b31faf5c76de2ea901e129d37db9bfc",
       "detailsSha1": "82ecdc643eef95c3c6c0feb51c1d29dd2bd18e25"
     },
     {
@@ -9028,7 +9028,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-25T19:17:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100625-1917.json",
-      "sha1": "06bbb1f4076aeee56f49525a0d0384489e5b04b7",
+      "sha1": "c3c29c32dc32b39648a59b7827aa7c806183bebf",
       "detailsSha1": "7ca7b477d4d7a3e737603db32096ea546f8fa786"
     },
     {
@@ -9038,7 +9038,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-25T09:22:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100625-0922.json",
-      "sha1": "97f366c99e0998c7774ec2567130bb633d9f5ffe",
+      "sha1": "9c03bfd5b4308f418728dda3cf1e24764b274fe8",
       "detailsSha1": "48cd3a385dcd7834ca2267b873ae6d897ae89d7d"
     },
     {
@@ -9048,7 +9048,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-24T17:39:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100624.json",
-      "sha1": "b5036d06c4d4867848c2e9d78175156c00c4550b",
+      "sha1": "c1207f1f9158b65b9b064d366def177a3bebccdf",
       "detailsSha1": "6e93e1d8dfc1af3d2309c3137c6f70a402776866"
     },
     {
@@ -9068,7 +9068,7 @@
       "time": "2010-06-17T00:00:00-00:00",
       "releaseTime": "2010-06-17T15:31:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100617-1531.json",
-      "sha1": "157b6ee20faed579dd14032c8cb561cda6294ef0",
+      "sha1": "84e0c4689399179b569d7079b9b9c4f59ef29a42",
       "detailsSha1": "1362edfb91507f452812ef22e8346e79c7038b3d"
     },
     {
@@ -9078,7 +9078,7 @@
       "time": "2010-06-17T00:00:00-00:00",
       "releaseTime": "2010-06-17T12:05:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100617-1205.json",
-      "sha1": "8e3cce5c1b0f792c1aa34fbdb6740edba9b64f01",
+      "sha1": "094750a5e955282d10aed710ea66b4c47a6131c0",
       "detailsSha1": "9e97cb982c252f0b8c72ac9197a038b0e6625675"
     },
     {
@@ -9088,7 +9088,7 @@
       "time": "2021-06-26T23:01:15+00:00",
       "releaseTime": "2010-06-16T18:08:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100616.json",
-      "sha1": "e0d51d4d93c9c7e5ad94ed5256c5bc43e0b021a3",
+      "sha1": "2f5a2fa64e44d56e61dce55ddf2e76abe7e51b6d",
       "detailsSha1": "fa405deae267258d671e74c25a4bcb3f338a2f29"
     },
     {
@@ -9098,7 +9098,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-15T14:03:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100615.json",
-      "sha1": "db53ce7c410596e34193604dc9d004747eeebc9c",
+      "sha1": "0e4e423a2c2b64cf92dbf165096c9e535f799e24",
       "detailsSha1": "7913a96a6a4ca1dba523117cf5cd4c6d97d5a08b"
     },
     {
@@ -9108,7 +9108,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-11T15:04:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100611.json",
-      "sha1": "9266be50fb1690e544775a6e5a2ccc44d8251595",
+      "sha1": "1b1364738702d5e0aa8a30e36b2cd3fcbe3faa68",
       "detailsSha1": "4b5bed7b819783793a2272c7b80a341447f3b677"
     },
     {
@@ -9118,7 +9118,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-08T16:12:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100608.json",
-      "sha1": "4e64641729a263516fe93546fdcf56bf9311f1b2",
+      "sha1": "295f8345d58f9ed738d14c7eee9dfa12f8f3e573",
       "detailsSha1": "513e023b5a43ab73e859d28a1257042b880f228c"
     },
     {
@@ -9128,7 +9128,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-06-07T18:20:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100607.json",
-      "sha1": "5c201420d36f457720b98b77dd036ea65accfbaf",
+      "sha1": "f2b2089a2b650236836f8d397fb4824a571d2e2e",
       "detailsSha1": "aa13a2412756196066a8946793f712bd332f6f2a"
     },
     {
@@ -9138,7 +9138,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-04-20T16:35:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100420.json",
-      "sha1": "2df0ee887fcd265119af5cf180bc49f888e6fc41",
+      "sha1": "e81b32db49b33a2e7aa71326cc7345f0c6d25707",
       "detailsSha1": "78aafa7064da91063782e328bfca9be09aff4220"
     },
     {
@@ -9148,7 +9148,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-04-15T09:32:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100415.json",
-      "sha1": "3a74d2ecac4607eb176e4bb8a1c432d646ce3176",
+      "sha1": "9b2144af99d803c92077a503b3529cb81f08de3c",
       "detailsSha1": "56bedb352498ad9d8a599282cbe2a9ec496a6814"
     },
     {
@@ -9158,7 +9158,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-04-14T19:40:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100414.json",
-      "sha1": "ef7185690607b6361700e99cfbb6da78773b4e6a",
+      "sha1": "97cd70e0188949d7ea3d9b8025d7f6f1e5ab2f62",
       "detailsSha1": "e24ec5ea7a3c2785dc5bcc85a0afae788e87f004"
     },
     {
@@ -9168,7 +9168,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-04-13T19:53:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100413.json",
-      "sha1": "5e8449e9406e0e889b35cf9afcf250da75d7d1f6",
+      "sha1": "0422822c71186890fa230c50cc6461f7144f375a",
       "detailsSha1": "0333ae1c797289dafbe796b294d8650a569d2f4c"
     },
     {
@@ -9178,7 +9178,7 @@
       "time": "2010-03-30T00:00:00-00:00",
       "releaseTime": "2010-03-30T16:11:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100330-1611.json",
-      "sha1": "a1288b5e2ff31bb2020cd9956b654a2087974de8",
+      "sha1": "f7f449266b3caa05d1900619e6380c62d3c81ccf",
       "detailsSha1": "2046188de37e72a346908a9510337a2546cc9be2"
     },
     {
@@ -9188,7 +9188,7 @@
       "time": "2010-03-27T00:00:00-00:00",
       "releaseTime": "2010-03-27T20:06:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100327.json",
-      "sha1": "ce81964b549f48cdc44945038a7a51612d5e75fa",
+      "sha1": "46d9a2650f936e713005af1650beb609b8bb9b0d",
       "detailsSha1": "631a42ce93a41208a2db2fd89762dfa8f1393ff0"
     },
     {
@@ -9198,7 +9198,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-03-25T16:40:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100325-1640.json",
-      "sha1": "d11b8fc7a47a651d31617ce5c3bd24a34f331556",
+      "sha1": "e40311a1708df0f1854cfe15b705baa8b3834217",
       "detailsSha1": "89bd3ce5f6bc1e419da4162fafbdf2eae0130ac1"
     },
     {
@@ -9208,7 +9208,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-03-21T18:17:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100321-1857.json",
-      "sha1": "540c85e4db2cc9ff5a2e80f8d0cbf1503452c692",
+      "sha1": "f548f20e4ebc81b2672299f8095890d1ee611373",
       "detailsSha1": "da58e317a91c81815a2f8989355cc5019bff3271"
     },
     {
@@ -9218,7 +9218,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-03-20T20:50:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100320.json",
-      "sha1": "34bfbd28255e3b963629449e1bdc452a076f968a",
+      "sha1": "d12ae107d6749ffbcc997ad90bb01c580f6584eb",
       "detailsSha1": "d38556388185473ad758b3dfe1f671e9bfda5aed"
     },
     {
@@ -9228,7 +9228,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-03-16T16:23:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100316.json",
-      "sha1": "1039686c626727a7ed334a91922f40c3f9d22390",
+      "sha1": "6aa307e376758ab831450b9e07bec2b225f87e0f",
       "detailsSha1": "0c4f2c6857edddc9f378a0ce30e6f5fafd952fa9"
     },
     {
@@ -9238,7 +9238,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-03-13T22:26:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100313.json",
-      "sha1": "e8efc83c858c7fb78933a453747c343ac40401f9",
+      "sha1": "a53baab2dd293b5dbcaa9293f3c126d1fd0ee396",
       "detailsSha1": "0fef3ffc0b302d7fa37f40db14e59c7f81aa0804"
     },
     {
@@ -9248,7 +9248,7 @@
       "time": "2015-04-13T07:33:30-07:00",
       "releaseTime": "2010-02-27T14:33:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/inf-20100227-1433.json",
-      "sha1": "d0c8ea86720f0be733c97c5653eda3b64fcd4f01",
+      "sha1": "c2cbf61d90935d89d0569538086cacd25cdc235c",
       "detailsSha1": "e8553043033ce8d26c7b8dbbfc953e607038b7ae"
     },
     {
@@ -9258,7 +9258,7 @@
       "time": "2013-08-06T07:33:30-07:00",
       "releaseTime": "2010-02-23T15:42:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100223.json",
-      "sha1": "6dc8181cee5e94d96a17df105535ecfac54bb3f1",
+      "sha1": "46208de7776fe1336668ba721714b40152c971bc",
       "detailsSha1": "97439eb68fc909bff04d1a66875c05afae0dd46a"
     },
     {
@@ -9268,7 +9268,7 @@
       "time": "2017-10-24T00:00:00+00:00",
       "releaseTime": "2010-02-19T15:11:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100219.json",
-      "sha1": "e9afbdff86fada68c11355a2c945abf69cee32cf",
+      "sha1": "6eb3b30da3fde9e011e81abd85c6a3564b40593a",
       "detailsSha1": "883c08c794c093268976a91bd0013a2fd92f5817"
     },
     {
@@ -9278,7 +9278,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-18T00:16:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100218.json",
-      "sha1": "fcda92bb59b4194316e92fdc63c8d7cdc492e64f",
+      "sha1": "a17d6c0b2021c4c1470f51773a5f4a0b02a4c61a",
       "detailsSha1": "ba1dd5ad318c676434a79fac8779e2d9edbe51f1"
     },
     {
@@ -9288,7 +9288,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-14T21:43:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100214.json",
-      "sha1": "9908641eabe089ebfe2eb0e027658213e8a7a9c1",
+      "sha1": "d8c8cfd77e74aad204beaac70fc90d32941f458a",
       "detailsSha1": "80cfecac81003359455202ce2ec9cf8fd6578b99"
     },
     {
@@ -9298,7 +9298,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-13T22:58:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100213.json",
-      "sha1": "ee4412852989243ade5ccdcab0c8022914092a1f",
+      "sha1": "1d586695498a5eae366a7c47a072e0b6e1c29a59",
       "detailsSha1": "97924c4f954120f4a2aacd0d0919d0fba0e33542"
     },
     {
@@ -9308,7 +9308,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-12T16:22:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100212-1622.json",
-      "sha1": "686d4b9338f363f3e3cdd760f7db913f77204ba5",
+      "sha1": "367316801e9282ff028bbe0064d43159048504d2",
       "detailsSha1": "d7b04108a005f090021316e3313aa983d600eee4"
     },
     {
@@ -9318,7 +9318,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-12T12:10:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100212-1210.json",
-      "sha1": "810f67fe067949e35ae68ca927ef3030c734d816",
+      "sha1": "31400b65d115a2d6d563f27e4e0f1fd36299a184",
       "detailsSha1": "894f81402809d3e895eac19824525a6bcdbdda2e"
     },
     {
@@ -9328,7 +9328,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-07T17:03:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100207-1703.json",
-      "sha1": "16d8af0d3758bded09a7fd51a125392d211eaa0c",
+      "sha1": "18a91df90121f5ef634b21c9985822b56612967b",
       "detailsSha1": "cc2d2e14e0dd730e0a2d9ac6121e4472bab25690"
     },
     {
@@ -9338,7 +9338,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-02-07T11:01:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100207-1101.json",
-      "sha1": "c6fb8dcb2aa4ee33f2704002fc1539c525942768",
+      "sha1": "170e531c5017609e08391031e3078ec9e24ddfda",
       "detailsSha1": "23a9b18c19d01382c40b6ce70752e70cdd506d37"
     },
     {
@@ -9348,7 +9348,7 @@
       "time": "2020-10-14T18:51:02+00:00",
       "releaseTime": "2010-02-06T21:03:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100206-2103.json",
-      "sha1": "27b79d4df3b1a909cba7f77ed86a194ebdc75406",
+      "sha1": "feac31f417c89a66fcf2b2d5c8a4c88e929f767c",
       "detailsSha1": "698380392bc6097f4387550135190bbb232c3759"
     },
     {
@@ -9358,7 +9358,7 @@
       "time": "2017-09-20T19:21:48+02:00",
       "releaseTime": "2010-02-03T23:30:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100202-2330.json",
-      "sha1": "a6a7673edd54485248984b86046c142069cde844",
+      "sha1": "8905686c0906b37d44c43d8761b6eaec88b63d66",
       "detailsSha1": "e7acf4234ec7f91f103b9993a52dcd270b1b9bd2"
     },
     {
@@ -9368,7 +9368,7 @@
       "time": "2017-09-20T19:21:48+02:00",
       "releaseTime": "2010-02-01T22:27:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100201-2227.json",
-      "sha1": "72df7b77b0400d80110f3812b9d08ac984992088",
+      "sha1": "42136281a6eab6a755a0c9211aa033c17611b73c",
       "detailsSha1": "c86231096641b8cafcb23510c2b282f9aae1b1df"
     },
     {
@@ -9378,7 +9378,7 @@
       "time": "2017-09-20T19:21:48+02:00",
       "releaseTime": "2010-02-01T00:25:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100201-0025.json",
-      "sha1": "668854897c412b626ecd79d406d294af16ed4c6b",
+      "sha1": "042d662a45e1da62fcc69ffaeb7b0e39bf1100f8",
       "detailsSha1": "8f2978b599d658e40107bfb1b99c6e9e28056dc3"
     },
     {
@@ -9388,7 +9388,7 @@
       "time": "2017-09-20T19:21:48+02:00",
       "releaseTime": "2010-01-31T22:44:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100131-2244.json",
-      "sha1": "8ba0399aad75f3f74890bfa927ba1bfe71f71e52",
+      "sha1": "f689099845a35b5a7149e2877b3148509da32bfc",
       "detailsSha1": "cae6e9f221a7367453a964ed4e09c5962233722b"
     },
     {
@@ -9398,7 +9398,7 @@
       "time": "2013-08-06T07:33:30-07:00",
       "releaseTime": "2010-01-30T01:09:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100130.json",
-      "sha1": "a79698d5fedeb7e61746d0e86c331ab38587e17f",
+      "sha1": "abb2ce1f664302ba87f8f3c034b4003b7fb91478",
       "detailsSha1": "727b716ba20f961a6770dfc0e205794472547a8c"
     },
     {
@@ -9408,7 +9408,7 @@
       "time": "2010-01-29T00:00:00-00:00",
       "releaseTime": "2010-01-29T14:52:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100129-1452.json",
-      "sha1": "6de01a6812ca169b9e83501be1c1bcb1d1c86241",
+      "sha1": "468b9bdc31173abbf4572f2ce2122ef65f0b8461",
       "detailsSha1": "8dd4a735d8fda0a1d970ee62498199e18f89629c"
     },
     {
@@ -9418,7 +9418,7 @@
       "time": "2010-01-28T23:04:00-00:00",
       "releaseTime": "2010-01-28T23:04:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100128-2304.json",
-      "sha1": "31588f6dc53255f1e9af42594c1880527c8363bd",
+      "sha1": "36514c69765bafdb88b5c00665e139c8670d58d6",
       "detailsSha1": "c2ce18a58615b83d91e4cdbffdd94b90f595e4b2"
     },
     {
@@ -9428,7 +9428,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-01-25T21:00:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100125.json",
-      "sha1": "cfd7d149ed69ac3b2538a919e1b10474e7eaca42",
+      "sha1": "389353edb7d5b60d5036a48c2d70a2623b1bb128",
       "detailsSha1": "db39b04a324b06ac00bc713beab5d0cfe4bffb9c"
     },
     {
@@ -9438,7 +9438,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-01-24T23:10:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100124-2310.json",
-      "sha1": "b5d382904c48d842cc6d4f3061d2f6e62f685921",
+      "sha1": "ace66abbf187c033d57fde4a3d32e13946d6fa38",
       "detailsSha1": "f64b2a78d131893aef5bb310f09c4c79a3c06b24"
     },
     {
@@ -9448,7 +9448,7 @@
       "time": "2017-09-20T00:00:00+00:00",
       "releaseTime": "2010-01-10T23:02:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100110.json",
-      "sha1": "8f6b5fd173ccb32bde74f17c20fd3fc02c421674",
+      "sha1": "a15d7b0335117bea117c0ef61d1dcaf0ed4dbe11",
       "detailsSha1": "f887fce922cb24bbf83589654f79d293e9c565a1"
     },
     {
@@ -9458,7 +9458,7 @@
       "time": "2013-08-06T07:33:30-07:00",
       "releaseTime": "2010-01-04T22:58:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20100105.json",
-      "sha1": "eefd5251b0922360deb8c99a50e3f6a2267444fc",
+      "sha1": "607b71287b4c28c5a79398fb4977b2ef679c2218",
       "detailsSha1": "ac626f337856ffa7101a2c37aefa8a3dd0e8f9b4"
     },
     {
@@ -9468,7 +9468,7 @@
       "time": "2021-06-26T22:48:05+00:00",
       "releaseTime": "2009-12-31T22:55:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20091231-2257.json",
-      "sha1": "75e633929ce12923d9a02df440606e20f225dfd1",
+      "sha1": "eb562ab6578e938126cd98f38dc833b59fd04f7c",
       "detailsSha1": "70a61bbd08821c7df1dbf40a276e1659b1d17a2c"
     },
     {
@@ -9478,7 +9478,7 @@
       "time": "2009-12-23T00:00:00-00:00",
       "releaseTime": "2009-12-23T14:59:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/in-20091223-1459.json",
-      "sha1": "26d1b1eaed57586761533883b69277acd07657f6",
+      "sha1": "d6ca123983b9d82b34aa02f5f4c866934eab5017",
       "detailsSha1": "1b20919cb33fd8731ac1991ac8e53f3e64577c24"
     },
     {
