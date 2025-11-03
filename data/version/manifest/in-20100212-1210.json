@@ -49,7 +49,7 @@
         "value": "-Xss1M"
       },
       "-Djava.library.path=${natives_directory}",
-      "-Djava.util.Arrays.useLegacyMergeSort",
+      "-Djava.util.Arrays.useLegacyMergeSort=true",
       "-Dminecraft.launcher.brand=${launcher_name}",
       "-Dminecraft.launcher.version=${launcher_version}",
       "-cp",
