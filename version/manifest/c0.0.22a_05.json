@@ -79,6 +79,28 @@
     {
       "downloads": {
         "artifact": {
+          "path": "org/ow2/asm/asm/7.0/asm-7.0.jar",
+          "sha1": "d74d4ba0dee443f68fb2dcb7fcdb945a2cd89912",
+          "size": 113676,
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm/7.0/asm-7.0.jar"
+        }
+      },
+      "name": "org.ow2.asm:asm:7.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar",
+          "sha1": "29bc62dcb85573af6e62e5b2d735ef65966c4180",
+          "size": 50399,
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar"
+        }
+      },
+      "name": "org.ow2.asm:asm-tree:7.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
           "path": "net/minecraft/launchwrapper/1.6/launchwrapper-1.6.jar",
           "sha1": "4ea0aca9c022a234ebaf14b51fb119055955fc9d",
           "size": 27583,
@@ -97,17 +119,6 @@
         }
       },
       "name": "net.sf.jopt-simple:jopt-simple:4.5"
-    },
-    {
-      "downloads": {
-        "artifact": {
-          "path": "org/ow2/asm/asm-all/4.1/asm-all-4.1.jar",
-          "sha1": "054986e962b88d8660ae4566475658469595ef58",
-          "size": 214592,
-          "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
-        }
-      },
-      "name": "org.ow2.asm:asm-all:4.1"
     },
     {
       "downloads": {
