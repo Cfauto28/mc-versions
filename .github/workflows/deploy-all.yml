@@ -35,6 +35,7 @@ jobs:
             make -e dist URL_BASE="https://ornithemc.net/mc-versions/gen$gen/"
             cp -Tr dist ${{ github.workspace }}/dist/gen$gen
           done
+          ln -sr ${{ github.workspace }}/dist/gen1/version_manifest.json ${{ github.workspace }}/dist/version_manifest.json
           cd ${{ github.workspace }}
 
       - name: Deploy
