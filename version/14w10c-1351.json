@@ -19,7 +19,7 @@
       "url": "https://launcher.mojang.com/v1/objects/8e53ed92ea48856f6bcd7c267b5b95c8b017b112/windows_server.exe"
     }
   },
-  "id": "14w10c",
+  "id": "14w10c-1351",
   "libraries": [
     "com.google.code.gson:gson:2.2.4",
     "com.google.guava:guava:16.0",
@@ -50,13 +50,11 @@
     "tv.twitch:twitch:6.5"
   ],
   "next": [
-    "14w10c-1518",
-    "14w11a"
+    "14w10c"
   ],
-  "normalizedVersion": "1.8.0-alpha.14.10.c",
+  "normalizedVersion": "1.8.0-alpha.14.10.c+1351",
   "previous": [
-    "14w10b",
-    "14w10c-1351"
+    "14w10b"
   ],
   "protocol": {
     "type": "netty",
