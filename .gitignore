@@ -6,3 +6,4 @@ google-service-account.json
 storage/
 external_manifests/
 temp.ts
+spreadsheet.json
