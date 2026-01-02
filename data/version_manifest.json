@@ -1684,11 +1684,11 @@
       "id": "1.11.1-pre",
       "type": "release",
       "url": "version/manifest/1.11.1-pre.json",
-      "sha1": "719c30579f64a94c9edd601b6935e8fef4791618",
+      "sha1": "a5fc7266fb011071030a97ed4eba7f7e4fb73d7a",
       "time": "2016-12-15T15:01:26+00:00",
       "releaseTime": "2016-12-15T15:01:26+00:00",
       "details": "version/1.11.1-pre.json",
-      "detailsSha1": "46a52b66a47deb5d16c7455eec3c339f5e44dadd"
+      "detailsSha1": "45ffbf3c192c14af6d12ec76b65fa96362f7c909"
     },
     {
       "id": "16w50a",
