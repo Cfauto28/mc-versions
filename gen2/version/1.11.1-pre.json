@@ -6,12 +6,12 @@
     "client": {
       "sha1": "94d4254628f24668b191fe4d8653615e9cc2ecbc",
       "size": 9194809,
-      "url": "https://launcher.mojang.com/v1/objects/94d4254628f24668b191fe4d8653615e9cc2ecbc/client.jar"
+      "url": "https://piston-data.mojang.com/mc/game/1.11.1/client/94d4254628f24668b191fe4d8653615e9cc2ecbc/client.jar"
     },
     "server": {
       "sha1": "b58a0421c86378759be16f4658817fadad619c72",
       "size": 9720270,
-      "url": "https://launcher.mojang.com/v1/objects/b58a0421c86378759be16f4658817fadad619c72/server.jar"
+      "url": "https://piston-data.mojang.com/mc/game/1.11.1/server/b58a0421c86378759be16f4658817fadad619c72/server.jar"
     }
   },
   "id": "1.11.1-pre",
