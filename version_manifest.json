@@ -1678,7 +1678,17 @@
       "time": "2016-12-20T14:05:34+00:00",
       "releaseTime": "2016-12-20T14:05:34+00:00",
       "details": "https://ornithemc.net/mc-versions/version/1.11.1.json",
-      "detailsSha1": "e5aea78110991fa6f8dd99305c3c1d02f9fcb47e"
+      "detailsSha1": "6491a597a22fd8c65da1b178e76f3cbdd51045c3"
+    },
+    {
+      "id": "1.11.1-pre",
+      "type": "release",
+      "url": "https://ornithemc.net/mc-versions/version/manifest/1.11.1-pre.json",
+      "sha1": "719c30579f64a94c9edd601b6935e8fef4791618",
+      "time": "2016-12-15T15:01:26+00:00",
+      "releaseTime": "2016-12-15T15:01:26+00:00",
+      "details": "https://ornithemc.net/mc-versions/version/1.11.1-pre.json",
+      "detailsSha1": "46a52b66a47deb5d16c7455eec3c339f5e44dadd"
     },
     {
       "id": "16w50a",
@@ -1688,7 +1698,7 @@
       "time": "2016-12-15T14:38:52+00:00",
       "releaseTime": "2016-12-15T14:38:52+00:00",
       "details": "https://ornithemc.net/mc-versions/version/16w50a.json",
-      "detailsSha1": "e8c7df91266835edf78f8ffd50f4fe3f82c4bf96"
+      "detailsSha1": "25e5cc810bc73c09bdb29a5e58f821485e09a423"
     },
     {
       "id": "1.11",
@@ -4608,7 +4618,17 @@
       "time": "2013-04-01T17:34:00+00:00",
       "releaseTime": "2013-04-01T17:34:00+00:00",
       "details": "https://ornithemc.net/mc-versions/version/2.0-red.json",
-      "detailsSha1": "7abb3798d480686ff6560f7fbcfda852c04dead9"
+      "detailsSha1": "708c5f494f32b8a202ccb22ea7c1a09369d18fb5"
+    },
+    {
+      "id": "2.0-preview",
+      "type": "snapshot",
+      "url": "https://ornithemc.net/mc-versions/version/manifest/2.0-preview.json",
+      "sha1": "2a046efcc8ddd0cb33221b37320d1066cd5c3c2c",
+      "time": "2013-03-22T18:54:18+00:00",
+      "releaseTime": "2013-03-22T18:54:18+00:00",
+      "details": "https://ornithemc.net/mc-versions/version/2.0-preview.json",
+      "detailsSha1": "8ac67047102e05bf61c5eae5b07cb7f93b76eaef"
     },
     {
       "id": "1.5.1",
@@ -4618,7 +4638,7 @@
       "time": "2013-03-20T10:00:00+00:00",
       "releaseTime": "2013-03-21T10:42:14+00:00",
       "details": "https://ornithemc.net/mc-versions/version/1.5.1.json",
-      "detailsSha1": "fd8fd31702b4f635cdf050948e927db08a835f30"
+      "detailsSha1": "70d6805b936fa6e3f532d629c4beb8cc1942aa3e"
     },
     {
       "id": "1.5.1-pre-191519",
