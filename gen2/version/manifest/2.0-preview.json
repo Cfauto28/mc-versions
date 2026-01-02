@@ -1,0 +1,282 @@
+{
+  "arguments": {
+    "game": [
+      "${auth_player_name}",
+      "${auth_session}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${game_assets}"
+    ],
+    "jvm": [
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ],
+        "value": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows",
+              "version": "^10\\."
+            }
+          }
+        ],
+        "value": [
+          "-Dos.name=Windows 10",
+          "-Dos.version=10.0"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "arch": "x86"
+            }
+          }
+        ],
+        "value": "-Xss1M"
+      },
+      "-Djava.library.path=${natives_directory}",
+      "-Dminecraft.launcher.brand=${launcher_name}",
+      "-Dminecraft.launcher.version=${launcher_version}",
+      "-cp",
+      "${classpath}"
+    ]
+  },
+  "assetIndex": {
+    "id": "pre-1.6",
+    "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
+    "size": 73813,
+    "totalSize": 49381897,
+    "url": "https://launchermeta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
+  },
+  "assets": "pre-1.6",
+  "downloads": {
+    "client": {
+      "sha1": "55a8b15c11846eb11dfe5b2e9c776998d539b3f0",
+      "size": 5604736,
+      "url": "https://vault.omniarchive.uk/archive/java/client-april-fools/2.0-preview.jar"
+    },
+    "server": {
+      "sha1": "70b4d34cdac794e497a10c45559d7e0ef7476430",
+      "size": 2374275,
+      "url": "https://vault.omniarchive.uk/archive/java/server-april-fools/2.0-preview.jar"
+    }
+  },
+  "id": "2.0-preview",
+  "javaVersion": {
+    "component": "jre-legacy",
+    "majorVersion": 8
+  },
+  "libraries": [
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm/7.0/asm-7.0.jar",
+          "sha1": "d74d4ba0dee443f68fb2dcb7fcdb945a2cd89912",
+          "size": 113676,
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm/7.0/asm-7.0.jar"
+        }
+      },
+      "name": "org.ow2.asm:asm:7.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar",
+          "sha1": "29bc62dcb85573af6e62e5b2d735ef65966c4180",
+          "size": 50399,
+          "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/7.0/asm-tree-7.0.jar"
+        }
+      },
+      "name": "org.ow2.asm:asm-tree:7.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar",
+          "sha1": "5150b9c2951f0fde987ce9c33496e26add1de224",
+          "size": 27787,
+          "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar"
+        }
+      },
+      "name": "net.minecraft:launchwrapper:1.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar",
+          "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
+          "size": 61311,
+          "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+        }
+      },
+      "name": "net.sf.jopt-simple:jopt-simple:4.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+          "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+          "size": 208338,
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+        }
+      },
+      "name": "net.java.jinput:jinput:2.0.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+          "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+          "size": 7508,
+          "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+        }
+      },
+      "name": "net.java.jutils:jutils:1.0.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl/2.9.4+legacyfabric.15/lwjgl-2.9.4+legacyfabric.15.jar",
+          "sha1": "4aa4a428a0af94c82d4cb700708733a9d448c8d7",
+          "size": 1080569,
+          "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl/2.9.4+legacyfabric.15/lwjgl-2.9.4+legacyfabric.15.jar"
+        }
+      },
+      "name": "org.lwjgl.lwjgl:lwjgl:2.9.4+legacyfabric.15"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/lwjgl_util/2.9.4+legacyfabric.15/lwjgl_util-2.9.4+legacyfabric.15.jar",
+          "sha1": "9fb7110ce0567de6134365d4b42d1652f215b801",
+          "size": 180575,
+          "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl_util/2.9.4+legacyfabric.15/lwjgl_util-2.9.4+legacyfabric.15.jar"
+        }
+      },
+      "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.4+legacyfabric.15"
+    },
+    {
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-linux.jar",
+            "sha1": "061d5d567dc1eed14f34b4639ab8406363c6eab4",
+            "size": 4434295,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-osx.jar",
+            "sha1": "4a19c718098653f0f8cb284e2670455ddd0aa227",
+            "size": 1599360,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-windows.jar",
+            "sha1": "7837accdad72b380999ce2f0fa1cdd4a1f0f123d",
+            "size": 2490338,
+            "url": "https://maven.legacyfabric.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.4+legacyfabric.15/lwjgl-platform-2.9.4+legacyfabric.15-natives-windows.jar"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4+legacyfabric.15",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+            "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+            "size": 10362,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+            "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+            "size": 12186,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+            "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+            "size": 155179,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+            "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+            "size": 10362,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+          },
+          "natives-osx": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+            "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+            "size": 12186,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+          },
+          "natives-windows": {
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+            "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+            "size": 155179,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+          }
+        }
+      },
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "linux": "natives-linux",
+        "osx": "natives-osx",
+        "windows": "natives-windows"
+      }
+    }
+  ],
+  "logging": {},
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": 4,
+  "releaseTime": "2013-03-22T18:54:18+00:00",
+  "time": "2013-03-22T18:54:18+00:00",
+  "type": "snapshot"
+}

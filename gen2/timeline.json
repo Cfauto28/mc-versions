@@ -1782,6 +1782,12 @@
     "releaseTime": "2012-07-25T10:29:10+00:00"
   },
   {
+    "id": "1.3-1249",
+    "type": "release",
+    "normalizedVersion": "1.3.0+1249",
+    "releaseTime": "2012-07-26T13:00:52+00:00"
+  },
+  {
     "id": "1.3",
     "type": "release",
     "normalizedVersion": "1.3.0",
@@ -2182,6 +2188,12 @@
     "type": "release",
     "normalizedVersion": "1.5.1",
     "releaseTime": "2013-03-21T10:42:14+00:00"
+  },
+  {
+    "id": "2.0-preview",
+    "type": "other",
+    "normalizedVersion": "2.0.0-april.fools.2.preview",
+    "releaseTime": "2013-03-22T18:54:18+00:00"
   },
   {
     "id": "2.0-red",
@@ -2818,6 +2830,12 @@
     "type": "snapshot",
     "normalizedVersion": "1.8.0-alpha.14.10.b",
     "releaseTime": "2014-03-06T16:25:39+00:00"
+  },
+  {
+    "id": "14w10c-1351",
+    "type": "snapshot",
+    "normalizedVersion": "1.8.0-alpha.14.10.c+1351",
+    "releaseTime": "2014-03-07T13:49:55+00:00"
   },
   {
     "id": "14w10c",
@@ -3934,6 +3952,12 @@
     "type": "snapshot",
     "normalizedVersion": "1.11.1-alpha.16.50.a",
     "releaseTime": "2016-12-15T14:38:52+00:00"
+  },
+  {
+    "id": "1.11.1-pre",
+    "type": "pre-release",
+    "normalizedVersion": "1.11.1-pre",
+    "releaseTime": "2016-12-15T15:01:26+00:00"
   },
   {
     "id": "1.11.1",

@@ -55,7 +55,8 @@
   ],
   "normalizedVersion": "1.8.0-alpha.14.10.c",
   "previous": [
-    "14w10b"
+    "14w10b",
+    "14w10c-1351"
   ],
   "protocol": {
     "type": "netty",
