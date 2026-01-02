@@ -53,7 +53,7 @@
   ],
   "normalizedVersion": "1.11.1",
   "previous": [
-    "16w50a"
+    "1.11.1-pre"
   ],
   "protocol": {
     "type": "netty",

@@ -1678,7 +1678,17 @@
       "time": "2016-12-20T14:05:34+00:00",
       "releaseTime": "2016-12-20T14:05:34+00:00",
       "details": "version/1.11.1.json",
-      "detailsSha1": "e5aea78110991fa6f8dd99305c3c1d02f9fcb47e"
+      "detailsSha1": "6491a597a22fd8c65da1b178e76f3cbdd51045c3"
+    },
+    {
+      "id": "1.11.1-pre",
+      "type": "release",
+      "url": "version/manifest/1.11.1-pre.json",
+      "sha1": "719c30579f64a94c9edd601b6935e8fef4791618",
+      "time": "2016-12-15T15:01:26+00:00",
+      "releaseTime": "2016-12-15T15:01:26+00:00",
+      "details": "version/1.11.1-pre.json",
+      "detailsSha1": "46a52b66a47deb5d16c7455eec3c339f5e44dadd"
     },
     {
       "id": "16w50a",
@@ -1688,7 +1698,7 @@
       "time": "2016-12-15T14:38:52+00:00",
       "releaseTime": "2016-12-15T14:38:52+00:00",
       "details": "version/16w50a.json",
-      "detailsSha1": "e8c7df91266835edf78f8ffd50f4fe3f82c4bf96"
+      "detailsSha1": "25e5cc810bc73c09bdb29a5e58f821485e09a423"
     },
     {
       "id": "1.11",
