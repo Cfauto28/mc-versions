@@ -4608,7 +4608,7 @@
       "time": "2013-04-01T17:40:00+00:00",
       "releaseTime": "2013-04-01T17:40:00+00:00",
       "details": "version/2.0-blue.json",
-      "detailsSha1": "7dbac3cbbe1c8276a02dd7987494aa947ef7244e"
+      "detailsSha1": "cf347c1be71d10e5e745348e945da6090487f88c"
     },
     {
       "id": "2.0-red",
@@ -4618,7 +4618,7 @@
       "time": "2013-04-01T17:34:00+00:00",
       "releaseTime": "2013-04-01T17:34:00+00:00",
       "details": "version/2.0-red.json",
-      "detailsSha1": "708c5f494f32b8a202ccb22ea7c1a09369d18fb5"
+      "detailsSha1": "7abb3798d480686ff6560f7fbcfda852c04dead9"
     },
     {
       "id": "2.0-preview",
@@ -4628,7 +4628,7 @@
       "time": "2013-03-22T18:54:18+00:00",
       "releaseTime": "2013-03-22T18:54:18+00:00",
       "details": "version/2.0-preview.json",
-      "detailsSha1": "8ac67047102e05bf61c5eae5b07cb7f93b76eaef"
+      "detailsSha1": "b43685d32138590ca6d01150f32cd7ffdb02b835"
     },
     {
       "id": "1.5.1",

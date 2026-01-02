@@ -32,7 +32,8 @@
   ],
   "normalizedVersion": "2.0.0-april.fools.1.blue",
   "previous": [
-    "1.5.1"
+    "1.5.1",
+    "2.0-preview"
   ],
   "protocol": {
     "type": "modern",
