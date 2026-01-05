@@ -4224,11 +4224,11 @@
       "id": "1.6.2-091847",
       "type": "release",
       "url": "version/manifest/1.6.2-091847.json",
-      "sha1": "df39734597918055487db978feccd93ab733dc9d",
+      "sha1": "87954b166aa1bc4d52d1c79a4f6269f8cff7254e",
       "time": "2013-07-05T13:09:02+00:00",
       "releaseTime": "2013-07-09T18:47:00+00:00",
       "details": "version/1.6.2-091847.json",
-      "detailsSha1": "8d7b4ad2c34da3afb078a0051c29dc8649381f54"
+      "detailsSha1": "9a4c3b899402ab30dc48b3cb9b89aa7700b16736"
     },
     {
       "id": "1.6.2-080933",
