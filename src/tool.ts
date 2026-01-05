@@ -1,6 +1,7 @@
 #!/usr/bin/env -S deno run -A
 import { encodeHex } from "jsr:@std/encoding/hex";
 import { crypto } from "jsr:@std/crypto";
+import { auth, GridRange, Sheets, Spreadsheet } from 'https://googleapis.deno.dev/v1/sheets:v4.ts';
 
 //import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
 
@@ -213,8 +214,6 @@ const mirrorMap: Map<MirrorId, LocalOriginalId> = new Map([
     ["13w16b", "13w16b-2151"],
     ["13w23b", "13w23b-0101"],
     ["1.6", "1.6-1517"],
-    // TODO look at this
-    ["1.6.2", "1.6.2-091847"],
     ["13w38c", "13w38c-1516"],
     ["1.7", "1.7-1602"],
     ["14w04b", "14w04b-1554"],
@@ -241,6 +240,7 @@ const mergedMirrorMap: Map<MirrorId, [client: LocalOriginalId, server: LocalOrig
     ["b1.9-pre4", ["b1.9-pre4-1435", "b1.9-pre4-1441"]],
     ["13w16a", ["13w16a-192037", "13w16a-191517"]],
     ["13w22a", ["13w22a-1434", "13w22a-1608"]],
+    ["1.6.2", ["1.6.2-091847", "1.6.2-080933"]],
     ["1.6.3", ["1.6.3-171231", "1.6.3-171031"]],
     ["13w36a", ["13w36a-1446", "13w36a-1330"]],
     ["13w36b", ["13w36b-1307", "13w36b-1233"]],
@@ -261,11 +261,19 @@ const weirdMergeMap: Map<LocalId, [client: ExternalOriginalId, server: IndexOrig
     ["14w04a-1526", ["14w04a", "14w04a-1526"]],
     ["1.7.5-02260922", ["1.7.5", "1.7.5-02260922"]]
 ]);
+type Reason = string;
+const exemptOtherVersions: Map<VersionId, Reason> = new Map([
+    ["b1.1-1245", "The Omniarchive manifest version offers the server for b1.1_01; if the server downloads were switched, every download would match"],
+    ["b1.1_01", "The Omniarchive manifest version offers the server for b1.1-1245; if the server downloads were switched, every download would match"],
+    ["1.0.0", "The Omniarchive manifest has the server for 1.0.1; otherwise, every other download matches"],
+    ["12w18a", "The local manifest version has an extra \"client_zip\" download; otherwise, every other download matches"],
+    ["12w19a", "The local manifest version has an extra \"client_zip\" download; otherwise, every other download matches"],
+    ["1.7.7-091529", "The local manifest version includes the servers associated with this client; the client download otherwise matches"],
+    ["1.12-pre3-1316", "The Omniarchive manifest version offers downloads for 1.12-pre3-1409; none of the downloads match, but if the Omniarchive manifest gets fixed, the downloads would match"]
+]);
 
 const shouldSkip = (key: string): boolean => !(standaloneSevers.includes(key) || orphanServers.includes(key) ||
     mirrorlessRenameMap.has(key) || mirrorMap.has(key) || reverseMirrorMap.has(key) || mergedMirrorMap.has(key) || weirdMergeMap.has(key));
-
-export { standaloneSevers, renamedStandaloneServers, orphanServers, renamedOrphanServers, mirrorlessRenameMap, mirrorMap, reverseMirrorMap, mergedMirrorMap, weirdMergeMap }
 
 function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>) {
     const missingExternal = [];
@@ -304,6 +312,209 @@ function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManife
     });
 
     console.log(`\nLocal manifest is missing ${missingLocal.length} versions`);
+}
+
+function isWithinRangePredicate(rowIndex: number) {
+    return (range: GridRange) => rowIndex > range.startRowIndex! && rowIndex < range.endRowIndex!
+}
+
+async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>): Promise<[clients: Set<string>, servers: Set<string>]> {
+    const [clients, servers] = [new Set<string>(), new Set<string>()];
+
+    const sheets = (await spreadsheetPromise).sheets!.filter((sheet) => sheet.properties!.sheetId !== 1427179805 && sheet.properties!.sheetId !== 1915497658);
+    sheets.forEach((sheet) => {
+        const sheetId = sheet.properties!.sheetId;
+        const merges = sheet.merges!.filter((range) => range.startColumnIndex === 1);
+        sheet.data![0].rowData!.forEach((row, rowIndex, rowData) => {
+            const potentialVersion = row.values![1].formattedValue;
+            if (potentialVersion !== 'ID') {
+                if ((sheetId === 872531987 || sheetId === 804883379) && potentialVersion) clients.add(potentialVersion);
+                else if ((sheetId === 2126693093 || sheetId === 59329510) && potentialVersion) servers.add(potentialVersion);
+                else if (sheetId === 65188128) {
+                    const id = potentialVersion ?? rowData[merges.find(isWithinRangePredicate(rowIndex))!.startRowIndex!].values![1].formattedValue!;
+                    const type = row.values![6].formattedValue!;
+                    if (type.startsWith('Client') || type === 'EXE') clients.add(id);
+                    else if (type.startsWith('Server')) servers.add(id);
+                }
+            }
+        });
+    });
+
+    return [clients, servers];
+}
+
+async function verifyVersions(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>, spreadsheetPromise: Promise<[clients: Set<string>, servers: Set<string>]>) {
+    const [spreadsheetClients, spreadsheetServers] = await spreadsheetPromise;
+
+    const logServerResult = (version: string, isCorrect: boolean, renamedServerMap: Map<LocalId, IndexOriginalId>) => {
+        const mappedVersion = renamedServerMap.get(version) ?? version;
+        const exists = spreadsheetServers.has(mappedVersion);
+
+        const correctString = `${version} is ${isCorrect ? 'correct' : 'incorrect'}`;
+        const isRenamed = version !== mappedVersion;
+        const existsString = `${version} ${exists ? `exists${isRenamed ? ` as ${mappedVersion}` : ''}` : 'does not exist'}`;
+
+        const passingArgs = [`${isRenamed ? '%c' : ''}${correctString}, ${existsString}`];
+        if (isRenamed) passingArgs.push('color: blue');
+        isCorrect && exists ? console.log(...passingArgs) : console.warn(`%c-----> ${correctString}, ${existsString} <-----`, 'color: red');
+    };
+
+    const standaloneServerMap = new Map(localVersionsMap.entries().filter((value) => standaloneSevers.includes(value[0])));
+    if (standaloneServerMap.size !== standaloneSevers.length) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Standalone server check:');
+    standaloneServerMap.forEach((local, version) => {
+        const correct = remoteVersionsMap.values().some((remote) => {
+            const remoteServer = remote.downloads!.server;
+            return remoteServer && (local.downloads!.server ?? local.downloads!.server_zip).sha1 === remoteServer.sha1
+        });
+
+        logServerResult(version, correct, renamedStandaloneServers);
+    });
+
+    console.log();
+
+    const orphanServerMap = new Map(localVersionsMap.entries().filter((value) => orphanServers.includes(value[0])));
+    if (orphanServerMap.size !== orphanServers.length) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Orphan server check:');
+    orphanServerMap.forEach((local, version) => {
+        const correct = !remoteVersionsMap.values().some((remote) => {
+            const remoteServer = remote.downloads!.server;
+            return remoteServer && (local.downloads!.server ?? local.downloads!.server_zip).sha1 === remoteServer.sha1;
+        });
+
+        logServerResult(version, correct, renamedOrphanServers)
+    });
+
+    console.log();
+
+    const downloadTypes = new Set<string>();
+    localVersionsMap.forEach((version) => {
+        Object.keys(version.downloads!).forEach((key) => downloadTypes.add(key));
+    });
+
+    console.log(`All download types: ${downloadTypes.values().toArray()}`);
+
+    console.log();
+
+    const mirrorlessVersionMap = new Map(localVersionsMap.entries().filter((value) => mirrorlessRenameMap.has(value[0])));
+    if (mirrorlessVersionMap.size !== mirrorlessRenameMap.size) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Mirrorless version rename check:');
+    mirrorlessVersionMap.forEach((local, version) => {
+        // let correct = !localVersionsMap.values().some((otherLocal) => {
+        //     return otherLocal.id !== version && Object.values(local.downloads!).some((localDownload) => {
+        //         return Object.values(otherLocal.downloads!).some((otherLocalDownload) => localDownload.url === otherLocalDownload.url);
+        //     });
+        // });
+
+        const remoteVersion = mirrorlessRenameMap.get(version)!;
+        const correct = !localVersionsMap.has(remoteVersion) &&  remoteVersionsMap.has(remoteVersion) && Object.entries(local.downloads!).every((localDownload) => {
+            const localDownloadSide = localDownload[1];
+            const remoteDownloadSide = remoteVersionsMap.get(remoteVersion)!.downloads![localDownload[0]];
+            return remoteDownloadSide && remoteDownloadSide.sha1 === localDownloadSide.sha1 /*&& remoteDownloadSide.url === localDownloadSide.url*/;
+        });
+
+        correct ? console.log(`${version} is correct`) : console.warn(`%c-----> ${version} is incorrect <-----`, 'color: red');
+    });
+
+    console.log();
+
+    const mirrorVersionMap = new Map(localVersionsMap.entries().filter((value) => mirrorMap.has(value[0]) || reverseMirrorMap.has(value[0])));
+    if (mirrorVersionMap.size !== mirrorMap.size + reverseMirrorMap.size) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Mirror/Reverse Mirror version check:');
+    mirrorVersionMap.forEach((local1, version) => {
+        const mirroredVersion = mirrorMap.get(version) ?? reverseMirrorMap.get(version)!;
+        const correct = localVersionsMap.has(mirroredVersion) && Object.entries(local1.downloads!).every((local1Download) => {
+            const local1DownloadInfo = local1Download[1];
+            const local2DownloadInfo = localVersionsMap.get(mirroredVersion)!.downloads![local1Download[0]];
+            return local2DownloadInfo && Object.entries(local2DownloadInfo).every((entry) => entry[1] === local1DownloadInfo[entry[0] as keyof DownloadInfo]);
+        });
+
+        correct ? console.log(`${version} is correct`) : console.warn(`%c-----> ${version} is incorrect <-----`, 'color: red');
+    });
+
+    console.log();
+
+    const mergedMirrorVersionMap = new Map(localVersionsMap.entries().filter((value) => mergedMirrorMap.has(value[0])));
+    if (mergedMirrorVersionMap.size !== mergedMirrorMap.size) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Merged mirror version check:');
+    mergedMirrorVersionMap.forEach((merged, version) => {
+        const [originalClient, originalServer] = mergedMirrorMap.get(version)!;
+        const correct = localVersionsMap.has(originalClient) && localVersionsMap.has(originalServer) && Object.entries(merged.downloads!).every((mergedDownload) => {
+            const [downloadType, downloadInfo] = mergedDownload;
+            const originalDownloadInfo = localVersionsMap.get(downloadType.includes('client') ? originalClient : originalServer)!.downloads![downloadType];
+            return originalDownloadInfo && Object.entries(originalDownloadInfo).every((entry) => entry[1] === downloadInfo[entry[0] as keyof DownloadInfo]);
+        });
+
+        correct ? console.log(`${version} is correct`) : console.warn(`%c-----> ${version} is incorrect <-----`, 'color: red');
+    });
+
+    console.log();
+
+    const weirdMergeVersionMap = new Map(localVersionsMap.entries().filter((value) => weirdMergeMap.has(value[0])));
+    if (weirdMergeVersionMap.size !== weirdMergeMap.size) console.warn('%cMap size mismatch!', 'color: red');
+
+    console.log('Weird merge version check:');
+    weirdMergeVersionMap.forEach((weirdMerge, version) => {
+        const [remoteClient, indexServer] = weirdMergeMap.get(version)!;
+        const correct = remoteVersionsMap.has(remoteClient) && spreadsheetServers.has(indexServer) && Object.entries(weirdMerge.downloads!).every((weirdMergeDownload) => {
+            const [downloadType, downloadInfo] = weirdMergeDownload;
+            if (downloadType.includes('client')) {
+                const clientDownloadInfo = remoteVersionsMap.get(remoteClient)!.downloads![downloadType];
+                return clientDownloadInfo && Object.entries(clientDownloadInfo).every((entry) => entry[1] === downloadInfo[entry[0] as keyof DownloadInfo]);
+            } else return !remoteVersionsMap.values().some((remote) => Object.values(remote.downloads!).some((download) => download.url === downloadInfo.url));
+        });
+
+        correct ? console.log(`${version} is correct`) : console.warn(`%c-----> ${version} is incorrect <-----`, 'color: red');
+    });
+
+    console.log();
+
+    const allOtherVersionsMap = new Map(localVersionsMap.entries().filter((value) => shouldSkip(value[0])));
+
+    console.log('All other versions check (correct versions will be skipped):');
+    let mismatches = 0;
+    const unindexedClients: Set<VersionId> = new Set();
+    const unindexedServers: Set<VersionId> = new Set();
+    allOtherVersionsMap.forEach((manifest, version) => {
+        const correct = remoteVersionsMap.has(version) && Object.entries(manifest.downloads!).every((localDownload) => {
+            const localDownloadInfo = localDownload[1];
+            const downloadType = localDownload[0];
+            if (downloadType === 'client' && !spreadsheetClients.has(version)) unindexedClients.add(version);
+            if (downloadType === 'server' && !spreadsheetServers.has(version)) unindexedServers.add(version);
+            const remoteDownloadInfo = remoteVersionsMap.get(version)!.downloads![downloadType];
+            return remoteDownloadInfo && localDownloadInfo.sha1 === remoteDownloadInfo.sha1;
+        });
+
+        if (!correct) {
+            const message = [`%c${version} is %s`];
+
+            if (exemptOtherVersions.has(version)) {
+                message.push('color: orange');
+                message.push(`exempt, ${exemptOtherVersions.get(version)!}`);
+            } else {
+                unindexedClients.delete(version);
+                unindexedServers.delete(version);
+                message.push('color: red');
+                message.push(`incorrect`);
+                mismatches++;
+            }
+
+            console.warn(...message);
+        }
+    });
+
+    console.log(`There are ${mismatches} incorrect versions`);
+
+    console.log();
+    unindexedClients.forEach((client) => console.warn(`%c${client} is correct, but not on the client index!`, 'color: magenta'));
+
+    console.log();
+    unindexedServers.forEach((server) => console.warn(`%c${server} is correct, but not on the server index!`, 'color: magenta'));
 }
 
 function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>) {
@@ -379,6 +590,9 @@ if (import.meta.main) (async () => {
         return await updateAndCacheExternalVersionJsons(remoteManifestJson);
     })();
 
+    const sheetsApi = new Sheets(auth.fromJSON(JSON.parse(await Deno.readTextFile('google-service-account.json'))));
+    const spreadsheetPromise = readSpreadsheetVersions(sheetsApi.spreadsheetsGet('1OCxMNQLeZJi4BlKKwHx2OlzktKiLEwFXnmCrSdAFwYQ', {includeGridData: true}));
+
     console.log('Locally stored manifests loaded');
 
     while (true) {
@@ -386,7 +600,8 @@ if (import.meta.main) (async () => {
         console.log('1: Validate the main manifest and the local version jsons and details json');
         console.log('2: Update sha1 hashes in the main versions manifest');
         console.log('3: Compare local manifests with external (Omniarchive) manifests');
-        console.log('4: Update and cache external (Omniarchive) manifests');
+        console.log('4: Verify if lists and maps of modified version IDs are correct');
+        console.log('5: Update and cache external (Omniarchive) manifests');
         console.log('E: Exit');
         const option = prompt('Choose an option: ');
         console.log();
@@ -401,7 +616,10 @@ if (import.meta.main) (async () => {
             case '3':
                 compareLocalWithOmniarchive(localVersionJsonsMap, remoteVersionJsonsMap);
                 break;
-            case '4': {
+            case '4':
+                await verifyVersions(localVersionJsonsMap, remoteVersionJsonsMap, spreadsheetPromise);
+                break;
+            case '5': {
                 const confirmation = confirm('Are you sure? This will take a while');
                 console.log();
                 if (confirmation) remoteVersionJsonsMap = await updateAndCacheExternalVersionJsons(remoteManifestJson);
