@@ -5,11 +5,21 @@ import { crypto } from "jsr:@std/crypto";
 //import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+const getFileSha1 = async (path: string): Promise<string> => encodeHex((await crypto.subtle.digest('SHA-1', (await Deno.open(path, { read: true })).readable)));
+
+async function fileExists(path: string) {
+    try {
+        return await Deno.lstat(path) as unknown as boolean;
+    } catch (error) {
+        if(!(error instanceof Deno.errors.NotFound)) throw error;
+        return false;
+    }
+}
 
 async function readLocalVersionJsons() {
     const versionsMap: Map<string, VersionManifest> = new Map();
     for await (const file of Deno.readDir(('data/version/manifest'))) {
-        const version: VersionManifest = JSON.parse(await Deno.readTextFile('data/version/manifest/' + file.name));
+        const version: VersionManifest = JSON.parse(await Deno.readTextFile(`data/version/manifest/${file.name}`));
         versionsMap.set(version.id, version);
     }
     return versionsMap;
@@ -19,20 +29,29 @@ async function readLocalDetailsJsons() {
     const detailsMap: Map<string, VersionData> = new Map();
     for await (const file of Deno.readDir('data/version')) {
         if (file.isDirectory) continue;
-        const versionDetails = JSON.parse(await Deno.readTextFile('data/version/' + file.name));
+        const versionDetails = JSON.parse(await Deno.readTextFile(`data/version/${file.name}`));
         detailsMap.set(versionDetails.id, versionDetails);
     }
     return detailsMap;
 }
 
-async function readAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveMainManifest) {
+async function updateAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveMainManifest) {
     const versionsMap: Map<string, OmniVersionManifest> = new Map();
     for (const version of remoteManifestJson.versions) {
-        const versionJson: OmniVersionManifest = await (await fetch(version.url)).json();
+        let versionJson: OmniVersionManifest;
 
-        console.log(`Writing ${versionJson.id}.json`);
-        await Deno.writeTextFile(`external_manifests/${versionJson.id}.json`, JSON.stringify(versionJson, null, 2));
-        await sleep(1000);
+        const versionJsonPath = `external_manifests/ugly/${version.id}.json`;
+        if (await fileExists(versionJsonPath) && version.sha1 === await getFileSha1(versionJsonPath)) {
+            versionJson = JSON.parse(await Deno.readTextFile(versionJsonPath));
+            console.log(`${version.id}.json is already up to date`);
+        } else {
+            versionJson = await (await fetch(version.url)).json();
+
+            console.log(`Writing ${version.id}.json`);
+            await Deno.writeTextFile(versionJsonPath, `${JSON.stringify(versionJson)}\n`);
+            await Deno.writeTextFile(`external_manifests/${version.id}`, JSON.stringify(versionJson, null, 2));
+            await sleep(1000);
+        }
 
         versionsMap.set(version.id, versionJson);
     }
@@ -41,17 +60,15 @@ async function readAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveM
 }
 
 async function readCachedExternalVersionJsons() {
-    try {
-        await Deno.lstat('external_manifests');
-    } catch (error) {
-        if(!(error instanceof Deno.errors.NotFound)) throw error;
+    const cacheDir = 'external_manifests/ugly';
+    if (!(await fileExists(cacheDir))) {
+        await Deno.mkdir(cacheDir);
         return null;
     }
-    const cacheDirectory = Deno.readDir('external_manifests');
 
     const versionsMap: Map<string, OmniVersionManifest> = new Map();
-    for await (const file of cacheDirectory) {
-        const versionManifest = JSON.parse(await Deno.readTextFile('external_manifests/' + file.name));
+    for await (const file of Deno.readDir(cacheDir)) {
+        const versionManifest = JSON.parse(await Deno.readTextFile(`${cacheDir}/${file.name}`));
         versionsMap.set(versionManifest.id, versionManifest);
     }
     return versionsMap;
@@ -235,44 +252,58 @@ const mergedMirrorMap: Map<MirrorId, [client: LocalOriginalId, server: LocalOrig
     ["14w11b", ["14w11b-1650", "14w11b-1640"]],
     ["1.7.7", ["1.7.7-101331", "1.7.7-091529"]]
 ]);
-// Versions that had disambiguation added to the local manifests, but which don't exist as is in the Omniarchive manifest
+// Versions that had disambiguation added to the local manifests, but which don't exist as is in the Omniarchive manifest (with server versions that are unavailable in the Omniarchive manifest)
 const weirdMergeMap: Map<LocalId, [client: ExternalOriginalId, server: IndexOriginalId]> = new Map([
     ["13w22a-1434", ["13w22a", "13w22a-1434"]],
     ["1.6.4-201309191549", ["1.6.4", "1.6.4-201309191549"]],
     ["13w39a-1511", ["13w39a", "13w39a-1511"]],
-    // TODO super weird merge
+    // Since only the jar got reuploaded, Omniarchive's manifest doesn't have the jar version, but *does* contain the Windows server exe
     ["14w04a-1526", ["14w04a", "14w04a-1526"]],
     ["1.7.5-02260922", ["1.7.5", "1.7.5-02260922"]]
 ]);
 
+const shouldSkip = (key: string): boolean => !(standaloneSevers.includes(key) || orphanServers.includes(key) ||
+    mirrorlessRenameMap.has(key) || mirrorMap.has(key) || reverseMirrorMap.has(key) || mergedMirrorMap.has(key) || weirdMergeMap.has(key));
+
 export { standaloneSevers, renamedStandaloneServers, orphanServers, renamedOrphanServers, mirrorlessRenameMap, mirrorMap, reverseMirrorMap, mergedMirrorMap, weirdMergeMap }
 
 function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>) {
-    const missing = [];
+    const missingExternal = [];
+
     localVersionsMap.forEach((_value, key) => {
-        if (standaloneSevers.includes(key)) {
-            console.log(`${key} is a standalone server`);
-        } else if (orphanServers.includes(key)) {
-            console.log(`${key} is an orphan server`);
-        } else if (mirrorlessRenameMap.has(key)) {
-            console.log(`${key} is a renamed version for omniarchive's ${mirrorlessRenameMap.get(key)} without a mirror`);
-        } else if (mirrorMap.has(key)) {
-            console.log(`${key} is a mirror version for ${mirrorMap.get(key)}`);
-        } else if(reverseMirrorMap.has(key)) {
-            console.log(`${key} is a reverse mirror version for ${mirrorMap.get(key)}`);
-        } else if (mergedMirrorMap.has(key)) {
-            const [client, server] =  mergedMirrorMap.get(key)!;
-            console.log(`${key} is a merged mirror version for ${client} client and ${server} server`);
-        } else if (weirdMergeMap.has(key)) {
-            const [client, server] =  weirdMergeMap.get(key)!;
-            console.log(`${key} is a weird merged version for Omniarchive's ${client} client and ${server} orphaned server`);
-        } else if (!remoteVersionsMap.has(key)) {
+        if (shouldSkip(key) && !remoteVersionsMap.has(key)) {
             console.log(`%cOmniarchive manifest is missing ${key}`, 'color: red');
-            missing.push(key);
+            missingExternal.push(key);
         }
     });
 
-    console.log(`\nOmniarchive manifest is missing ${missing.length} versions`);
+    console.log(`Skipped ${standaloneSevers.length + orphanServers.length + mirrorlessRenameMap.size + mirrorMap.size + reverseMirrorMap.size + mergedMirrorMap.size + weirdMergeMap.size} versions
+    - ${standaloneSevers.length} server versions included in most closely related client in the Omniarchive manifest
+    - ${orphanServers.length} server versions that are not included in the Omniarchive manifest at all
+    - ${mirrorlessRenameMap.size} versions (that are not copies of another local manifest) with a disambiguation removed when compared to its respective Omniarchive manifest (i.e. Omniarchive's 1.7.1-pre is just 1.7.1 in this manifest)
+    - ${mirrorMap.size} versions that are copies of a version with a disambiguation suffix (e.g. 14w04b for 14w04b-1554)
+    - ${reverseMirrorMap.size} versions that are the reverse of the previous ones
+    - ${mergedMirrorMap.size} versions without disambiguation that contain downloads of two different versions (one client and one server)
+    - ${weirdMergeMap.size} versions that had a disambiguation added in this manifest to distinguish them from Omniarchive versions without disambiguation and other local versions`);
+    console.log(`\nOmniarchive manifest is missing ${missingExternal.length} versions`);
+
+    // const test = remoteVersionsMap.keys().toArray().sort();
+    console.log(/*test*/);
+
+    const missingLocal = [];
+    const iterable = remoteVersionsMap.entries().filter((entry) =>
+        entry[0] <= "1.14.4-pre7" || (entry[0] >= "1.2-pre" && entry[0] <= "1.2.5") || (entry[0] >= "1.3-pre-1249" && entry[0] <= "19w36a")
+        || entry[0].startsWith("2.0-") || (entry[0] >= "3D Shareware v1.34" && entry[0] <= "combat3") || entry[0] >= "in-20091223-1459");
+    const filteredRemoteMap = new Map(iterable);
+
+    filteredRemoteMap.forEach((_value, key) => {
+        if (!localVersionsMap.has(key) && !mirrorlessRenameMap.values().toArray().includes(key)) {
+            console.log(`%cThe local manifest is missing ${key}`, 'color: red');
+            missingLocal.push(key);
+        }
+    });
+
+    console.log(`\nLocal manifest is missing ${missingLocal.length} versions`);
 }
 
 function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>) {
@@ -288,7 +319,7 @@ function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<str
     }
 
     // log any references to unknown versions in the next and previous fields of details jsons
-    detailsJsons.forEach((details, id) => {
+    detailsJsons.forEach((details) => {
         if (details.previous != null) {
             for (let i = 0; i < details.previous.length; i++) {
                 const prevId = details.previous[i];
@@ -328,12 +359,8 @@ function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<str
 async function updateLocalManifestHashes(manifest: MainManifest) {
     for (let i = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
-        const manifestFileStream = (await Deno.open(`data/${version.url}`, { read: true })).readable;
-        const detailsFileStream = (await Deno.open(`data/${version.details}`, { read: true })).readable;
-        const manifestHashBuffer = await crypto.subtle.digest('SHA-1', manifestFileStream);
-        const detailsHashBuffer = await crypto.subtle.digest('SHA-1', detailsFileStream);
-        manifest.versions[i].sha1 = encodeHex(manifestHashBuffer);
-        manifest.versions[i].detailsSha1 = encodeHex(detailsHashBuffer);
+        manifest.versions[i].sha1 = await getFileSha1(`data/${version.url}`);
+        manifest.versions[i].detailsSha1 = await getFileSha1(`data/${version.details}`);
     }
     await Deno.writeTextFile('data/version_manifest.json', JSON.stringify(manifest, null, 2));
     console.log('Hashes updated');
@@ -349,7 +376,7 @@ if (import.meta.main) (async () => {
         const cached = await readCachedExternalVersionJsons();
         if (cached && cached.size > 0) return cached;
         console.log('Cache does not exist! Creating...\n');
-        return await readAndCacheExternalVersionJsons(remoteManifestJson);
+        return await updateAndCacheExternalVersionJsons(remoteManifestJson);
     })();
 
     console.log('Locally stored manifests loaded');
@@ -377,7 +404,7 @@ if (import.meta.main) (async () => {
             case '4': {
                 const confirmation = confirm('Are you sure? This will take a while');
                 console.log();
-                if (confirmation) remoteVersionJsonsMap = await readAndCacheExternalVersionJsons(remoteManifestJson);
+                if (confirmation) remoteVersionJsonsMap = await updateAndCacheExternalVersionJsons(remoteManifestJson);
                 break;
             }
             case 'e':
