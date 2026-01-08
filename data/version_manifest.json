@@ -4234,11 +4234,11 @@
       "id": "1.6.2-080933",
       "type": "release",
       "url": "version/manifest/1.6.2-080933.json",
-      "sha1": "a4510538deb4acff349722930e1d08c915e42a4a",
+      "sha1": "40ff7fa0a2d0177fead39caeae47ad635d705a28",
       "time": "2013-07-05T13:09:02+00:00",
       "releaseTime": "2013-07-08T10:10:20+00:00",
       "details": "version/1.6.2-080933.json",
-      "detailsSha1": "36621aadc27446be7bad9f8d8a748bebfe0b9932"
+      "detailsSha1": "00a7da07e60976afe3fcf076730778cfcb6ca38d"
     },
     {
       "id": "1.6.2-pre-1426",
@@ -4644,11 +4644,11 @@
       "id": "1.5.1-pre-191519",
       "type": "release",
       "url": "version/manifest/1.5.1-pre-191519.json",
-      "sha1": "2266e846f1705ae0dc98d92b508863827c6d50a5",
+      "sha1": "b876d4157b206a95531cea9b154c467b8b716d78",
       "time": "2013-03-20T10:00:00+00:00",
       "releaseTime": "2013-03-19T15:35:44+00:00",
       "details": "version/1.5.1-pre-191519.json",
-      "detailsSha1": "a5c9257af47bc3efdf3634f2c8078b7d4d711d95"
+      "detailsSha1": "f32d6037ba0d723d15e107b51843c88c405c6d55"
     },
     {
       "id": "13w12~",

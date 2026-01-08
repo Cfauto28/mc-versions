@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run -A
 import { encodeHex } from "jsr:@std/encoding/hex";
 import { crypto } from "jsr:@std/crypto";
-import { auth, GridRange, Sheets, Spreadsheet } from 'https://googleapis.deno.dev/v1/sheets:v4.ts';
+import { auth, CellData, GridRange, Sheets, Spreadsheet } from 'https://googleapis.deno.dev/v1/sheets:v4.ts';
 
 //import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
 
@@ -50,7 +50,7 @@ async function updateAndCacheExternalVersionJsons(remoteManifestJson: Omniarchiv
 
             console.log(`Writing ${version.id}.json`);
             await Deno.writeTextFile(versionJsonPath, `${JSON.stringify(versionJson)}\n`);
-            await Deno.writeTextFile(`external_manifests/${version.id}`, JSON.stringify(versionJson, null, 2));
+            await Deno.writeTextFile(`external_manifests/${version.id}.json`, JSON.stringify(versionJson, null, 2));
             await sleep(1000);
         }
 
@@ -227,7 +227,7 @@ const mirrorMap: Map<MirrorId, LocalOriginalId> = new Map([
     ["1.14.2-pre4", "1.14.2-pre4-270720"]
 ]);
 // Disambiguated versions that are supposed to exist as the "original" version ID, but for whatever reason the Omniarchive manifest has used the "mirror" version ID instead
-const reverseMirrorMap: Map<MirrorId, LocalOriginalId> = new Map([
+const reverseMirrorMap: Map<LocalOriginalId, MirrorId> = new Map([
     ["14w10c-1351", "14w10c"]
 ]);
 // Mirrors that don't come from a single source but rather contain download links from two different "original" version manifests (one client and another server)
@@ -240,7 +240,7 @@ const mergedMirrorMap: Map<MirrorId, [client: LocalOriginalId, server: LocalOrig
     ["b1.9-pre4", ["b1.9-pre4-1435", "b1.9-pre4-1441"]],
     ["13w16a", ["13w16a-192037", "13w16a-191517"]],
     ["13w22a", ["13w22a-1434", "13w22a-1608"]],
-    ["1.6.2", ["1.6.2-091847", "1.6.2-080933"]],
+    ["1.6.2", ["1.6.2-091847", "1.6.2-pre-1426"]],
     ["1.6.3", ["1.6.3-171231", "1.6.3-171031"]],
     ["13w36a", ["13w36a-1446", "13w36a-1330"]],
     ["13w36b", ["13w36b-1307", "13w36b-1233"]],
@@ -262,14 +262,52 @@ const weirdMergeMap: Map<LocalId, [client: ExternalOriginalId, server: IndexOrig
     ["1.7.5-02260922", ["1.7.5", "1.7.5-02260922"]]
 ]);
 type Reason = string;
+// Versions with version IDs that match with what the Omniarchive manifest has, but whose downloads don't match with locally provided downloads, with reasons as to why mapped to the version ID
 const exemptOtherVersions: Map<VersionId, Reason> = new Map([
+    ["b1.0.2-0841", "The Omniarchive manifest version includes the server for b1.0_01; the client download otherwise matches"],
     ["b1.1-1245", "The Omniarchive manifest version offers the server for b1.1_01; if the server downloads were switched, every download would match"],
+    ["b1.1-1255", "The Omniarchive manifest version includes the server for b1.1_01 (incorrectly, currently a bug); the client download otherwise matches"],
     ["b1.1_01", "The Omniarchive manifest version offers the server for b1.1-1245; if the server downloads were switched, every download would match"],
-    ["1.0.0", "The Omniarchive manifest has the server for 1.0.1; otherwise, every other download matches"],
+    ["b1.2_02", "The Omniarchive manifest version includes the server for b1.2_01; the client download otherwise matches"],
+    ["b1.2_02-launcher", "The Omniarchive manifest version includes the server for b1.2_01; the client download otherwise matches"],
+    ["b1.4-1634", "The Omniarchive manifest version includes the server for b1.4-1507; the client download otherwise matches"],
+    ["b1.9-pre3-1402", "The Omniarchive manifest version includes the server for 1.9-pre3-1350; the client download otherwise matches"],
+    ["1.0.0", "The Omniarchive manifest version offers the server for 1.0.1; otherwise, every other download matches"],
     ["12w18a", "The local manifest version has an extra \"client_zip\" download; otherwise, every other download matches"],
     ["12w19a", "The local manifest version has an extra \"client_zip\" download; otherwise, every other download matches"],
-    ["1.7.7-091529", "The local manifest version includes the servers associated with this client; the client download otherwise matches"],
+    ["13w16a-192037", "The Omniarchive manifest version includes the server for 13w16a-191517; the client download otherwise matches"],
+    ["1.6.2-080933", "The Omniarchive manifest version includes the server for 1.6.2-pre-1426; the client download otherwise matches"],
+    ["1.6.2-091847", "The Omniarchive manifest version includes the server for 1.6.2-pre-1426; the client download otherwise matches"],
+    ["1.7.7-091529", "The local manifest version includes the server associated with this client; the client download otherwise matches"],
+    ["1.7.7-101331", "The Omniarchive manifest version includes the server for 1.7.7-091529 (for some reason the Omniarchive manifest only has the servers on this version and not the earlier reupload); the client download otherwise matches"],
     ["1.12-pre3-1316", "The Omniarchive manifest version offers downloads for 1.12-pre3-1409; none of the downloads match, but if the Omniarchive manifest gets fixed, the downloads would match"]
+]);
+// Versions whose IDs and associated manifests match with those the Omniarchive manifest has, but who's IDs are renamed from those provided by the index
+const clientIndexRenameMap: Map<VersionId, IndexOriginalId> = new Map([
+    ["inf-20100330-1511", "inf-20100330-1611"], // Time deobfuscation is off by 1 hour when comparing with compile time
+    ["b1.0.2-0841", "b1.0.2"], // The deobfuscation was removed on the index, probably because the existence of an older reupload is questionable (the entry for b1.0.2-0836 is color coded orange in the index)
+    ["b1.2_02-dev", "b1.2_02-20110517"], // Deobfuscation was changed to better reflect this version's purpose and origin
+    ["b1.9-pre4-1435", "b1.9-pre4-1434"], // Time deobfuscation is off by 1 minute when comparing with compile time
+    ["12w17a-1424", "12w17a-04261424"], // Client version ID was modified to match the deobfuscated server ID associated with it, the original client ID on the index has month and day information added to it too for some reason
+]);
+const serverIndexRenameMap: Map<VersionId, IndexOriginalId> = new Map([
+    ["b1.1-1245", "b1.1"], // Server version ID was modified to match the deobfuscated client ID associated with it
+    ["b1.4-1507", "b1.4"], // Server version ID was modified to match the deobfuscated client ID associated with it
+    ["b1.9-pre3-1350", "b1.9-pre3"], // Server version ID was modified to match the deobfuscated client ID associated with it
+    ["13w05a-1504", "13w05a-1503"], // Server was compiled 1 minute before the client; this is this client's "corresponding server"
+    ["13w05a-1538", "13w05a-1537"], // Server was compiled 1 minute before the client; this is this client's "corresponding server"
+    ["13w06a-1559", "13w06a-1558"], // Server was compiled 1 minute before the client; this is this client's "corresponding server"
+    ["1.5.1-pre-191519", "1.5.1-pre"], // Server version ID was modified to match the deobfuscated client ID associated with it
+    ["1.5.1", "1.5.1-pre"], // Server was only ever uploaded once during the pre-release "phase" of 1.5.1, so 1.5.1 serves as a "semi-mirror" that carries a unique client, but with the server that was released "corresponding to" 1.5.1-pre-191519 client
+    ["1.5.2-pre-250703", "1.5.2-pre-250903"], // Time disambiguation is off by 2 hours compared to the noted compile time due to extra contextual information gathered by Omniarchive about the time zone of this compilation time
+    ["13w23b-0101", "13w23b-0102"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
+    ["1.6.2-pre-1426", "1.6.2-pre-1427"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
+    ["13w36a-1234", "13w36a-1235"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
+    ["14w04b-1554", "14w04b-1555"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
+    ["14w10c", "14w10c-1351"], // 14w10c is a "reverse mirror" of 14w10c-1351
+    ["1.7.7-091529", "1.7.7"], // Server version ID was modified to match the deobfuscated client ID associated with it
+    ["19w13b-1316", "19w13b-1317"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
+    ["1.14.2-pre4-270720", "1.14.2-pre4-270721"], // Server was compiled 1 minute after the client; this is this client's "corresponding server"
 ]);
 
 const shouldSkip = (key: string): boolean => !(standaloneSevers.includes(key) || orphanServers.includes(key) ||
@@ -318,6 +356,10 @@ function isWithinRangePredicate(rowIndex: number) {
     return (range: GridRange) => rowIndex > range.startRowIndex! && rowIndex < range.endRowIndex!
 }
 
+function versionIsAvailable(cell: CellData) {
+    return cell.effectiveFormat && cell.effectiveFormat.backgroundColor!.red! < cell.effectiveFormat.backgroundColor!.green!;
+}
+
 async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>): Promise<[clients: Set<string>, servers: Set<string>]> {
     const [clients, servers] = [new Set<string>(), new Set<string>()];
 
@@ -326,15 +368,17 @@ async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>)
         const sheetId = sheet.properties!.sheetId;
         const merges = sheet.merges!.filter((range) => range.startColumnIndex === 1);
         sheet.data![0].rowData!.forEach((row, rowIndex, rowData) => {
-            const potentialVersion = row.values![1].formattedValue;
+            const versionCell = row.values![1];
+            const potentialVersion = versionCell.formattedValue;
             if (potentialVersion !== 'ID') {
-                if ((sheetId === 872531987 || sheetId === 804883379) && potentialVersion) clients.add(potentialVersion);
-                else if ((sheetId === 2126693093 || sheetId === 59329510) && potentialVersion) servers.add(potentialVersion);
+                if ((sheetId === 872531987 || sheetId === 804883379) && potentialVersion && versionIsAvailable(versionCell)) clients.add(potentialVersion.trim());
+                else if ((sheetId === 2126693093 || sheetId === 59329510) && potentialVersion && versionIsAvailable(versionCell)) servers.add(potentialVersion.trim());
                 else if (sheetId === 65188128) {
                     const id = potentialVersion ?? rowData[merges.find(isWithinRangePredicate(rowIndex))!.startRowIndex!].values![1].formattedValue!;
-                    const type = row.values![6].formattedValue!;
-                    if (type.startsWith('Client') || type === 'EXE') clients.add(id);
-                    else if (type.startsWith('Server')) servers.add(id);
+                    const typeCell = row.values![6];
+                    const type = typeCell.formattedValue!;
+                    if ((type.startsWith('Client') || type === 'EXE') && versionIsAvailable(typeCell)) clients.add(id.trim());
+                    else if (type.startsWith('Server') && versionIsAvailable(typeCell)) servers.add(id.trim());
                 }
             }
         });
@@ -343,7 +387,7 @@ async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>)
     return [clients, servers];
 }
 
-async function verifyVersions(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>, spreadsheetPromise: Promise<[clients: Set<string>, servers: Set<string>]>) {
+async function verifyVersionConsistency(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>, spreadsheetPromise: Promise<[clients: Set<string>, servers: Set<string>]>) {
     const [spreadsheetClients, spreadsheetServers] = await spreadsheetPromise;
 
     const logServerResult = (version: string, isCorrect: boolean, renamedServerMap: Map<LocalId, IndexOriginalId>) => {
@@ -477,44 +521,92 @@ async function verifyVersions(localVersionsMap: Map<string, VersionManifest>, re
     const allOtherVersionsMap = new Map(localVersionsMap.entries().filter((value) => shouldSkip(value[0])));
 
     console.log('All other versions check (correct versions will be skipped):');
-    let mismatches = 0;
+    let incorrectVersions = 0;
+    let semiCorrectVersions = 0;
+    let exemptions = 0;
     const unindexedClients: Set<VersionId> = new Set();
     const unindexedServers: Set<VersionId> = new Set();
     allOtherVersionsMap.forEach((manifest, version) => {
-        const correct = remoteVersionsMap.has(version) && Object.entries(manifest.downloads!).every((localDownload) => {
-            const localDownloadInfo = localDownload[1];
-            const downloadType = localDownload[0];
+        const remoteDownloads = new Map(Object.entries(remoteVersionsMap.get(version)?.downloads ?? {}));
+        let semiCorrect = false;
+        const correct = remoteDownloads.size > 0 && Object.entries(manifest.downloads!).every(([downloadType, localDownloadInfo]) => {
             if (downloadType === 'client' && !spreadsheetClients.has(version)) unindexedClients.add(version);
             if (downloadType === 'server' && !spreadsheetServers.has(version)) unindexedServers.add(version);
-            const remoteDownloadInfo = remoteVersionsMap.get(version)!.downloads![downloadType];
-            return remoteDownloadInfo && localDownloadInfo.sha1 === remoteDownloadInfo.sha1;
-        });
+            const remoteDownloadInfo = remoteDownloads.get(downloadType);
+            return remoteDownloads.delete(downloadType) && localDownloadInfo.sha1 === remoteDownloadInfo!.sha1;
+        }) && (remoteDownloads.size === 0 || (semiCorrect = remoteDownloads.entries().every(([downloadType, remoteDownloadInfo]) => {
+            return standaloneServerMap.values().some((standaloneManifest) => {
+                const downloads = new Map(Object.entries(standaloneManifest.downloads!));
+                const downloadInfo = downloads.get(downloadType) ?? downloads.get(version.startsWith('c') ? 'server_zip' : '');
+                return downloadInfo && downloadInfo.sha1 === remoteDownloadInfo.sha1;
+            });
+        })));
 
+        if (semiCorrect) semiCorrectVersions++;
         if (!correct) {
             const message = [`%c${version} is %s`];
 
             if (exemptOtherVersions.has(version)) {
                 message.push('color: orange');
                 message.push(`exempt, ${exemptOtherVersions.get(version)!}`);
+                exemptions++;
             } else {
                 unindexedClients.delete(version);
                 unindexedServers.delete(version);
                 message.push('color: red');
                 message.push(`incorrect`);
-                mismatches++;
+                incorrectVersions++;
             }
 
             console.warn(...message);
         }
     });
-
-    console.log(`There are ${mismatches} incorrect versions`);
+    if (exemptions !== exemptOtherVersions.size) console.warn('%cSomething is wrong with the exemption map!', 'color: red');
+    console.log(`There are ${incorrectVersions} incorrect versions`);
+    console.log(`and ${exemptions} exemptions`);
+    console.log(`and ${semiCorrectVersions} semi-correct versions`);
 
     console.log();
-    unindexedClients.forEach((client) => console.warn(`%c${client} is correct, but not on the client index!`, 'color: magenta'));
+    let clientRenamePasses = 0;
+    let unaccountedClients = 0;
+    unindexedClients.forEach(function (client) {
+        const message = [`%c${client} is correct, but %s`];
+        if (clientIndexRenameMap.has(client) && spreadsheetClients.has(clientIndexRenameMap.get(client)!)) {
+            message.push('color: blue');
+            message.push(`included on the index as ${clientIndexRenameMap.get(client)}`);
+            clientRenamePasses++;
+        } else {
+            message.push('color: orange');
+            message.push('not on the client index!');
+            unaccountedClients++;
+        }
+        console.warn(...message);
+    });
+    if (clientRenamePasses !== clientIndexRenameMap.size) console.warn('%cSomething is wrong with the rename map!', 'color: red');
+    console.log(`There are ${unindexedClients.size} clients that are not on the Omniarchive index`);
+    if (unaccountedClients > 0) console.warn(`%c${unaccountedClients} are unaccounted for`, 'color: red');
+    else console.log('%cand that\'s okay!', 'color: green');
 
     console.log();
-    unindexedServers.forEach((server) => console.warn(`%c${server} is correct, but not on the server index!`, 'color: magenta'));
+    let serverRenamePasses = 0;
+    let unaccountedServers = 0;
+    unindexedServers.forEach((server) => {
+        const message = [`%c${server} is correct, but %s`];
+        if (serverIndexRenameMap.has(server) && spreadsheetServers.has(serverIndexRenameMap.get(server)!)) {
+            message.push('color: blue');
+            message.push(`included on the index as ${serverIndexRenameMap.get(server)}`);
+            serverRenamePasses++;
+        } else {
+            message.push('color: orange');
+            message.push('not on the server index!');
+            unaccountedServers++;
+        }
+        console.warn(...message);
+    });
+    if (serverRenamePasses !== serverIndexRenameMap.size) console.warn('%cSomething is wrong with the rename map!', 'color: red');
+    console.log(`There are ${unindexedServers.size} servers that are not on the Omniarchive index`);
+    if (unaccountedServers > 0) console.warn(`%c${unaccountedServers} are unaccounted for`, 'color: red');
+    else console.log('%cand that\'s okay!', 'color: green');
 }
 
 function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>) {
@@ -617,7 +709,7 @@ if (import.meta.main) (async () => {
                 compareLocalWithOmniarchive(localVersionJsonsMap, remoteVersionJsonsMap);
                 break;
             case '4':
-                await verifyVersions(localVersionJsonsMap, remoteVersionJsonsMap, spreadsheetPromise);
+                await verifyVersionConsistency(localVersionJsonsMap, remoteVersionJsonsMap, spreadsheetPromise);
                 break;
             case '5': {
                 const confirmation = confirm('Are you sure? This will take a while');
