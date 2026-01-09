@@ -66,6 +66,16 @@
       "sha1": "051b1a551ed4276acabb0e0d372aca958193906d",
       "size": 5561274,
       "url": "https://vault.omniarchive.uk/archive/java/client-release/1.5/pre/1.5.1-pre-191519.jar"
+    },
+    "server": {
+      "sha1": "d07c71ee2767dabb79fb32dad8162e1b854d5324",
+      "size": 2360013,
+      "url": "https://launcher.mojang.com/v1/objects/d07c71ee2767dabb79fb32dad8162e1b854d5324/server.jar"
+    },
+    "windows_server": {
+      "sha1": "5492d8d1dfaff8b9dce1536a1e578e60b57b4d31",
+      "size": 2541261,
+      "url": "https://launcher.mojang.com/v1/objects/5492d8d1dfaff8b9dce1536a1e578e60b57b4d31/windows_server.exe"
     }
   },
   "id": "1.5.1-pre-191519",
