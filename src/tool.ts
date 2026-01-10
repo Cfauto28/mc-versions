@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run -A
-import { encodeHex } from "jsr:@std/encoding/hex";
-import { crypto } from "jsr:@std/crypto";
+import { encodeHex } from 'jsr:@std/encoding/hex';
+import { crypto } from 'jsr:@std/crypto';
 import { auth, CellData, GridRange, Sheets, Spreadsheet } from 'https://googleapis.deno.dev/v1/sheets:v4.ts';
 
 //import { MainManifest, VersionData, OmniarchiveMainManifest, OmniVersionManifest } from './types.d.ts';
@@ -8,16 +8,31 @@ import { auth, CellData, GridRange, Sheets, Spreadsheet } from 'https://googleap
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 const getFileSha1 = async (path: string): Promise<string> => encodeHex((await crypto.subtle.digest('SHA-1', (await Deno.open(path, { read: true })).readable)));
 
-async function fileExists(path: string) {
+const GIT_EXECUTABLE = Deno.env.get("GIT_EXECUTABLE") ?? `git`;
+const getLatestAuthorDate = async (path: string): Promise<string> => {
+    const { code, stdout } = await new Deno.Command(GIT_EXECUTABLE,{
+        args: [
+            "log",
+            "-1",
+            "--pretty=format:\"%aI\"",
+            path
+        ]
+    }).output();
+    if (code) throw new Error("git log failed!");
+    const date = new Date((new TextDecoder().decode(stdout)).slice(1,-1));
+    return `${date.toISOString().slice(0, -5)}+00:00`
+};
+
+const fileExists = async (path: string): Promise<boolean> => {
     try {
-        return await Deno.lstat(path) as unknown as boolean;
+        return !!await Deno.lstat(path);
     } catch (error) {
         if(!(error instanceof Deno.errors.NotFound)) throw error;
         return false;
     }
-}
+};
 
-async function readLocalVersionJsons() {
+async function readLocalVersionJsons(): Promise<Map<string, VersionManifest>> {
     const versionsMap: Map<string, VersionManifest> = new Map();
     for await (const file of Deno.readDir(('data/version/manifest'))) {
         const version: VersionManifest = JSON.parse(await Deno.readTextFile(`data/version/manifest/${file.name}`));
@@ -26,7 +41,7 @@ async function readLocalVersionJsons() {
     return versionsMap;
 }
 
-async function readLocalDetailsJsons() {
+async function readLocalDetailsJsons(): Promise<Map<string, VersionData>> {
     const detailsMap: Map<string, VersionData> = new Map();
     for await (const file of Deno.readDir('data/version')) {
         if (file.isDirectory) continue;
@@ -36,7 +51,7 @@ async function readLocalDetailsJsons() {
     return detailsMap;
 }
 
-async function updateAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveMainManifest) {
+async function updateAndCacheExternalVersionJsons(remoteManifestJson: OmniarchiveMainManifest): Promise<Map<string, OmniVersionManifest>> {
     const versionsMap: Map<string, OmniVersionManifest> = new Map();
     for (const version of remoteManifestJson.versions) {
         let versionJson: OmniVersionManifest;
@@ -60,7 +75,7 @@ async function updateAndCacheExternalVersionJsons(remoteManifestJson: Omniarchiv
     return versionsMap;
 }
 
-async function readCachedExternalVersionJsons() {
+async function readCachedExternalVersionJsons(): Promise<Map<string, OmniVersionManifest> | null> {
     const cacheDir = 'external_manifests/ugly';
     if (!(await fileExists(cacheDir))) {
         await Deno.mkdir(cacheDir);
@@ -153,7 +168,7 @@ const orphanServers: VersionId[] = [
     "14w10c-1518",
     "17w18a-1331"
 ];
-// Orphaned server versions that have a different ID in the local manifest than in the Omniarcive index
+// Orphaned server versions that have a different ID in the local manifest than in the Omniarchive index
 const renamedOrphanServers: Map<LocalId, IndexOriginalId> = new Map([
     ["1.6-1304", "1.6-pre-1304"],
     ["1.7-1500", "1.7-pre-1500"]
@@ -313,7 +328,7 @@ const serverIndexRenameMap: Map<VersionId, IndexOriginalId> = new Map([
 const shouldSkip = (key: string): boolean => !(standaloneSevers.includes(key) || orphanServers.includes(key) ||
     mirrorlessRenameMap.has(key) || mirrorMap.has(key) || reverseMirrorMap.has(key) || mergedMirrorMap.has(key) || weirdMergeMap.has(key));
 
-function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>) {
+function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>): void {
     const missingExternal = [];
 
     localVersionsMap.forEach((_value, key) => {
@@ -352,13 +367,11 @@ function compareLocalWithOmniarchive(localVersionsMap: Map<string, VersionManife
     console.log(`\nLocal manifest is missing ${missingLocal.length} versions`);
 }
 
-function isWithinRangePredicate(rowIndex: number) {
-    return (range: GridRange) => rowIndex > range.startRowIndex! && rowIndex < range.endRowIndex!
-}
+const isWithinRangePredicate = (rowIndex: number): ((range: GridRange) => boolean) =>
+    (range: GridRange): boolean => rowIndex > range.startRowIndex! && rowIndex < range.endRowIndex!;
 
-function versionIsAvailable(cell: CellData) {
-    return cell.effectiveFormat && cell.effectiveFormat.backgroundColor!.red! < cell.effectiveFormat.backgroundColor!.green!;
-}
+const versionIsAvailable = (cell: CellData): boolean =>
+    !!cell.effectiveFormat && cell.effectiveFormat.backgroundColor!.red! < cell.effectiveFormat.backgroundColor!.green!;
 
 async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>): Promise<[clients: Set<string>, servers: Set<string>]> {
     const [clients, servers] = [new Set<string>(), new Set<string>()];
@@ -387,10 +400,10 @@ async function readSpreadsheetVersions(spreadsheetPromise: Promise<Spreadsheet>)
     return [clients, servers];
 }
 
-async function verifyVersionConsistency(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>, spreadsheetPromise: Promise<[clients: Set<string>, servers: Set<string>]>) {
+async function verifyVersionCorrectness(localVersionsMap: Map<string, VersionManifest>, remoteVersionsMap: Map<string, OmniVersionManifest>, spreadsheetPromise: Promise<[clients: Set<string>, servers: Set<string>]>): Promise<void> {
     const [spreadsheetClients, spreadsheetServers] = await spreadsheetPromise;
 
-    const logServerResult = (version: string, isCorrect: boolean, renamedServerMap: Map<LocalId, IndexOriginalId>) => {
+    const logServerResult = (version: string, isCorrect: boolean, renamedServerMap: Map<LocalId, IndexOriginalId>): void => {
         const mappedVersion = renamedServerMap.get(version) ?? version;
         const exists = spreadsheetServers.has(mappedVersion);
 
@@ -609,7 +622,7 @@ async function verifyVersionConsistency(localVersionsMap: Map<string, VersionMan
     else console.log('%cand that\'s okay!', 'color: green');
 }
 
-function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>) {
+function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>): void {
     // log manifest entries with inconsistent references to version jsons and/or details jsons
     for (let i = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
@@ -644,26 +657,36 @@ function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<str
     });
 
     // log any manifest entries that do not have corresponding version jsons and/or details jsons
+    const versionJsonsCopy = new Map(versionJsons);
+    const detailsJsonsCopy = new Map(detailsJsons);
     for (let i = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
-        if (!versionJsons.delete(version.id)) {
+        if (!versionJsonsCopy.delete(version.id)) {
             console.log(`manifest has version ${version.id} but there is no info json for that version!`)
         }
-        if (!detailsJsons.delete(version.id)) {
+        if (!detailsJsonsCopy.delete(version.id)) {
             console.log(`manifest has version ${version.id} but there is no details json for that version!`)
         }
     }
 
     // log any version jsons and details jsons that do not have corresponding manifest entries
-    versionJsons.forEach((_, id) => console.log(`local info json exists for ${id} but that version is not in the manifest!`));
-    detailsJsons.forEach((_, id) => console.log(`local details json exists for ${id} but that version is not in the manifest!`));
+    versionJsonsCopy.forEach((_, id) => console.log(`local info json exists for ${id} but that version is not in the manifest!`));
+    detailsJsonsCopy.forEach((_, id) => console.log(`local details json exists for ${id} but that version is not in the manifest!`));
 }
 
-async function updateLocalManifestHashes(manifest: MainManifest) {
-    for (let i = 0; i < manifest.versions.length; i++) {
+async function updateLocalManifestHashesAndTimes(manifest: MainManifest): Promise<void> {
+    const tenth = Math.floor(manifest.versions.length / 10);
+    for (let i = 0, j = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
-        manifest.versions[i].sha1 = await getFileSha1(`data/${version.url}`);
-        manifest.versions[i].detailsSha1 = await getFileSha1(`data/${version.details}`);
+        const manifestPath = `data/${version.url}`;
+        const detailsPath = `data/${version.details}`;
+        manifest.versions[i].sha1 = await getFileSha1(manifestPath);
+        manifest.versions[i].detailsSha1 = await getFileSha1(detailsPath);
+        manifest.versions[i].time = await getLatestAuthorDate(manifestPath);
+        if (i % tenth === 0){
+            console.log(`${j * 10}% complete`);
+            j++;
+        }
     }
     await Deno.writeTextFile('data/version_manifest.json', JSON.stringify(manifest, null, 2));
     console.log('Hashes updated');
@@ -690,11 +713,11 @@ if (import.meta.main) (async () => {
     while (true) {
         console.log('\nWelcome to the new version manifest update and compare tool!');
         console.log('1: Validate the main manifest and the local version jsons and details json');
-        console.log('2: Update sha1 hashes in the main versions manifest');
+        console.log('2: Update sha1 hashes and times in the main versions manifest');
         console.log('3: Compare local manifests with external (Omniarchive) manifests');
-        console.log('4: Verify if lists and maps of modified version IDs are correct');
+        console.log('4: Verify manifest correctness for all versions with edited and unedited IDs');
         console.log('5: Update and cache external (Omniarchive) manifests');
-        console.log('E: Exit');
+        console.log('0, E: Exit');
         const option = prompt('Choose an option: ');
         console.log();
 
@@ -703,13 +726,13 @@ if (import.meta.main) (async () => {
                 checkLocalManifestEntries(localManifestJson, localVersionJsonsMap, localDetailsJsonsMap);
                 break;
             case '2':
-                await updateLocalManifestHashes(localManifestJson);
+                await updateLocalManifestHashesAndTimes(localManifestJson);
                 break;
             case '3':
                 compareLocalWithOmniarchive(localVersionJsonsMap, remoteVersionJsonsMap);
                 break;
             case '4':
-                await verifyVersionConsistency(localVersionJsonsMap, remoteVersionJsonsMap, spreadsheetPromise);
+                await verifyVersionCorrectness(localVersionJsonsMap, remoteVersionJsonsMap, spreadsheetPromise);
                 break;
             case '5': {
                 const confirmation = confirm('Are you sure? This will take a while');
@@ -717,6 +740,7 @@ if (import.meta.main) (async () => {
                 if (confirmation) remoteVersionJsonsMap = await updateAndCacheExternalVersionJsons(remoteManifestJson);
                 break;
             }
+            case '0':
             case 'e':
             case 'E':
                 console.log('Goodbye!');
