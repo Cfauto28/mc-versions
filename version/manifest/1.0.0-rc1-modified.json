@@ -1,0 +1,30 @@
+{
+  "arguments": {},
+  "assetIndex": {
+    "id": "legacy",
+    "sha1": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+    "size": 134284,
+    "totalSize": 111220701,
+    "url": "https://launchermeta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
+  },
+  "assets": "legacy",
+  "downloads": {
+    "server": {
+      "sha1": "b2aece2427d562a7be9a7a2ab846ceae489acfa5",
+      "size": 936241,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.0.0/pre/1.0.0-rc1_modified.jar"
+    }
+  },
+  "id": "1.0.0-rc1-modified",
+  "javaVersion": {
+    "component": "jre-legacy",
+    "majorVersion": 8
+  },
+  "libraries": [],
+  "logging": {},
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "minimumLauncherVersion": 7,
+  "releaseTime": "2011-11-16T19:34:54+00:00",
+  "time": "2011-11-16T19:34:54+00:00",
+  "type": "modified"
+}

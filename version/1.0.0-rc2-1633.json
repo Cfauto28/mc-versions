@@ -27,7 +27,8 @@
   ],
   "normalizedVersion": "1.0.0-rc.2+1633",
   "previous": [
-    "1.0.0-rc1"
+    "1.0.0-rc1",
+    "1.0.0-rc1-modified"
   ],
   "protocol": {
     "type": "modern",

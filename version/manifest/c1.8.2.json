@@ -25,5 +25,6 @@
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 0,
   "releaseTime": "2009-06-20T21:09:00+00:00",
+  "time": "2009-06-20T21:09:00+00:00",
   "type": "classic_server"
 }
