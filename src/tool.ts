@@ -8,7 +8,7 @@ import { auth, CellData, GridRange, Sheets, Spreadsheet } from 'https://googleap
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 const getFileSha1 = async (path: string): Promise<string> => encodeHex((await crypto.subtle.digest('SHA-1', (await Deno.open(path, { read: true })).readable)));
 
-const GIT_EXECUTABLE = Deno.env.get("GIT_EXECUTABLE") ?? `git`;
+const GIT_EXECUTABLE = Deno.env.get('GIT_EXECUTABLE') ?? `git`;
 const getLatestAuthorDate = async (path: string): Promise<string> => {
     const { code, stdout } = await new Deno.Command(GIT_EXECUTABLE,{
         args: [
@@ -18,10 +18,11 @@ const getLatestAuthorDate = async (path: string): Promise<string> => {
             path
         ]
     }).output();
-    if (code) throw new Error("git log failed!");
+    if (code) throw new Error('git log failed!');
     const date = new Date((new TextDecoder().decode(stdout)).slice(1,-1));
     return `${date.toISOString().slice(0, -5)}+00:00`
 };
+const getLastModifiedTime = async (path: string): Promise<string> => `${(await Deno.stat(path)).mtime!.toISOString().slice(0, -5)}+00:00`;
 
 const fileExists = async (path: string): Promise<boolean> => {
     try {
@@ -36,6 +37,7 @@ async function readLocalVersionJsons(): Promise<Map<string, VersionManifest>> {
     const versionsMap: Map<string, VersionManifest> = new Map();
     for await (const file of Deno.readDir(('data/version/manifest'))) {
         const version: VersionManifest = JSON.parse(await Deno.readTextFile(`data/version/manifest/${file.name}`));
+        if (versionsMap.has(version.id)) console.warn(`%cWarning! ${version.id} already exists! (in data/version/manifest/${file.name}`, 'color: red');
         versionsMap.set(version.id, version);
     }
     return versionsMap;
@@ -46,6 +48,7 @@ async function readLocalDetailsJsons(): Promise<Map<string, VersionData>> {
     for await (const file of Deno.readDir('data/version')) {
         if (file.isDirectory) continue;
         const versionDetails = JSON.parse(await Deno.readTextFile(`data/version/${file.name}`));
+        if (detailsMap.has(versionDetails.id)) console.warn(`%cWarning! ${versionDetails.id} already exists! (in data/version/${file.name})`, 'color: red');
         detailsMap.set(versionDetails.id, versionDetails);
     }
     return detailsMap;
@@ -131,6 +134,7 @@ const standaloneSevers: VersionId[] = [
     "b1.5_02",
     "b1.8-pre2-131240",
     "b1.9-pre4-1425",
+    "1.0.0-rc1-modified",
     "1.0.1",
     "13w16a-181800",
     "13w22a-1608",
@@ -146,6 +150,7 @@ const standaloneSevers: VersionId[] = [
 ];
 // Standalone server versions that have a different ID in the local manifest than in the Omniarchive index
 const renamedStandaloneServers: Map<LocalId, IndexOriginalId> = new Map([
+    ["1.0.0-rc1-modified", "1.0.0-rc1"],
     ["1.6.3-171031", "1.6.3-pre-171031"],
     ["13w36b-1233", "13w36b"],
     ["13w41b-1507", "13w41b"],
@@ -158,6 +163,7 @@ const orphanServers: VersionId[] = [
     "c1.10",
     "a0.2.6",
     "b1.6-trailer",
+    "b1.7-pre-modified",
     "b1.9-pre4-1441",
     "13w03a-1538",
     "13w16b-2118",
@@ -170,6 +176,7 @@ const orphanServers: VersionId[] = [
 ];
 // Orphaned server versions that have a different ID in the local manifest than in the Omniarchive index
 const renamedOrphanServers: Map<LocalId, IndexOriginalId> = new Map([
+    ["b1.7-pre-modified", "b1.7-pre"],
     ["1.6-1304", "1.6-pre-1304"],
     ["1.7-1500", "1.7-pre-1500"]
 ]);
@@ -623,58 +630,70 @@ async function verifyVersionCorrectness(localVersionsMap: Map<string, VersionMan
 }
 
 function checkLocalManifestEntries(manifest: MainManifest, versionJsons: Map<string, VersionManifest>, detailsJsons: Map<string, VersionData>): void {
-    // log manifest entries with inconsistent references to version jsons and/or details jsons
-    for (let i = 0; i < manifest.versions.length; i++) {
-        const version = manifest.versions[i];
+    const versionJsonsCopy = new Map(versionJsons);
+    const detailsJsonsCopy = new Map(detailsJsons);
+    manifest.versions.forEach((version) => {
+        // log manifest entries with inconsistent references to version jsons and/or details jsons
         if (version.url !== `version/manifest/${version.id}.json`) {
             console.log(`manifest entry for ${version.id} has inconsistent reference to version json ${version.url}`)
         }
         if (version.details !== `version/${version.id}.json`) {
             console.log(`manifest entry for ${version.id} has inconsistent reference to details json ${version.details}`)
         }
-    }
 
-    // log any references to unknown versions in the next and previous fields of details jsons
-    detailsJsons.forEach((details) => {
-        if (details.previous != null) {
-            for (let i = 0; i < details.previous.length; i++) {
-                const prevId = details.previous[i];
-    
-                if (!detailsJsons.has(prevId)) {
-                    console.log(`details json for ${details.id} references unknown previous version ${prevId}`);
-                }
-            }
+        if (version.releaseTime !== detailsJsons.get(version.id)?.releaseTime || version.releaseTime !== versionJsons.get(version.id)?.releaseTime) {
+            console.warn(`%cRelease date for ${version.id} does not match with manifest or details!`, 'color: red')
         }
-        if (details.next != null) {
-            for (let i = 0; i < details.next.length; i++) {
-                const prevId = details.next[i];
-    
-                if (!detailsJsons.has(prevId)) {
-                    console.log(`details json for ${details.id} references unknown next version ${prevId}`);
-                }
-            }
-        }
-    });
 
-    // log any manifest entries that do not have corresponding version jsons and/or details jsons
-    const versionJsonsCopy = new Map(versionJsons);
-    const detailsJsonsCopy = new Map(detailsJsons);
-    for (let i = 0; i < manifest.versions.length; i++) {
-        const version = manifest.versions[i];
+        // log any manifest entries that do not have corresponding version jsons and/or details jsons
         if (!versionJsonsCopy.delete(version.id)) {
             console.log(`manifest has version ${version.id} but there is no info json for that version!`)
         }
         if (!detailsJsonsCopy.delete(version.id)) {
             console.log(`manifest has version ${version.id} but there is no details json for that version!`)
         }
-    }
+    });
 
     // log any version jsons and details jsons that do not have corresponding manifest entries
     versionJsonsCopy.forEach((_, id) => console.log(`local info json exists for ${id} but that version is not in the manifest!`));
     detailsJsonsCopy.forEach((_, id) => console.log(`local details json exists for ${id} but that version is not in the manifest!`));
+
+    detailsJsons.forEach((details, thisId) => {
+        // log any references to unknown versions in the next and previous fields of details jsons
+        details.previous?.forEach((prevId) => {
+            if (!detailsJsons.has(prevId)) {
+                console.log(`details json for ${thisId} references unknown previous version ${prevId}`);
+            } else if (!detailsJsons.get(prevId)!.next?.includes(thisId)) {
+                console.log(`details json for ${thisId} references previous version ${prevId}, but ${prevId} does not reference ${thisId} as a next version`)
+            }
+        });
+        details.next?.forEach((nextId) => {
+            if (!detailsJsons.has(nextId)) {
+                console.log(`details json for ${thisId} references unknown next version ${nextId}`);
+            } else if (!detailsJsons.get(nextId)!.previous?.includes(thisId)) {
+                console.log(`details json for ${thisId} references next version ${nextId}, but ${nextId} does not reference ${thisId} as a previous version`);
+            }
+        });
+
+        if (!!details.client !== !!details.downloads.client) {
+            console.log(`details json for ${thisId} declares a client but does not contain a client download`);
+        }
+        if (!!details.server !== !!(details.downloads.server ?? details.downloads.server_zip)) {
+            console.log(`details json for ${thisId} declares a server but does not contain a server download`);
+        }
+    });
 }
 
 async function updateLocalManifestHashesAndTimes(manifest: MainManifest): Promise<void> {
+    const { code, stdout } = await new Deno.Command(GIT_EXECUTABLE,{
+        args: [
+            "status",
+            "--porcelain"
+        ]
+    }).output();
+    if (code) throw new Error("git status failed!");
+    const modifiedFiles = new TextDecoder().decode(stdout).split(/\s+/).filter((value) => value.startsWith('data/version/manifest/'));
+
     const tenth = Math.floor(manifest.versions.length / 10);
     for (let i = 0, j = 0; i < manifest.versions.length; i++) {
         const version = manifest.versions[i];
@@ -682,7 +701,7 @@ async function updateLocalManifestHashesAndTimes(manifest: MainManifest): Promis
         const detailsPath = `data/${version.details}`;
         manifest.versions[i].sha1 = await getFileSha1(manifestPath);
         manifest.versions[i].detailsSha1 = await getFileSha1(detailsPath);
-        manifest.versions[i].time = await getLatestAuthorDate(manifestPath);
+        manifest.versions[i].time = modifiedFiles.includes(manifestPath) ? await getLastModifiedTime(manifestPath) : await getLatestAuthorDate(manifestPath);
         if (i % tenth === 0){
             console.log(`${j * 10}% complete`);
             j++;
@@ -715,7 +734,7 @@ if (import.meta.main) (async () => {
         console.log('1: Validate the main manifest and the local version jsons and details json');
         console.log('2: Update sha1 hashes and times in the main versions manifest');
         console.log('3: Compare local manifests with external (Omniarchive) manifests');
-        console.log('4: Verify manifest correctness for all versions with edited and unedited IDs');
+        console.log('4: Verify manifest download and ID correctness for all versions with edited and unedited IDs');
         console.log('5: Update and cache external (Omniarchive) manifests');
         console.log('0, E: Exit');
         const option = prompt('Choose an option: ');

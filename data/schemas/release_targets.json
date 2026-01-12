@@ -5,7 +5,7 @@
     "version": {
       "description": "A version in the Omniarchive format",
       "type": "string",
-      "pattern": "^(((server-)?([abc]|inf?-|rd-|af-)?[0-9]+[.0-9]*)|[0-9]{2}w[0-9]{2}[a-z~])a?([_-][0-9a-z]+)*$"
+      "pattern": "^((([abc]|inf?-|rd-|combat|3D Shareware v)?[0-9]+([.0-9]*|\\.RV))|[0-9]{2}w[0-9]{2}[a-z~])a?([_-][0-9Pa-z]+)*$"
     }
   },
   "type": "object",

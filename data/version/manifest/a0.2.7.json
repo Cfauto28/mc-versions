@@ -30,5 +30,6 @@
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 0,
   "releaseTime": "2010-12-01T15:08:00+00:00",
+  "time": "2010-12-01T15:08:00+00:00",
   "type": "alpha_server"
 }

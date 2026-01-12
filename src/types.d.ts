@@ -62,7 +62,6 @@ interface BaseVersionManifest {
     type: string
     time: string
     releaseTime: string
-    releaseTarget?: VersionId
 }
 
 interface DownloadInfo {
@@ -104,7 +103,7 @@ type VersionManifest = BaseVersionManifest & {
     minimumLauncherVersion?: number
 }
 
-type OmniVersionManifest = Omit<VersionManifest, "releaseTarget" | "minimumLauncherVersion"> & {
+type OmniVersionManifest = Omit<VersionManifest, "minimumLauncherVersion"> & {
     complianceLevel: number
     clientJsonVersion: number
 }
@@ -136,7 +135,7 @@ type TempVersionManifest = {
     original: VersionManifest
 }
 
-type VersionData = BaseVersionManifest & {
+type VersionData = Omit<BaseVersionManifest, 'time'> & {
     //omniId: VersionId
     displayVersion?: string|null,
     client: boolean
@@ -145,6 +144,7 @@ type VersionData = BaseVersionManifest & {
     //launcher: boolean
     sharedMappings: boolean
     normalizedVersion?: VersionId
+    releaseTarget?: VersionId
     //manifests: ShortManifest[]
     libraries: string[]
     protocol?: ProtocolVersion

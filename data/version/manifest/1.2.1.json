@@ -277,5 +277,6 @@
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 4,
   "releaseTime": "2012-03-01T13:41:13+00:00",
+  "time": "2012-03-01T13:41:13+00:00",
   "type": "release"
 }
