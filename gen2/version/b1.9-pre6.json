@@ -17,7 +17,8 @@
   "id": "b1.9-pre6",
   "libraries": [],
   "next": [
-    "1.0.0-rc1"
+    "1.0.0-rc1",
+    "1.0.0-rc1-modified"
   ],
   "normalizedVersion": "1.0.0-pre.6",
   "previous": [

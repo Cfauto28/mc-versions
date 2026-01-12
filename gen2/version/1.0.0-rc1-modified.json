@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ornithemc.net/mc-versions/gen2/schemas/version.json",
+  "client": false,
+  "displayVersion": "Minecraft RC1",
+  "downloads": {
+    "server": {
+      "sha1": "b2aece2427d562a7be9a7a2ab846ceae489acfa5",
+      "size": 936241,
+      "url": "https://vault.omniarchive.uk/archive/java/server-release/1.0.0/pre/1.0.0-rc1_modified.jar"
+    }
+  },
+  "id": "1.0.0-rc1-modified",
+  "libraries": [],
+  "next": [
+    "1.0.0-rc2-1633",
+    "1.0.0-rc2"
+  ],
+  "normalizedVersion": "1.0.0-rc.1+modified",
+  "previous": [
+    "b1.9-pre6"
+  ],
+  "protocol": {
+    "type": "modern",
+    "version": 22
+  },
+  "releaseTarget": "1.0.0",
+  "releaseTime": "2011-11-16T19:34:54+00:00",
+  "server": true,
+  "sharedMappings": false,
+  "world": {
+    "format": "region"
+  }
+}
