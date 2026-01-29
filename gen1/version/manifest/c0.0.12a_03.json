@@ -195,7 +195,10 @@
       "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.4+legacyfabric.15",
       "natives": {
         "linux": "natives-linux",
+        "linux-arm32": "natives-linux",
+        "linux-arm64": "natives-linux",
         "osx": "natives-osx",
+        "osx-arm64": "natives-osx",
         "windows": "natives-windows"
       }
     },
