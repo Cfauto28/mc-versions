@@ -267,7 +267,6 @@
       }
     }
   ],
-  "logging": {},
   "mainClass": "com.mojang.minecraft.RubyDung",
   "minimumLauncherVersion": 7,
   "releaseTime": "2009-05-16T11:48:00+00:00",

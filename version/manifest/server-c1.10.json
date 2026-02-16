@@ -21,7 +21,6 @@
     "majorVersion": 8
   },
   "libraries": [],
-  "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 0,
   "releaseTime": "2009-12-11T11:15:00+00:00",
