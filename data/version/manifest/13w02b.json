@@ -281,7 +281,6 @@
       }
     }
   ],
-  "logging": {},
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "minimumLauncherVersion": 4,
   "releaseTime": "2013-01-11T13:41:44+00:00",
