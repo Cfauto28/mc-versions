@@ -338,7 +338,6 @@
       }
     }
   ],
-  "logging": {},
   "mainClass": "net.minecraft.client.main.Main",
   "minimumLauncherVersion": 4,
   "releaseTime": "2013-06-14T12:19:13+00:00",
