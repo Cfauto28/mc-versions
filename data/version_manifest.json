@@ -7475,11 +7475,11 @@
       "id": "inf-20100330-1511",
       "type": "old_alpha",
       "url": "version/manifest/inf-20100330-1511.json",
-      "sha1": "fe741f679cc64ca899372125dd4bdd7af89e690c",
-      "time": "2026-02-16T11:23:18+00:00",
+      "sha1": "5d42d19b83eaabbaa059899316ee3eca0ee5b631",
+      "time": "2026-03-09T15:14:04+00:00",
       "releaseTime": "2010-03-30T15:11:02+00:00",
       "details": "version/inf-20100330-1511.json",
-      "detailsSha1": "1b61204ab39bbc9817c69e2eb99ecf921bff862e"
+      "detailsSha1": "fd23603abf4f8dd505c455968c35ab43c08c46a0"
     },
     {
       "id": "inf-20100327",
