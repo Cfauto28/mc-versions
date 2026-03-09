@@ -6969,7 +6969,27 @@
       "time": "2026-02-16T11:23:18+00:00",
       "releaseTime": "2010-08-12T18:54:00+00:00",
       "details": "version/a0.1.2_01.json",
-      "detailsSha1": "8567711f7cb0e7336fda17d2d2ea2b4d2ede3e33"
+      "detailsSha1": "b5b043b320eb866c64ca82c3a7ed7407ed2fba6f"
+    },
+    {
+      "id": "a0.1.2",
+      "type": "alpha_server",
+      "url": "version/manifest/a0.1.2.json",
+      "sha1": "36025f44d7b1255729a09324dc83fe77827ba432",
+      "time": "2026-03-09T15:22:34+00:00",
+      "releaseTime": "2010-08-12T18:54:00+00:00",
+      "details": "version/a0.1.2.json",
+      "detailsSha1": "ca4f4bc0ddd2f1aaf76892364b3f27df53e468d0"
+    },
+    {
+      "id": "a0.1.2-1817",
+      "type": "alpha_server",
+      "url": "version/manifest/a0.1.2-1817.json",
+      "sha1": "5511bd56d84efc48cfe5520aeedb038605b850f2",
+      "time": "2026-03-09T15:22:12+00:00",
+      "releaseTime": "2010-08-12T18:54:00+00:00",
+      "details": "version/a0.1.2-1817.json",
+      "detailsSha1": "d84f3109244adf1766b275a73c6f939cfa1771f1"
     },
     {
       "id": "a0.1.1",
@@ -6979,7 +6999,7 @@
       "time": "2026-02-16T11:23:18+00:00",
       "releaseTime": "2010-08-12T17:07:00+00:00",
       "details": "version/a0.1.1.json",
-      "detailsSha1": "409b43cc50662541b5e442c1452d352200d84198"
+      "detailsSha1": "74003462810e5e0cb999738e444da561a46fad9c"
     },
     {
       "id": "a0.1.1-1707",
@@ -7476,7 +7496,7 @@
       "type": "old_alpha",
       "url": "version/manifest/inf-20100330-1511.json",
       "sha1": "5d42d19b83eaabbaa059899316ee3eca0ee5b631",
-      "time": "2026-03-09T15:14:04+00:00",
+      "time": "2026-03-09T15:15:42+00:00",
       "releaseTime": "2010-03-30T15:11:02+00:00",
       "details": "version/inf-20100330-1511.json",
       "detailsSha1": "fd23603abf4f8dd505c455968c35ab43c08c46a0"
