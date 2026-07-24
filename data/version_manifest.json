@@ -6792,6 +6792,16 @@
       "detailsSha1": "eead05323ef992e2a83b2c2c36a121fed46e61ab"
     },
     {
+      "id": "a1.0.16.05_20",
+      "type": "old_alpha",
+      "url": "version/manifest/a1.0.16.05_20.json",
+      "sha1": "9b7bb239f16eabc6f1f29afa9cd5b71a602bf9b2",
+      "time": "2026-02-16T11:23:18+00:00",
+      "releaseTime": "2010-09-23T12:39:20+00:00",
+      "details": "version/a1.0.16.05_20.json",
+      "detailsSha1": "f3029d592f9ffcbdaedefc95a940e8243605f8f0"
+    },
+    {
       "id": "a1.1.2_01",
       "type": "old_alpha",
       "url": "version/manifest/a1.1.2_01.json",
