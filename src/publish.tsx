@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --no-check=remote --allow-env --allow-read --allow-write
+#!/usr/bin/env -S deno run --no-check --allow-env --allow-read --allow-write
 import './types.d.ts'
 
 import * as path from 'https://deno.land/std@0.113.0/path/mod.ts'
